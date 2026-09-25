@@ -22,20 +22,19 @@ def render_summary_cards(data: dict) -> str:
     col_a = data.get("colA", {}) or {}
     team = data.get("team", {}) or {}
     cards = [
-        ("แถวทั้งหมด", data.get("rows", 0), ""),
-        ("คอลัมน์ A ซ้ำ", col_a.get("dup", 0), "ซ้ำ"),
-        ("คอลัมน์ A หาย", col_a.get("missing", 0), "หาย"),
-        ("คอลัมน์ A เบี่ยง", col_a.get("offset", 0), "เบี่ยง"),
-        ("ทีมซ้ำในชุด", team.get("dup_in_set", 0), "รวม"),
-        ("ทีมซ้ำ (ล่าสุด)", team.get("dup_in_set_recent", 0), "recent"),
+        ("แถวทั้งหมด", data.get("rows", 0)),
+        ("คอลัมน์ A ซ้ำ", col_a.get("dup", 0)),
+        ("คอลัมน์ A หาย", col_a.get("missing", 0)),
+        ("คอลัมน์ A เบี่ยง", col_a.get("offset", 0)),
+        ("ทีมซ้ำในชุด", team.get("dup_in_set", 0)),
+        ("ทีมซ้ำ (ล่าสุด)", team.get("dup_in_set_recent", 0)),
     ]
     items = []
-    for label, value, tag in cards:
-        tag_html = f'<span class="stat-tag">{esc(tag)}</span>' if tag else ""
+    for label, value in cards:
         items.append(
             f'''<div class="stat-box">
         <div class="stat-value">{esc(value)}</div>
-        <div class="stat-label">{esc(label)} {tag_html}</div>
+        <div class="stat-label">{esc(label)}</div>
       </div>'''
         )
     return "\n".join(items)
@@ -267,17 +266,6 @@ def build_html(data: dict) -> str:
     margin-top: 4px;
     font-size: 0.78rem;
     color: var(--text-muted);
-  }}
-
-  .stat-tag {{
-    display: inline-block;
-    background: var(--teal-bright);
-    color: #fff;
-    font-size: 0.66rem;
-    font-weight: 600;
-    padding: 1px 6px;
-    border-radius: 999px;
-    margin-left: 4px;
   }}
 
   .section-title {{
