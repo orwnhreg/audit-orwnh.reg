@@ -36,14 +36,16 @@ def render_month_table(cases: list) -> str:
         )
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
+        circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
+        circ_html = "<br>".join(esc(n) for n in circ_names) if circ_names else ""
         rows.append(
             f'''<tr>
         <td data-label="วันที่">{esc(case.get("date", ""))}</td>
         <td data-label="HN">{esc(case.get("hn", ""))}</td>
-        <td data-label="ชื่อ">{esc(case.get("name", ""))}</td>
+        <td data-label="ชื่อ" class="name-cell">{esc(case.get("name", ""))}</td>
         <td data-label="แผนก">{esc(case.get("dept", ""))}</td>
         <td data-label="การผ่าตัด">{esc(case.get("op", ""))}</td>
-        <td data-label="Circulating" class="circ-cell">{esc(case.get("circ", ""))}</td>
+        <td data-label="Circulating" class="circ-cell">{circ_html}</td>
         <td data-label="ข้อมูลที่ขาด">{missing_html}</td>
         <td data-label="รอแก้ไข">{days_html}</td>
       </tr>'''
@@ -313,10 +315,13 @@ def build_html(data: dict) -> str:
     background: var(--bg-elevated);
   }}
 
+  .name-cell {{
+    white-space: nowrap;
+  }}
+
   .circ-cell {{
     font-weight: 700;
     color: var(--accent);
-    white-space: nowrap;
   }}
 
   .chip {{
