@@ -36,7 +36,7 @@ def render_month_table(cases: list) -> str:
         <td data-label="แผนก">{esc(case.get("dept", ""))}</td>
         <td data-label="การผ่าตัด">{esc(case.get("op", ""))}</td>
         <td data-label="Circulating">{esc(case.get("circ", ""))}</td>
-        <td data-label="ขาด">{missing_html}</td>
+        <td data-label="ข้อมูลที่ขาด">{missing_html}</td>
       </tr>'''
         )
 
@@ -50,7 +50,7 @@ def render_month_table(cases: list) -> str:
             <th>แผนก</th>
             <th>การผ่าตัด</th>
             <th>Circulating</th>
-            <th>ขาด</th>
+            <th>ข้อมูลที่ขาด</th>
           </tr>
         </thead>
         <tbody>
