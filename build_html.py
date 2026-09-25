@@ -253,7 +253,7 @@ def build_html(data: dict) -> str:
   <div class="wrap">
     <div class="gist-box">
       <div class="gist-box-body">
-        <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — {esc(month_label)} เวลา: {esc(gen_time)}</p>
+        <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — {esc(month_label)} เวลาอัปเดตล่าสุด: {esc(gen_time)}</p>
         <p class="section-sub">total: {esc(month_total)}</p>
         <div id="month-view-table">{month_table_html}</div>
       </div>
