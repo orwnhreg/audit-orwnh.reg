@@ -60,29 +60,6 @@ def render_month_table(cases: list) -> str:
     </div>'''
 
 
-def render_month_lines(cases: list) -> str:
-    if not cases:
-        return '<p class="all-clear">ครบ ✅</p>'
-
-    lines = []
-    for case in cases:
-        missing = case.get("missing", []) or []
-        missing_text = ", ".join(str(m) for m in missing) if missing else "-"
-        segments = [
-            esc(case.get("date", "")),
-            f'HN{esc(case.get("hn", ""))}',
-            esc(case.get("name", "")),
-            esc(case.get("dept", "")),
-            esc(case.get("op", "")),
-            f'Circ {esc(case.get("circ", ""))}',
-            f'ขาด {esc(missing_text)}',
-        ]
-        line = ' <span class="dot">·</span> '.join(segments)
-        lines.append(f'<div class="case-line">{line}</div>')
-
-    return f'<div class="lines-wrap">{"".join(lines)}</div>'
-
-
 def render_blank_cols(blank_cols: dict) -> str:
     if not blank_cols:
         return '<p class="all-clear">✅</p>'
@@ -102,7 +79,6 @@ def build_html(data: dict) -> str:
 
     month_cases = month.get("cases", []) or []
     month_table_html = render_month_table(month_cases)
-    month_lines_html = render_month_lines(month_cases)
     blank_cols_html = render_blank_cols(blank_cols)
 
     return f'''<!DOCTYPE html>
@@ -174,62 +150,6 @@ def build_html(data: dict) -> str:
     color: var(--green);
     font-weight: 600;
     font-size: 1rem;
-  }}
-
-  .view-toggle {{
-    display: inline-flex;
-    background: var(--bg-muted);
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    padding: 3px;
-    margin-bottom: 12px;
-    gap: 2px;
-  }}
-
-  .view-btn {{
-    border: none;
-    background: transparent;
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    font-weight: 600;
-    padding: 5px 14px;
-    border-radius: 999px;
-    cursor: pointer;
-    font-family: inherit;
-  }}
-
-  .view-btn.active {{
-    background: var(--teal);
-    color: #fff;
-  }}
-
-  .view-btn:hover:not(.active) {{
-    color: var(--teal);
-  }}
-
-  .lines-wrap {{
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }}
-
-  .case-line {{
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 0.82rem;
-    padding: 8px 10px;
-    background: var(--bg-muted);
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    line-height: 1.6;
-  }}
-
-  .case-line .dot {{
-    color: var(--teal-bright);
-    font-weight: 700;
-    margin: 0 2px;
   }}
 
   .table-wrap {{
@@ -333,12 +253,7 @@ def build_html(data: dict) -> str:
       <div class="gist-box-body">
         <p class="section-title">ข้อมูลไม่ครบ — เดือนนี้ ({esc(month_label)})</p>
         <p class="section-sub">total: {esc(month_total)}</p>
-        <div class="view-toggle" role="tablist">
-          <button type="button" class="view-btn" data-view="table" onclick="setMonthView('table')">ตาราง</button>
-          <button type="button" class="view-btn active" data-view="lines" onclick="setMonthView('lines')">บรรทัด</button>
-        </div>
-        <div id="month-view-table" style="display:none">{month_table_html}</div>
-        <div id="month-view-lines">{month_lines_html}</div>
+        <div id="month-view-table">{month_table_html}</div>
       </div>
     </div>
 
@@ -351,18 +266,6 @@ def build_html(data: dict) -> str:
 
     <footer>อัปเดตอัตโนมัติ 07:52 · ระบบ guard ทะเบียนผ่าตัด</footer>
   </div>
-<script>
-  function setMonthView(view) {{
-    var table = document.getElementById('month-view-table');
-    var lines = document.getElementById('month-view-lines');
-    var btns = document.querySelectorAll('.view-btn');
-    table.style.display = (view === 'table') ? '' : 'none';
-    lines.style.display = (view === 'lines') ? '' : 'none';
-    btns.forEach(function (b) {{
-      b.classList.toggle('active', b.getAttribute('data-view') === view);
-    }});
-  }}
-</script>
 </body>
 </html>
 '''
