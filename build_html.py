@@ -76,6 +76,7 @@ def build_html(data: dict) -> str:
     month = data.get("month", {}) or {}
     month_label = month.get("label", "")
     month_total = month.get("total", 0)
+    month_unfinished = month.get("unfinished", 0)
     gen_time = datetime.datetime.now().strftime("%H:%M")
     blank_cols = data.get("blank_cols", {}) or {}
 
@@ -255,6 +256,7 @@ def build_html(data: dict) -> str:
       <div class="gist-box-body">
         <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — {esc(month_label)} เวลาอัปเดตล่าสุด: {esc(gen_time)}</p>
         <p class="section-sub">total: {esc(month_total)}</p>
+        {{"<p class=\"section-sub warn-sub\">เคสยังไม่ลงเวลาเสร็จ {month_unfinished} เคส — นับรวมตอนเช้า</p>" if month_unfinished else ""}}
         <div id="month-view-table">{month_table_html}</div>
       </div>
     </div>
