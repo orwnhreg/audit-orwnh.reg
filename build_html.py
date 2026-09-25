@@ -66,16 +66,6 @@ def render_month_table(cases: list) -> str:
     </div>'''
 
 
-def render_blank_cols(blank_cols: dict) -> str:
-    if not blank_cols:
-        return '<p class="all-clear">✅</p>'
-    chips = "".join(
-        f'<span class="chip chip-blank">{esc(name)}: {esc(count)}</span>'
-        for name, count in blank_cols.items()
-    )
-    return f'<div class="chip-row">{chips}</div>'
-
-
 def build_html(data: dict) -> str:
     repo = data.get("repo", "")
     month = data.get("month", {}) or {}
@@ -89,7 +79,6 @@ def build_html(data: dict) -> str:
 
     month_cases = month.get("cases", []) or []
     month_table_html = render_month_table(month_cases)
-    blank_cols_html = render_blank_cols(blank_cols)
 
     return f'''<!DOCTYPE html>
 <html lang="th">
@@ -404,7 +393,6 @@ def build_html(data: dict) -> str:
       <span class="ws-pill"><span class="ws-dot">▣</span> ทะเบียนผ่าตัด</span>
       <nav class="tabs">
         <a class="tab active" href="#cases">ข้อมูลไม่ครบ</a>
-        <a class="tab" href="#blank-cols">ช่องที่ว่าง</a>
       </nav>
     </div>
 
@@ -428,14 +416,6 @@ def build_html(data: dict) -> str:
     <div class="panel" id="cases">
       <div class="panel-body">
         <div id="month-view-table">{month_table_html}</div>
-      </div>
-    </div>
-
-    <div class="panel" id="blank-cols">
-      <div class="panel-body">
-        <p class="section-title">ช่องที่ว่าง</p>
-        <p class="section-sub">รวมทั้งเดือน แยกตามช่องที่ขาด</p>
-        {blank_cols_html}
       </div>
     </div>
 
