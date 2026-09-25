@@ -2,6 +2,7 @@
 """Generate a self-contained index.html Gist-style report from audit_data.json."""
 import json
 import html
+import datetime
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -75,6 +76,7 @@ def build_html(data: dict) -> str:
     month = data.get("month", {}) or {}
     month_label = month.get("label", "")
     month_total = month.get("total", 0)
+    gen_time = datetime.datetime.now().strftime("%H:%M")
     blank_cols = data.get("blank_cols", {}) or {}
 
     month_cases = month.get("cases", []) or []
@@ -251,7 +253,7 @@ def build_html(data: dict) -> str:
   <div class="wrap">
     <div class="gist-box">
       <div class="gist-box-body">
-        <p class="section-title">ข้อมูลไม่ครบ — เดือนนี้ ({esc(month_label)})</p>
+        <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — {esc(month_label)} เวลา: {esc(gen_time)}</p>
         <p class="section-sub">total: {esc(month_total)}</p>
         <div id="month-view-table">{month_table_html}</div>
       </div>
