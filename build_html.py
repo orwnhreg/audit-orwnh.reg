@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Generate a self-contained index.html Gist-style report from audit_data.json."""
+"""Generate a self-contained index.html report from audit_data.json.
+
+Visual design: dark theme modelled on the OpenCode Console
+(near-black page, soft dark panels, subtle borders, muted grey labels,
+white monospace values, pill chips).
+"""
 import json
 import html
 import datetime
@@ -91,32 +96,40 @@ def build_html(data: dict) -> str:
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
 <title>{esc(repo)} — Audit</title>
 <style>
   :root {{
-    --teal: #0f766e;
-    --teal-bright: #14b8a6;
-    --green: #16a34a;
-    --bg: #fbfdfc;
-    --bg-panel: #ffffff;
-    --bg-muted: #f2f7f5;
-    --border: #d9e6e1;
-    --text: #1f2d2a;
-    --text-muted: #5c6f6a;
+    --bg: #0b0b0c;
+    --bg-panel: #151517;
+    --bg-elevated: #1b1b1e;
+    --bg-muted: #1f1f23;
+    --border: #27272b;
+    --border-soft: #1f1f23;
+    --text: #ededed;
+    --text-muted: #8b8b90;
+    --text-dim: #6b6b70;
+    --accent: #ffffff;
+    --warn: #fbbf24;
+    --ok: #4ade80;
   }}
+
+  html {{ scroll-behavior: smooth; }}
 
   * {{ box-sizing: border-box; }}
 
   body {{
     margin: 0;
-    padding: 24px 12px 60px;
+    padding: 0 12px 64px;
     background: var(--bg);
     color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+    font-size: 15px;
     line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
   }}
 
-  code, .mono, .data-table td, .data-table th {{
+  .mono, .data-table td, .data-table th, .chip, .stat-value {{
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
   }}
 
@@ -125,41 +138,149 @@ def build_html(data: dict) -> str:
     margin: 0 auto;
   }}
 
-  .gist-box {{
-    background: var(--bg-panel);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    box-shadow: 0 1px 2px rgba(15, 118, 110, 0.06);
+  /* top bar — workspace switcher + active view tab, like the console */
+  .topbar {{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 2px;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: rgba(11, 11, 12, 0.92);
+    backdrop-filter: blur(8px);
+    z-index: 10;
   }}
 
-  .gist-box-body {{
-    padding: 16px;
+  .ws-pill {{
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 0.82rem;
+    color: var(--text);
+  }}
+
+  .ws-dot {{
+    width: 18px;
+    height: 18px;
+    border-radius: 5px;
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6rem;
+    color: var(--text-muted);
+  }}
+
+  .tabs {{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-left: 4px;
+  }}
+
+  .tab {{
+    padding: 8px 12px 9px;
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }}
+
+  .tab.active {{
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }}
+
+  .page-head {{
+    padding: 22px 2px 14px;
+  }}
+
+  .page-title {{
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin: 0 0 6px;
+    color: var(--text);
+  }}
+
+  .page-sub {{
+    color: var(--text-muted);
+    font-size: 0.88rem;
+    margin: 0;
+  }}
+
+  .warn-sub {{
+    color: var(--warn);
+    font-weight: 600;
+    margin-top: 6px;
+  }}
+
+  .all-clear {{
+    color: var(--ok);
+    font-weight: 600;
+    margin: 0;
+  }}
+
+  .stat-row {{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 16px;
+  }}
+
+  .stat {{
+    flex: 1 1 140px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border-soft);
+    border-radius: 12px;
+    padding: 12px 14px;
+  }}
+
+  .stat-label {{
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin: 0 0 6px;
+  }}
+
+  .stat-value {{
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0;
+    line-height: 1.2;
+  }}
+
+  .panel {{
+    background: var(--bg-panel);
+    border: 1px solid var(--border-soft);
+    border-radius: 12px;
+    margin-bottom: 18px;
+    overflow: hidden;
+  }}
+
+  .panel-body {{
+    padding: 16px 14px;
   }}
 
   .section-title {{
     font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--teal);
+    font-weight: 650;
+    color: var(--text);
     margin: 0 0 4px;
   }}
 
   .section-sub {{
     color: var(--text-muted);
     font-size: 0.85rem;
-    margin: 0 0 12px;
-  }}
-
-  .warn-sub {{
-    color: #b45309;
-    font-weight: 600;
-  }}
-
-  .all-clear {{
-    color: var(--green);
-    font-weight: 600;
-    font-size: 1rem;
+    margin: 0 0 14px;
   }}
 
   .table-wrap {{
@@ -169,54 +290,62 @@ def build_html(data: dict) -> str:
   .data-table {{
     width: 100%;
     border-collapse: collapse;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+  }}
+
+  .data-table th {{
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+    font-weight: 600;
+    text-align: left;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }}
+
+  .data-table td {{
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--border-soft);
+    vertical-align: top;
+    color: #d8d8dc;
+  }}
+
+  .data-table tbody tr:last-child td {{
+    border-bottom: none;
+  }}
+
+  .data-table tbody tr:hover {{
+    background: var(--bg-elevated);
   }}
 
   .circ-cell {{
     font-weight: 700;
-    color: var(--teal);
+    color: var(--accent);
     white-space: nowrap;
-  }}
-
-  .data-table th {{
-    background: var(--bg-muted);
-    color: var(--teal);
-    text-align: left;
-    padding: 8px 10px;
-    border-bottom: 2px solid var(--border);
-    white-space: nowrap;
-  }}
-
-  .data-table td {{
-    padding: 8px 10px;
-    border-bottom: 1px solid var(--border);
-    vertical-align: top;
-  }}
-
-  .data-table tbody tr:hover {{
-    background: var(--bg-muted);
   }}
 
   .chip {{
     display: inline-block;
     padding: 2px 8px;
     border-radius: 999px;
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     font-weight: 600;
     margin: 2px 4px 2px 0;
     white-space: nowrap;
   }}
 
   .chip-warn {{
-    background: #fef3c7;
-    color: #92400e;
-    border: 1px solid #fde68a;
+    background: rgba(251, 191, 36, 0.13);
+    color: var(--warn);
+    border: 1px solid rgba(251, 191, 36, 0.28);
   }}
 
   .chip-blank {{
-    background: #e6f7f3;
-    color: var(--teal);
-    border: 1px solid var(--teal-bright);
+    background: var(--bg-muted);
+    color: #d4d4d8;
+    border: 1px solid var(--border);
   }}
 
   .chip-row {{
@@ -225,7 +354,18 @@ def build_html(data: dict) -> str:
     gap: 6px;
   }}
 
+  footer {{
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    margin-top: 28px;
+  }}
+
   @media (max-width: 640px) {{
+    body {{ padding: 0 10px 56px; }}
+    .page-title {{ font-size: 1.2rem; }}
+    .stat {{ flex: 1 1 90px; }}
+    .stat-value {{ font-size: 1.15rem; }}
     .data-table thead {{
       display: none;
     }}
@@ -234,10 +374,11 @@ def build_html(data: dict) -> str:
       width: 100%;
     }}
     .data-table tr {{
-      border: 1px solid var(--border);
-      border-radius: 8px;
+      border: 1px solid var(--border-soft);
+      border-radius: 10px;
       margin-bottom: 10px;
-      padding: 6px 10px;
+      padding: 8px 12px;
+      background: var(--bg-elevated);
     }}
     .data-table td {{
       border-bottom: none;
@@ -252,36 +393,53 @@ def build_html(data: dict) -> str:
       font-weight: 600;
       color: var(--text-muted);
       text-align: left;
+      flex: 0 0 auto;
     }}
-  }}
-
-  footer {{
-    text-align: center;
-    color: var(--text-muted);
-    font-size: 0.8rem;
-    margin-top: 30px;
   }}
 </style>
 </head>
 <body>
   <div class="wrap">
-    <div class="gist-box">
-      <div class="gist-box-body">
-        <p class="section-title">รายงานข้อมูลไม่ครบถ้วน — {esc(month_label)} เวลาอัปเดตล่าสุด: {esc(gen_time)}</p>
-        <p class="section-sub">total: {esc(month_total)}</p>
-        {unfinished_note}
+    <div class="topbar">
+      <span class="ws-pill"><span class="ws-dot">▣</span> ทะเบียนผ่าตัด</span>
+      <nav class="tabs">
+        <a class="tab active" href="#cases">ข้อมูลไม่ครบ</a>
+        <a class="tab" href="#blank-cols">ช่องที่ว่าง</a>
+      </nav>
+    </div>
+
+    <div class="page-head">
+      <h1 class="page-title">รายงานข้อมูลไม่ครบถ้วน</h1>
+      <p class="page-sub">{esc(month_label)} · อัปเดตล่าสุด {esc(gen_time)}</p>
+      {unfinished_note}
+    </div>
+
+    <div class="stat-row">
+      <div class="stat">
+        <p class="stat-label">เคสที่ข้อมูลไม่ครบ</p>
+        <p class="stat-value">{esc(month_total)}</p>
+      </div>
+      <div class="stat">
+        <p class="stat-label">ช่องที่ว่าง (แบบ)</p>
+        <p class="stat-value">{esc(len(blank_cols))}</p>
+      </div>
+    </div>
+
+    <div class="panel" id="cases">
+      <div class="panel-body">
         <div id="month-view-table">{month_table_html}</div>
       </div>
     </div>
 
-    <div class="gist-box">
-      <div class="gist-box-body">
+    <div class="panel" id="blank-cols">
+      <div class="panel-body">
         <p class="section-title">ช่องที่ว่าง</p>
+        <p class="section-sub">รวมทั้งเดือน แยกตามช่องที่ขาด</p>
         {blank_cols_html}
       </div>
     </div>
 
-    <footer>อัปเดตอัตโนมัติ 07:52 · ระบบ guard ทะเบียนผ่าตัด</footer>
+    <footer>อัปเดตอัตโนมัติทุกชั่วโมง · ระบบ guard ทะเบียนผ่าตัด</footer>
   </div>
 </body>
 </html>
