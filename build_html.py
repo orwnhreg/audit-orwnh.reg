@@ -37,7 +37,7 @@ def render_month_table(cases: list) -> str:
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
         circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
-        circ_html = "<br>".join(esc(n) for n in circ_names) if circ_names else ""
+        circ_html = "".join(f'<span class="circ-name">{esc(n)}</span>' for n in circ_names)
         rows.append(
             f'''<tr>
         <td data-label="วันที่">{esc(case.get("date", ""))}</td>
@@ -322,6 +322,11 @@ def build_html(data: dict) -> str:
   .circ-cell {{
     font-weight: 700;
     color: var(--accent);
+  }}
+
+  .circ-name {{
+    display: block;
+    white-space: nowrap;
   }}
 
   .chip {{
