@@ -95,7 +95,6 @@ def render_blank_cols(blank_cols: dict) -> str:
 
 def build_html(data: dict) -> str:
     repo = data.get("repo", "")
-    as_of = data.get("as_of", "")
     month = data.get("month", {}) or {}
     month_label = month.get("label", "")
     month_total = month.get("total", 0)
@@ -145,40 +144,6 @@ def build_html(data: dict) -> str:
     margin: 0 auto;
   }}
 
-  .gist-header {{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 18px;
-  }}
-
-  .gist-title {{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--teal);
-    margin: 0;
-    word-break: break-word;
-  }}
-
-  .badge {{
-    display: inline-flex;
-    align-items: center;
-    gap: 4px;
-    background: var(--green);
-    color: #fff;
-    font-size: 0.78rem;
-    font-weight: 600;
-    padding: 3px 10px;
-    border-radius: 999px;
-  }}
-
-  .as-of {{
-    width: 100%;
-    color: var(--text-muted);
-    font-size: 0.88rem;
-  }}
-
   .gist-box {{
     background: var(--bg-panel);
     border: 1px solid var(--border);
@@ -186,27 +151,6 @@ def build_html(data: dict) -> str:
     margin-bottom: 20px;
     overflow: hidden;
     box-shadow: 0 1px 2px rgba(15, 118, 110, 0.06);
-  }}
-
-  .gist-box-header {{
-    background: var(--bg-muted);
-    border-bottom: 1px solid var(--border);
-    padding: 10px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-  }}
-
-  .gist-caption {{
-    font-size: 0.78rem;
-    color: var(--text-muted);
-  }}
-
-  .gist-filename {{
-    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-    font-size: 0.92rem;
-    font-weight: 600;
-    color: var(--teal);
   }}
 
   .gist-box-body {{
@@ -385,17 +329,7 @@ def build_html(data: dict) -> str:
 </head>
 <body>
   <div class="wrap">
-    <div class="gist-header">
-      <h1 class="gist-title">{esc(repo)}</h1>
-      <span class="badge">🔎 Audit</span>
-      <div class="as-of">as_of: {esc(as_of)}</div>
-    </div>
-
     <div class="gist-box">
-      <div class="gist-box-header">
-        <span class="gist-caption">kttwatt / {esc(repo)}</span>
-        <span class="gist-filename">missing_data_this_month.csv</span>
-      </div>
       <div class="gist-box-body">
         <p class="section-title">ข้อมูลไม่ครบ — เดือนนี้ ({esc(month_label)})</p>
         <p class="section-sub">total: {esc(month_total)}</p>
@@ -409,10 +343,6 @@ def build_html(data: dict) -> str:
     </div>
 
     <div class="gist-box">
-      <div class="gist-box-header">
-        <span class="gist-caption">kttwatt / {esc(repo)}</span>
-        <span class="gist-filename">blank_columns.txt</span>
-      </div>
       <div class="gist-box-body">
         <p class="section-title">ช่องที่ว่าง</p>
         {blank_cols_html}
