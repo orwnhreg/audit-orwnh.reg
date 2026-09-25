@@ -70,7 +70,7 @@ def build_html(data: dict) -> str:
     repo = data.get("repo", "")
     month = data.get("month", {}) or {}
     month_label = month.get("label", "")
-    month_total = month.get("total", 0)
+    month_total = len(month.get("cases", []))
     month_unfinished = month.get("unfinished", 0)
     unfinished_note = (f'<p class="section-sub warn-sub">เคสยังไม่ลงเวลาเสร็จ {month_unfinished} เคส — นับรวมตอนเช้า</p>'
                        if month_unfinished else "")
