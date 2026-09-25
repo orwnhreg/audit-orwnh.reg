@@ -113,6 +113,7 @@ def build_html(data: dict) -> str:
     --accent: #ffffff;
     --warn: #fbbf24;
     --ok: #4ade80;
+    --bg-translucent: rgba(11, 11, 12, 0.92);
   }}
 
   :root[data-theme="light"] {{
@@ -128,6 +129,7 @@ def build_html(data: dict) -> str:
     --accent: #000000;
     --warn: #b45309;
     --ok: #15803d;
+    --bg-translucent: rgba(245, 245, 246, 0.92);
   }}
 
   html {{ scroll-behavior: smooth; }}
@@ -163,7 +165,7 @@ def build_html(data: dict) -> str:
     border-bottom: 1px solid var(--border);
     position: sticky;
     top: 0;
-    background: rgba(11, 11, 12, 0.92);
+    background: var(--bg-translucent);
     backdrop-filter: blur(8px);
     z-index: 10;
   }}
@@ -343,7 +345,7 @@ def build_html(data: dict) -> str:
     padding: 9px 10px;
     border-bottom: 1px solid var(--border-soft);
     vertical-align: top;
-    color: #d8d8dc;
+    color: var(--text);
   }}
 
   .data-table tbody tr:last-child td {{
@@ -386,7 +388,7 @@ def build_html(data: dict) -> str:
 
   .chip-blank {{
     background: var(--bg-muted);
-    color: #d4d4d8;
+    color: var(--text-muted);
     border: 1px solid var(--border);
   }}
 
