@@ -408,8 +408,8 @@ def build_html(data: dict) -> str:
         <p class="stat-value">{esc(month_total)}</p>
       </div>
       <div class="stat">
-        <p class="stat-label">ช่องที่ว่าง (แบบ)</p>
-        <p class="stat-value">{esc(len(blank_cols))}</p>
+        <p class="stat-label">ข้อมูลไม่ครบถ้วน</p>
+        <p class="stat-value">{esc(month_total)} จำนวนเคส</p>
       </div>
     </div>
 
