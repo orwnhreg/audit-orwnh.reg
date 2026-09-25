@@ -34,6 +34,8 @@ def render_month_table(cases: list) -> str:
         missing_html = "".join(
             f'<span class="chip chip-warn">{esc(m)}</span>' for m in missing
         )
+        days = case.get("days_pending")
+        days_html = f'{esc(days)} วัน' if days is not None else "-"
         rows.append(
             f'''<tr>
         <td data-label="วันที่">{esc(case.get("date", ""))}</td>
@@ -43,6 +45,7 @@ def render_month_table(cases: list) -> str:
         <td data-label="การผ่าตัด">{esc(case.get("op", ""))}</td>
         <td data-label="Circulating" class="circ-cell">{esc(case.get("circ", ""))}</td>
         <td data-label="ข้อมูลที่ขาด">{missing_html}</td>
+        <td data-label="รอแก้ไข">{days_html}</td>
       </tr>'''
         )
 
@@ -57,6 +60,7 @@ def render_month_table(cases: list) -> str:
             <th>การผ่าตัด</th>
             <th>Circulating</th>
             <th>ข้อมูลที่ขาด</th>
+            <th>รอแก้ไข</th>
           </tr>
         </thead>
         <tbody>
