@@ -404,12 +404,8 @@ def build_html(data: dict) -> str:
 
     <div class="stat-row">
       <div class="stat">
-        <p class="stat-label">เคสที่ข้อมูลไม่ครบ</p>
+        <p class="stat-label">จำนวนเคสที่ข้อมูลไม่ครบ</p>
         <p class="stat-value">{esc(month_total)}</p>
-      </div>
-      <div class="stat">
-        <p class="stat-label">ข้อมูลไม่ครบถ้วน</p>
-        <p class="stat-value">{esc(month_total)} จำนวนเคส</p>
       </div>
     </div>
 
