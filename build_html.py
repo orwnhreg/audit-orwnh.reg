@@ -153,7 +153,7 @@ def build_html(data: dict) -> str:
     gap: 7px;
     background: var(--bg-elevated);
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: 0;
     padding: 5px 10px;
     font-size: 0.82rem;
     color: var(--text);
@@ -162,7 +162,7 @@ def build_html(data: dict) -> str:
   .ws-dot {{
     width: 18px;
     height: 18px;
-    border-radius: 5px;
+    border-radius: 0;
     background: var(--bg-muted);
     border: 1px solid var(--border);
     display: inline-flex;
@@ -235,7 +235,7 @@ def build_html(data: dict) -> str:
     flex: 1 1 140px;
     background: var(--bg-panel);
     border: 1px solid var(--border-soft);
-    border-radius: 12px;
+    border-radius: 0;
     padding: 12px 14px;
   }}
 
@@ -256,7 +256,7 @@ def build_html(data: dict) -> str:
   .panel {{
     background: var(--bg-panel);
     border: 1px solid var(--border-soft);
-    border-radius: 12px;
+    border-radius: 0;
     margin-bottom: 18px;
     overflow: hidden;
   }}
@@ -332,7 +332,7 @@ def build_html(data: dict) -> str:
   .chip {{
     display: inline-block;
     padding: 2px 8px;
-    border-radius: 999px;
+    border-radius: 0;
     font-size: 0.7rem;
     font-weight: 600;
     margin: 2px 4px 2px 0;
@@ -378,7 +378,7 @@ def build_html(data: dict) -> str:
     }}
     .data-table tr {{
       border: 1px solid var(--border-soft);
-      border-radius: 10px;
+      border-radius: 0;
       margin-bottom: 10px;
       padding: 8px 12px;
       background: var(--bg-elevated);
