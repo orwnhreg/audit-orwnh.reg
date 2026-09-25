@@ -334,11 +334,11 @@ def build_html(data: dict) -> str:
         <p class="section-title">ข้อมูลไม่ครบ — เดือนนี้ ({esc(month_label)})</p>
         <p class="section-sub">total: {esc(month_total)}</p>
         <div class="view-toggle" role="tablist">
-          <button type="button" class="view-btn active" data-view="table" onclick="setMonthView('table')">ตาราง</button>
-          <button type="button" class="view-btn" data-view="lines" onclick="setMonthView('lines')">บรรทัด</button>
+          <button type="button" class="view-btn" data-view="table" onclick="setMonthView('table')">ตาราง</button>
+          <button type="button" class="view-btn active" data-view="lines" onclick="setMonthView('lines')">บรรทัด</button>
         </div>
-        <div id="month-view-table">{month_table_html}</div>
-        <div id="month-view-lines" style="display:none">{month_lines_html}</div>
+        <div id="month-view-table" style="display:none">{month_table_html}</div>
+        <div id="month-view-lines">{month_lines_html}</div>
       </div>
     </div>
 
