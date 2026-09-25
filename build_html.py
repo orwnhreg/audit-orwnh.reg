@@ -18,28 +18,6 @@ def load_data() -> dict:
         return json.load(f)
 
 
-def render_summary_cards(data: dict) -> str:
-    col_a = data.get("colA", {}) or {}
-    team = data.get("team", {}) or {}
-    cards = [
-        ("แถวทั้งหมด", data.get("rows", 0)),
-        ("คอลัมน์ A ซ้ำ", col_a.get("dup", 0)),
-        ("คอลัมน์ A หาย", col_a.get("missing", 0)),
-        ("คอลัมน์ A เบี่ยง", col_a.get("offset", 0)),
-        ("ทีมซ้ำในชุด", team.get("dup_in_set", 0)),
-        ("ทีมซ้ำ (ล่าสุด)", team.get("dup_in_set_recent", 0)),
-    ]
-    items = []
-    for label, value in cards:
-        items.append(
-            f'''<div class="stat-box">
-        <div class="stat-value">{esc(value)}</div>
-        <div class="stat-label">{esc(label)}</div>
-      </div>'''
-        )
-    return "\n".join(items)
-
-
 def render_month_table(cases: list) -> str:
     if not cases:
         return '<p class="all-clear">ครบ ✅</p>'
@@ -124,7 +102,6 @@ def build_html(data: dict) -> str:
     blank_cols = data.get("blank_cols", {}) or {}
 
     month_cases = month.get("cases", []) or []
-    summary_html = render_summary_cards(data)
     month_table_html = render_month_table(month_cases)
     month_lines_html = render_month_lines(month_cases)
     blank_cols_html = render_blank_cols(blank_cols)
@@ -234,38 +211,6 @@ def build_html(data: dict) -> str:
 
   .gist-box-body {{
     padding: 16px;
-  }}
-
-  .stats-grid {{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
-  }}
-
-  @media (min-width: 560px) {{
-    .stats-grid {{
-      grid-template-columns: repeat(4, 1fr);
-    }}
-  }}
-
-  .stat-box {{
-    background: var(--bg-muted);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 12px;
-    text-align: center;
-  }}
-
-  .stat-value {{
-    font-size: 1.4rem;
-    font-weight: 700;
-    color: var(--teal);
-  }}
-
-  .stat-label {{
-    margin-top: 4px;
-    font-size: 0.78rem;
-    color: var(--text-muted);
   }}
 
   .section-title {{
@@ -444,18 +389,6 @@ def build_html(data: dict) -> str:
       <h1 class="gist-title">{esc(repo)}</h1>
       <span class="badge">🔎 Audit</span>
       <div class="as-of">as_of: {esc(as_of)}</div>
-    </div>
-
-    <div class="gist-box">
-      <div class="gist-box-header">
-        <span class="gist-caption">kttwatt / {esc(repo)}</span>
-        <span class="gist-filename">summary.json</span>
-      </div>
-      <div class="gist-box-body">
-        <div class="stats-grid">
-          {summary_html}
-        </div>
-      </div>
     </div>
 
     <div class="gist-box">
