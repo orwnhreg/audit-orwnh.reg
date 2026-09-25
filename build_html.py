@@ -93,6 +93,12 @@ def build_html(data: dict) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="color-scheme" content="dark">
 <title>{esc(repo)} — Audit</title>
+<script>
+(function() {{
+  var t = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', t);
+}})();
+</script>
 <style>
   :root {{
     --bg: #0b0b0c;
@@ -107,6 +113,21 @@ def build_html(data: dict) -> str:
     --accent: #ffffff;
     --warn: #fbbf24;
     --ok: #4ade80;
+  }}
+
+  :root[data-theme="light"] {{
+    --bg: #f5f5f6;
+    --bg-panel: #ffffff;
+    --bg-elevated: #ececee;
+    --bg-muted: #e4e4e7;
+    --border: #d4d4d8;
+    --border-soft: #e4e4e7;
+    --text: #18181b;
+    --text-muted: #52525b;
+    --text-dim: #71717a;
+    --accent: #000000;
+    --warn: #b45309;
+    --ok: #15803d;
   }}
 
   html {{ scroll-behavior: smooth; }}
@@ -170,6 +191,24 @@ def build_html(data: dict) -> str:
     justify-content: center;
     font-size: 0.6rem;
     color: var(--text-muted);
+  }}
+
+  .theme-toggle {{
+    margin-left: auto;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text);
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }}
+
+  .theme-toggle:hover {{
+    background: var(--bg-muted);
   }}
 
   .tabs {{
@@ -408,6 +447,7 @@ def build_html(data: dict) -> str:
       <nav class="tabs">
         <a class="tab active" href="#cases">ข้อมูลไม่ครบ</a>
       </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี">🌙</button>
     </div>
 
     <div class="page-head">
@@ -431,6 +471,22 @@ def build_html(data: dict) -> str:
 
     <footer>อัปเดตอัตโนมัติทุกชั่วโมง · ระบบ guard ทะเบียนผ่าตัด</footer>
   </div>
+  <script>
+    (function() {{
+      var btn = document.getElementById('themeToggle');
+      var root = document.documentElement;
+      function sync() {{
+        btn.textContent = root.getAttribute('data-theme') === 'light' ? '☀️' : '🌙';
+      }}
+      sync();
+      btn.addEventListener('click', function() {{
+        var next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+        root.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+        sync();
+      }});
+    }})();
+  </script>
 </body>
 </html>
 '''
