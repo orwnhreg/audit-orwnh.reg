@@ -99,6 +99,133 @@
         "first_seen": "2026-09-25"
       }
     ],
-    "unfinished": 0
+    "unfinished": 0,
+    "daily": [
+      {
+        "day": 1,
+        "total": 26,
+        "missing": 0
+      },
+      {
+        "day": 2,
+        "total": 31,
+        "missing": 0
+      },
+      {
+        "day": 3,
+        "total": 40,
+        "missing": 0
+      },
+      {
+        "day": 4,
+        "total": 31,
+        "missing": 0
+      },
+      {
+        "day": 5,
+        "total": 8,
+        "missing": 0
+      },
+      {
+        "day": 6,
+        "total": 5,
+        "missing": 0
+      },
+      {
+        "day": 7,
+        "total": 13,
+        "missing": 0
+      },
+      {
+        "day": 8,
+        "total": 35,
+        "missing": 1
+      },
+      {
+        "day": 9,
+        "total": 26,
+        "missing": 0
+      },
+      {
+        "day": 10,
+        "total": 28,
+        "missing": 0
+      },
+      {
+        "day": 11,
+        "total": 27,
+        "missing": 0
+      },
+      {
+        "day": 12,
+        "total": 3,
+        "missing": 0
+      },
+      {
+        "day": 13,
+        "total": 6,
+        "missing": 0
+      },
+      {
+        "day": 14,
+        "total": 23,
+        "missing": 1
+      },
+      {
+        "day": 15,
+        "total": 22,
+        "missing": 0
+      },
+      {
+        "day": 16,
+        "total": 21,
+        "missing": 0
+      },
+      {
+        "day": 17,
+        "total": 40,
+        "missing": 0
+      },
+      {
+        "day": 18,
+        "total": 38,
+        "missing": 0
+      },
+      {
+        "day": 19,
+        "total": 11,
+        "missing": 0
+      },
+      {
+        "day": 20,
+        "total": 5,
+        "missing": 0
+      },
+      {
+        "day": 21,
+        "total": 22,
+        "missing": 1
+      },
+      {
+        "day": 22,
+        "total": 29,
+        "missing": 2
+      },
+      {
+        "day": 23,
+        "total": 32,
+        "missing": 1
+      },
+      {
+        "day": 24,
+        "total": 38,
+        "missing": 0
+      },
+      {
+        "day": 25,
+        "total": 27,
+        "missing": 0
+      }
+    ]
   }
 }

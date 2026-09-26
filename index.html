@@ -352,6 +352,74 @@
       flex: 0 0 auto;
     }
   }
+
+  .chart-wrap {
+    padding-top: 4px;
+  }
+
+  .chart-legend {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  .legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+  }
+
+  .legend-ok { background: var(--ok); }
+  .legend-missing { background: var(--warn); }
+
+  .bar-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 160px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }
+
+  .bar-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 0 18px;
+    height: 100%;
+    min-width: 18px;
+  }
+
+  .bar-stack {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: var(--bg-muted);
+    min-height: 2px;
+  }
+
+  .bar-seg {
+    width: 100%;
+  }
+
+  .bar-missing { background: var(--warn); }
+  .bar-ok { background: var(--ok); }
+
+  .bar-label {
+    font-size: 0.62rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }
 </style>
 </head>
 <body>
@@ -366,7 +434,7 @@
 
     <div class="page-head">
       <h1 class="page-title">รายงานข้อมูลไม่ครบถ้วน</h1>
-      <p class="page-sub">วันที่ 1/09/69 ถึง 25/09/69 · อัปเดตล่าสุด 12:25</p>
+      <p class="page-sub">วันที่ 1/09/69 ถึง 25/09/69 · อัปเดตล่าสุด 12:36</p>
       
     </div>
 
@@ -374,6 +442,171 @@
       <div class="stat">
         <p class="stat-label">จำนวนเคสที่ข้อมูลไม่ครบ</p>
         <p class="stat-value">6</p>
+      </div>
+    </div>
+
+    <div class="panel" id="chart">
+      <div class="panel-body">
+        <p class="section-sub">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน)</p>
+        <div class="chart-wrap">
+      <div class="chart-legend">
+        <span class="legend-item"><i class="legend-dot legend-ok"></i>ครบ</span>
+        <span class="legend-item"><i class="legend-dot legend-missing"></i>ไม่ครบ</span>
+      </div>
+      <div class="bar-chart">
+        <div class="bar-col" title="1: ทั้งหมด 26, ไม่ครบ 0">
+        <div class="bar-stack" style="height:65.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">1</span>
+      </div><div class="bar-col" title="2: ทั้งหมด 31, ไม่ครบ 0">
+        <div class="bar-stack" style="height:77.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">2</span>
+      </div><div class="bar-col" title="3: ทั้งหมด 40, ไม่ครบ 0">
+        <div class="bar-stack" style="height:100.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">3</span>
+      </div><div class="bar-col" title="4: ทั้งหมด 31, ไม่ครบ 0">
+        <div class="bar-stack" style="height:77.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">4</span>
+      </div><div class="bar-col" title="5: ทั้งหมด 8, ไม่ครบ 0">
+        <div class="bar-stack" style="height:20.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">5</span>
+      </div><div class="bar-col" title="6: ทั้งหมด 5, ไม่ครบ 0">
+        <div class="bar-stack" style="height:12.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">6</span>
+      </div><div class="bar-col" title="7: ทั้งหมด 13, ไม่ครบ 0">
+        <div class="bar-stack" style="height:32.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">7</span>
+      </div><div class="bar-col" title="8: ทั้งหมด 35, ไม่ครบ 1">
+        <div class="bar-stack" style="height:87.5%">
+          <div class="bar-seg bar-missing" style="height:2.857142857142857%"></div>
+          <div class="bar-seg bar-ok" style="height:97.14285714285714%"></div>
+        </div>
+        <span class="bar-label">8</span>
+      </div><div class="bar-col" title="9: ทั้งหมด 26, ไม่ครบ 0">
+        <div class="bar-stack" style="height:65.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">9</span>
+      </div><div class="bar-col" title="10: ทั้งหมด 28, ไม่ครบ 0">
+        <div class="bar-stack" style="height:70.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">10</span>
+      </div><div class="bar-col" title="11: ทั้งหมด 27, ไม่ครบ 0">
+        <div class="bar-stack" style="height:67.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">11</span>
+      </div><div class="bar-col" title="12: ทั้งหมด 3, ไม่ครบ 0">
+        <div class="bar-stack" style="height:7.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">12</span>
+      </div><div class="bar-col" title="13: ทั้งหมด 6, ไม่ครบ 0">
+        <div class="bar-stack" style="height:15.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">13</span>
+      </div><div class="bar-col" title="14: ทั้งหมด 23, ไม่ครบ 1">
+        <div class="bar-stack" style="height:57.5%">
+          <div class="bar-seg bar-missing" style="height:4.3478260869565215%"></div>
+          <div class="bar-seg bar-ok" style="height:95.65217391304348%"></div>
+        </div>
+        <span class="bar-label">14</span>
+      </div><div class="bar-col" title="15: ทั้งหมด 22, ไม่ครบ 0">
+        <div class="bar-stack" style="height:55.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">15</span>
+      </div><div class="bar-col" title="16: ทั้งหมด 21, ไม่ครบ 0">
+        <div class="bar-stack" style="height:52.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">16</span>
+      </div><div class="bar-col" title="17: ทั้งหมด 40, ไม่ครบ 0">
+        <div class="bar-stack" style="height:100.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">17</span>
+      </div><div class="bar-col" title="18: ทั้งหมด 38, ไม่ครบ 0">
+        <div class="bar-stack" style="height:95.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">18</span>
+      </div><div class="bar-col" title="19: ทั้งหมด 11, ไม่ครบ 0">
+        <div class="bar-stack" style="height:27.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">19</span>
+      </div><div class="bar-col" title="20: ทั้งหมด 5, ไม่ครบ 0">
+        <div class="bar-stack" style="height:12.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">20</span>
+      </div><div class="bar-col" title="21: ทั้งหมด 22, ไม่ครบ 1">
+        <div class="bar-stack" style="height:55.0%">
+          <div class="bar-seg bar-missing" style="height:4.545454545454546%"></div>
+          <div class="bar-seg bar-ok" style="height:95.45454545454545%"></div>
+        </div>
+        <span class="bar-label">21</span>
+      </div><div class="bar-col" title="22: ทั้งหมด 29, ไม่ครบ 2">
+        <div class="bar-stack" style="height:72.5%">
+          <div class="bar-seg bar-missing" style="height:6.896551724137931%"></div>
+          <div class="bar-seg bar-ok" style="height:93.10344827586206%"></div>
+        </div>
+        <span class="bar-label">22</span>
+      </div><div class="bar-col" title="23: ทั้งหมด 32, ไม่ครบ 1">
+        <div class="bar-stack" style="height:80.0%">
+          <div class="bar-seg bar-missing" style="height:3.125%"></div>
+          <div class="bar-seg bar-ok" style="height:96.875%"></div>
+        </div>
+        <span class="bar-label">23</span>
+      </div><div class="bar-col" title="24: ทั้งหมด 38, ไม่ครบ 0">
+        <div class="bar-stack" style="height:95.0%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">24</span>
+      </div><div class="bar-col" title="25: ทั้งหมด 27, ไม่ครบ 0">
+        <div class="bar-stack" style="height:67.5%">
+          <div class="bar-seg bar-missing" style="height:0.0%"></div>
+          <div class="bar-seg bar-ok" style="height:100.0%"></div>
+        </div>
+        <span class="bar-label">25</span>
+      </div>
+      </div>
+    </div>
       </div>
     </div>
 
