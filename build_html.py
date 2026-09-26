@@ -477,11 +477,12 @@ def build_html(data: dict) -> str:
     }}
     .data-table td.circ-cell {{
       flex-direction: column;
-      align-items: flex-start;
-      text-align: left;
+      align-items: flex-end;
+      text-align: right;
     }}
     .data-table td.circ-cell::before {{
       margin-bottom: 2px;
+      align-self: flex-start;
     }}
   }}
 
