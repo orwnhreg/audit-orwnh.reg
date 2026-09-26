@@ -351,7 +351,7 @@ def build_dashboard(data: dict) -> str:
         <p class="stat-value {pct_class}">{esc(completeness_pct)}%</p>
       </div>
       <div class="stat">
-        <p class="stat-label">เคสทั้งหมด (เสร็จแล้ว)</p>
+        <p class="stat-label">เคสทั้งหมด</p>
         <p class="stat-value">{esc(finished_total)}</p>
       </div>
       <div class="stat">
