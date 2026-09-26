@@ -641,7 +641,7 @@ def build_html(data: dict) -> str:
       </div>
     </div>
 
-    <footer>อัปเดตอัตโนมัติทุกชั่วโมง · ระบบ guard ทะเบียนผ่าตัด</footer>
+    <footer>อัปเดตอัตโนมัติทุกชั่วโมง · ระบบติดตามข้อมูลทะเบียนผ่าตัด</footer>
   </div>
   <script>
     (function() {{

@@ -404,7 +404,7 @@ def build_dashboard(data: dict) -> str:
       </div>
     </div>
 
-    <footer>อัปเดตอัตโนมัติทุกชั่วโมง · ระบบ guard ทะเบียนผ่าตัด</footer>
+    <footer>อัปเดตอัตโนมัติทุกชั่วโมง · ระบบติดตามข้อมูลทะเบียนผ่าตัด</footer>
   </div>
   <script>
     (function() {{
@@ -552,7 +552,7 @@ def build_dashboard(data: dict) -> str:
         ctx.fillStyle = textMuted;
         ctx.font = '400 11px -apple-system, sans-serif';
         ctx.textAlign = 'center';
-        ctx.fillText('ระบบ guard ทะเบียนผ่าตัด', W / 2, y);
+        ctx.fillText('ระบบติดตามข้อมูลทะเบียนผ่าตัด', W / 2, y);
         ctx.textAlign = 'left';
 
         canvas.toBlob(function(blob) {{
