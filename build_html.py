@@ -37,7 +37,8 @@ def render_month_table(cases: list, show_month: bool = False) -> str:
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
         circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
-        circ_html = "".join(f'<span class="circ-name">{esc(n)}</span>' for n in circ_names)
+        circ_spans = "".join(f'<span class="circ-name">{esc(n)}</span>' for n in circ_names)
+        circ_html = f'<div class="circ-names">{circ_spans}</div>'
         month_key = case.get("month_key", "")
         rows.append(
             f'''<tr data-month="{esc(month_key)}">
@@ -515,13 +516,16 @@ def build_html(data: dict) -> str:
       flex: 0 0 auto;
     }}
     .data-table td.circ-cell {{
-      flex-direction: column;
-      align-items: flex-end;
+      align-items: flex-start;
       text-align: right;
     }}
     .data-table td.circ-cell::before {{
-      margin-bottom: 2px;
-      align-self: flex-start;
+      padding-top: 1px;
+    }}
+    .circ-names {{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
     }}
   }}
 
