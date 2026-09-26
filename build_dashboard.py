@@ -93,6 +93,27 @@ def build_dashboard(data: dict) -> str:
 
     pct_class = "pct-good" if completeness_pct >= 97 else ("pct-warn" if completeness_pct >= 90 else "pct-bad")
 
+    trend_text = "ไม่มีข้อมูลเดือนก่อนเปรียบเทียบ"
+    trend_delta_val = insights.get("trend_delta")
+    prev_pct = insights.get("prev_completeness_pct")
+    if trend_delta_val is not None and prev_pct is not None:
+        word = "ดีขึ้น" if trend_delta_val > 0 else ("แย่ลง" if trend_delta_val < 0 else "เท่าเดิม")
+        trend_text = f"{abs(trend_delta_val)} จุด ({word}) — เดือนก่อนหน้า {prev_pct}%"
+
+    report_data = {
+        "month_label": month_label,
+        "gen_time": gen_time,
+        "as_of": data.get("as_of", ""),
+        "completeness_pct": completeness_pct,
+        "finished_total": finished_total,
+        "missing_total": missing_total,
+        "trend_delta": trend_delta_val if trend_delta_val is not None else 0,
+        "trend_text": trend_text,
+        "dept_breakdown": insights.get("dept_breakdown", []),
+        "top_missing_cols": insights.get("top_missing_cols", []),
+    }
+    report_data_json = json.dumps(report_data, ensure_ascii=False)
+
     return f'''<!DOCTYPE html>
 <html lang="th">
 <head>
@@ -337,6 +358,7 @@ def build_dashboard(data: dict) -> str:
         <a class="tab active" href="dashboard.html">Dashboard</a>
         <a class="tab" href="index.html">ข้อมูล</a>
       </nav>
+      <button class="theme-toggle" id="reportBtn" type="button" aria-label="Export report" title="Export เป็นรูปภาพ">📄</button>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี">🌙</button>
     </div>
 
@@ -397,6 +419,150 @@ def build_dashboard(data: dict) -> str:
         root.setAttribute('data-theme', next);
         localStorage.setItem('theme', next);
         sync();
+      }});
+    }})();
+    (function() {{
+      var reportData = {report_data_json};
+      document.getElementById('reportBtn').addEventListener('click', function() {{
+        var theme = document.documentElement.getAttribute('data-theme') || 'dark';
+        var isLight = theme === 'light';
+        var bg = isLight ? '#f5f5f6' : '#0b0b0c';
+        var panelBg = isLight ? '#ffffff' : '#151517';
+        var border = isLight ? '#d4d4d8' : '#27272b';
+        var text = isLight ? '#18181b' : '#ededed';
+        var textMuted = isLight ? '#52525b' : '#8b8b90';
+        var ok = isLight ? '#15803d' : '#4ade80';
+        var warn = isLight ? '#b45309' : '#fbbf24';
+        var bad = isLight ? '#b91c1c' : '#f87171';
+        var accent = isLight ? '#000000' : '#ffffff';
+
+        var W = 900, pad = 32;
+        var deptRows = reportData.dept_breakdown.length;
+        var colRows = reportData.top_missing_cols.length;
+        var H = 300 + deptRows * 36 + colRows * 30 + 120;
+        var canvas = document.createElement('canvas');
+        var scale = 2;
+        canvas.width = W * scale;
+        canvas.height = H * scale;
+        var ctx = canvas.getContext('2d');
+        ctx.scale(scale, scale);
+
+        ctx.fillStyle = bg;
+        ctx.fillRect(0, 0, W, H);
+
+        var y = pad;
+        ctx.fillStyle = text;
+        ctx.font = '700 24px -apple-system, "Segoe UI", sans-serif';
+        ctx.fillText('Dashboard สรุปภาพรวม', pad, y + 24);
+        y += 40;
+        ctx.fillStyle = textMuted;
+        ctx.font = '400 13px -apple-system, "Segoe UI", sans-serif';
+        ctx.fillText(reportData.month_label + ' · ส่งออก ' + reportData.gen_time, pad, y);
+        y += 30;
+
+        function statCard(x, w, label, value, color) {{
+          ctx.strokeStyle = border;
+          ctx.fillStyle = panelBg;
+          ctx.fillRect(x, y, w, 70);
+          ctx.strokeRect(x, y, w, 70);
+          ctx.fillStyle = textMuted;
+          ctx.font = '400 12px -apple-system, sans-serif';
+          ctx.textAlign = 'center';
+          ctx.fillText(label, x + w / 2, y + 24);
+          ctx.fillStyle = color || text;
+          ctx.font = '700 22px -apple-system, sans-serif';
+          ctx.fillText(String(value), x + w / 2, y + 52);
+          ctx.textAlign = 'left';
+        }}
+        var statW = (W - pad * 2 - 20) / 3;
+        var pctColor = reportData.completeness_pct >= 97 ? ok : (reportData.completeness_pct >= 90 ? warn : bad);
+        statCard(pad, statW, '% ความครบถ้วน', reportData.completeness_pct + '%', pctColor);
+        statCard(pad + statW + 10, statW, 'เคสทั้งหมด', reportData.finished_total, text);
+        statCard(pad + (statW + 10) * 2, statW, 'เคสข้อมูลไม่ครบ', reportData.missing_total, text);
+        y += 100;
+
+        ctx.fillStyle = text;
+        ctx.font = '650 15px -apple-system, sans-serif';
+        ctx.fillText('แนวโน้มเทียบเดือนก่อน', pad, y);
+        y += 22;
+        ctx.font = '600 14px -apple-system, sans-serif';
+        ctx.fillStyle = reportData.trend_delta > 0 ? ok : (reportData.trend_delta < 0 ? bad : textMuted);
+        ctx.fillText(reportData.trend_text, pad, y);
+        y += 34;
+
+        ctx.fillStyle = text;
+        ctx.font = '650 15px -apple-system, sans-serif';
+        ctx.fillText('แยกตามแผนก', pad, y);
+        y += 16;
+        var maxDeptTotal = 0;
+        reportData.dept_breakdown.forEach(function(d) {{ if (d.total > maxDeptTotal) maxDeptTotal = d.total; }});
+        if (!maxDeptTotal) maxDeptTotal = 1;
+        reportData.dept_breakdown.forEach(function(d) {{
+          y += 24;
+          ctx.fillStyle = text;
+          ctx.font = '600 13px -apple-system, sans-serif';
+          ctx.fillText(d.dept, pad, y);
+          var trackX = pad + 110, trackW = W - pad * 2 - 110 - 170;
+          ctx.fillStyle = isLight ? '#e4e4e7' : '#1f1f23';
+          ctx.fillRect(trackX, y - 10, trackW, 10);
+          ctx.fillStyle = accent;
+          ctx.globalAlpha = 0.85;
+          ctx.fillRect(trackX, y - 10, trackW * (d.total / maxDeptTotal), 10);
+          ctx.globalAlpha = 1;
+          ctx.font = '400 12px -apple-system, sans-serif';
+          ctx.fillStyle = textMuted;
+          ctx.textAlign = 'right';
+          var missPct = d.total ? Math.round((d.missing / d.total) * 1000) / 10 : 0;
+          ctx.fillText(d.total + ' เคส · ' + d.missing + ' ไม่ครบ (' + missPct + '%)', W - pad, y);
+          ctx.textAlign = 'left';
+        }});
+        y += 30;
+
+        ctx.fillStyle = text;
+        ctx.font = '650 15px -apple-system, sans-serif';
+        ctx.fillText('ช่องที่ขาดบ่อยสุด', pad, y);
+        y += 16;
+        var maxColCount = 0;
+        reportData.top_missing_cols.forEach(function(c) {{ if (c.count > maxColCount) maxColCount = c.count; }});
+        if (!maxColCount) maxColCount = 1;
+        if (reportData.top_missing_cols.length === 0) {{
+          y += 20;
+          ctx.fillStyle = ok;
+          ctx.font = '600 13px -apple-system, sans-serif';
+          ctx.fillText('ครบ ✅ ไม่มีช่องขาด', pad, y);
+        }} else {{
+          reportData.top_missing_cols.forEach(function(c) {{
+            y += 22;
+            ctx.fillStyle = text;
+            ctx.font = '400 13px -apple-system, sans-serif';
+            ctx.fillText(c.col, pad, y);
+            var trackX = pad + 160, trackW = W - pad * 2 - 160 - 40;
+            ctx.fillStyle = isLight ? '#e4e4e7' : '#1f1f23';
+            ctx.fillRect(trackX, y - 10, trackW, 10);
+            ctx.fillStyle = warn;
+            ctx.fillRect(trackX, y - 10, trackW * (c.count / maxColCount), 10);
+            ctx.fillStyle = textMuted;
+            ctx.font = '600 12px -apple-system, sans-serif';
+            ctx.textAlign = 'right';
+            ctx.fillText(String(c.count), W - pad, y);
+            ctx.textAlign = 'left';
+          }});
+        }}
+        y += 34;
+        ctx.fillStyle = textMuted;
+        ctx.font = '400 11px -apple-system, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillText('ระบบ guard ทะเบียนผ่าตัด', W / 2, y);
+        ctx.textAlign = 'left';
+
+        canvas.toBlob(function(blob) {{
+          var a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'dashboard-report-' + reportData.as_of.replace(/\\//g, '-') + '.png';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        }});
       }});
     }})();
   </script>
