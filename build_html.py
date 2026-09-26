@@ -475,6 +475,14 @@ def build_html(data: dict) -> str:
       text-align: left;
       flex: 0 0 auto;
     }}
+    .data-table td.circ-cell {{
+      flex-direction: column;
+      align-items: flex-start;
+      text-align: left;
+    }}
+    .data-table td.circ-cell::before {{
+      margin-bottom: 2px;
+    }}
   }}
 
   .chart-wrap {{
