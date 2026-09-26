@@ -604,7 +604,6 @@ def build_html(data: dict) -> str:
 <body>
   <div class="wrap">
     <div class="topbar">
-      <span class="ws-pill"><span class="ws-dot">▣</span> ทะเบียนผ่าตัด</span>
       <nav class="tabs">
         <a class="tab" href="dashboard.html">Dashboard</a>
         <a class="tab active" href="index.html">ข้อมูล</a>
