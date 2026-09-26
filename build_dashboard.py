@@ -246,10 +246,11 @@ def build_dashboard(data: dict) -> str:
     background: var(--bg-panel);
     border: 1px solid var(--border-soft);
     padding: 12px 14px;
+    text-align: center;
   }}
 
   .stat-label {{ font-size: 0.75rem; color: var(--text-muted); margin: 0 0 6px; }}
-  .stat-value {{ font-size: 1.35rem; font-weight: 700; color: var(--text); margin: 0; line-height: 1.2; }}
+  .stat-value {{ font-size: 1.35rem; font-weight: 700; color: var(--text); margin: 0; line-height: 1.2; text-align: center; }}
   .pct-good {{ color: var(--ok); }}
   .pct-warn {{ color: var(--warn); }}
   .pct-bad {{ color: var(--bad); }}
