@@ -606,8 +606,8 @@ def build_html(data: dict) -> str:
     <div class="topbar">
       <span class="ws-pill"><span class="ws-dot">▣</span> ทะเบียนผ่าตัด</span>
       <nav class="tabs">
-        <a class="tab active" href="index.html">ข้อมูล</a>
         <a class="tab" href="dashboard.html">Dashboard</a>
+        <a class="tab active" href="index.html">ข้อมูล</a>
       </nav>
       <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี">🌙</button>
     </div>
