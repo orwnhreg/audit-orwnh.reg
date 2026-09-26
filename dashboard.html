@@ -248,7 +248,7 @@
 
     <div class="page-head">
       <h1 class="page-title">Dashboard สรุปภาพรวม</h1>
-      <p class="page-sub">วันที่ 1/09/69 ถึง 25/09/69 · อัปเดตล่าสุด 20:00</p>
+      <p class="page-sub">วันที่ 1/09/69 ถึง 25/09/69 · อัปเดตล่าสุด 20:30</p>
     </div>
 
     <div class="stat-row">
@@ -366,7 +366,7 @@
       });
     })();
     (function() {
-      var reportData = {"month_label": "วันที่ 1/09/69 ถึง 25/09/69", "gen_time": "20:00", "as_of": "26/09/2026", "completeness_pct": 99.0, "finished_total": 587, "missing_total": 6, "trend_delta": -0.3, "trend_text": "0.3 จุด (แย่ลง) — เดือนก่อนหน้า 99.3%", "dept_breakdown": [{"dept": "Surgery", "total": 215, "missing": 3}, {"dept": "Orthopedic", "total": 118, "missing": 3}, {"dept": "E.N.T", "total": 19, "missing": 0}, {"dept": "Gyne-Obs", "total": 99, "missing": 0}, {"dept": "Eye", "total": 136, "missing": 0}], "top_missing_cols": [{"col": "First Dx", "count": 3}, {"col": "Last Dx", "count": 3}, {"col": "Risk", "count": 1}, {"col": "เวลาออกจากห้องผ่าตัด", "count": 1}, {"col": "Aneasthesia", "count": 1}]};
+      var reportData = {"month_label": "วันที่ 1/09/69 ถึง 25/09/69", "gen_time": "20:30", "as_of": "26/09/2026", "completeness_pct": 99.0, "finished_total": 587, "missing_total": 6, "trend_delta": -0.3, "trend_text": "0.3 จุด (แย่ลง) — เดือนก่อนหน้า 99.3%", "dept_breakdown": [{"dept": "Surgery", "total": 215, "missing": 3}, {"dept": "Orthopedic", "total": 118, "missing": 3}, {"dept": "E.N.T", "total": 19, "missing": 0}, {"dept": "Gyne-Obs", "total": 99, "missing": 0}, {"dept": "Eye", "total": 136, "missing": 0}], "top_missing_cols": [{"col": "First Dx", "count": 3}, {"col": "Last Dx", "count": 3}, {"col": "Risk", "count": 1}, {"col": "เวลาออกจากห้องผ่าตัด", "count": 1}, {"col": "Aneasthesia", "count": 1}], "cases": [{"date": "8/9/2569", "hn": "30030", "name": "นายวน เนื่องจำนงค์", "dept": "Surgery", "op": "Suture Wound", "circ": "น.ส.มัญชุกร เกิดไทย", "missing": ["First Dx", "Last Dx"], "month_key": "2569-09", "days_pending": 1, "first_seen": "2026-09-25"}, {"date": "14/9/2569", "hn": "263237", "name": "นายส่งศักดิ์ ภูเวียนวงค์", "dept": "Surgery", "op": "Excisional DB Lt.foot", "circ": "น.ส.มัญชุกร เกิดไทย", "missing": ["Risk"], "month_key": "2569-09", "days_pending": 1, "first_seen": "2026-09-25"}, {"date": "21/9/2569", "hn": "263586", "name": "Mr.SANN LIN AUNG", "dept": "Orthopedic", "op": "DB with suture left middle finger", "circ": "น.ส.กรรณชดา สาลีเพ็ง", "missing": ["First Dx", "Last Dx"], "month_key": "2569-09", "days_pending": 1, "first_seen": "2026-09-25"}, {"date": "22/9/2569", "hn": "250866", "name": "นางบังอร เชื้อวังคำ", "dept": "Orthopedic", "op": "Posterior  pedicle screw fixation c PLF T5-T9", "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ", "missing": ["เวลาออกจากห้องผ่าตัด"], "month_key": "2569-09", "days_pending": 1, "first_seen": "2026-09-25"}, {"date": "22/9/2569", "hn": "4675", "name": "นายเสียง แก้วเหล็ก", "dept": "Orthopedic", "op": "Debridement of wound Lt Leg", "circ": "นางณัฐณิชา ไชยพะยวน", "missing": ["Aneasthesia"], "month_key": "2569-09", "days_pending": 1, "first_seen": "2026-09-25"}, {"date": "23/9/2569", "hn": "262215", "name": "นางแตง คำจรสิงห์", "dept": "Surgery", "op": "liver segmentectomy", "circ": "น.ส.มัญชุกร เกิดไทย", "missing": ["First Dx", "Last Dx"], "month_key": "2569-09", "days_pending": 1, "first_seen": "2026-09-25"}]};
       document.getElementById('reportBtn').addEventListener('click', function() {
         var theme = document.documentElement.getAttribute('data-theme') || 'dark';
         var isLight = theme === 'light';
@@ -383,7 +383,9 @@
         var W = 900, pad = 32;
         var deptRows = reportData.dept_breakdown.length;
         var colRows = reportData.top_missing_cols.length;
-        var H = 300 + deptRows * 36 + colRows * 30 + 120;
+        var caseRows = reportData.cases.length;
+        var caseRowH = 44;
+        var H = 300 + deptRows * 36 + colRows * 30 + 120 + 50 + Math.max(caseRows, 1) * caseRowH;
         var canvas = document.createElement('canvas');
         var scale = 2;
         canvas.width = W * scale;
@@ -493,6 +495,58 @@
           });
         }
         y += 34;
+        ctx.fillStyle = text;
+        ctx.font = '650 15px -apple-system, sans-serif';
+        ctx.fillText('รายการเคสข้อมูลไม่ครบ (' + reportData.month_label + ')', pad, y);
+        y += 20;
+        if (reportData.cases.length === 0) {
+          ctx.fillStyle = ok;
+          ctx.font = '600 13px -apple-system, sans-serif';
+          ctx.fillText('ครบ ✅ ไม่มีเคสข้อมูลไม่ครบ', pad, y);
+          y += 20;
+        } else {
+          var caseColX = { date: pad, hn: pad + 78, name: pad + 148, dept: pad + 330, missing: pad + 420 };
+          ctx.fillStyle = textMuted;
+          ctx.font = '600 10px -apple-system, sans-serif';
+          ctx.fillText('วันที่', caseColX.date, y);
+          ctx.fillText('HN', caseColX.hn, y);
+          ctx.fillText('ชื่อ', caseColX.name, y);
+          ctx.fillText('แผนก', caseColX.dept, y);
+          ctx.fillText('ข้อมูลที่ขาด', caseColX.missing, y);
+          y += 6;
+          ctx.strokeStyle = border;
+          ctx.beginPath(); ctx.moveTo(pad, y); ctx.lineTo(W - pad, y); ctx.stroke();
+          y += 18;
+          reportData.cases.forEach(function(c) {
+            var rowTop = y - 12;
+            ctx.fillStyle = panelBg;
+            ctx.fillRect(pad - 8, rowTop, W - pad * 2 + 16, caseRowH - 6);
+            ctx.fillStyle = text;
+            ctx.font = '400 11px -apple-system, sans-serif';
+            ctx.fillText(c.date || '', caseColX.date, y);
+            ctx.fillText(c.hn || '', caseColX.hn, y);
+            ctx.font = '600 11px -apple-system, sans-serif';
+            ctx.fillText((c.name || '').slice(0, 20), caseColX.name, y);
+            ctx.font = '400 11px -apple-system, sans-serif';
+            ctx.fillText(c.dept || '', caseColX.dept, y);
+            var mx = caseColX.missing;
+            (c.missing || []).forEach(function(m) {
+              var w = ctx.measureText(m).width + 12;
+              ctx.fillStyle = isLight ? 'rgba(180,83,9,0.12)' : 'rgba(251,191,36,0.13)';
+              ctx.fillRect(mx, y - 10, w, 14);
+              ctx.fillStyle = warn;
+              ctx.font = '600 9px -apple-system, sans-serif';
+              ctx.fillText(m, mx + 5, y);
+              mx += w + 4;
+            });
+            ctx.fillStyle = textMuted;
+            ctx.font = '400 10px -apple-system, sans-serif';
+            var opLine = (c.op || '') + (c.circ ? ' · Circ: ' + c.circ : '');
+            ctx.fillText(opLine.slice(0, 90), caseColX.date, y + 16);
+            y += caseRowH;
+          });
+        }
+        y += 20;
         ctx.fillStyle = textMuted;
         ctx.font = '400 11px -apple-system, sans-serif';
         ctx.textAlign = 'center';
