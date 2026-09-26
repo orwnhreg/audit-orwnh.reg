@@ -608,7 +608,8 @@ def build_html(data: dict) -> str:
         <a class="tab" href="dashboard.html">Dashboard</a>
         <a class="tab active" href="index.html">ข้อมูล</a>
       </nav>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี">🌙</button>
+      <button class="theme-toggle" id="reportBtn" type="button" aria-label="Export report" title="Export เป็นรูปภาพ" style="margin-left:auto">📄</button>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี" style="margin-left:6px">🌙</button>
     </div>
 
     <div class="page-head">
@@ -691,6 +692,120 @@ def build_html(data: dict) -> str:
       }}
       sel.addEventListener('change', applyFilter);
       applyFilter();
+
+      document.getElementById('reportBtn').addEventListener('click', function() {{
+        var theme = document.documentElement.getAttribute('data-theme') || 'dark';
+        var isLight = theme === 'light';
+        var bg = isLight ? '#f5f5f6' : '#0b0b0c';
+        var panelBg = isLight ? '#ffffff' : '#151517';
+        var border = isLight ? '#d4d4d8' : '#27272b';
+        var text = isLight ? '#18181b' : '#ededed';
+        var textMuted = isLight ? '#52525b' : '#8b8b90';
+        var warnBg = isLight ? 'rgba(180,83,9,0.12)' : 'rgba(251,191,36,0.13)';
+        var warnText = isLight ? '#b45309' : '#fbbf24';
+        var ok = isLight ? '#15803d' : '#4ade80';
+
+        var visibleRows = rows.filter(function(tr) {{ return tr.style.display !== 'none'; }});
+        var cases = visibleRows.map(function(tr) {{
+          var tds = tr.querySelectorAll('td');
+          var missing = Array.prototype.map.call(tds[6].querySelectorAll('.chip'), function(c) {{ return c.textContent; }});
+          var circNames = Array.prototype.map.call(tds[5].querySelectorAll('.circ-name'), function(c) {{ return c.textContent; }});
+          return {{
+            date: tds[0].textContent.trim(),
+            hn: tds[1].textContent.trim(),
+            name: tds[2].textContent.trim(),
+            dept: tds[3].textContent.trim(),
+            op: tds[4].textContent.trim(),
+            circ: circNames.join(', '),
+            missing: missing,
+            days: tds[7].textContent.trim()
+          }};
+        }});
+
+        var monthLabel = monthLabels[sel.value] || sel.value;
+        var W = 1000, pad = 32;
+        var rowH = 56;
+        var H = 140 + Math.max(cases.length, 1) * rowH + 60;
+        var canvas = document.createElement('canvas');
+        var scale = 2;
+        canvas.width = W * scale;
+        canvas.height = H * scale;
+        var ctx = canvas.getContext('2d');
+        ctx.scale(scale, scale);
+
+        ctx.fillStyle = bg;
+        ctx.fillRect(0, 0, W, H);
+
+        var y = pad;
+        ctx.fillStyle = text;
+        ctx.font = '700 22px -apple-system, "Segoe UI", sans-serif';
+        ctx.fillText('รายงานข้อมูลไม่ครบถ้วน', pad, y + 22);
+        y += 36;
+        ctx.fillStyle = textMuted;
+        ctx.font = '400 13px -apple-system, sans-serif';
+        ctx.fillText('เดือน: ' + monthLabel + ' · จำนวน ' + cases.length + ' เคส · ส่งออก ' + new Date().toLocaleString('th-TH'), pad, y);
+        y += 30;
+
+        if (cases.length === 0) {{
+          ctx.fillStyle = ok;
+          ctx.font = '600 15px -apple-system, sans-serif';
+          ctx.fillText('ครบ ✅ ไม่มีเคสข้อมูลไม่ครบ', pad, y + 10);
+        }} else {{
+          var colX = {{ date: pad, hn: pad + 80, name: pad + 150, dept: pad + 330, missing: pad + 430, days: W - pad - 60 }};
+          ctx.fillStyle = textMuted;
+          ctx.font = '600 11px -apple-system, sans-serif';
+          ctx.fillText('วันที่', colX.date, y);
+          ctx.fillText('HN', colX.hn, y);
+          ctx.fillText('ชื่อ', colX.name, y);
+          ctx.fillText('แผนก', colX.dept, y);
+          ctx.fillText('ข้อมูลที่ขาด', colX.missing, y);
+          ctx.fillText('รอแก้ไข', colX.days, y);
+          y += 8;
+          ctx.strokeStyle = border;
+          ctx.beginPath(); ctx.moveTo(pad, y); ctx.lineTo(W - pad, y); ctx.stroke();
+          y += 20;
+
+          cases.forEach(function(c, idx) {{
+            var rowTop = y - 14;
+            ctx.fillStyle = panelBg;
+            ctx.fillRect(pad - 8, rowTop, W - pad * 2 + 16, rowH - 6);
+            ctx.fillStyle = text;
+            ctx.font = '400 12px -apple-system, sans-serif';
+            ctx.fillText(c.date, colX.date, y);
+            ctx.fillText(c.hn, colX.hn, y);
+            ctx.font = '600 12px -apple-system, sans-serif';
+            ctx.fillText(c.name.slice(0, 22), colX.name, y);
+            ctx.font = '400 12px -apple-system, sans-serif';
+            ctx.fillText(c.dept, colX.dept, y);
+            var mx = colX.missing;
+            c.missing.forEach(function(m) {{
+              var w = ctx.measureText(m).width + 14;
+              ctx.fillStyle = warnBg;
+              ctx.fillRect(mx, y - 12, w, 16);
+              ctx.fillStyle = warnText;
+              ctx.font = '600 10px -apple-system, sans-serif';
+              ctx.fillText(m, mx + 6, y);
+              mx += w + 4;
+            }});
+            ctx.fillStyle = textMuted;
+            ctx.font = '400 12px -apple-system, sans-serif';
+            ctx.fillText(c.days ? (c.days + ' วัน') : '-', colX.days, y);
+            ctx.font = '400 11px -apple-system, sans-serif';
+            ctx.fillStyle = textMuted;
+            ctx.fillText(c.op.slice(0, 60) + (c.circ ? ' · Circ: ' + c.circ.slice(0, 40) : ''), colX.date, y + 18);
+            y += rowH;
+          }});
+        }}
+
+        canvas.toBlob(function(blob) {{
+          var a = document.createElement('a');
+          a.href = URL.createObjectURL(blob);
+          a.download = 'missing-data-report-' + (sel.value === 'all' ? 'all' : sel.value) + '.png';
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        }});
+      }});
     }})();
   </script>
 </body>
