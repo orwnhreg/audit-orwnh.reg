@@ -72,6 +72,40 @@ def render_month_table(cases: list) -> str:
     </div>'''
 
 
+def render_month_chart(daily: list) -> str:
+    if not daily:
+        return ""
+    max_total = max((d.get("total", 0) for d in daily), default=0) or 1
+    bars = []
+    for d in daily:
+        day = d.get("day")
+        total = d.get("total", 0)
+        missing = d.get("missing", 0)
+        ok = max(total - missing, 0)
+        total_h = round((total / max_total) * 100, 1) if total else 0
+        missing_h = round((missing / max_total) * 100, 1) if total else 0
+        ok_h = round((ok / max_total) * 100, 1) if total else 0
+        title = f"{day}: ทั้งหมด {total}, ไม่ครบ {missing}"
+        bars.append(
+            f'''<div class="bar-col" title="{esc(title)}">
+        <div class="bar-stack" style="height:{total_h}%">
+          <div class="bar-seg bar-missing" style="height:{ (missing_h/total_h*100) if total_h else 0 }%"></div>
+          <div class="bar-seg bar-ok" style="height:{ (ok_h/total_h*100) if total_h else 0 }%"></div>
+        </div>
+        <span class="bar-label">{esc(day)}</span>
+      </div>'''
+        )
+    return f'''<div class="chart-wrap">
+      <div class="chart-legend">
+        <span class="legend-item"><i class="legend-dot legend-ok"></i>ครบ</span>
+        <span class="legend-item"><i class="legend-dot legend-missing"></i>ไม่ครบ</span>
+      </div>
+      <div class="bar-chart">
+        {"".join(bars)}
+      </div>
+    </div>'''
+
+
 def build_html(data: dict) -> str:
     repo = data.get("repo", "")
     month = data.get("month", {}) or {}
@@ -85,6 +119,8 @@ def build_html(data: dict) -> str:
 
     month_cases = month.get("cases", []) or []
     month_table_html = render_month_table(month_cases)
+    month_daily = month.get("daily", []) or []
+    month_chart_html = render_month_chart(month_daily)
 
     return f'''<!DOCTYPE html>
 <html lang="th">
@@ -440,6 +476,74 @@ def build_html(data: dict) -> str:
       flex: 0 0 auto;
     }}
   }}
+
+  .chart-wrap {{
+    padding-top: 4px;
+  }}
+
+  .chart-legend {{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 12px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }}
+
+  .legend-item {{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }}
+
+  .legend-dot {{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+  }}
+
+  .legend-ok {{ background: var(--ok); }}
+  .legend-missing {{ background: var(--warn); }}
+
+  .bar-chart {{
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 160px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+  }}
+
+  .bar-col {{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 0 18px;
+    height: 100%;
+    min-width: 18px;
+  }}
+
+  .bar-stack {{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: var(--bg-muted);
+    min-height: 2px;
+  }}
+
+  .bar-seg {{
+    width: 100%;
+  }}
+
+  .bar-missing {{ background: var(--warn); }}
+  .bar-ok {{ background: var(--ok); }}
+
+  .bar-label {{
+    font-size: 0.62rem;
+    color: var(--text-dim);
+    margin-top: 4px;
+  }}
 </style>
 </head>
 <body>
@@ -462,6 +566,13 @@ def build_html(data: dict) -> str:
       <div class="stat">
         <p class="stat-label">จำนวนเคสที่ข้อมูลไม่ครบ</p>
         <p class="stat-value">{esc(month_total)}</p>
+      </div>
+    </div>
+
+    <div class="panel" id="chart">
+      <div class="panel-body">
+        <p class="section-sub">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน)</p>
+        {month_chart_html}
       </div>
     </div>
 
