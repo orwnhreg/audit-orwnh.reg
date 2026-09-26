@@ -358,8 +358,8 @@ def build_dashboard(data: dict) -> str:
         <a class="tab active" href="dashboard.html">Dashboard</a>
         <a class="tab" href="index.html">ข้อมูล</a>
       </nav>
-      <button class="theme-toggle" id="reportBtn" type="button" aria-label="Export report" title="Export เป็นรูปภาพ">📄</button>
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี">🌙</button>
+      <button class="theme-toggle" id="reportBtn" type="button" aria-label="Export report" title="Export เป็นรูปภาพ" style="margin-left:auto">📄</button>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="สลับโหมดสี" style="margin-left:6px">🌙</button>
     </div>
 
     <div class="page-head">
