@@ -227,5 +227,61 @@
         "missing": 0
       }
     ]
+  },
+  "insights": {
+    "completeness_pct": 99.0,
+    "finished_total": 587,
+    "missing_total": 6,
+    "dept_breakdown": [
+      {
+        "dept": "Surgery",
+        "total": 215,
+        "missing": 3
+      },
+      {
+        "dept": "Orthopedic",
+        "total": 118,
+        "missing": 3
+      },
+      {
+        "dept": "E.N.T",
+        "total": 19,
+        "missing": 0
+      },
+      {
+        "dept": "Gyne-Obs",
+        "total": 99,
+        "missing": 0
+      },
+      {
+        "dept": "Eye",
+        "total": 136,
+        "missing": 0
+      }
+    ],
+    "top_missing_cols": [
+      {
+        "col": "First Dx",
+        "count": 3
+      },
+      {
+        "col": "Last Dx",
+        "count": 3
+      },
+      {
+        "col": "Risk",
+        "count": 1
+      },
+      {
+        "col": "เวลาออกจากห้องผ่าตัด",
+        "count": 1
+      },
+      {
+        "col": "Aneasthesia",
+        "count": 1
+      }
+    ],
+    "prev_completeness_pct": 99.3,
+    "trend_delta": -0.3
   }
 }
