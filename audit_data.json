@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "26/09/2026",
-  "rows": 13480,
+  "rows": 13481,
   "colA": {
     "dup": 0,
     "missing": 0,
@@ -7433,20 +7433,6 @@
       "month_key": "2569-09",
       "days_pending": 1,
       "first_seen": "2026-09-25"
-    },
-    {
-      "date": "26/9/2569",
-      "hn": "95045",
-      "name": "นายนรพิศ บัวมณี",
-      "dept": "Orthopedic",
-      "op": "Systematic DB with ORIF with  K wire  Rt. 2 nd toe with splint under LA",
-      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
-        "Last Dx"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-09-26"
     }
   ],
   "month_options": [
@@ -11539,8 +11525,8 @@
       },
       {
         "day": 26,
-        "total": 14,
-        "missing": 1
+        "total": 15,
+        "missing": 0
       }
     ],
     "all": [
@@ -11671,8 +11657,8 @@
       },
       {
         "day": "ก.ย.",
-        "total": 601,
-        "missing": 7
+        "total": 602,
+        "missing": 6
       }
     ]
   }
