@@ -470,7 +470,7 @@
 
     <div class="page-head">
       <h1 class="page-title">รายงานข้อมูลไม่ครบถ้วน</h1>
-      <p class="page-sub">วันที่ 1/09/69 ถึง 25/09/69 · อัปเดตล่าสุด 20:30</p>
+      <p class="page-sub">วันที่ 1/09/69 ถึง 25/09/69 · อัปเดตล่าสุด 20:34</p>
       
     </div>
 
@@ -4663,10 +4663,6 @@
         var warnBg = isLight ? 'rgba(180,83,9,0.12)' : 'rgba(251,191,36,0.13)';
         var warnText = isLight ? '#b45309' : '#fbbf24';
         var ok = isLight ? '#15803d' : '#4ade80';
-        var warn = warnText;
-        var bad = isLight ? '#b91c1c' : '#f87171';
-        var accent = isLight ? '#000000' : '#ffffff';
-        var dash = {"completeness_pct": 99.0, "finished_total": 587, "missing_total": 6, "trend_delta": -0.3, "trend_text": "0.3 จุด (แย่ลง) — เดือนก่อนหน้า 99.3%", "dept_breakdown": [{"dept": "Surgery", "total": 215, "missing": 3}, {"dept": "Orthopedic", "total": 118, "missing": 3}, {"dept": "E.N.T", "total": 19, "missing": 0}, {"dept": "Gyne-Obs", "total": 99, "missing": 0}, {"dept": "Eye", "total": 136, "missing": 0}], "top_missing_cols": [{"col": "First Dx", "count": 3}, {"col": "Last Dx", "count": 3}, {"col": "Risk", "count": 1}, {"col": "เวลาออกจากห้องผ่าตัด", "count": 1}, {"col": "Aneasthesia", "count": 1}], "as_of": "26/09/2026"};
 
         var visibleRows = rows.filter(function(tr) { return tr.style.display !== 'none'; });
         var cases = visibleRows.map(function(tr) {
@@ -4688,9 +4684,7 @@
         var monthLabel = monthLabels[sel.value] || sel.value;
         var W = 1000, pad = 32;
         var rowH = 56;
-        var deptRows = dash.dept_breakdown.length;
-        var colRows = dash.top_missing_cols.length;
-        var H = 60 + 100 + 90 + 30 + deptRows * 36 + 40 + colRows * 30 + 60 + 60 + Math.max(cases.length, 1) * rowH + 60;
+        var H = 140 + Math.max(cases.length, 1) * rowH + 60;
         var canvas = document.createElement('canvas');
         var scale = 2;
         canvas.width = W * scale;
@@ -4704,106 +4698,11 @@
         var y = pad;
         ctx.fillStyle = text;
         ctx.font = '700 22px -apple-system, "Segoe UI", sans-serif';
-        ctx.fillText('รายงานสรุปทะเบียนผ่าตัด', pad, y + 22);
+        ctx.fillText('รายงานข้อมูลไม่ครบถ้วน', pad, y + 22);
         y += 36;
         ctx.fillStyle = textMuted;
         ctx.font = '400 13px -apple-system, sans-serif';
-        ctx.fillText('เดือน: ' + monthLabel + ' · ส่งออก ' + new Date().toLocaleString('th-TH'), pad, y);
-        y += 30;
-
-        function statCard(x, w, label, value, color) {
-          ctx.strokeStyle = border;
-          ctx.fillStyle = panelBg;
-          ctx.fillRect(x, y, w, 70);
-          ctx.strokeRect(x, y, w, 70);
-          ctx.fillStyle = textMuted;
-          ctx.font = '400 12px -apple-system, sans-serif';
-          ctx.textAlign = 'center';
-          ctx.fillText(label, x + w / 2, y + 24);
-          ctx.fillStyle = color || text;
-          ctx.font = '700 22px -apple-system, sans-serif';
-          ctx.fillText(String(value), x + w / 2, y + 52);
-          ctx.textAlign = 'left';
-        }
-        var statW = (W - pad * 2 - 20) / 3;
-        var pctColor = dash.completeness_pct >= 97 ? ok : (dash.completeness_pct >= 90 ? warn : bad);
-        statCard(pad, statW, '% ความครบถ้วน', dash.completeness_pct + '%', pctColor);
-        statCard(pad + statW + 10, statW, 'เคสทั้งหมด', dash.finished_total, text);
-        statCard(pad + (statW + 10) * 2, statW, 'เคสข้อมูลไม่ครบ', dash.missing_total, text);
-        y += 100;
-
-        ctx.fillStyle = text;
-        ctx.font = '650 15px -apple-system, sans-serif';
-        ctx.fillText('แนวโน้มเทียบเดือนก่อน', pad, y);
-        y += 20;
-        ctx.font = '600 13px -apple-system, sans-serif';
-        ctx.fillStyle = dash.trend_delta > 0 ? ok : (dash.trend_delta < 0 ? bad : textMuted);
-        ctx.fillText(dash.trend_text, pad, y);
-        y += 30;
-
-        ctx.fillStyle = text;
-        ctx.font = '650 15px -apple-system, sans-serif';
-        ctx.fillText('แยกตามแผนก', pad, y);
-        y += 16;
-        var maxDeptTotal = 0;
-        dash.dept_breakdown.forEach(function(d) { if (d.total > maxDeptTotal) maxDeptTotal = d.total; });
-        if (!maxDeptTotal) maxDeptTotal = 1;
-        dash.dept_breakdown.forEach(function(d) {
-          y += 24;
-          ctx.fillStyle = text;
-          ctx.font = '600 13px -apple-system, sans-serif';
-          ctx.fillText(d.dept, pad, y);
-          var trackX = pad + 110, trackW = W - pad * 2 - 110 - 170;
-          ctx.fillStyle = isLight ? '#e4e4e7' : '#1f1f23';
-          ctx.fillRect(trackX, y - 10, trackW, 10);
-          ctx.fillStyle = accent;
-          ctx.globalAlpha = 0.85;
-          ctx.fillRect(trackX, y - 10, trackW * (d.total / maxDeptTotal), 10);
-          ctx.globalAlpha = 1;
-          ctx.font = '400 12px -apple-system, sans-serif';
-          ctx.fillStyle = textMuted;
-          ctx.textAlign = 'right';
-          var missPct = d.total ? Math.round((d.missing / d.total) * 1000) / 10 : 0;
-          ctx.fillText(d.total + ' เคส · ' + d.missing + ' ไม่ครบ (' + missPct + '%)', W - pad, y);
-          ctx.textAlign = 'left';
-        });
-        y += 34;
-
-        ctx.fillStyle = text;
-        ctx.font = '650 15px -apple-system, sans-serif';
-        ctx.fillText('ช่องที่ขาดบ่อยสุด', pad, y);
-        y += 16;
-        var maxColCount = 0;
-        dash.top_missing_cols.forEach(function(c) { if (c.count > maxColCount) maxColCount = c.count; });
-        if (!maxColCount) maxColCount = 1;
-        if (dash.top_missing_cols.length === 0) {
-          y += 20;
-          ctx.fillStyle = ok;
-          ctx.font = '600 13px -apple-system, sans-serif';
-          ctx.fillText('ครบ ✅ ไม่มีช่องขาด', pad, y);
-        } else {
-          dash.top_missing_cols.forEach(function(c) {
-            y += 22;
-            ctx.fillStyle = text;
-            ctx.font = '400 13px -apple-system, sans-serif';
-            ctx.fillText(c.col, pad, y);
-            var trackX = pad + 160, trackW = W - pad * 2 - 160 - 40;
-            ctx.fillStyle = isLight ? '#e4e4e7' : '#1f1f23';
-            ctx.fillRect(trackX, y - 10, trackW, 10);
-            ctx.fillStyle = warn;
-            ctx.fillRect(trackX, y - 10, trackW * (c.count / maxColCount), 10);
-            ctx.fillStyle = textMuted;
-            ctx.font = '600 12px -apple-system, sans-serif';
-            ctx.textAlign = 'right';
-            ctx.fillText(String(c.count), W - pad, y);
-            ctx.textAlign = 'left';
-          });
-        }
-        y += 40;
-
-        ctx.fillStyle = text;
-        ctx.font = '650 15px -apple-system, sans-serif';
-        ctx.fillText('รายการเคสข้อมูลไม่ครบ (' + monthLabel + ')', pad, y);
+        ctx.fillText('เดือน: ' + monthLabel + ' · จำนวน ' + cases.length + ' เคส · ส่งออก ' + new Date().toLocaleString('th-TH'), pad, y);
         y += 30;
 
         if (cases.length === 0) {
@@ -4856,17 +4755,11 @@
             y += rowH;
           });
         }
-        y += 20;
-        ctx.fillStyle = textMuted;
-        ctx.font = '400 11px -apple-system, sans-serif';
-        ctx.textAlign = 'center';
-        ctx.fillText('ระบบติดตามข้อมูลทะเบียนผ่าตัด', W / 2, y);
-        ctx.textAlign = 'left';
 
         canvas.toBlob(function(blob) {
           var a = document.createElement('a');
           a.href = URL.createObjectURL(blob);
-          a.download = 'audit-report-' + (dash.as_of || '').replace(/\//g, '-') + '.png';
+          a.download = 'missing-data-report-' + (sel.value === 'all' ? 'all' : sel.value) + '.png';
           document.body.appendChild(a);
           a.click();
           document.body.removeChild(a);

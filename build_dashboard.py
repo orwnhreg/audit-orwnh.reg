@@ -100,11 +100,6 @@ def build_dashboard(data: dict) -> str:
         word = "ดีขึ้น" if trend_delta_val > 0 else ("แย่ลง" if trend_delta_val < 0 else "เท่าเดิม")
         trend_text = f"{abs(trend_delta_val)} จุด ({word}) — เดือนก่อนหน้า {prev_pct}%"
 
-    all_cases = data.get("all_cases", []) or []
-    month_options = data.get("month_options", []) or []
-    current_month_key = month_options[0][0] if month_options else "all"
-    current_month_cases = [c for c in all_cases if c.get("month_key") == current_month_key]
-
     report_data = {
         "month_label": month_label,
         "gen_time": gen_time,
@@ -116,7 +111,6 @@ def build_dashboard(data: dict) -> str:
         "trend_text": trend_text,
         "dept_breakdown": insights.get("dept_breakdown", []),
         "top_missing_cols": insights.get("top_missing_cols", []),
-        "cases": current_month_cases,
     }
     report_data_json = json.dumps(report_data, ensure_ascii=False)
 
@@ -445,9 +439,7 @@ def build_dashboard(data: dict) -> str:
         var W = 900, pad = 32;
         var deptRows = reportData.dept_breakdown.length;
         var colRows = reportData.top_missing_cols.length;
-        var caseRows = reportData.cases.length;
-        var caseRowH = 44;
-        var H = 300 + deptRows * 36 + colRows * 30 + 120 + 50 + Math.max(caseRows, 1) * caseRowH;
+        var H = 300 + deptRows * 36 + colRows * 30 + 120;
         var canvas = document.createElement('canvas');
         var scale = 2;
         canvas.width = W * scale;
@@ -557,58 +549,6 @@ def build_dashboard(data: dict) -> str:
           }});
         }}
         y += 34;
-        ctx.fillStyle = text;
-        ctx.font = '650 15px -apple-system, sans-serif';
-        ctx.fillText('รายการเคสข้อมูลไม่ครบ (' + reportData.month_label + ')', pad, y);
-        y += 20;
-        if (reportData.cases.length === 0) {{
-          ctx.fillStyle = ok;
-          ctx.font = '600 13px -apple-system, sans-serif';
-          ctx.fillText('ครบ ✅ ไม่มีเคสข้อมูลไม่ครบ', pad, y);
-          y += 20;
-        }} else {{
-          var caseColX = {{ date: pad, hn: pad + 78, name: pad + 148, dept: pad + 330, missing: pad + 420 }};
-          ctx.fillStyle = textMuted;
-          ctx.font = '600 10px -apple-system, sans-serif';
-          ctx.fillText('วันที่', caseColX.date, y);
-          ctx.fillText('HN', caseColX.hn, y);
-          ctx.fillText('ชื่อ', caseColX.name, y);
-          ctx.fillText('แผนก', caseColX.dept, y);
-          ctx.fillText('ข้อมูลที่ขาด', caseColX.missing, y);
-          y += 6;
-          ctx.strokeStyle = border;
-          ctx.beginPath(); ctx.moveTo(pad, y); ctx.lineTo(W - pad, y); ctx.stroke();
-          y += 18;
-          reportData.cases.forEach(function(c) {{
-            var rowTop = y - 12;
-            ctx.fillStyle = panelBg;
-            ctx.fillRect(pad - 8, rowTop, W - pad * 2 + 16, caseRowH - 6);
-            ctx.fillStyle = text;
-            ctx.font = '400 11px -apple-system, sans-serif';
-            ctx.fillText(c.date || '', caseColX.date, y);
-            ctx.fillText(c.hn || '', caseColX.hn, y);
-            ctx.font = '600 11px -apple-system, sans-serif';
-            ctx.fillText((c.name || '').slice(0, 20), caseColX.name, y);
-            ctx.font = '400 11px -apple-system, sans-serif';
-            ctx.fillText(c.dept || '', caseColX.dept, y);
-            var mx = caseColX.missing;
-            (c.missing || []).forEach(function(m) {{
-              var w = ctx.measureText(m).width + 12;
-              ctx.fillStyle = isLight ? 'rgba(180,83,9,0.12)' : 'rgba(251,191,36,0.13)';
-              ctx.fillRect(mx, y - 10, w, 14);
-              ctx.fillStyle = warn;
-              ctx.font = '600 9px -apple-system, sans-serif';
-              ctx.fillText(m, mx + 5, y);
-              mx += w + 4;
-            }});
-            ctx.fillStyle = textMuted;
-            ctx.font = '400 10px -apple-system, sans-serif';
-            var opLine = (c.op || '') + (c.circ ? ' · Circ: ' + c.circ : '');
-            ctx.fillText(opLine.slice(0, 90), caseColX.date, y + 16);
-            y += caseRowH;
-          }});
-        }}
-        y += 20;
         ctx.fillStyle = textMuted;
         ctx.font = '400 11px -apple-system, sans-serif';
         ctx.textAlign = 'center';
