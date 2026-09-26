@@ -370,7 +370,6 @@ def build_dashboard(data: dict) -> str:
     <div class="panel">
       <div class="panel-body">
         <p class="section-title">แยกตามแผนก</p>
-        <p class="section-sub">จำนวนเคส (ความยาวแท่ง) และสัดส่วนข้อมูลไม่ครบ</p>
         {dept_html}
       </div>
     </div>
