@@ -24,9 +24,9 @@ def load_data() -> dict:
         return json.load(f)
 
 
-def render_month_table(cases: list) -> str:
+def render_month_table(cases: list, show_month: bool = False) -> str:
     if not cases:
-        return '<p class="all-clear">ครบ ✅</p>'
+        return '<p class="all-clear" data-empty-msg>ครบ ✅</p>'
 
     rows = []
     for case in cases:
@@ -38,8 +38,9 @@ def render_month_table(cases: list) -> str:
         days_html = f'{esc(days)} วัน' if days is not None else "-"
         circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
         circ_html = "".join(f'<span class="circ-name">{esc(n)}</span>' for n in circ_names)
+        month_key = case.get("month_key", "")
         rows.append(
-            f'''<tr>
+            f'''<tr data-month="{esc(month_key)}">
         <td data-label="วันที่">{esc(case.get("date", ""))}</td>
         <td data-label="HN">{esc(case.get("hn", ""))}</td>
         <td data-label="ชื่อ" class="name-cell">{esc(case.get("name", ""))}</td>
@@ -52,7 +53,7 @@ def render_month_table(cases: list) -> str:
         )
 
     return f'''<div class="table-wrap">
-      <table class="data-table">
+      <table class="data-table" id="allCasesTable">
         <thead>
           <tr>
             <th>วันที่</th>
@@ -69,7 +70,17 @@ def render_month_table(cases: list) -> str:
           {"".join(rows)}
         </tbody>
       </table>
+      <p class="all-clear" id="noCasesMsg" style="display:none">ครบ ✅ ไม่มีเคสไม่ครบในเดือนที่เลือก</p>
     </div>'''
+
+
+def render_month_select(month_options: list) -> str:
+    opts = ['<option value="all" selected>ทั้งหมด</option>']
+    for key, label in month_options:
+        opts.append(f'<option value="{esc(key)}">{esc(label)}</option>')
+    return f'''<select id="monthSelect" class="month-select">
+        {"".join(opts)}
+      </select>'''
 
 
 def render_month_chart(daily: list) -> str:
@@ -110,17 +121,20 @@ def build_html(data: dict) -> str:
     repo = data.get("repo", "")
     month = data.get("month", {}) or {}
     month_label = month.get("label", "")
-    month_total = len(month.get("cases", []))
     month_unfinished = month.get("unfinished", 0)
     unfinished_note = (f'<p class="section-sub warn-sub">เคสยังไม่ลงเวลาเสร็จ {month_unfinished} เคส — นับรวมตอนเช้า</p>'
                        if month_unfinished else "")
     gen_time = datetime.datetime.now().strftime("%H:%M")
     blank_cols = data.get("blank_cols", {}) or {}
 
-    month_cases = month.get("cases", []) or []
-    month_table_html = render_month_table(month_cases)
     month_daily = month.get("daily", []) or []
     month_chart_html = render_month_chart(month_daily)
+
+    all_cases = data.get("all_cases", []) or []
+    month_options = data.get("month_options", []) or []
+    all_cases_total = len(all_cases)
+    table_html = render_month_table(all_cases)
+    month_select_html = render_month_select(month_options)
 
     return f'''<!DOCTYPE html>
 <html lang="th">
@@ -359,6 +373,29 @@ def build_html(data: dict) -> str:
     overflow-x: auto;
   }}
 
+  .filter-row {{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+  }}
+
+  .filter-label {{
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }}
+
+  .month-select {{
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    cursor: pointer;
+  }}
+
   .data-table {{
     width: 100%;
     border-collapse: collapse;
@@ -575,20 +612,24 @@ def build_html(data: dict) -> str:
     <div class="stat-row">
       <div class="stat">
         <p class="stat-label">จำนวนเคสที่ข้อมูลไม่ครบ</p>
-        <p class="stat-value">{esc(month_total)}</p>
+        <p class="stat-value" id="caseCountValue">{esc(all_cases_total)}</p>
       </div>
     </div>
 
     <div class="panel" id="chart">
       <div class="panel-body">
-        <p class="section-sub">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน)</p>
+        <p class="section-sub">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — เดือนนี้</p>
         {month_chart_html}
       </div>
     </div>
 
     <div class="panel" id="cases">
       <div class="panel-body">
-        <div id="month-view-table">{month_table_html}</div>
+        <div class="filter-row">
+          <label for="monthSelect" class="filter-label">เลือกเดือน:</label>
+          {month_select_html}
+        </div>
+        <div id="month-view-table">{table_html}</div>
       </div>
     </div>
 
@@ -608,6 +649,25 @@ def build_html(data: dict) -> str:
         localStorage.setItem('theme', next);
         sync();
       }});
+    }})();
+    (function() {{
+      var sel = document.getElementById('monthSelect');
+      var rows = Array.prototype.slice.call(document.querySelectorAll('#allCasesTable tbody tr'));
+      var noMsg = document.getElementById('noCasesMsg');
+      var countEl = document.getElementById('caseCountValue');
+      function applyFilter() {{
+        var val = sel.value;
+        var visible = 0;
+        rows.forEach(function(tr) {{
+          var show = (val === 'all') || (tr.getAttribute('data-month') === val);
+          tr.style.display = show ? '' : 'none';
+          if (show) visible++;
+        }});
+        noMsg.style.display = visible === 0 ? '' : 'none';
+        countEl.textContent = visible;
+      }}
+      sel.addEventListener('change', applyFilter);
+      applyFilter();
     }})();
   </script>
 </body>

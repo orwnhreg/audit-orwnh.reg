@@ -28,8 +28,7 @@
           "First Dx",
           "Last Dx"
         ],
-        "days_pending": 1,
-        "first_seen": "2026-09-25"
+        "days_pending": 1
       },
       {
         "date": "14/9/2569",
@@ -41,8 +40,7 @@
         "missing": [
           "Risk"
         ],
-        "days_pending": 1,
-        "first_seen": "2026-09-25"
+        "days_pending": 1
       },
       {
         "date": "21/9/2569",
@@ -55,8 +53,7 @@
           "First Dx",
           "Last Dx"
         ],
-        "days_pending": 1,
-        "first_seen": "2026-09-25"
+        "days_pending": 1
       },
       {
         "date": "22/9/2569",
@@ -68,8 +65,7 @@
         "missing": [
           "เวลาออกจากห้องผ่าตัด"
         ],
-        "days_pending": 1,
-        "first_seen": "2026-09-25"
+        "days_pending": 1
       },
       {
         "date": "22/9/2569",
@@ -81,8 +77,7 @@
         "missing": [
           "Aneasthesia"
         ],
-        "days_pending": 1,
-        "first_seen": "2026-09-25"
+        "days_pending": 1
       },
       {
         "date": "23/9/2569",
@@ -95,8 +90,7 @@
           "First Dx",
           "Last Dx"
         ],
-        "days_pending": 1,
-        "first_seen": "2026-09-25"
+        "days_pending": 1
       }
     ],
     "unfinished": 0,
@@ -283,5 +277,7268 @@
     ],
     "prev_completeness_pct": 99.3,
     "trend_delta": -0.3
-  }
+  },
+  "all_cases": [
+    {
+      "date": "1/8/2567",
+      "hn": "6620",
+      "name": "พระพัน ศรีโยหะ",
+      "dept": "Orthopedic",
+      "op": "CRIF with PFNA Lt. Femur",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/8/2567",
+      "hn": "98765",
+      "name": "นางติ้ม ศรีเกษม",
+      "dept": "Orthopedic",
+      "op": "DCL with PDS with PLF L4 - S1",
+      "circ": "นายนายณัฐวุฒิ ทิพย์ทอง ทิพย์ทอง",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "2786",
+      "name": "นางกลิ่นเกษร ก่ำจำปา",
+      "dept": "Orthopedic",
+      "op": "Lt. CTR",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "238083",
+      "name": "นางสาวสมพร เหล่าล้นขาม",
+      "dept": "Orthopedic",
+      "op": "DCL with PDS with PLF L4 - S1",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "174423",
+      "name": "นางอรทัย แสงชัย",
+      "dept": "Orthopedic",
+      "op": "Rt. Bipolar Hemiarthroplasty",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "9670",
+      "name": "นายชัยณรงค์ สัพโส",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "186209",
+      "name": "นางไกรสอน ผาพกา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "31596",
+      "name": "นางเหรียญทอง นามโคตร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Medial Tibia Locking Plate Rt. Tibia",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "23792",
+      "name": "นางจันทร์ ปัญจันทร์สิงห์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Lokcing Plate Rt. Fibular , ORIF with Mini Locking Plate Rt. Medial Malleolar",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/8/2567",
+      "hn": "180206",
+      "name": "นายอนนท์ โพธิ์ทอง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Lateral Tibia Locking Plate Rt. Tibia",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/8/2567",
+      "hn": "110166",
+      "name": "นายคมเพชร คุณสมบัติ",
+      "dept": "Orthopedic",
+      "op": "Arthrotomy Rt. Shoulder",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/8/2567",
+      "hn": "23984",
+      "name": "น.ส.ทิพวรรณ จันทรสิงห์หาญ",
+      "dept": "Orthopedic",
+      "op": "Rt. CTR",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/8/2567",
+      "hn": "33137",
+      "name": "นางทองจันทร์ ศรีรัตน์",
+      "dept": "Orthopedic",
+      "op": "A1 Pullay Release Rt. 3rd Finger",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/8/2567",
+      "hn": "23269",
+      "name": "นางลำพงษ์ ประทุมมัง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/8/2567",
+      "hn": "78587",
+      "name": "นางสมหมาย สิทธิโชติ",
+      "dept": "Orthopedic",
+      "op": "Lt. CTR , A1 Pullay Release Lt. 3rd Finger",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/8/2567",
+      "hn": "240190",
+      "name": "นางสุดารักษ์ เกษเพชร",
+      "dept": "Orthopedic",
+      "op": "ORIF wthi Distal Radius Locking Plate Lt. DER",
+      "circ": "พรชิตา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/8/2567",
+      "hn": "94287",
+      "name": "นางลักษณา พูลสวัสดิ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/8/2567",
+      "hn": "164735",
+      "name": "ด.ช.นันทกาน แดนจันทึก",
+      "dept": "Orthopedic",
+      "op": "CR with AP Slab",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/8/2567",
+      "hn": "240148",
+      "name": "นางจุจิลา กุดวงศ์แก้ว",
+      "dept": "Orthopedic",
+      "op": "Rt. CTR",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/8/2567",
+      "hn": "149689",
+      "name": "นางสีฟอง จูมสุพรรณ์",
+      "dept": "Orthopedic",
+      "op": "DCL with PDS with PLF L2 - S1,Cross Link,HA Bone Graft",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/8/2567",
+      "hn": "240685",
+      "name": "นายศุภกิจ ลุนนา",
+      "dept": "Orthopedic",
+      "op": "Resection Trophi Gout Rt. Ankle",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/8/2567",
+      "hn": "240172",
+      "name": "นายสมบูรณ์ นาวิเศษ",
+      "dept": "Orthopedic",
+      "op": "Ray Amputation Rt. 3rd Toe",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/9/2567",
+      "hn": "240767",
+      "name": "นายวรวรรณ ผุยบัวค้อ",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair tendon Rt. Foot",
+      "circ": "-",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/9/2567",
+      "hn": "240771",
+      "name": "ด.ช.สถาปกรณ์ หอกลาง",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Lt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/9/2567",
+      "hn": "240838",
+      "name": "นายนพพร พรหมอารักษ์",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/9/2567",
+      "hn": "240603",
+      "name": "นายบุญลักษ์ แก้วดี",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement",
+      "circ": "พรชิตา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/9/2567",
+      "hn": "240894",
+      "name": "ด.ช.นภัสพล แสนซ้ง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Small Locking Plate Rt. Tibia",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/9/2567",
+      "hn": "240610",
+      "name": "นางAYEWIN MYANMAR",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,PCD Lt. Knee",
+      "circ": "รัตติยา",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/9/2567",
+      "hn": "82379",
+      "name": "นางสุวรรณหงษ์ เวียงนนท์",
+      "dept": "Orthopedic",
+      "op": "ESI L5 - S1",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/9/2567",
+      "hn": "241255",
+      "name": "นายโชคชัย ชาริชา",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Closed Stump Rt. 3rd Finger",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/9/2567",
+      "hn": "241438",
+      "name": "นางรุ่งแก้ว หมายมั่น",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "40676",
+      "name": "นางจำรัส สุภนัด",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,Repair Tendon,ORIF with K-Wire Fixation Rt. 2nd MTB",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "1529",
+      "name": "นายอำนาจ พิมพะบุตร",
+      "dept": "Orthopedic",
+      "op": "ESI L4-L5",
+      "circ": "รัตติยา",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/10/2567",
+      "hn": "129103",
+      "name": "ด.ช.สงกรานต์ บุตตะ",
+      "dept": "Orthopedic",
+      "op": "Excisional debridement Rt thumb",
+      "circ": "พรชิตา",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/10/2567",
+      "hn": "241711",
+      "name": "ด.ช.รังสิมันตุ์ ลาชัย",
+      "dept": "Orthopedic",
+      "op": "Ray amputation 3nd finger Rt. hand",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/10/2567",
+      "hn": "116112",
+      "name": "นายปัญญา นาอุดม",
+      "dept": "Surgery",
+      "op": "Rt. herniotomy with heniorhaphy with mesh graft",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/10/2567",
+      "hn": "81514",
+      "name": "นางอำนวย เบ้าซุย",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Rt. Fibular",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/10/2567",
+      "hn": "219894",
+      "name": "ด.ช.ทรัพย์เพิ่มพูน โคชขึง",
+      "dept": "Orthopedic",
+      "op": "DB c closed stump at Rt 3nd distal phalanx",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "90053",
+      "name": "นายประยูร พูนทา",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/10/2567",
+      "hn": "122204",
+      "name": "นางดอกไม้ ดิษาภิรมย์",
+      "dept": "Gyne-Obs",
+      "op": "Vaginal hysterectomy c AP repair",
+      "circ": "-",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/10/2567",
+      "hn": "63133",
+      "name": "นางสาววิลัยพร ช่วยตา",
+      "dept": "Gyne-Obs",
+      "op": "TR",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/10/2567",
+      "hn": "241696",
+      "name": "น.ส.รัตนา แง่มสุราช",
+      "dept": "Orthopedic",
+      "op": "Debridement wound at back",
+      "circ": "พรชิตา",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/10/2567",
+      "hn": "41507",
+      "name": "นายบ่อ แก้วมุกดา",
+      "dept": "Eye",
+      "op": "Resuture AC RE",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/10/2567",
+      "hn": "241949",
+      "name": "นางใบ  สืบพันธุ์โพธิ์",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/10/2567",
+      "hn": "18586",
+      "name": "นางหนูพร  แจนอาษา",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/10/2567",
+      "hn": "64750",
+      "name": "นางสาวรจนา จองลีพันธุ์",
+      "dept": "Gyne-Obs",
+      "op": "TAH,Rt.SO,lysis adhesion,Lt. salpigectomy",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/10/2567",
+      "hn": "240849",
+      "name": "นายสันติ พันธุกาง",
+      "dept": "E.N.T",
+      "op": "Rt. Superficail parotidectomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวลาออกจากห้องผ่าตัด",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/10/2567",
+      "hn": "239425",
+      "name": "นางสมใจ ไชยะขิง",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/10/2567",
+      "hn": "242203",
+      "name": "นายศักดา จันทะราช",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "31/10/2567",
+      "hn": "174380",
+      "name": "นางสาวอนงค์ลักษณ์ บุตรสา",
+      "dept": "Orthopedic",
+      "op": "ORIF with K-wire fixation Rt. Index finger,Repair extensor tendon",
+      "circ": "รัตติยา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/11/2567",
+      "hn": "22993",
+      "name": "นายอนุวัฒน์ ศรีตาแสน",
+      "dept": "E.N.T",
+      "op": "Aspiration tonsil",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/11/2567",
+      "hn": "240906",
+      "name": "นายดอกรัก กิ่งแก้ว",
+      "dept": "E.N.T",
+      "op": "Tracheostomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/11/2567",
+      "hn": "108279",
+      "name": "นายเมษ์ทิตย์  พละกรต",
+      "dept": "Surgery",
+      "op": "Excision mass Lt. ankle",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/11/2567",
+      "hn": "122190",
+      "name": "นายบุญมี  แก้วละไล",
+      "dept": "Surgery",
+      "op": "Rt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/11/2567",
+      "hn": "54918",
+      "name": "นางสาวนันทิดา เปื่อยขันธ์",
+      "dept": "Surgery",
+      "op": "Larparoscopic cholecystectomy",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/11/2567",
+      "hn": "228626",
+      "name": "นางพรพรรณ  แดงน้อย",
+      "dept": "Surgery",
+      "op": "Laparoscopic cholecystectomy",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/11/2567",
+      "hn": "242317",
+      "name": "นางจันทร์แจ่่ม  พาดแสง",
+      "dept": "Surgery",
+      "op": "Lt. nephrectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/11/2567",
+      "hn": "18482",
+      "name": "นางดวงจันทร์ มังธานี",
+      "dept": "Eye",
+      "op": "PE with IOL OS power 21.00",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/11/2567",
+      "hn": "240818",
+      "name": "นาง เดือนเพ็ญ แก้วละไร",
+      "dept": "Surgery",
+      "op": "Wide excision Lt. breast",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/11/2567",
+      "hn": "99733",
+      "name": "นางสาวพยอม  ปัดตะกีย์",
+      "dept": "Surgery",
+      "op": "Laparoscopic cholecystectomy",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/11/2567",
+      "hn": "30748",
+      "name": "นางบุญมี ลือชาพูล",
+      "dept": "Gyne-Obs",
+      "op": "TAH with Bilateral salpingo-oophorectomy",
+      "circ": "รัตติยา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/11/2567",
+      "hn": "242392",
+      "name": "นายสุพรรณ สุวรรณไตร",
+      "dept": "Surgery",
+      "op": "Liver biopsy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/11/2567",
+      "hn": "47431",
+      "name": "นายบุญมี  ทองคำภา",
+      "dept": "Eye",
+      "op": "refrom  AC +IC vigamox +IOL position OD",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/11/2567",
+      "hn": "240156",
+      "name": "พระสมพร  ป้องป่าน",
+      "dept": "Surgery",
+      "op": "revised PTBD",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/11/2567",
+      "hn": "104794",
+      "name": "นางอุเนตร มาตะละ",
+      "dept": "Surgery",
+      "op": "fasciotomy RT. foot",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/11/2567",
+      "hn": "78930",
+      "name": "นางนิลาวรรณ พรมสุขันธ์",
+      "dept": "Eye",
+      "op": "ECCE with IOL OS",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/11/2567",
+      "hn": "18462",
+      "name": "นายวุฒิวัตร จดจำ",
+      "dept": "Surgery",
+      "op": "LIFT",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/11/2567",
+      "hn": "197707",
+      "name": "ร.ต.เฉลิม เจียมไพเราะ",
+      "dept": "Eye",
+      "op": "Excision of pterygium LE",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/11/2567",
+      "hn": "75821",
+      "name": "นางวันทนีย์ จันทมาลา",
+      "dept": "Eye",
+      "op": "Excision of pterygium RE",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/11/2567",
+      "hn": "242520",
+      "name": "นางสองสี สุทธิประภา",
+      "dept": "Surgery",
+      "op": "laparoscopic cholecystectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/11/2567",
+      "hn": "60768",
+      "name": "นายคมสัน  บุญคุณ",
+      "dept": "Surgery",
+      "op": "excisional DB at anal",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/11/2567",
+      "hn": "237624",
+      "name": "นางถนอมจิตร  สืบสายพร้อม",
+      "dept": "Surgery",
+      "op": "C-line",
+      "circ": "-",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "74294",
+      "name": "นายชัยรัตน์ แนวตัน",
+      "dept": "Surgery",
+      "op": "Excision Lipoma Rt foreaem,skin tag Lt groin",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "242581",
+      "name": "นางสมปอง ก่ำศรี",
+      "dept": "Surgery",
+      "op": "Incisional Bx. Lt hand",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "60768",
+      "name": "นายคมสัน บุญคุณ",
+      "dept": "Surgery",
+      "op": "Excisional DB",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "242690",
+      "name": "นายสถาพร ไกรพรม",
+      "dept": "Surgery",
+      "op": "Explore lap with cecectomy with Appendectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "242699",
+      "name": "นางสาวณัฏฐยา ศรีหาพงษ์",
+      "dept": "Surgery",
+      "op": "Excision mass",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "48439",
+      "name": "นางสาววิใส มะวงศ์งอย",
+      "dept": "Surgery",
+      "op": "fasciotomy Rt. foot",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/11/2567",
+      "hn": "161694",
+      "name": "นายสมหมาย นีระนันท์",
+      "dept": "Surgery",
+      "op": "Fasciotomy Rt. foot",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/11/2567",
+      "hn": "96834",
+      "name": "นางศศิธร วงศ์ไชยสิทธิ์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/11/2567",
+      "hn": "242008",
+      "name": "น.ส.บุญล้อม ทิลารักษ์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/11/2567",
+      "hn": "176313",
+      "name": "นายบัวลา แจ่มบาล",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/11/2567",
+      "hn": "129272",
+      "name": "นายสมพงษ์ โภคา",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/11/2567",
+      "hn": "182158",
+      "name": "นายรุ่งโรจน์ ภูทองใบ",
+      "dept": "Surgery",
+      "op": "Liver biopsy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/11/2567",
+      "hn": "242681",
+      "name": "นางลม ศรีนาม",
+      "dept": "Surgery",
+      "op": "Explore lap with abdominal wall plicaion",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/11/2567",
+      "hn": "161694",
+      "name": "นายสมหมาย นีระนันท์",
+      "dept": "Surgery",
+      "op": "Fasciotomy Lt. foot",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/11/2567",
+      "hn": "169822",
+      "name": "นายครสวรรค์ นาเตย",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/11/2567",
+      "hn": "242705",
+      "name": "นางปนัดดา งวงคำนาม",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/11/2567",
+      "hn": "99188",
+      "name": "นางบุญมา อ้นจันทร์หอ",
+      "dept": "Surgery",
+      "op": "LAR",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/11/2567",
+      "hn": "12699",
+      "name": "นางต้อย การะเกษ",
+      "dept": "Surgery",
+      "op": "PCD",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/11/2567",
+      "hn": "12699",
+      "name": "นางวิไล มะวงศ์งอย",
+      "dept": "Surgery",
+      "op": "Excisional DB with local flap Rt. foot",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/11/2567",
+      "hn": "67345",
+      "name": "นางสาวนริศรา วงค์แสงจันทร์",
+      "dept": "Surgery",
+      "op": "CNB Lt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "203389",
+      "name": "นายปรีชา ดีโคตร",
+      "dept": "Orthopedic",
+      "op": "Remove Plate and Screw Rt. Fibular",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "229958",
+      "name": "นางรัตติยา คำภาบุตร",
+      "dept": "Surgery",
+      "op": "PCD",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "242004",
+      "name": "นางประเสริฐ ยมพินิจ",
+      "dept": "Surgery",
+      "op": "Lumpectomy Lt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "123282",
+      "name": "นางสาวมานิตา เสนมา",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "242605",
+      "name": "นางปาริชาติ พรมมาโอน",
+      "dept": "Surgery",
+      "op": "Lt. Thyroid lobectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "55544",
+      "name": "นายมนตรี สาริศรี",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "226711",
+      "name": "นายไมตรี วงค์คำแพง",
+      "dept": "Surgery",
+      "op": "Reviese PTBD",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "197474",
+      "name": "นางสาวรัตนา บัวสร้อย",
+      "dept": "Surgery",
+      "op": "CNB Rt. breast",
+      "circ": "-",
+      "missing": [
+        "AN",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "183929",
+      "name": "นางบุษบา ฤทธิ์เสน",
+      "dept": "Surgery",
+      "op": "CNB Lt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "238556",
+      "name": "นางติ๋ว ร่มเกษร์",
+      "dept": "Surgery",
+      "op": "CNB Lt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "100993",
+      "name": "นายปิยะ รัตนะ",
+      "dept": "Surgery",
+      "op": "DB Lt. foot",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "144040",
+      "name": "นายวันชัย แดงสะอาด",
+      "dept": "Surgery",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/11/2567",
+      "hn": "223125",
+      "name": "นายสวาท คำทองสุข",
+      "dept": "Surgery",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "11127",
+      "name": "นางลุน ไชยบุตร",
+      "dept": "Surgery",
+      "op": "Rt. Hemicolectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "69247",
+      "name": "นางเฉลียว ศรีพรมษา",
+      "dept": "Surgery",
+      "op": "Wide Excision Rt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "241181",
+      "name": "น.ส.นันทจักร์ วันเลิศ",
+      "dept": "Surgery",
+      "op": "Wide Excision Rt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "239588",
+      "name": "นางปรารถนา ภาอั้ง",
+      "dept": "Surgery",
+      "op": "Mass resection Rt. shoulder",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "242258",
+      "name": "นางอมรรัตน์ อนรรฆจีระพงศ์",
+      "dept": "Surgery",
+      "op": "Lt. MRM with excision Rt. breast",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "163702",
+      "name": "นายสวัสดิ์ ศรีวิเศษ",
+      "dept": "Surgery",
+      "op": "Rt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "242872",
+      "name": "นายนิพนธ์ สร้อยคำ",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2567",
+      "hn": "112470",
+      "name": "นายเคน พรมบุตร",
+      "dept": "Surgery",
+      "op": "Explore lap with lysis adhesion",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "5606",
+      "name": "นางกุหลาบ อุ่นวงค์",
+      "dept": "Surgery",
+      "op": "Excisional Debridement",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "117707",
+      "name": "นางสิริลักษณ์ ภูผานี",
+      "dept": "Surgery",
+      "op": "Lt. MRM",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "131091",
+      "name": "นายวรเพชร มาตรสุด",
+      "dept": "Surgery",
+      "op": "Rt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "15025",
+      "name": "นายเดชชัย เดชโฮม",
+      "dept": "Surgery",
+      "op": "Excisional Debridement",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "44505",
+      "name": "นางบุญเหลือ บัวคำ",
+      "dept": "Surgery",
+      "op": "Fasciotomy Rt. foot",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "60768",
+      "name": "นายคมสัน บุญคุณ",
+      "dept": "Surgery",
+      "op": "Excisional Debridement",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "242895",
+      "name": "นางคำมี วอทอง",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/11/2567",
+      "hn": "242285",
+      "name": "นางนาง โง่นหงษ์",
+      "dept": "Surgery",
+      "op": "PCD",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/11/2567",
+      "hn": "130261",
+      "name": "นายเลื่อน หุนติราช",
+      "dept": "Surgery",
+      "op": "Appendectomy with cecectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/11/2567",
+      "hn": "56180",
+      "name": "นางนารี คำเกิด",
+      "dept": "Surgery",
+      "op": "Appendectomy with wadge cecectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/11/2567",
+      "hn": "200168",
+      "name": "นายอุทัย ถาบุตร",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/11/2567",
+      "hn": "191443",
+      "name": "นางอรพิน เพลิศแก้ว",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/11/2567",
+      "hn": "242277",
+      "name": "นายทอง มั่งมูล",
+      "dept": "Surgery",
+      "op": "Liver biopsy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "25/11/2567",
+      "hn": "242942",
+      "name": "นายทองทิพย์ เชื้อวังคำ",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/11/2567",
+      "hn": "167620",
+      "name": "นางสาวจันดารัตน์  เกษมศิลป์",
+      "dept": "Surgery",
+      "op": "excision mass Rt axillary",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/11/2567",
+      "hn": "242417",
+      "name": "นางจินตนา  สมทอง",
+      "dept": "E.N.T",
+      "op": "Incision and drainage Rt. neck",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/11/2567",
+      "hn": "243055",
+      "name": "นายเมิน คญาหาด",
+      "dept": "Surgery",
+      "op": "fasciotomy Rt. foot",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Type"
+      ],
+      "month_key": "2567-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/12/2567",
+      "hn": "216203",
+      "name": "ด.ญ.ภิญญพัชญ์ สายสิม",
+      "dept": "Surgery",
+      "op": "Debridement Rt. hand",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "44601",
+      "name": "นางลาวัน  คำสิงห์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Type",
+        "Risk"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "241381",
+      "name": "นางสำเนียง  อาษาพนม",
+      "dept": "Surgery",
+      "op": "RT.ANL",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "243119",
+      "name": "นายสมเดช  ขอบนาดี",
+      "dept": "Surgery",
+      "op": "Rt.herniotomy with herniorhaphy with mesh",
+      "circ": "-",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "2429533",
+      "name": "นายเกริกฟ้า บุตรละคร",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "243132",
+      "name": "นางสาวเตือนใจ อุปทุม",
+      "dept": "Surgery",
+      "op": "Excision at back",
+      "circ": "-",
+      "missing": [
+        "AN",
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "243140",
+      "name": "ด.ญ.สิริกัลยา แฝงพงศ์",
+      "dept": "Surgery",
+      "op": "Excision at sclap",
+      "circ": "-",
+      "missing": [
+        "AN",
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "24272",
+      "name": "น.ส.หทัยชนก ส่องแสง",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "121004",
+      "name": "นายสุรชัย จันขัน",
+      "dept": "Surgery",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2567",
+      "hn": "243140",
+      "name": "ด.ญ.สิริกัลยา แฝงพงค์",
+      "dept": "Surgery",
+      "op": "Excision mass at scalp",
+      "circ": "-",
+      "missing": [
+        "AN",
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/12/2567",
+      "hn": "31214",
+      "name": "นางฉลวย บุตรสา",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "227461",
+      "name": "นางทองดี สาสิงห์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "242201",
+      "name": "น.ส.สุภาภรณ์ หินกอง",
+      "dept": "",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "236999",
+      "name": "นายอานุ ก้อนแพง",
+      "dept": "Surgery",
+      "op": "LC coverse OC",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "119235",
+      "name": "นางสาวภัทราภรณ์ พลหว้า",
+      "dept": "",
+      "op": "Lt. lumpectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "95518",
+      "name": "นายสมชาย นาสิงห์สอน",
+      "dept": "Surgery",
+      "op": "EDB with Remove FB Lt. index finger",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "229866",
+      "name": "นายสว่างใจ ต้นจ่า",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "120579",
+      "name": "นายธนวัฒน์ หันจางสิทธิ์",
+      "dept": "",
+      "op": "Explore wound with stop bleeding Rt. hand",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "242904",
+      "name": "นายอิศเรศ แก้วพงษ์",
+      "dept": "",
+      "op": "Explore lap with vaccum dressing with abdominal toilet",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2567",
+      "hn": "134337",
+      "name": "ด.ช.ปัญญากร ดอกษร",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "12357",
+      "name": "นางคำภู ลียง",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "47387",
+      "name": "นางสาววิไลวรรณ คะแก้ว",
+      "dept": "",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "24660",
+      "name": "นายใจ ช้างแก้ว",
+      "dept": "",
+      "op": "Explore lap with lysis adhesion",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "243207",
+      "name": "นางกีสา วงค์กะโซ่",
+      "dept": "",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "243199",
+      "name": "นายสัญญา อุดมรักษ์",
+      "dept": "",
+      "op": "LC with Liver bx.",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "243201",
+      "name": "นางสุภาวรรณ โคตะมา",
+      "dept": "",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "160341",
+      "name": "นายเหลือง บุญเลิศ",
+      "dept": "",
+      "op": "ERCP",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "18586",
+      "name": "นางหนูพร แจนอาษา",
+      "dept": "",
+      "op": "ERCP",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "237907",
+      "name": "น.ส.รุจิรา ขันคุ้ม",
+      "dept": "",
+      "op": "ERCP with remove stent",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "241247",
+      "name": "นางทองมา พุทสาลา",
+      "dept": "",
+      "op": "ERCP (fail)",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "243196",
+      "name": "นางเรณู ศรีสว่าง",
+      "dept": "",
+      "op": "ERCP with Metalic stent",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "240439",
+      "name": "นายอาทิตย์ กุลยะ",
+      "dept": "",
+      "op": "Revise PTBD",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "30839",
+      "name": "นางเอ็ม อุ่นเบ้า",
+      "dept": "",
+      "op": "PTBD",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "51441",
+      "name": "นายประสิทธิ์ ไชยศรีหา",
+      "dept": "",
+      "op": "PTBD,PTBS",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "240725",
+      "name": "นายสมคิด เดชโฮม",
+      "dept": "",
+      "op": "Reviese PTBD",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "26563",
+      "name": "นางหนูสิน พันธมา",
+      "dept": "",
+      "op": "Fasciotomy Rt. hand",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/12/2567",
+      "hn": "119516",
+      "name": "นายจันทะลัย บุญมาก",
+      "dept": "",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "130914",
+      "name": "นายวุฒิชัย สวัสดี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "พรชิตา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "242904",
+      "name": "นายอิศเรศ แก้วพงษ์",
+      "dept": "Surgery",
+      "op": "Explore lap with vaccum dressing",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "242285",
+      "name": "นางนาง โง่นหงษ์",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "83303",
+      "name": "นาง วันทอง แสงวิโคตร",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "50780",
+      "name": "นาง ขาว ช่วยจันทร์ดี",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "238306",
+      "name": "นาง สมบัติ ขวาวงศ์ศา",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "243217",
+      "name": "นาง นุช ประสงค์ดี",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "243160",
+      "name": "นาย วสันต์ วังใจ",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "242559",
+      "name": "นาย ปรีดา บุญชาญ",
+      "dept": "Surgery",
+      "op": "DB Rt.Thigh",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/12/2567",
+      "hn": "7555",
+      "name": "นาย ชาญชัย วสุรีย์",
+      "dept": "Surgery",
+      "op": "ERCP with plastic stent",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/12/2567",
+      "hn": "206473",
+      "name": "ด.ช.ชญานนท์ ศรีชมภู",
+      "dept": "E.N.T",
+      "op": "I&D Lt ear",
+      "circ": "พรชิตา",
+      "missing": [
+        "Type"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/12/2567",
+      "hn": "5142",
+      "name": "นางสมภรณ์ สุนารักษ์",
+      "dept": "E.N.T",
+      "op": "Rt. Thyroid lobectomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/12/2567",
+      "hn": "18394",
+      "name": "นาย ทวี ร้องขาน",
+      "dept": "Surgery",
+      "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/12/2567",
+      "hn": "237907",
+      "name": "นางสาว รุจิมา ขันคุ้ม",
+      "dept": "Surgery",
+      "op": "ERCP with plastic stent",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/12/2567",
+      "hn": "243246",
+      "name": "นายสมยงค์ ปาระพิมพ์",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/12/2567",
+      "hn": "242904",
+      "name": "นาย อิมเรศ แก้วพงษ์",
+      "dept": "Surgery",
+      "op": "EL with vacuum Dissing with partial closue suture",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/12/2567",
+      "hn": "77727",
+      "name": "นาย สมาน แสนอุบล",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "12739",
+      "name": "นายไพศาล ทิพย์ทอง",
+      "dept": "Surgery",
+      "op": "Excision Mass Lt. head",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "68026",
+      "name": "นาง ประมวลศิลป์ สิทธิชัย",
+      "dept": "Surgery",
+      "op": "CNB Lt. breast",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "55310",
+      "name": "นาย อุดม ศรีน้อย",
+      "dept": "Surgery",
+      "op": "AVF",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "243293",
+      "name": "นางสาว เตือนใจ ทะทำมัง",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "194591",
+      "name": "นาง พรสวรรค์ บุญแฮด",
+      "dept": "Surgery",
+      "op": "Lumpectomy Rt. breast",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "243292",
+      "name": "นางสาว สุพรรณษา กงพาน",
+      "dept": "Surgery",
+      "op": "Lumpectomy Lt. breast",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "163999",
+      "name": "นาย ประสิทธิ์ ทาสีลา",
+      "dept": "Surgery",
+      "op": "Revised colostomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "243326",
+      "name": "นางสาว วรัญญา จันทะเนตร",
+      "dept": "Surgery",
+      "op": "Excision Lt. chest",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "242285",
+      "name": "นาง นาง โง่นหงษ์",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "9137",
+      "name": "นาง พวงแก้ว สุทาศิริ",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "42722",
+      "name": "นางสาว สุธิดา ไฝทาคำ",
+      "dept": "Surgery",
+      "op": "Wide Excision Rt. breast",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "243323",
+      "name": "นาย ศุภชัย เหล่าทองสาร",
+      "dept": "Surgery",
+      "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "27248",
+      "name": "นาย อำคา",
+      "dept": "Surgery",
+      "op": "LC conven OC",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "43597",
+      "name": "นาง มณีจันทร์ สีโย",
+      "dept": "Surgery",
+      "op": "CNB Rt. breast",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "243000",
+      "name": "นาย ทิว พจนา",
+      "dept": "Surgery",
+      "op": "Excision mass Rt. Head",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "115613",
+      "name": "พระสีทา บัวพุธ",
+      "dept": "Surgery",
+      "op": "Open Hernia Lt. with mash graft",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "7783",
+      "name": "นาย สมยศ ภูมรินทร์",
+      "dept": "Surgery",
+      "op": "EDB Rt. leg",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "243055",
+      "name": "นายเมิน คณาฮาด",
+      "dept": "Surgery",
+      "op": "Sutuer wound Rt. foot",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "155966",
+      "name": "นางบุุญเพ็ง สุพร",
+      "dept": "Surgery",
+      "op": "",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Operation",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "65272",
+      "name": "นายปัณฑิต จีลารักษ์",
+      "dept": "Surgery",
+      "op": "Fsaitomy Rt.hand",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "225938",
+      "name": "นางอุ่นใจ พรมสุริย์",
+      "dept": "Surgery",
+      "op": "่่่DB Rt big toe",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/12/2567",
+      "hn": "243377",
+      "name": "นางปันนา วังสะดี",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "191941",
+      "name": "นางอภัย เหง้าละคร",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "243359",
+      "name": "นางเทียมใจ สายสุ้ย",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "243350",
+      "name": "นางสุดใจ กงบาน",
+      "dept": "Surgery",
+      "op": "Livev BX",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "22656",
+      "name": "นางจันทร์เพ็ญ ภูจักรเพชร",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "918",
+      "name": "นางวิจิตร แขกวันวงค์",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "98423",
+      "name": "นายณัฐชัย ปานโพธิ์",
+      "dept": "Surgery",
+      "op": "DB in anal",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "243354",
+      "name": "นายนิวัฒน์ นาชิน",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/12/2567",
+      "hn": "242904",
+      "name": "นายอิศเรศ แก้วพงษ์",
+      "dept": "Surgery",
+      "op": "EL with change with closed abdomen",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/12/2567",
+      "hn": "207219",
+      "name": "นายพานทอง สิมมาโคตร",
+      "dept": "E.N.T",
+      "op": "Intraoral Incision and Drainage",
+      "circ": "พรชิตา",
+      "missing": [
+        "Type"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/12/2567",
+      "hn": "243406",
+      "name": "นายแอ สันประภา",
+      "dept": "Surgery",
+      "op": "Scrub burn Lt leg",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/12/2567",
+      "hn": "243911",
+      "name": "นางคำ โคตรศรี",
+      "dept": "Surgery",
+      "op": "Sigmoidectomy end to end anastomosis",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/12/2567",
+      "hn": "242904",
+      "name": "นายอิศเรศ แก้วพงษ์",
+      "dept": "Surgery",
+      "op": "EL with change with closed abdomen",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/12/2567",
+      "hn": "42578",
+      "name": "นางวิชญาดา พรหมจักร",
+      "dept": "Surgery",
+      "op": "Lumpectomy Lt. shoulder",
+      "circ": "-",
+      "missing": [
+        "AN",
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/12/2567",
+      "hn": "174305",
+      "name": "นายมี นิยม",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/12/2567",
+      "hn": "176460",
+      "name": "นางสาวน้ำฝน คันชัยสอน",
+      "dept": "Surgery",
+      "op": "C line",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/12/2567",
+      "hn": "95698",
+      "name": "นางพรหมภัสสร พิรานันท์กุลกร",
+      "dept": "Surgery",
+      "op": "Explore laparotomy with total spleectomy withhepatic packing",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/12/2567",
+      "hn": "37845",
+      "name": "นางทองดี แก้วกันหา",
+      "dept": "Orthopedic",
+      "op": "A1 Pullay Release Lt. 3rd Finger",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/12/2567",
+      "hn": "22476",
+      "name": "นางสาวจุฑาทิพย์ สุนารักษ์",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/12/2567",
+      "hn": "243491",
+      "name": "นายศรายุธ วาลับ",
+      "dept": "Surgery",
+      "op": "Explore wound Lt. leg c remove bullet",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/12/2567",
+      "hn": "35352",
+      "name": "นายสำราญ อนุสนธิ์",
+      "dept": "Surgery",
+      "op": "EDB anal",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/12/2567",
+      "hn": "79205",
+      "name": "นางคำศรี รอบคอบ",
+      "dept": "Surgery",
+      "op": "AVF Rt. Forarm",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/12/2567",
+      "hn": "197734",
+      "name": "ด.ช.อภิวัฒน์ เชื้อวังคำ",
+      "dept": "E.N.T",
+      "op": "Removal of intraluminal foreign body from ear without incision",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/12/2567",
+      "hn": "221047",
+      "name": "นายปัญญาพล ชาวหา",
+      "dept": "Surgery",
+      "op": "Exploratory laparotomy c lysis adhesion c appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/12/2567",
+      "hn": "119821",
+      "name": "นายอภิชัย ธุระเทศ",
+      "dept": "Surgery",
+      "op": "Rectal exam",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/12/2567",
+      "hn": "62209",
+      "name": "นางสาวเดือนเพ็ญ สิทธิชัย",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Type",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/12/2567",
+      "hn": "56730",
+      "name": "นางศิริจิตร ฮามวงศ์",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/12/2567",
+      "hn": "182551",
+      "name": "ด.ช.พงศ์ภัท ก่ำสี",
+      "dept": "Surgery",
+      "op": "Mass resection,Lt.thigh",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/12/2567",
+      "hn": "16831",
+      "name": "ด.ญ.ณัฎฐ์ชยา ทุมปัดชา",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/12/2567",
+      "hn": "218283",
+      "name": "นางสียนต์  สว่างเนตร",
+      "dept": "Surgery",
+      "op": "Ray amputation Rt. 4-5 th toe",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/12/2567",
+      "hn": "122078",
+      "name": "พระธวัฒน์ชัย จันทร์เปล่ง",
+      "dept": "Surgery",
+      "op": "Excisional Debridement",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/12/2567",
+      "hn": "243672",
+      "name": "นางสาวจุฬามณี  ทองแก้ว",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/12/2567",
+      "hn": "67345",
+      "name": "นางสาวนริศรา วงค์แสงจันทร์",
+      "dept": "Surgery",
+      "op": "Wide Excision Lt. breast",
+      "circ": "พรชิตา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/12/2567",
+      "hn": "243756",
+      "name": "นางสาวสุดารัตน์  พ่อนามแดง",
+      "dept": "Gyne-Obs",
+      "op": "removal placenta c perineorrhaphy c vaginal packing swab 1ชิ้น",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/12/2567",
+      "hn": "243704",
+      "name": "นางสังเวียน จันทร์แก้ว",
+      "dept": "Orthopedic",
+      "op": "Open bone biopsy Lt. tibia",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/12/2567",
+      "hn": "221208",
+      "name": "นายอุดม วงศ์โยธา",
+      "dept": "Surgery",
+      "op": "Fasciotomy Lt. foot",
+      "circ": "-",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Wound Type",
+        "Aneasthesia"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/1/2568",
+      "hn": "203232",
+      "name": "นางสาวชนิตา รัตนทองสุข",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "รัตติยา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/1/2568",
+      "hn": "243475",
+      "name": "นางบุปผา  การช่วง",
+      "dept": "Surgery",
+      "op": "CNB Lt. breast",
+      "circ": "รัตติยา",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/1/2568",
+      "hn": "69349",
+      "name": "นายมานิตย์ มีเหมือน",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/1/2568",
+      "hn": "243295",
+      "name": "นาย เกียรติศักดิ์ ภู่ประกิล",
+      "dept": "Surgery",
+      "op": "LN Lt. Groin",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Aneasthesia"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/1/2568",
+      "hn": "31287",
+      "name": "นาย สมาน เชื้อวังคำ",
+      "dept": "Surgery",
+      "op": "Implantation Catheter",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Aneasthesia"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/1/2568",
+      "hn": "239547",
+      "name": "นางสาว เมธาณี บุญศิริ",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Aneasthesia"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/1/2568",
+      "hn": "145010",
+      "name": "นายบุญชู ธงอาษา",
+      "dept": "Surgery",
+      "op": "excisional DB Lt. foot",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/1/2568",
+      "hn": "22573819868",
+      "name": "นางอุ่นใจ พรมสุริย์",
+      "dept": "Surgery",
+      "op": "Ray Amputation Rt. 1st Toe",
+      "circ": "-",
+      "missing": [
+        "AN",
+        "สิทธิ์",
+        "First Dx",
+        "Last Dx",
+        "Risk",
+        "Aneasthesia"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/1/2568",
+      "hn": "244097",
+      "name": "นายหนูพวน ไพรพฤกษ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Long PFNA Rt. Femur,ORIF with Proximal Humerus Locking Plate Lt. Humerus",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวลาออกจากห้องผ่าตัด"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/1/2568",
+      "hn": "244377",
+      "name": "นายสัมชัย ระดาฤทธิ์",
+      "dept": "Surgery",
+      "op": "Explore lap ,with Lysis adhesion,with drainage",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/1/2568",
+      "hn": "155",
+      "name": "นางหนูเพียร พรมม่วง",
+      "dept": "Eye",
+      "op": "PE with IOL OD Power lens,Anterior vitrectomy",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/1/2568",
+      "hn": "240948",
+      "name": "นางทิพไพวัลย์ จันทะศักดิ์",
+      "dept": "Eye",
+      "op": "PE with IOL OD Power lens",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/1/2568",
+      "hn": "10019",
+      "name": "นางทองบาง แดนธานี",
+      "dept": "Eye",
+      "op": "PE with IOL OD Power lens",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/1/2568",
+      "hn": "25574",
+      "name": "นางกฤษณา อินลี",
+      "dept": "Eye",
+      "op": "PE with IOL OS Power lens",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/1/2568",
+      "hn": "8393",
+      "name": "นายสุริยันต์ ทิพย์หาอินทร์",
+      "dept": "Eye",
+      "op": "PE with IOL OD Power lens",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/1/2568",
+      "hn": "244446",
+      "name": "นางสาวบุษปวัน สนอุทา",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR,Rt.salpingectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/1/2568",
+      "hn": "155",
+      "name": "นางหนูเพียร พรมม่วง",
+      "dept": "Eye",
+      "op": "PPV with fragmatome RE",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/1/2568",
+      "hn": "220410",
+      "name": "ร.ต.ท.นำพล จันทรัตน์",
+      "dept": "Surgery",
+      "op": "Tumor resection Rt. forearm",
+      "circ": "รัตติยา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/1/2568",
+      "hn": "241867",
+      "name": "นางใสว ธงชัย",
+      "dept": "Eye",
+      "op": "retained cortex material left eye",
+      "circ": "น.ส.พรพิมล บุญครอง, พรชิตา",
+      "missing": [
+        "First Dx"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "31/1/2568",
+      "hn": "66011",
+      "name": "นายวีระศักดิ์ อาจทุมมา",
+      "dept": "Surgery",
+      "op": "Lt Herniotomy with Herniorhaphy",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "31/1/2568",
+      "hn": "244672",
+      "name": "ด.ช.ธนภูมิ จันมาลา",
+      "dept": "Orthopedic",
+      "op": "CRIF with K wire Fixation with LLS",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/2/2568",
+      "hn": "244791",
+      "name": "นายนเรศ  น้อยวิบูลย์",
+      "dept": "Surgery",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/2/2568",
+      "hn": "15742",
+      "name": "นางหวานใจ  ธรรมบุตร",
+      "dept": "Eye",
+      "op": "DCR c stent RE/GA",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/2/2568",
+      "hn": "225267",
+      "name": "นายปองปรีดา อ่อนสา",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/2/2568",
+      "hn": "218836",
+      "name": "นางบริการ  กุลภา",
+      "dept": "Surgery",
+      "op": "Explor lap with Rt.SO",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/2/2568",
+      "hn": "245409",
+      "name": "นางหนูศรี เสือคำจันทร์",
+      "dept": "Orthopedic",
+      "op": "ORIF with philos plate at Lt. humerus",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/2/2568",
+      "hn": "101431",
+      "name": "นางละเอียด แสนแก้ว",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx",
+        "Aneasthesia"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/3/2568",
+      "hn": "179710",
+      "name": "นางสาวแพรวนภา พรมวงศ์ษา",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "พรชิตา",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/3/2568",
+      "hn": "59985",
+      "name": "นางสาวเยาวภา บุญไสย",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "-",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/3/2568",
+      "hn": "229029",
+      "name": "นายไพบูรณ์ มูลดวง",
+      "dept": "Surgery",
+      "op": "Ray amputation Lt. foot",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/3/2568",
+      "hn": "245564",
+      "name": "นายสันดร  ไชยดวง",
+      "dept": "Surgery",
+      "op": "Tumor resection",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/3/2568",
+      "hn": "135425",
+      "name": "นางบัวผัน ชื่นตา",
+      "dept": "Eye",
+      "op": "RE c IOL c  iris retractor",
+      "circ": "น.ส.สุภาภรณ์ พรหมศิริ, น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/3/2568",
+      "hn": "129137",
+      "name": "นายณรงค์ สมสะอาด",
+      "dept": "Orthopedic",
+      "op": "Lisfranc Joint Amputation Rt. Foot",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/3/2568",
+      "hn": "37761",
+      "name": "นายเตียง ปังอุทา",
+      "dept": "Orthopedic",
+      "op": "Rt. CTR",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/3/2568",
+      "hn": "176330",
+      "name": "นางพิสเตียม รูปสอาด",
+      "dept": "Eye",
+      "op": "PE c IOL c 25GPPV c MP c ILMP c FAX c SF6 LE",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/3/2568",
+      "hn": "245364",
+      "name": "นางสาวรัตณาพร ระวันสุ",
+      "dept": "Eye",
+      "op": "PE c IOL 25GPPV c MP c ILMP c FAX c EDL c SOL c IVT avastin c Bimanual vitrectomy LE/GA",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/3/2568",
+      "hn": "245684",
+      "name": "นายไพฑูรย์ ทองบ้านทุ่ม",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/3/2568",
+      "hn": "101467",
+      "name": "นายสมร มีเหมือน",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/3/2568",
+      "hn": "15482",
+      "name": "นางอัมรา ยศทะราช",
+      "dept": "Eye",
+      "op": "Partial remove oil left eye",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/3/2568",
+      "hn": "244047",
+      "name": "นายธนกฤติ อินทรพานิชย์",
+      "dept": "Surgery",
+      "op": "mass resection Rt neck",
+      "circ": "พรชิตา",
+      "missing": [
+        "First Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/3/2568",
+      "hn": "239168",
+      "name": "นางปักปิน บุษมงคล",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/3/2568",
+      "hn": "188251",
+      "name": "นายธวัชชัย มูลแมง",
+      "dept": "Surgery",
+      "op": "Excisional Debridement",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/3/2568",
+      "hn": "101829",
+      "name": "นางพรนภา มาละอินทร์",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/3/2568",
+      "hn": "246272",
+      "name": "น.ส.ปรียานุช ศรีสมัย",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/3/2568",
+      "hn": "46245",
+      "name": "นางกัลยา  กะนะฮาด",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/3/2568",
+      "hn": "69604",
+      "name": "นางพรรณิภา  ฝาวัง",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/3/2568",
+      "hn": "135775",
+      "name": "นายณัฐวุฒิ ฉ่ำบุตร",
+      "dept": "Orthopedic",
+      "op": "Skeleton Traction",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/4/2568",
+      "hn": "246103",
+      "name": "นายประถมพร มะโนสิม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Calcaneus Locking Plate Lt. Calcaneus",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/4/2568",
+      "hn": "22078",
+      "name": "นายไกรสร แสงนารายณ์",
+      "dept": "Orthopedic",
+      "op": "Systemetic DB ,ORIF with K-Wire Fixation PP Rt. 2md Toe, MP Rt. 3rd Toe,Repair EHL Rt. 1st Toe, EDL Rt. 2nd Toe",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/4/2568",
+      "hn": "246160",
+      "name": "นายชู บุพศิริ",
+      "dept": "Surgery",
+      "op": "Bilateral Herniotomy",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/4/2568",
+      "hn": "159585",
+      "name": "ส.อ.สุนทร ป้องคำสิงห์",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "พรชิตา",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/4/2568",
+      "hn": "166115",
+      "name": "นายมนตรี  พรหมพิทักษ์",
+      "dept": "Surgery",
+      "op": "excision at head",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/4/2568",
+      "hn": "245842",
+      "name": "น.ส.กุลมณี คำสีทา",
+      "dept": "Surgery",
+      "op": "CNB + FNA Rt.breast",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/4/2568",
+      "hn": "246521",
+      "name": "นายมนตรี วิทยภาพ",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/4/2568",
+      "hn": "28763",
+      "name": "นางสาววาสนา อินทราแสง",
+      "dept": "Gyne-Obs",
+      "op": "Tubal Resection (TR)",
+      "circ": "-",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/4/2568",
+      "hn": "241906",
+      "name": "นายเรืองฤทธิ์  จันมาลา",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/4/2568",
+      "hn": "196596",
+      "name": "นายสมบัติ  มามิมิน",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/4/2568",
+      "hn": "180886",
+      "name": "นางอังษณา ผาใต้",
+      "dept": "Surgery",
+      "op": "Wide Excision Rt. breast",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/4/2568",
+      "hn": "42246",
+      "name": "นางวราคม เดชทองทิพย์",
+      "dept": "Surgery",
+      "op": "excision nevus at Rt.frank,atRt.neck,Rt.breast",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/4/2568",
+      "hn": "106162",
+      "name": "นายดนัย งามวิทยานนท์",
+      "dept": "Surgery",
+      "op": "excision cyst Rt face",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/4/2568",
+      "hn": "131772",
+      "name": "นางสาวนารี สุริยะ",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/4/2568",
+      "hn": "38525",
+      "name": "นางอุบล ชารีงาม",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/4/2568",
+      "hn": "246827",
+      "name": "นางรสิกา มาศงามเมือง",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/4/2568",
+      "hn": "247182",
+      "name": "นายจารุวัฒน์ วงเวียน",
+      "dept": "Surgery",
+      "op": "Rt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "25/4/2568",
+      "hn": "24500",
+      "name": "นางเอื้อมพร ใบธรรม",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/4/2568",
+      "hn": "211804",
+      "name": "นางทองคำ  เจริญนิตย์",
+      "dept": "E.N.T",
+      "op": "Lt. THyroid lobectomy",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/5/2568",
+      "hn": "39025",
+      "name": "นางจับใจ นามวุฒิ",
+      "dept": "Surgery",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/5/2568",
+      "hn": "248109",
+      "name": "ด.ญ.พิมพ์พิศา  โคตะคำ",
+      "dept": "Orthopedic",
+      "op": "CR c K-wire kixation Rt. supracondylar",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/5/2568",
+      "hn": "248218",
+      "name": "ด.ช.อิฐธิพล มุ่งมาตร",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/5/2568",
+      "hn": "6884",
+      "name": "นางตุนาง ดาวงค์",
+      "dept": "Surgery",
+      "op": "Debridement",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/5/2568",
+      "hn": "190769",
+      "name": "นายธนพล ประเคนกะชา",
+      "dept": "Orthopedic",
+      "op": "DB with k wire fixation 2nd Lt. toe",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/5/2568",
+      "hn": "248065",
+      "name": "นางสุธิมา กุลสุวรรณ",
+      "dept": "Gyne-Obs",
+      "op": "Interval TR",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/5/2568",
+      "hn": "247148",
+      "name": "นางลินทอน วัชรินทร์",
+      "dept": "Eye",
+      "op": "23GPPV c FAX c EDL c SF6+/- C3F8 LE",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง, น.ส.อารียา มัตตะราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/5/2568",
+      "hn": "138790",
+      "name": "นางรจนา ใบดี",
+      "dept": "Surgery",
+      "op": "CNB Rt. breast",
+      "circ": "รัตติยา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/5/2568",
+      "hn": "248809",
+      "name": "นางละมัย อภิบาล",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini LCP 2nd 5th Rt.MCB",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/5/2568",
+      "hn": "95891",
+      "name": "นายอนันต์ อาจดวงดี",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวลาออกจากห้องผ่าตัด"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/6/2568",
+      "hn": "29503",
+      "name": "นางสาวรัตนาพร อาจคำพันธ์",
+      "dept": "Gyne-Obs",
+      "op": "Tubal Resection (TR)",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Risk",
+        "Aneasthesia"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/6/2568",
+      "hn": "240652",
+      "name": "นางบุญยู้ คนไว",
+      "dept": "E.N.T",
+      "op": "Rt. Thyroid lobectomy",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/6/2568",
+      "hn": "6402",
+      "name": "นายโสดา มานะดา",
+      "dept": "Surgery",
+      "op": "Protective loop transverse colostomy",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/6/2568",
+      "hn": "249366",
+      "name": "นางวัฒนา พ่ออามาตย์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/6/2568",
+      "hn": "118369",
+      "name": "นายธนูศิลป์ ยืนสุข",
+      "dept": "Surgery",
+      "op": "implantation catheter",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/6/2568",
+      "hn": "106047",
+      "name": "นายกษิดิ์เดช เสาวโค",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/6/2568",
+      "hn": "249679",
+      "name": "นางอินกอง ไชยตะมาตย์",
+      "dept": "Eye",
+      "op": "Tab vitreous anterior chmaber paracenthesis c IVT fortum + vanco full dose + intracameral vigamox RE",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์, น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/6/2568",
+      "hn": "249757",
+      "name": "นายอินทร์ จันทร์สุข",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/6/2568",
+      "hn": "5181",
+      "name": "นางอ่อนจิตร  โพธิ์ศรี",
+      "dept": "Surgery",
+      "op": "EDB Lt. leg",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/6/2568",
+      "hn": "249739",
+      "name": "นายบุญน้อย โคกขี้เหล็ก",
+      "dept": "Orthopedic",
+      "op": "ORIF c mini LCP (RW)at 1-3 lisfranc c K-wire at 4-5 lisfranc joint c Flu at Lt Foot",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/6/2568",
+      "hn": "249802",
+      "name": "ด.ญ.กชกร วงษ์สุวรรณ",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/7/2568",
+      "hn": "44317",
+      "name": "นายขันธ์ชัย  แก้วลอดหล้า",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/7/2568",
+      "hn": "249869",
+      "name": "นางกองเหรียญ สิงห์ซิว",
+      "dept": "Eye",
+      "op": "Excision Pterygium with conjunctiva graft LE",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/7/2568",
+      "hn": "15359",
+      "name": "นายสวาท บัวสาย",
+      "dept": "Eye",
+      "op": "",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง, น.ส.วิภาวรรณ ไชโย, น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Operation"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/7/2568",
+      "hn": "246008",
+      "name": "น.ส.นวลอนงค์ อ่อนก้านตรง",
+      "dept": "E.N.T",
+      "op": "Rt. Thyroid lobectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/7/2568",
+      "hn": "49280",
+      "name": "นางศิริ พละเสน",
+      "dept": "Surgery",
+      "op": "EL with divert loop jejunostomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "25/7/2568",
+      "hn": "236797",
+      "name": "นางมณตาล  ไพพะยอม",
+      "dept": "Surgery",
+      "op": "EL with lysis adhesion",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/8/2568",
+      "hn": "250816",
+      "name": "นางสาวปทิตตา  ทุมตาลเดี่ยว",
+      "dept": "Surgery",
+      "op": "Fasciotomy Lt. leg",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/8/2568",
+      "hn": "250841",
+      "name": "นายคำแสง ผิวบาง",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/8/2568",
+      "hn": "90499",
+      "name": "นางบุญสาร แสนสีแก้ว",
+      "dept": "Surgery",
+      "op": "Rt. Hepatectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/8/2568",
+      "hn": "136802",
+      "name": "นายแสวง  เจริญสุข",
+      "dept": "Surgery",
+      "op": "excisional DB anal",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/8/2568",
+      "hn": "251026",
+      "name": "น.ส.วิรากร นิเทียน",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/8/2568",
+      "hn": "166763",
+      "name": "นายบุญศรี งามเถื่อน",
+      "dept": "Surgery",
+      "op": "LC,with lysis adhesion",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/8/2568",
+      "hn": "163972",
+      "name": "นางสาววิชชุดา วงศ์สุริยา",
+      "dept": "Gyne-Obs",
+      "op": "TR",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/8/2568",
+      "hn": "134514",
+      "name": "นายบุญช่วย  ศรีหาพุฒ",
+      "dept": "Surgery",
+      "op": "mass resection",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.กรรณชดา สาลีเพ็ง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/8/2568",
+      "hn": "251475",
+      "name": "นายวงศ์พัทธ์ บุญศรี",
+      "dept": "Orthopedic",
+      "op": "ORIF with  LCP Rt. DER",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/8/2568",
+      "hn": "249334",
+      "name": "นางสมหมาย คูล้า",
+      "dept": "Surgery",
+      "op": "CNB Lt.breast",
+      "circ": "น.ส.กาญจนา เชื้อสีดา",
+      "missing": [
+        "Wound Type"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/8/2568",
+      "hn": "251735",
+      "name": "น.ส.อรอุมา บุญประคม",
+      "dept": "Surgery",
+      "op": "CNB Rt.breast",
+      "circ": "น.ส.กาญจนา เชื้อสีดา",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Wound Type"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/8/2568",
+      "hn": "251610",
+      "name": "นางสลับ ทุมโยมา",
+      "dept": "Orthopedic",
+      "op": "BKA  Rt. leg",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/8/2568",
+      "hn": "251752",
+      "name": "นายมนตรี เขียวเชย",
+      "dept": "Orthopedic",
+      "op": "DB c  Repairtendon 2 เส้น",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/9/2568",
+      "hn": "85743",
+      "name": "นายบุญจง  หอมจำปา",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/9/2568",
+      "hn": "129625",
+      "name": "นายอัครโยธิน ศรีรัตน์",
+      "dept": "Surgery",
+      "op": "Circumcision",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/9/2568",
+      "hn": "200415",
+      "name": "ด.ช.ณัฐพล  วงษา",
+      "dept": "Orthopedic",
+      "op": "remove foreign body at Rt.foot,Excisional Debridement",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/9/2568",
+      "hn": "252367",
+      "name": "นายทศพล พลแสน",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/9/2568",
+      "hn": "156861",
+      "name": "ด.ญ.จุฑามาศ เพชรดีคาย",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/9/2568",
+      "hn": "158048",
+      "name": "นางสมาน เทพนานน",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/9/2568",
+      "hn": "152481",
+      "name": "นายรณชัย  คิดโสดา",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/9/2568",
+      "hn": "93603",
+      "name": "น.ส.ณัฎฐนิชา พรมวงค์",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/9/2568",
+      "hn": "188620",
+      "name": "นายวิเชียร ฤทธิวงค์",
+      "dept": "Surgery",
+      "op": "Gastrostomy,with lysis adhesion",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/9/2568",
+      "hn": "252723",
+      "name": "นางฉวีวรรณ  สินโพธิ์",
+      "dept": "Surgery",
+      "op": "excision epidermal cyst at chest",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/9/2568",
+      "hn": "248813",
+      "name": "นางอมรรัตน์ คำสุขุม",
+      "dept": "Eye",
+      "op": "",
+      "circ": "-",
+      "missing": [
+        "First Dx",
+        "Last Dx",
+        "Operation"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/9/2568",
+      "hn": "31875",
+      "name": "นายสีสวรรค์ หนึ่งคำมี",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "น.ส.กรรณชดา สาลีเพ็ง, น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/9/2568",
+      "hn": "24062",
+      "name": "นางกองศิลป์ อินกอง",
+      "dept": "Gyne-Obs",
+      "op": "TAH with Bilateral salpingo-oophorectomy,Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "25/9/2568",
+      "hn": "248575",
+      "name": "นายถนอม บุญชู",
+      "dept": "Eye",
+      "op": "PE c IOL c 25GPPV c MP c FAX c EDL c IVT Avastin c SOI  RE",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/10/2568",
+      "hn": "73942",
+      "name": "นางสาวศศิธร  อุ่นวิเศษ",
+      "dept": "Orthopedic",
+      "op": "Arthrotomy c DB c Cement ATB c remove PS at anterior Rt tibia",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/10/2568",
+      "hn": "41162",
+      "name": "นายนครศักดิ์  อัคจันทร์",
+      "dept": "Orthopedic",
+      "op": "DB with Suture Lt elbow",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/10/2568",
+      "hn": "95834",
+      "name": "นางจันทร์ไทย ผ่องแผ้ว",
+      "dept": "Eye",
+      "op": "PE with IOL OD",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/10/2568",
+      "hn": "252956",
+      "name": "นายธนา  ซื่อสัตย์",
+      "dept": "Surgery",
+      "op": "fistulectomy",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/10/2568",
+      "hn": "86687",
+      "name": "นายเริงชัย  ออระวอน",
+      "dept": "Surgery",
+      "op": "Incisional biopsy Rt.leg",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/10/2568",
+      "hn": "253696",
+      "name": "นายศักดิ์นรินทร์ สัพโส",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/10/2568",
+      "hn": "180568",
+      "name": "นายคำเพียร  โพธิพล",
+      "dept": "Surgery",
+      "op": "Suture Wound",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/10/2568",
+      "hn": "200929",
+      "name": "นายพิจิต  พุทธวงษา",
+      "dept": "Surgery",
+      "op": "left herniotomy with herniorhaphy with mesh graft",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/10/2568",
+      "hn": "101117",
+      "name": "นายแสงเพชร เครือเขียนเพชร",
+      "dept": "Surgery",
+      "op": "DB with Repair EDC 2nd,3rd and EIP 2nd Tendon Rt. Finger",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/10/2568",
+      "hn": "252621",
+      "name": "นางประภาส เนตรกันหา",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "พรชิตา",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/10/2568",
+      "hn": "39528",
+      "name": "นางหลี  จงใจ",
+      "dept": "Orthopedic",
+      "op": "ORIF with LCP with k-wire fixation with SAS Rt.DER",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/10/2568",
+      "hn": "250300",
+      "name": "น.ส.วรัญญา พันธ์บุตร",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/10/2568",
+      "hn": "252387",
+      "name": "นางวงพระจันทร์  เหง้าโอสา",
+      "dept": "Eye",
+      "op": "PE c IOL OD",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/10/2568",
+      "hn": "64543",
+      "name": "นางสมเกียรติ ประสี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/11/2568",
+      "hn": "2337132",
+      "name": "นายไสว  โททำ",
+      "dept": "Surgery",
+      "op": "suture wound abdominal",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/11/2568",
+      "hn": "111118",
+      "name": "นายนิด พุ้มแจ้",
+      "dept": "Orthopedic",
+      "op": "remove external fixation with ORIF with DMT Rt.tibia",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/11/2568",
+      "hn": "115778",
+      "name": "นายถา นันทาธิราช",
+      "dept": "Eye",
+      "op": "Excision Pterygium with conjunctiva graft RE",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/11/2568",
+      "hn": "218938",
+      "name": "นางสาวนวลอนงค์  อะศรีชัย",
+      "dept": "Surgery",
+      "op": "TK insertion",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/11/2568",
+      "hn": "81832",
+      "name": "น.ส.ณัฐธิดา  หันศรี",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/12/2568",
+      "hn": "47284",
+      "name": "น.ส.ปนัดดา ชาพันธ์",
+      "dept": "E.N.T",
+      "op": "Lt. Thyroid lobectomy",
+      "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
+      "missing": [
+        "เวลาออกจากห้องผ่าตัด"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/12/2568",
+      "hn": "128452",
+      "name": "นางสาวจิณดาพร ฮาบพนม",
+      "dept": "Gyne-Obs",
+      "op": "TAH with Bilateral salpingectomy",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2568",
+      "hn": "255207",
+      "name": "ด.ญ.มาลีญา  นามเสาร์",
+      "dept": "Gyne-Obs",
+      "op": "explore vagina with  vaginal packing",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "AN",
+        "Risk"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/12/2568",
+      "hn": "13187",
+      "name": "นายบัวไข  ฮาบสุวรรณ",
+      "dept": "Surgery",
+      "op": "Rayamputation MTB 5 th Rt. foot",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "สิทธิ์"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/12/2568",
+      "hn": "29160",
+      "name": "นายสุพัฒน์ ทิพย์สุริย์",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/12/2568",
+      "hn": "214267",
+      "name": "นางอุดม ลิยะนิตย์",
+      "dept": "Eye",
+      "op": "Scleral patch RE",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/12/2568",
+      "hn": "223989",
+      "name": "นางสาวอริสรา  ขันเลบ",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "AN",
+        "Risk"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/12/2568",
+      "hn": "22007",
+      "name": "นางอุไลย์ สมบูรณ์",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/1/2569",
+      "hn": "255966",
+      "name": "นายกาวงศ์ คำชนะ",
+      "dept": "Surgery",
+      "op": "EDB Rt. Arm",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/1/2569",
+      "hn": "148395",
+      "name": "นายคำ  ตลับแก้ว",
+      "dept": "Surgery",
+      "op": "EDB stump BKA",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/1/2569",
+      "hn": "107143",
+      "name": "นายบุญเทียม พิษคำ",
+      "dept": "Orthopedic",
+      "op": "DB with Repair Tendon EDC,Collateral Tendon Rt. 3rd Finger",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/1/2569",
+      "hn": "1015181",
+      "name": "นางบวรรัตน์ สระแก้ว",
+      "dept": "Surgery",
+      "op": "CNB Lt. breast",
+      "circ": "พรชิตา",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/1/2569",
+      "hn": "53360",
+      "name": "นางนงราม เกษทอง",
+      "dept": "Surgery",
+      "op": "Excision Lt. Nack mass",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/1/2569",
+      "hn": "255857",
+      "name": "นายวิเชียร สุขทวี",
+      "dept": "Orthopedic",
+      "op": "Rt. CTR,Lt. CTR",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/1/2569",
+      "hn": "144484",
+      "name": "นางศิริวิมล แก้วอัคฮาด",
+      "dept": "Orthopedic",
+      "op": "A1 Pullay Release Lt. 3rd Finger",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/1/2569",
+      "hn": "256504",
+      "name": "ด.ญ.หนึ่งธิดา สุทธาบุญ",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/2/2569",
+      "hn": "72260",
+      "name": "นางวาสนา วงศ์ก่ำ",
+      "dept": "Orthopedic",
+      "op": "",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Operation"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/2/2569",
+      "hn": "240091",
+      "name": "นางอังคณา ประฮาดชัย",
+      "dept": "Gyne-Obs",
+      "op": "TAH c Rt.SO c Lt.salpingectomy c lysis adhesion",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/2/2569",
+      "hn": "93853",
+      "name": "นางสาวทรรศนีย์  สายพรม",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/2/2569",
+      "hn": "125819",
+      "name": "นายสมพล บุตรเพ็ง",
+      "dept": "Surgery",
+      "op": "Scrub burn",
+      "circ": "พรชิตา",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/2/2569",
+      "hn": "256586",
+      "name": "นางสมภาพร นพแก้ว",
+      "dept": "Surgery",
+      "op": "Explore wound with Repair rectus sheath",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/2/2569",
+      "hn": "56781",
+      "name": "นางสาววรรณวิษา  แท้สูงเนิน",
+      "dept": "Surgery",
+      "op": "Wide Excision bilateral breast",
+      "circ": "พรชิตา, น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/2/2569",
+      "hn": "139194",
+      "name": "ด.ช.ธนภัทร ทองปาน",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/2/2569",
+      "hn": "141329",
+      "name": "ด.ญ.นลิณี นามภักดี",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/2/2569",
+      "hn": "12718",
+      "name": "นายสะเกล  พลราชม",
+      "dept": "Surgery",
+      "op": "laparoscopic cholecystectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/3/2569",
+      "hn": "110437",
+      "name": "นางลำพูน สาคำ",
+      "dept": "Eye",
+      "op": "25GPPV c MP c ILMP c 20% SF6 LE",
+      "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/3/2569",
+      "hn": "236451",
+      "name": "นางบุญล้อม บุญชาญ",
+      "dept": "Eye",
+      "op": "PE c IOL c 25GPPV c MP c ILMP  LE (ใช้สี ocublue)/ GA",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/3/2569",
+      "hn": "257678",
+      "name": "นางสาวจันทร์นภา  วิลาวรรณ์",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/3/2569",
+      "hn": "221664",
+      "name": "น.ส.ธิดารัตน์ ศิริชัยสงคราม",
+      "dept": "Gyne-Obs",
+      "op": "TAH with BSO",
+      "circ": "น.ส.อารียา มัตตะราช, น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/3/2569",
+      "hn": "257096",
+      "name": "นางจิรภา ดีพรม",
+      "dept": "Eye",
+      "op": "Bihead PTG Excision  with AMT RE + subconjunctival MMC  RE/LA",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/3/2569",
+      "hn": "257922",
+      "name": "นายสุบัน เทียมทัศน์",
+      "dept": "Surgery",
+      "op": "Fasciotomy Rt. Foot",
+      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/3/2569",
+      "hn": "65361",
+      "name": "นางสาวปรียา  ศรีพั้ว",
+      "dept": "Surgery",
+      "op": "excision Rt.shoulder",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/4/2569",
+      "hn": "243679",
+      "name": "นางกมลรัตน์  ปานโพธิ์",
+      "dept": "Surgery",
+      "op": "hemorhoidectomy",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/4/2569",
+      "hn": "258559",
+      "name": "ด.ช.อภิสิทธิ์ นามฮุง",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/4/2569",
+      "hn": "69788",
+      "name": "นายคชรัตน์ เหิมขุนทด",
+      "dept": "Surgery",
+      "op": "Implantation catheter",
+      "circ": "น.ส.มัญชุกร เกิดไทย, น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/4/2569",
+      "hn": "258750",
+      "name": "นางสง่า กัญญารัตน์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/4/2569",
+      "hn": "258758",
+      "name": "นางฉวีวรรณ พรมโคตร",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/4/2569",
+      "hn": "199710",
+      "name": "นายดุสิต พรมสุริย์",
+      "dept": "Orthopedic",
+      "op": "ORIF with distal LCP fibular LCP Lt. ankle",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/4/2569",
+      "hn": "215836",
+      "name": "นางจันทร์ดี นุ่มนวลศรี",
+      "dept": "Gyne-Obs",
+      "op": "TAH with BS",
+      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/4/2569",
+      "hn": "113355",
+      "name": "นางสาวชนิสรา แสนอุบล",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/5/2569",
+      "hn": "256217",
+      "name": "นางบุญเถิง โสมณวัตร",
+      "dept": "Eye",
+      "op": "PE c IOL c 25GPPV c MP c ILMP  Free Flap c FAX c 20%SF6  c EDL  LE/GA",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/5/2569",
+      "hn": "259562",
+      "name": "น.ส.ชญาดา สีลาวงค์",
+      "dept": "Surgery",
+      "op": "Wide Excision Lt. breast",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/5/2569",
+      "hn": "259477",
+      "name": "นายบัวโฮม แทนธานี",
+      "dept": "Surgery",
+      "op": "Open Repair Hernia Lt.",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "17/5/2569",
+      "hn": "52837",
+      "name": "นางบุญพัง สุบุญพงษ์",
+      "dept": "Surgery",
+      "op": "EDB remove clot under local",
+      "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/5/2569",
+      "hn": "155736",
+      "name": "นางสาววรันยาพร ทองล้วน",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "21/5/2569",
+      "hn": "259424",
+      "name": "น.ส.ดวงดาว ปังอุทา",
+      "dept": "Surgery",
+      "op": "",
+      "circ": "น.ส.กาญจนา เชื้อสีดา",
+      "missing": [
+        "Operation"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/5/2569",
+      "hn": "34301",
+      "name": "นางสาวจุไรรัตน์ จันทร์สุนีย์",
+      "dept": "Surgery",
+      "op": "Fasciotomy Lt. foot",
+      "circ": "น.ส.อลิชา สุริวรรณ",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "29/5/2569",
+      "hn": "259608",
+      "name": "นางสาวกชกร  ใจบุญ",
+      "dept": "Surgery",
+      "op": "excision mass Rt.axillary",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/6/2569",
+      "hn": "260288",
+      "name": "ด.ช.ชัยกร กันเสนา",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/6/2569",
+      "hn": "260189",
+      "name": "นางนารี กลางบุญเรือง",
+      "dept": "Orthopedic",
+      "op": "Debridement  Rt. Leg",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/6/2569",
+      "hn": "260648",
+      "name": "นายวานิช  พุทธวงค์ษา",
+      "dept": "Surgery",
+      "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/6/2569",
+      "hn": "260018",
+      "name": "นางนิรมล แก้วอ่อน",
+      "dept": "Eye",
+      "op": "PE c IOL LE,SMC",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/6/2569",
+      "hn": "11031",
+      "name": "นางสมหวัง ประฮาดไชย",
+      "dept": "Surgery",
+      "op": "Rt.BKA",
+      "circ": "น.ส.อลิชา สุริวรรณ, น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/7/2569",
+      "hn": "189019",
+      "name": "นางเพ็ญศรี ชื่นตา",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "น.ส.อลิชา สุริวรรณ, น.ส.อารียา มัตตะราช",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/7/2569",
+      "hn": "261201",
+      "name": "นางสาวอัญชิสา เมืองนอน",
+      "dept": "Gyne-Obs",
+      "op": "Remove Placenta with TR",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "10/7/2569",
+      "hn": "165662",
+      "name": "นางรัชนี แต้มชัยภูมิ",
+      "dept": "Orthopedic",
+      "op": "A1 Pulley Release Rt. 3rd finger",
+      "circ": "น.ส.อลิชา สุริวรรณ",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/7/2569",
+      "hn": "60867",
+      "name": "นายสินถวุช เพชรกัณหา",
+      "dept": "Surgery",
+      "op": "Organ Harvest",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "Surgeon"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/7/2569",
+      "hn": "81990",
+      "name": "นางวาริช แกะมา",
+      "dept": "Orthopedic",
+      "op": "Debridement with k-wire fixation left thumb",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "23/7/2569",
+      "hn": "37521",
+      "name": "นางนวล สุโน",
+      "dept": "Surgery",
+      "op": "ERCP,fail",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/7/2569",
+      "hn": "164315",
+      "name": "นางสาวปิยะธิดา   สุขกุล",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/8/2569",
+      "hn": "131229",
+      "name": "นายพิจิตร ปัญญาเฉียบ",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
+      "missing": [
+        "AN"
+      ],
+      "month_key": "2569-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/8/2569",
+      "hn": "109457",
+      "name": "นายปิยะพงษ์ เพียสา",
+      "dept": "Eye",
+      "op": "Excision Pterygium with conjunctiva graft RE",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/8/2569",
+      "hn": "260983",
+      "name": "น.ส.น้อย พะโคคี",
+      "dept": "Gyne-Obs",
+      "op": "TAH with Bilateral salpingo-oophorectomy",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, นายบุญสลัก ธุระนนท์",
+      "missing": [
+        "Last Dx"
+      ],
+      "month_key": "2569-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "20/8/2569",
+      "hn": "262528",
+      "name": "นายโกศล แวงวรรณ์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์, น.ส.วิภาวรรณ ไชโย, นายบุญสลัก ธุระนนท์",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/9/2569",
+      "hn": "30030",
+      "name": "นายวน เนื่องจำนงค์",
+      "dept": "Surgery",
+      "op": "Suture Wound",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 1,
+      "first_seen": "2026-09-25"
+    },
+    {
+      "date": "14/9/2569",
+      "hn": "263237",
+      "name": "นายส่งศักดิ์ ภูเวียนวงค์",
+      "dept": "Surgery",
+      "op": "Excisional DB Lt.foot",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "Risk"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 1,
+      "first_seen": "2026-09-25"
+    },
+    {
+      "date": "21/9/2569",
+      "hn": "263586",
+      "name": "Mr.SANN LIN AUNG",
+      "dept": "Orthopedic",
+      "op": "DB with suture left middle finger",
+      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 1,
+      "first_seen": "2026-09-25"
+    },
+    {
+      "date": "22/9/2569",
+      "hn": "250866",
+      "name": "นางบังอร เชื้อวังคำ",
+      "dept": "Orthopedic",
+      "op": "Posterior  pedicle screw fixation c PLF T5-T9",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวลาออกจากห้องผ่าตัด"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 1,
+      "first_seen": "2026-09-25"
+    },
+    {
+      "date": "22/9/2569",
+      "hn": "4675",
+      "name": "นายเสียง แก้วเหล็ก",
+      "dept": "Orthopedic",
+      "op": "Debridement of wound Lt Leg",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "Aneasthesia"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 1,
+      "first_seen": "2026-09-25"
+    },
+    {
+      "date": "23/9/2569",
+      "hn": "262215",
+      "name": "นางแตง คำจรสิงห์",
+      "dept": "Surgery",
+      "op": "liver segmentectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "First Dx",
+        "Last Dx"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 1,
+      "first_seen": "2026-09-25"
+    }
+  ],
+  "month_options": [
+    [
+      "2569-09",
+      "ก.ย. 2569"
+    ],
+    [
+      "2569-08",
+      "ส.ค. 2569"
+    ],
+    [
+      "2569-07",
+      "ก.ค. 2569"
+    ],
+    [
+      "2569-06",
+      "มิ.ย. 2569"
+    ],
+    [
+      "2569-05",
+      "พ.ค. 2569"
+    ],
+    [
+      "2569-04",
+      "เม.ย. 2569"
+    ],
+    [
+      "2569-03",
+      "มี.ค. 2569"
+    ],
+    [
+      "2569-02",
+      "ก.พ. 2569"
+    ],
+    [
+      "2569-01",
+      "ม.ค. 2569"
+    ],
+    [
+      "2568-12",
+      "ธ.ค. 2568"
+    ],
+    [
+      "2568-11",
+      "พ.ย. 2568"
+    ],
+    [
+      "2568-10",
+      "ต.ค. 2568"
+    ],
+    [
+      "2568-09",
+      "ก.ย. 2568"
+    ],
+    [
+      "2568-08",
+      "ส.ค. 2568"
+    ],
+    [
+      "2568-07",
+      "ก.ค. 2568"
+    ],
+    [
+      "2568-06",
+      "มิ.ย. 2568"
+    ],
+    [
+      "2568-05",
+      "พ.ค. 2568"
+    ],
+    [
+      "2568-04",
+      "เม.ย. 2568"
+    ],
+    [
+      "2568-03",
+      "มี.ค. 2568"
+    ],
+    [
+      "2568-02",
+      "ก.พ. 2568"
+    ],
+    [
+      "2568-01",
+      "ม.ค. 2568"
+    ],
+    [
+      "2567-12",
+      "ธ.ค. 2567"
+    ],
+    [
+      "2567-11",
+      "พ.ย. 2567"
+    ],
+    [
+      "2567-10",
+      "ต.ค. 2567"
+    ],
+    [
+      "2567-09",
+      "ก.ย. 2567"
+    ],
+    [
+      "2567-08",
+      "ส.ค. 2567"
+    ]
+  ]
 }
