@@ -74,10 +74,11 @@ def render_month_table(cases: list, show_month: bool = False) -> str:
     </div>'''
 
 
-def render_month_select(month_options: list) -> str:
-    opts = ['<option value="all" selected>ทั้งหมด</option>']
+def render_month_select(month_options: list, default_key: str = "all") -> str:
+    opts = [f'<option value="all"{" selected" if default_key == "all" else ""}>ทั้งหมด</option>']
     for key, label in month_options:
-        opts.append(f'<option value="{esc(key)}">{esc(label)}</option>')
+        sel_attr = " selected" if key == default_key else ""
+        opts.append(f'<option value="{esc(key)}"{sel_attr}>{esc(label)}</option>')
     return f'''<select id="monthSelect" class="month-select">
         {"".join(opts)}
       </select>'''
@@ -132,9 +133,10 @@ def build_html(data: dict) -> str:
 
     all_cases = data.get("all_cases", []) or []
     month_options = data.get("month_options", []) or []
-    all_cases_total = len(all_cases)
+    current_month_key = month_options[0][0] if month_options else "all"
+    all_cases_total = sum(1 for c in all_cases if c.get("month_key") == current_month_key)
     table_html = render_month_table(all_cases)
-    month_select_html = render_month_select(month_options)
+    month_select_html = render_month_select(month_options, default_key=current_month_key)
 
     return f'''<!DOCTYPE html>
 <html lang="th">
