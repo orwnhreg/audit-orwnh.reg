@@ -85,38 +85,41 @@ def render_month_select(month_options: list, default_key: str = "all") -> str:
       </select>'''
 
 
-def render_month_chart(daily: list) -> str:
-    if not daily:
-        return ""
-    max_total = max((d.get("total", 0) for d in daily), default=0) or 1
-    bars = []
-    for d in daily:
-        day = d.get("day")
-        total = d.get("total", 0)
-        missing = d.get("missing", 0)
-        ok = max(total - missing, 0)
-        total_h = round((total / max_total) * 100, 1) if total else 0
-        missing_h = round((missing / max_total) * 100, 1) if total else 0
-        ok_h = round((ok / max_total) * 100, 1) if total else 0
-        title = f"{day}: ทั้งหมด {total}, ไม่ครบ {missing}"
-        bars.append(
-            f'''<div class="bar-col" title="{esc(title)}">
-        <div class="bar-stack" style="height:{total_h}%">
-          <div class="bar-seg bar-missing" style="height:{ (missing_h/total_h*100) if total_h else 0 }%"></div>
-          <div class="bar-seg bar-ok" style="height:{ (ok_h/total_h*100) if total_h else 0 }%"></div>
-        </div>
-        <span class="bar-label">{esc(day)}</span>
-      </div>'''
-        )
-    return f'''<div class="chart-wrap">
-      <div class="chart-legend">
-        <span class="legend-item"><i class="legend-dot legend-ok"></i>ครบ</span>
-        <span class="legend-item"><i class="legend-dot legend-missing"></i>ไม่ครบ</span>
-      </div>
-      <div class="bar-chart">
-        {"".join(bars)}
-      </div>
-    </div>'''
+def render_bar_chart_js() -> str:
+    """Client-side chart renderer (JS) so it can redraw on month-select change."""
+    return r'''
+    function renderBarChart(daily) {
+      if (!daily || !daily.length) {
+        return '<p class="all-clear">ไม่มีข้อมูล</p>';
+      }
+      var maxTotal = 0;
+      daily.forEach(function(d) { if (d.total > maxTotal) maxTotal = d.total; });
+      if (!maxTotal) maxTotal = 1;
+      var bars = daily.map(function(d) {
+        var total = d.total || 0;
+        var missing = d.missing || 0;
+        var ok = Math.max(total - missing, 0);
+        var totalH = total ? (total / maxTotal * 100) : 0;
+        var missingPct = totalH ? (missing / total * 100) : 0;
+        var okPct = totalH ? (ok / total * 100) : 0;
+        var title = d.day + ': ทั้งหมด ' + total + ', ไม่ครบ ' + missing;
+        return '<div class="bar-col" title="' + title.replace(/"/g, '&quot;') + '">' +
+          '<div class="bar-stack" style="height:' + totalH + '%">' +
+            '<div class="bar-seg bar-missing" style="height:' + missingPct + '%"></div>' +
+            '<div class="bar-seg bar-ok" style="height:' + okPct + '%"></div>' +
+          '</div>' +
+          '<span class="bar-label">' + d.day + '</span>' +
+        '</div>';
+      }).join('');
+      return '<div class="chart-wrap">' +
+        '<div class="chart-legend">' +
+          '<span class="legend-item"><i class="legend-dot legend-ok"></i>ครบ</span>' +
+          '<span class="legend-item"><i class="legend-dot legend-missing"></i>ไม่ครบ</span>' +
+        '</div>' +
+        '<div class="bar-chart">' + bars + '</div>' +
+      '</div>';
+    }
+'''
 
 
 def build_html(data: dict) -> str:
@@ -129,15 +132,15 @@ def build_html(data: dict) -> str:
     gen_time = datetime.datetime.now().strftime("%H:%M")
     blank_cols = data.get("blank_cols", {}) or {}
 
-    month_daily = month.get("daily", []) or []
-    month_chart_html = render_month_chart(month_daily)
-
     all_cases = data.get("all_cases", []) or []
     month_options = data.get("month_options", []) or []
     current_month_key = month_options[0][0] if month_options else "all"
     all_cases_total = sum(1 for c in all_cases if c.get("month_key") == current_month_key)
     table_html = render_month_table(all_cases)
     month_select_html = render_month_select(month_options, default_key=current_month_key)
+    daily_by_month = data.get("daily_by_month", {}) or {}
+    daily_by_month_json = json.dumps(daily_by_month, ensure_ascii=False)
+    chart_js = render_bar_chart_js()
 
     return f'''<!DOCTYPE html>
 <html lang="th">
@@ -624,8 +627,8 @@ def build_html(data: dict) -> str:
 
     <div class="panel" id="chart">
       <div class="panel-body">
-        <p class="section-sub">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — เดือนนี้</p>
-        {month_chart_html}
+        <p class="section-sub" id="chartCaption">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — เดือนนี้</p>
+        <div id="chartHost"></div>
       </div>
     </div>
 
@@ -656,11 +659,20 @@ def build_html(data: dict) -> str:
         sync();
       }});
     }})();
+    {chart_js}
     (function() {{
-      var sel = document.getElementById('monthSelect');
+      var dailyByMonth = {daily_by_month_json};
+      var monthLabels = {{}};
+      var monthSelectEl = document.getElementById('monthSelect');
+      Array.prototype.forEach.call(monthSelectEl.options, function(opt) {{
+        monthLabels[opt.value] = opt.textContent;
+      }});
+      var sel = monthSelectEl;
       var rows = Array.prototype.slice.call(document.querySelectorAll('#allCasesTable tbody tr'));
       var noMsg = document.getElementById('noCasesMsg');
       var countEl = document.getElementById('caseCountValue');
+      var chartHost = document.getElementById('chartHost');
+      var chartCaption = document.getElementById('chartCaption');
       function applyFilter() {{
         var val = sel.value;
         var visible = 0;
@@ -671,6 +683,12 @@ def build_html(data: dict) -> str:
         }});
         noMsg.style.display = visible === 0 ? '' : 'none';
         countEl.textContent = visible;
+        var daily = dailyByMonth[val] || [];
+        chartHost.innerHTML = renderBarChart(daily);
+        var label = monthLabels[val] || val;
+        chartCaption.textContent = val === 'all'
+          ? 'ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายเดือน) — ทั้งหมด'
+          : 'ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — ' + label;
       }}
       sel.addEventListener('change', applyFilter);
       applyFilter();
