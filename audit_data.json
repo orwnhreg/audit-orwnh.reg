@@ -2,28 +2,20 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "27/09/2026",
-  "rows": 13483,
+  "rows": 13484,
   "colA": {
     "dup": 0,
-    "missing": 4,
+    "missing": 0,
     "offset": 0
   },
-  "blank_cols": {
-    "เวร": 1,
-    "เวลาเข้าห้องผ่าตัด": 1,
-    "เวลาเริ่มผ่าตัด": 1,
-    "เวลาผ่าตัดเสร็จ": 1,
-    "เวลาออกจากห้องผ่าตัด": 1,
-    "First Dx": 1,
-    "Last Dx": 1
-  },
+  "blank_cols": {},
   "team": {
     "dup_in_set": 101,
     "dup_in_set_recent": 1
   },
   "month": {
     "label": "วันที่ 1/09/69 ถึง 26/09/69",
-    "total": 604,
+    "total": 603,
     "cases": [
       {
         "date": "8/9/2569",
@@ -101,7 +93,7 @@
         "days_pending": 2
       }
     ],
-    "unfinished": 1,
+    "unfinished": 0,
     "daily": [
       {
         "day": 1,
