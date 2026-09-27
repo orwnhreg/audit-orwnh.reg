@@ -5,7 +5,7 @@
   "rows": 13485,
   "colA": {
     "dup": 0,
-    "missing": 3,
+    "missing": 0,
     "offset": 0
   },
   "blank_cols": {},
@@ -11535,7 +11535,7 @@
       },
       {
         "day": 27,
-        "total": 2,
+        "total": 3,
         "missing": 0
       }
     ],
@@ -11667,7 +11667,7 @@
       },
       {
         "day": "ก.ย.",
-        "total": 605,
+        "total": 606,
         "missing": 6
       }
     ]
