@@ -4,9 +4,9 @@
   "as_of": "27/09/2026",
   "rows": 13483,
   "colA": {
-    "dup": 1,
+    "dup": 0,
     "missing": 4,
-    "offset": 2
+    "offset": 0
   },
   "blank_cols": {
     "เวร": 1,
