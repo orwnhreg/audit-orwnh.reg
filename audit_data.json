@@ -10393,12 +10393,12 @@
   "month_progress": {
     "2567-08": {
       "total": 103,
-      "pending": 104,
+      "pending": 103,
       "resolved": 0
     },
     "2567-09": {
       "total": 55,
-      "pending": 56,
+      "pending": 55,
       "resolved": 0
     },
     "2567-10": {
@@ -10408,12 +10408,12 @@
     },
     "2567-11": {
       "total": 79,
-      "pending": 80,
+      "pending": 79,
       "resolved": 0
     },
     "2567-12": {
       "total": 110,
-      "pending": 111,
+      "pending": 110,
       "resolved": 0
     },
     "2568-01": {
@@ -10523,7 +10523,7 @@
     },
     "all": {
       "total": 646,
-      "pending": 650,
+      "pending": 646,
       "resolved": 0
     }
   },
