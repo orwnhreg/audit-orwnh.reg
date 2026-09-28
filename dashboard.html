@@ -248,13 +248,13 @@
 
     <div class="page-head">
       <h1 class="page-title">Dashboard สรุปภาพรวม</h1>
-      <p class="page-sub">วันที่ 1/09/69 ถึง 27/09/69 · อัปเดตล่าสุด 09:15</p>
+      <p class="page-sub">วันที่ 1/09/69 ถึง 27/09/69 · อัปเดตล่าสุด 09:18</p>
     </div>
 
     <div class="stat-row">
       <div class="stat">
         <p class="stat-label">% ความครบถ้วน</p>
-        <p class="stat-value pct-good">98.8%</p>
+        <p class="stat-value pct-good">98.5%</p>
       </div>
       <div class="stat">
         <p class="stat-label">เคสทั้งหมด</p>
@@ -262,14 +262,14 @@
       </div>
       <div class="stat">
         <p class="stat-label">เคสข้อมูลไม่ครบ</p>
-        <p class="stat-value">7</p>
+        <p class="stat-value">9</p>
       </div>
     </div>
 
     <div class="panel">
       <div class="panel-body">
         <p class="section-title">แนวโน้มเทียบเดือนก่อน</p>
-        <p class="trend-line trend-down">▼ 0.5 จุด (แย่ลง) — เดือนก่อนหน้า 99.3%</p>
+        <p class="trend-line trend-down">▼ 0.6 จุด (แย่ลง) — เดือนก่อนหน้า 99.1%</p>
       </div>
     </div>
 
@@ -287,19 +287,19 @@
         <div class="dept-track">
           <div class="dept-fill" style="width:55.7%"></div>
         </div>
-        <div class="dept-nums">122 เคส · <span class="dept-warn">3 ไม่ครบ (2.5%)</span></div>
+        <div class="dept-nums">122 เคส · <span class="dept-warn">4 ไม่ครบ (3.3%)</span></div>
+      </div><div class="dept-row">
+        <div class="dept-name">Gyne-Obs</div>
+        <div class="dept-track">
+          <div class="dept-fill" style="width:47.5%"></div>
+        </div>
+        <div class="dept-nums">104 เคส · <span class="dept-warn">1 ไม่ครบ (1.0%)</span></div>
       </div><div class="dept-row">
         <div class="dept-name">E.N.T</div>
         <div class="dept-track">
           <div class="dept-fill" style="width:8.7%"></div>
         </div>
         <div class="dept-nums">19 เคส · <span class="dept-ok">0 ไม่ครบ (0.0%)</span></div>
-      </div><div class="dept-row">
-        <div class="dept-name">Gyne-Obs</div>
-        <div class="dept-track">
-          <div class="dept-fill" style="width:47.5%"></div>
-        </div>
-        <div class="dept-nums">104 เคส · <span class="dept-ok">0 ไม่ครบ (0.0%)</span></div>
       </div><div class="dept-row">
         <div class="dept-name">Eye</div>
         <div class="dept-track">
@@ -326,6 +326,12 @@
           <div class="col-fill" style="width:100.0%"></div>
         </div>
         <div class="col-count">3</div>
+      </div><div class="col-row">
+        <div class="col-name">ทีมซ้ำในชุด</div>
+        <div class="col-track">
+          <div class="col-fill" style="width:66.7%"></div>
+        </div>
+        <div class="col-count">2</div>
       </div><div class="col-row">
         <div class="col-name">Risk</div>
         <div class="col-track">
@@ -372,7 +378,7 @@
       });
     })();
     (function() {
-      var reportData = {"month_label": "วันที่ 1/09/69 ถึง 27/09/69", "gen_time": "09:15", "as_of": "28/09/2026", "completeness_pct": 98.8, "finished_total": 606, "missing_total": 7, "trend_delta": -0.5, "trend_text": "0.5 จุด (แย่ลง) — เดือนก่อนหน้า 99.3%", "dept_breakdown": [{"dept": "Surgery", "total": 219, "missing": 4}, {"dept": "Orthopedic", "total": 122, "missing": 3}, {"dept": "E.N.T", "total": 19, "missing": 0}, {"dept": "Gyne-Obs", "total": 104, "missing": 0}, {"dept": "Eye", "total": 142, "missing": 0}], "top_missing_cols": [{"col": "First Dx", "count": 3}, {"col": "Last Dx", "count": 3}, {"col": "Risk", "count": 1}, {"col": "เวลาออกจากห้องผ่าตัด", "count": 1}, {"col": "Aneasthesia", "count": 1}, {"col": "เวร", "count": 1}]};
+      var reportData = {"month_label": "วันที่ 1/09/69 ถึง 27/09/69", "gen_time": "09:18", "as_of": "28/09/2026", "completeness_pct": 98.5, "finished_total": 606, "missing_total": 9, "trend_delta": -0.6, "trend_text": "0.6 จุด (แย่ลง) — เดือนก่อนหน้า 99.1%", "dept_breakdown": [{"dept": "Surgery", "total": 219, "missing": 4}, {"dept": "Orthopedic", "total": 122, "missing": 4}, {"dept": "Gyne-Obs", "total": 104, "missing": 1}, {"dept": "E.N.T", "total": 19, "missing": 0}, {"dept": "Eye", "total": 142, "missing": 0}], "top_missing_cols": [{"col": "First Dx", "count": 3}, {"col": "Last Dx", "count": 3}, {"col": "ทีมซ้ำในชุด", "count": 2}, {"col": "Risk", "count": 1}, {"col": "เวลาออกจากห้องผ่าตัด", "count": 1}, {"col": "Aneasthesia", "count": 1}, {"col": "เวร", "count": 1}]};
       document.getElementById('reportBtn').addEventListener('click', function() {
         var theme = document.documentElement.getAttribute('data-theme') || 'dark';
         var isLight = theme === 'light';

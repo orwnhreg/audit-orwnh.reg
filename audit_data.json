@@ -45,6 +45,18 @@
         "days_pending": 3
       },
       {
+        "date": "19/9/2569",
+        "hn": "136010",
+        "name": "นายเสรีไชย ท่าหาญ",
+        "dept": "Orthopedic",
+        "op": "Debridement with ORIF with k-wire fixation right big toe (2 piece) and suture wound right 2nd toe",
+        "circ": "น.ส.อารียา มัตตะราช",
+        "missing": [
+          "ทีมซ้ำในชุด"
+        ],
+        "days_pending": 0
+      },
+      {
         "date": "21/9/2569",
         "hn": "263586",
         "name": "Mr.SANN LIN AUNG",
@@ -93,6 +105,18 @@
           "Last Dx"
         ],
         "days_pending": 3
+      },
+      {
+        "date": "26/9/2569",
+        "hn": "263289",
+        "name": "นางสาวดารณี พันธ์สวัสดิ์",
+        "dept": "Gyne-Obs",
+        "op": "LT C/S (TR)",
+        "circ": "น.ส.รัตติกร แขนธิราช",
+        "missing": [
+          "ทีมซ้ำในชุด"
+        ],
+        "days_pending": 0
       },
       {
         "date": "27/9/2569",
@@ -202,7 +226,7 @@
       {
         "day": 19,
         "total": 11,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 20,
@@ -237,7 +261,7 @@
       {
         "day": 26,
         "total": 16,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 27,
@@ -247,9 +271,9 @@
     ]
   },
   "insights": {
-    "completeness_pct": 98.8,
+    "completeness_pct": 98.5,
     "finished_total": 606,
-    "missing_total": 7,
+    "missing_total": 9,
     "dept_breakdown": [
       {
         "dept": "Surgery",
@@ -259,16 +283,16 @@
       {
         "dept": "Orthopedic",
         "total": 122,
-        "missing": 3
-      },
-      {
-        "dept": "E.N.T",
-        "total": 19,
-        "missing": 0
+        "missing": 4
       },
       {
         "dept": "Gyne-Obs",
         "total": 104,
+        "missing": 1
+      },
+      {
+        "dept": "E.N.T",
+        "total": 19,
         "missing": 0
       },
       {
@@ -287,6 +311,10 @@
         "count": 3
       },
       {
+        "col": "ทีมซ้ำในชุด",
+        "count": 2
+      },
+      {
         "col": "Risk",
         "count": 1
       },
@@ -303,8 +331,8 @@
         "count": 1
       }
     ],
-    "prev_completeness_pct": 99.3,
-    "trend_delta": -0.5
+    "prev_completeness_pct": 99.1,
+    "trend_delta": -0.6
   },
   "all_cases": [
     {
@@ -6253,6 +6281,34 @@
     },
     {
       "date": "11/12/2567",
+      "hn": "75151",
+      "name": "นางประเสริฐ  เอนไชย",
+      "dept": "Eye",
+      "op": "PE with IOL OD Power lens,25.50",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/12/2567",
+      "hn": "235039",
+      "name": "น.ส.สายทอง  ชรินทร์",
+      "dept": "Eye",
+      "op": "PE with IOL OS Power lens",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2567-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/12/2567",
       "hn": "12739",
       "name": "นายไพศาล ทิพย์ทอง",
       "dept": "Surgery",
@@ -7443,6 +7499,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "13/1/2568",
+      "hn": "235112",
+      "name": "นายทองไมล์ ต้นเกษ",
+      "dept": "Surgery",
+      "op": "PCD",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "14/1/2568",
       "hn": "145010",
       "name": "นายบุญชู ธงอาษา",
@@ -7589,6 +7659,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "24/1/2568",
+      "hn": "244438",
+      "name": "นางสมสมร ศรีพอ",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Humerus Locking Plate Rt. Humerus",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-01",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "29/1/2568",
       "hn": "155",
       "name": "นางหนูเพียร พรมม่วง",
@@ -7675,6 +7759,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "5/2/2568",
+      "hn": "232009",
+      "name": "น.ส.ศศิกานต์ ยามงคล",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "7/2/2568",
       "hn": "15742",
       "name": "นางหวานใจ  ธรรมบุตร",
@@ -7689,6 +7787,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "7/2/2568",
+      "hn": "244885",
+      "name": "น.ส.สุภาวิณี ทิพมล",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "10/2/2568",
       "hn": "225267",
       "name": "นายปองปรีดา อ่อนสา",
@@ -7701,6 +7813,62 @@
       "month_key": "2568-02",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/2/2568",
+      "hn": "241700",
+      "name": "น.ส.ปวีณา พาพานทาง",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/2/2568",
+      "hn": "245039",
+      "name": "นายธวัชชัย มั่งคั่ง",
+      "dept": "Orthopedic",
+      "op": "Systematic debridement with repair 2 EDC with EIP tendon Lt.hand",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/2/2568",
+      "hn": "245050",
+      "name": "นายวรุธ คำจันทร์",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/2/2568",
+      "hn": "185048",
+      "name": "นางสมาน เทพนานน",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "24/2/2568",
@@ -7873,6 +8041,20 @@
     },
     {
       "date": "10/3/2568",
+      "hn": "76841",
+      "name": "นางสาวสุกัญญา สารสีรัมย์",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/3/2568",
       "hn": "245684",
       "name": "นายไพฑูรย์ ทองบ้านทุ่ม",
       "dept": "Surgery",
@@ -7943,6 +8125,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "19/3/2568",
+      "hn": "22952",
+      "name": "นางเสงี่ยม เรียบร้อย",
+      "dept": "Surgery",
+      "op": "AVF Rt. forearm under MAC",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "20/3/2568",
       "hn": "188251",
       "name": "นายธวัชชัย มูลแมง",
@@ -7970,6 +8166,20 @@
       "month_key": "2568-03",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/3/2568",
+      "hn": "188258",
+      "name": "นางบรรทม ลีลา",
+      "dept": "Orthopedic",
+      "op": "Rayamputation Rt. big toe",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "27/3/2568",
@@ -8127,6 +8337,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "7/4/2568",
+      "hn": "157594",
+      "name": "ด.ช.เสกสรรค์ โพสาวัง",
+      "dept": "Orthopedic",
+      "op": "DB with repair tendon left finger",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "9/4/2568",
       "hn": "28763",
       "name": "นางสาววาสนา อินทราแสง",
@@ -8211,6 +8435,20 @@
       "month_key": "2568-04",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/4/2568",
+      "hn": "199878",
+      "name": "ด.ช.ชนันธร โสภางาม",
+      "dept": "Orthopedic",
+      "op": "CRIF c  k-wire fixation PP Rt. litle finger",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "19/4/2568",
@@ -8382,6 +8620,34 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "18/5/2568",
+      "hn": "85525",
+      "name": "นายคณิศร พอพระ",
+      "dept": "Orthopedic",
+      "op": "DB with closed stump lt big toe",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/5/2568",
+      "hn": "222974",
+      "name": "นายบรรจง มะลิเลิศ",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "22/5/2568",
       "hn": "247148",
       "name": "นางลินทอน วัชรินทร์",
@@ -8395,6 +8661,34 @@
       "month_key": "2568-05",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/5/2568",
+      "hn": "188815",
+      "name": "นางสาวอนัญญา โดนหาคำ",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/5/2568",
+      "hn": "51429",
+      "name": "นายดุรงณ์กร ต้นภูบาล",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "23/5/2568",
@@ -8452,6 +8746,20 @@
       "month_key": "2568-06",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/6/2568",
+      "hn": "249154",
+      "name": "นายไกรพัน สุรัตน์",
+      "dept": "Surgery",
+      "op": "Mass resection  Rt. neck",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "9/6/2568",
@@ -8637,6 +8945,34 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "8/7/2568",
+      "hn": "249807",
+      "name": "นายศุภกิตต์ ชัยต้นเชื้อ",
+      "dept": "Orthopedic",
+      "op": "Excisional DB Rt. foot",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/7/2568",
+      "hn": "132145",
+      "name": "นางลำดวน ไฮนด์ส",
+      "dept": "Surgery",
+      "op": "Fasciotomy Rt. leg",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "21/7/2568",
       "hn": "246008",
       "name": "น.ส.นวลอนงค์ อ่อนก้านตรง",
@@ -8677,6 +9013,20 @@
       "month_key": "2568-07",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/7/2568",
+      "hn": "162318",
+      "name": "นางสาวปวีณา คชโคตร",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "1/8/2568",
@@ -8791,6 +9141,48 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "19/8/2568",
+      "hn": "76633",
+      "name": "นางมะณีจันทร์ มลมก",
+      "dept": "Surgery",
+      "op": "hemorrhoidectomy",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "22/8/2568",
+      "hn": "000251254",
+      "name": "นายจักรพล เตียงชัย",
+      "dept": "Eye",
+      "op": "Intravitreal ganciclovir 2 mg/0.1 ml + anterior chamber paracenthesis",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "22/8/2568",
+      "hn": "250692",
+      "name": "นางบุญนอง ปัญเศษ",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "24/8/2568",
       "hn": "251475",
       "name": "นายวงศ์พัทธ์ บุญศรี",
@@ -8803,6 +9195,20 @@
       "month_key": "2568-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "26/8/2568",
+      "hn": "246565",
+      "name": "นายพรมมี ต้นศรี",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "27/8/2568",
@@ -8856,7 +9262,8 @@
       "op": "DB c  Repairtendon 2 เส้น",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "Risk"
+        "Risk",
+        "ทีมซ้ำในชุด"
       ],
       "month_key": "2568-08",
       "days_pending": 2,
@@ -8875,6 +9282,20 @@
       "month_key": "2568-09",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "1/9/2568",
+      "hn": "156210",
+      "name": "ด.ช.สุนินธา  บุญชาญ",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "5/9/2568",
@@ -8989,6 +9410,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "16/9/2568",
+      "hn": "46188",
+      "name": "นางวิจิตร เขาแก้ว",
+      "dept": "Surgery",
+      "op": "Wide excision  Mass Rt back",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "17/9/2568",
       "hn": "252723",
       "name": "นางฉวีวรรณ  สินโพธิ์",
@@ -9047,6 +9482,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "24/9/2568",
+      "hn": "252301",
+      "name": "นายสมบัติ ทาตะชัย",
+      "dept": "Eye",
+      "op": "25GPPV c FAX c EDL c SOI LE,16%C3F8",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "25/9/2568",
       "hn": "248575",
       "name": "นายถนอม บุญชู",
@@ -9101,6 +9550,34 @@
       "month_key": "2568-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "9/10/2568",
+      "hn": "228582",
+      "name": "นางเสถียร ศรีเทพ",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/10/2568",
+      "hn": "253659",
+      "name": "ด.ญ.ศรุตา   วงค์คำ",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "10/10/2568",
@@ -9258,6 +9735,20 @@
     },
     {
       "date": "4/11/2568",
+      "hn": "239507",
+      "name": "นางสาวอรพิน ทินกร",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S",
+      "circ": "นางณัฐณิชา ไชยพะยวน, น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "4/11/2568",
       "hn": "2337132",
       "name": "นายไสว  โททำ",
       "dept": "Surgery",
@@ -9269,6 +9760,20 @@
       "month_key": "2568-11",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "5/11/2568",
+      "hn": "95957",
+      "name": "นางวาด บุญมาลี",
+      "dept": "Orthopedic",
+      "op": "Remove EF c manipulate Rt. Knee",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "6/11/2568",
@@ -9313,6 +9818,48 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "19/11/2568",
+      "hn": "95123",
+      "name": "นายโรจน์ ปานโพธิ์",
+      "dept": "Surgery",
+      "op": "Explore lap with simple suture with omental graft",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/11/2568",
+      "hn": "43442",
+      "name": "นางสมแสง จารแก่น",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/11/2568",
+      "hn": "116219",
+      "name": "นางสาววันเพ็ญ ทิพมหาอินทร์",
+      "dept": "Eye",
+      "op": "PE c IOL c tapping vitreous LE",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "21/11/2568",
       "hn": "81832",
       "name": "น.ส.ณัฐธิดา  หันศรี",
@@ -9325,6 +9872,34 @@
       "month_key": "2568-11",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "27/11/2568",
+      "hn": "252031",
+      "name": "นายพล สีทอง",
+      "dept": "Eye",
+      "op": "PE with IOL OS,Iris retractor + lysis PS",
+      "circ": "พรชิตา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/11/2568",
+      "hn": "254811",
+      "name": "นางอัญชุลี พันทะนาภูมิ",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-11",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "2/12/2568",
@@ -9384,6 +9959,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "10/12/2568",
+      "hn": "105299",
+      "name": "นายธนศักดิ์ บุญมา",
+      "dept": "Surgery",
+      "op": "excisional DB gluteal",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "15/12/2568",
       "hn": "29160",
       "name": "นายสุพัฒน์ ทิพย์สุริย์",
@@ -9410,6 +9999,34 @@
       "month_key": "2568-12",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/12/2568",
+      "hn": "254733",
+      "name": "นางฉวี ทุมมนตรี",
+      "dept": "Eye",
+      "op": "PE with IOL  LE",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/12/2568",
+      "hn": "59990",
+      "name": "นางผัน ทองจันทรา",
+      "dept": "Eye",
+      "op": "Pneumatic OD",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "26/12/2568",
@@ -9667,6 +10284,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "18/2/2569",
+      "hn": "24854",
+      "name": "นางหนูทัด สีสุขา",
+      "dept": "Eye",
+      "op": "PE with IOL OS",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "27/2/2569",
       "hn": "12718",
       "name": "นายสะเกล  พลราชม",
@@ -9766,6 +10397,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "18/3/2569",
+      "hn": "84436",
+      "name": "นายสาธิต โยธาทรณ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with  PHILOS plate at Rt. humerus with flu",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "27/3/2569",
       "hn": "65361",
       "name": "นางสาวปรียา  ศรีพั้ว",
@@ -9792,6 +10437,20 @@
       "month_key": "2569-04",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/4/2569",
+      "hn": "33932",
+      "name": "นายจรัส อัตสาร",
+      "dept": "Orthopedic",
+      "op": "Systematic DB with SLS Rt. Foot",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "6/4/2569",
@@ -9878,6 +10537,62 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "26/4/2569",
+      "hn": "151754",
+      "name": "นางสาวไอน้ำ ปังกลาง",
+      "dept": "Gyne-Obs",
+      "op": "Explore lap,with Lt.SO",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/4/2569",
+      "hn": "4953",
+      "name": "นางจันทร์ทา ไฮวัง",
+      "dept": "Surgery",
+      "op": "Appendectomy",
+      "circ": "น.ส.กาญจนา เชื้อสีดา",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "29/4/2569",
+      "hn": "148312",
+      "name": "นางสาวสายฝน พาดี",
+      "dept": "Gyne-Obs",
+      "op": "TR",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "29/4/2569",
+      "hn": "120440",
+      "name": "นายสุขสวัสดิ์ เหลาแตว",
+      "dept": "Orthopedic",
+      "op": "ORIF c  Volar LCP Rt. DER",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-04",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "30/4/2569",
       "hn": "113355",
       "name": "นางสาวชนิสรา แสนอุบล",
@@ -9906,6 +10621,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "8/5/2569",
+      "hn": "100091",
+      "name": "นางฉวี เคนท้าว",
+      "dept": "Orthopedic",
+      "op": "ORIF c distal fibular LCP at distal Rt. fibular c CRIF c DMT at distal Rt. tibia c flu",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "12/5/2569",
       "hn": "259562",
       "name": "น.ส.ชญาดา สีลาวงค์",
@@ -9918,6 +10647,20 @@
       "month_key": "2569-05",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "13/5/2569",
+      "hn": "259650",
+      "name": "น.ส.ประดิษฐา แป้นไชยวงค์",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR,Myomectomy",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "15/5/2569",
@@ -10132,6 +10875,20 @@
     },
     {
       "date": "13/7/2569",
+      "hn": "75289",
+      "name": "นายภาณุมาศ จิตรธรรม",
+      "dept": "Surgery",
+      "op": "Excisional DB Rt. foot",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "13/7/2569",
       "hn": "81990",
       "name": "นางวาริช แกะมา",
       "dept": "Orthopedic",
@@ -10157,6 +10914,20 @@
       "month_key": "2569-07",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "24/7/2569",
+      "hn": "177899",
+      "name": "นายอลงค์กรณ์ นาคะอินทร์",
+      "dept": "Surgery",
+      "op": "Fasciotomy Rt. Foot,and Rt. Leg",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์, น.ส.กรรณชดา สาลีเพ็ง",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-07",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "26/7/2569",
@@ -10215,6 +10986,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "19/8/2569",
+      "hn": "259360",
+      "name": "นางบรรฑิต เชื้อวังคำ สเกียร์",
+      "dept": "Surgery",
+      "op": "APR",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "20/8/2569",
       "hn": "262528",
       "name": "นายโกศล แวงวรรณ์",
@@ -10256,6 +11041,20 @@
       "month_key": "2569-09",
       "days_pending": 3,
       "first_seen": "2026-09-25"
+    },
+    {
+      "date": "19/9/2569",
+      "hn": "136010",
+      "name": "นายเสรีไชย ท่าหาญ",
+      "dept": "Orthopedic",
+      "op": "Debridement with ORIF with k-wire fixation right big toe (2 piece) and suture wound right 2nd toe",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "21/9/2569",
@@ -10314,6 +11113,20 @@
       "month_key": "2569-09",
       "days_pending": 3,
       "first_seen": "2026-09-25"
+    },
+    {
+      "date": "26/9/2569",
+      "hn": "263289",
+      "name": "นางสาวดารณี พันธ์สวัสดิ์",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S (TR)",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ทีมซ้ำในชุด"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "27/9/2569",
@@ -11109,7 +11922,7 @@
       {
         "day": 11,
         "total": 41,
-        "missing": 10
+        "missing": 12
       },
       {
         "day": 12,
@@ -11276,7 +12089,7 @@
       {
         "day": 13,
         "total": 19,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 14,
@@ -11331,7 +12144,7 @@
       {
         "day": 24,
         "total": 22,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 25,
@@ -11393,7 +12206,7 @@
       {
         "day": 5,
         "total": 21,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 6,
@@ -11403,7 +12216,7 @@
       {
         "day": 7,
         "total": 27,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 8,
@@ -11428,7 +12241,7 @@
       {
         "day": 12,
         "total": 7,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 13,
@@ -11443,7 +12256,7 @@
       {
         "day": 15,
         "total": 9,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 16,
@@ -11560,7 +12373,7 @@
       {
         "day": 10,
         "total": 14,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 11,
@@ -11605,7 +12418,7 @@
       {
         "day": 19,
         "total": 36,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 20,
@@ -11640,7 +12453,7 @@
       {
         "day": 26,
         "total": 35,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 27,
@@ -11702,7 +12515,7 @@
       {
         "day": 7,
         "total": 16,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 8,
@@ -11757,7 +12570,7 @@
       {
         "day": 18,
         "total": 21,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 19,
@@ -11909,7 +12722,7 @@
       {
         "day": 18,
         "total": 9,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 19,
@@ -11924,17 +12737,17 @@
       {
         "day": 21,
         "total": 33,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 22,
         "total": 20,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 23,
         "total": 25,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 24,
@@ -12006,7 +12819,7 @@
       {
         "day": 6,
         "total": 25,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 7,
@@ -12168,7 +12981,7 @@
       {
         "day": 8,
         "total": 37,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 9,
@@ -12178,7 +12991,7 @@
       {
         "day": 10,
         "total": 16,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 11,
@@ -12278,7 +13091,7 @@
       {
         "day": 30,
         "total": 41,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 31,
@@ -12380,7 +13193,7 @@
       {
         "day": 19,
         "total": 30,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 20,
@@ -12395,7 +13208,7 @@
       {
         "day": 22,
         "total": 29,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 23,
@@ -12415,7 +13228,7 @@
       {
         "day": 26,
         "total": 28,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 27,
@@ -12447,7 +13260,7 @@
       {
         "day": 1,
         "total": 22,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 2,
@@ -12522,7 +13335,7 @@
       {
         "day": 16,
         "total": 30,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 17,
@@ -12562,7 +13375,7 @@
       {
         "day": 24,
         "total": 31,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 25,
@@ -12639,12 +13452,12 @@
       {
         "day": 9,
         "total": 32,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 10,
         "total": 33,
-        "missing": 3
+        "missing": 4
       },
       {
         "day": 11,
@@ -12771,12 +13584,12 @@
       {
         "day": 4,
         "total": 28,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 5,
         "total": 23,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 6,
@@ -12846,12 +13659,12 @@
       {
         "day": 19,
         "total": 32,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 20,
         "total": 22,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 21,
@@ -12886,12 +13699,12 @@
       {
         "day": 27,
         "total": 22,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 28,
         "total": 27,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 29,
@@ -12953,7 +13766,7 @@
       {
         "day": 10,
         "total": 3,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 11,
@@ -13023,12 +13836,12 @@
       {
         "day": 24,
         "total": 36,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 25,
         "total": 22,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 26,
@@ -13307,7 +14120,7 @@
       {
         "day": 18,
         "total": 28,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 19,
@@ -13449,7 +14262,7 @@
       {
         "day": 18,
         "total": 19,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 19,
@@ -13536,7 +14349,7 @@
       {
         "day": 4,
         "total": 11,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 5,
@@ -13646,12 +14459,12 @@
       {
         "day": 26,
         "total": 6,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 27,
         "total": 16,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 28,
@@ -13661,7 +14474,7 @@
       {
         "day": 29,
         "total": 25,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 30,
@@ -13708,7 +14521,7 @@
       {
         "day": 8,
         "total": 30,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 9,
@@ -13733,7 +14546,7 @@
       {
         "day": 13,
         "total": 11,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 14,
@@ -14042,7 +14855,7 @@
       {
         "day": 13,
         "total": 31,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 14,
@@ -14097,7 +14910,7 @@
       {
         "day": 24,
         "total": 16,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 25,
@@ -14229,7 +15042,7 @@
       {
         "day": 19,
         "total": 29,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 20,
@@ -14386,7 +15199,7 @@
       {
         "day": 19,
         "total": 11,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 20,
@@ -14421,7 +15234,7 @@
       {
         "day": 26,
         "total": 16,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 27,
@@ -14453,67 +15266,67 @@
       {
         "day": "ธ.ค.",
         "total": 487,
-        "missing": 111
+        "missing": 113
       },
       {
         "day": "ม.ค.",
         "total": 540,
-        "missing": 21
+        "missing": 23
       },
       {
         "day": "ก.พ.",
         "total": 478,
-        "missing": 6
+        "missing": 12
       },
       {
         "day": "มี.ค.",
         "total": 600,
-        "missing": 20
+        "missing": 23
       },
       {
         "day": "เม.ย.",
         "total": 507,
-        "missing": 19
+        "missing": 21
       },
       {
         "day": "พ.ค.",
         "total": 511,
-        "missing": 10
+        "missing": 14
       },
       {
         "day": "มิ.ย.",
         "total": 561,
-        "missing": 11
+        "missing": 12
       },
       {
         "day": "ก.ค.",
         "total": 570,
-        "missing": 6
+        "missing": 9
       },
       {
         "day": "ส.ค.",
         "total": 561,
-        "missing": 13
+        "missing": 17
       },
       {
         "day": "ก.ย.",
         "total": 675,
-        "missing": 14
+        "missing": 17
       },
       {
         "day": "ต.ค.",
         "total": 615,
-        "missing": 14
+        "missing": 16
       },
       {
         "day": "พ.ย.",
         "total": 498,
-        "missing": 5
+        "missing": 12
       },
       {
         "day": "ธ.ค.",
         "total": 565,
-        "missing": 8
+        "missing": 11
       },
       {
         "day": "ม.ค.",
@@ -14523,22 +15336,22 @@
       {
         "day": "ก.พ.",
         "total": 596,
-        "missing": 9
+        "missing": 10
       },
       {
         "day": "มี.ค.",
         "total": 596,
-        "missing": 7
+        "missing": 8
       },
       {
         "day": "เม.ย.",
         "total": 580,
-        "missing": 8
+        "missing": 13
       },
       {
         "day": "พ.ค.",
         "total": 609,
-        "missing": 8
+        "missing": 10
       },
       {
         "day": "มิ.ย.",
@@ -14548,17 +15361,17 @@
       {
         "day": "ก.ค.",
         "total": 606,
-        "missing": 7
+        "missing": 9
       },
       {
         "day": "ส.ค.",
         "total": 540,
-        "missing": 4
+        "missing": 5
       },
       {
         "day": "ก.ย.",
         "total": 606,
-        "missing": 7
+        "missing": 9
       }
     ]
   }
