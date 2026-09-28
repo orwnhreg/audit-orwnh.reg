@@ -40,19 +40,6 @@
           "Aneasthesia"
         ],
         "days_pending": 3
-      },
-      {
-        "date": "23/9/2569",
-        "hn": "262215",
-        "name": "นางแตง คำจรสิงห์",
-        "dept": "Surgery",
-        "op": "liver segmentectomy",
-        "circ": "น.ส.มัญชุกร เกิดไทย",
-        "missing": [
-          "First Dx",
-          "Last Dx"
-        ],
-        "days_pending": 3
       }
     ],
     "unfinished": 0,
@@ -170,7 +157,7 @@
       {
         "day": 23,
         "total": 32,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 24,
@@ -195,9 +182,9 @@
     ]
   },
   "insights": {
-    "completeness_pct": 99.5,
+    "completeness_pct": 99.7,
     "finished_total": 606,
-    "missing_total": 3,
+    "missing_total": 2,
     "dept_breakdown": [
       {
         "dept": "Orthopedic",
@@ -205,13 +192,13 @@
         "missing": 2
       },
       {
-        "dept": "Surgery",
-        "total": 219,
-        "missing": 1
-      },
-      {
         "dept": "E.N.T",
         "total": 19,
+        "missing": 0
+      },
+      {
+        "dept": "Surgery",
+        "total": 219,
         "missing": 0
       },
       {
@@ -233,18 +220,10 @@
       {
         "col": "Aneasthesia",
         "count": 1
-      },
-      {
-        "col": "First Dx",
-        "count": 1
-      },
-      {
-        "col": "Last Dx",
-        "count": 1
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": 0.2
+    "trend_delta": 0.4
   },
   "all_cases": [
     {
@@ -10209,21 +10188,6 @@
       "month_key": "2569-09",
       "days_pending": 3,
       "first_seen": "2026-09-25"
-    },
-    {
-      "date": "23/9/2569",
-      "hn": "262215",
-      "name": "นางแตง คำจรสิงห์",
-      "dept": "Surgery",
-      "op": "liver segmentectomy",
-      "circ": "น.ส.มัญชุกร เกิดไทย",
-      "missing": [
-        "First Dx",
-        "Last Dx"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 3,
-      "first_seen": "2026-09-25"
     }
   ],
   "month_options": [
@@ -10485,14 +10449,14 @@
     },
     "2569-09": {
       "total": 606,
-      "pending": 3,
-      "resolved": 7,
+      "pending": 2,
+      "resolved": 8,
       "ever": 10
     },
     "all": {
       "total": 13441,
-      "pending": 644,
-      "resolved": 60,
+      "pending": 643,
+      "resolved": 61,
       "ever": 704
     }
   },
@@ -14466,7 +14430,7 @@
       {
         "day": 23,
         "total": 32,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 24,
@@ -14623,7 +14587,7 @@
       {
         "day": "ก.ย.",
         "total": 622,
-        "missing": 3
+        "missing": 2
       }
     ]
   }
