@@ -52,7 +52,7 @@
         "op": "Debridement with ORIF with k-wire fixation right big toe (2 piece) and suture wound right 2nd toe",
         "circ": "น.ส.อารียา มัตตะราช",
         "missing": [
-          "ทีมซ้ำในชุด"
+          "ชื่อซ้ำในทีม"
         ],
         "days_pending": 0
       },
@@ -114,7 +114,7 @@
         "op": "LT C/S (TR)",
         "circ": "น.ส.รัตติกร แขนธิราช",
         "missing": [
-          "ทีมซ้ำในชุด"
+          "ชื่อซ้ำในทีม"
         ],
         "days_pending": 0
       },
@@ -311,7 +311,7 @@
         "count": 3
       },
       {
-        "col": "ทีมซ้ำในชุด",
+        "col": "ชื่อซ้ำในทีม",
         "count": 2
       },
       {
@@ -6287,7 +6287,7 @@
       "op": "PE with IOL OD Power lens,25.50",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2567-12",
       "days_pending": 0,
@@ -6301,7 +6301,7 @@
       "op": "PE with IOL OS Power lens",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2567-12",
       "days_pending": 0,
@@ -7506,7 +7506,7 @@
       "op": "PCD",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -7666,7 +7666,7 @@
       "op": "ORIF with Proximal Humerus Locking Plate Rt. Humerus",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -7766,7 +7766,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -7794,7 +7794,7 @@
       "op": "LT C/S",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -7822,7 +7822,7 @@
       "op": "LT C/S",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -7836,7 +7836,7 @@
       "op": "Systematic debridement with repair 2 EDC with EIP tendon Lt.hand",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -7850,7 +7850,7 @@
       "op": "Appendectomy",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -7864,7 +7864,7 @@
       "op": "ERCP",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -8047,7 +8047,7 @@
       "op": "LT C/S with TR",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -8132,7 +8132,7 @@
       "op": "AVF Rt. forearm under MAC",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -8175,7 +8175,7 @@
       "op": "Rayamputation Rt. big toe",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -8344,7 +8344,7 @@
       "op": "DB with repair tendon left finger",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-04",
       "days_pending": 0,
@@ -8444,7 +8444,7 @@
       "op": "CRIF c  k-wire fixation PP Rt. litle finger",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-04",
       "days_pending": 0,
@@ -8627,7 +8627,7 @@
       "op": "DB with closed stump lt big toe",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-05",
       "days_pending": 0,
@@ -8641,7 +8641,7 @@
       "op": "PTBD",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-05",
       "days_pending": 0,
@@ -8670,7 +8670,7 @@
       "op": "LT C/S with TR",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-05",
       "days_pending": 0,
@@ -8684,7 +8684,7 @@
       "op": "LC",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-05",
       "days_pending": 0,
@@ -8755,7 +8755,7 @@
       "op": "Mass resection  Rt. neck",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-06",
       "days_pending": 0,
@@ -8952,7 +8952,7 @@
       "op": "Excisional DB Rt. foot",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-07",
       "days_pending": 0,
@@ -8966,7 +8966,7 @@
       "op": "Fasciotomy Rt. leg",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-07",
       "days_pending": 0,
@@ -9022,7 +9022,7 @@
       "op": "LT C/S with TR",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-07",
       "days_pending": 0,
@@ -9148,7 +9148,7 @@
       "op": "hemorrhoidectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -9162,7 +9162,7 @@
       "op": "Intravitreal ganciclovir 2 mg/0.1 ml + anterior chamber paracenthesis",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -9176,7 +9176,7 @@
       "op": "PE with IOL OS",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -9204,7 +9204,7 @@
       "op": "PE with IOL OS",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -9263,7 +9263,7 @@
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
         "Risk",
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-08",
       "days_pending": 2,
@@ -9291,7 +9291,7 @@
       "op": "Appendectomy",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-09",
       "days_pending": 0,
@@ -9417,7 +9417,7 @@
       "op": "Wide excision  Mass Rt back",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-09",
       "days_pending": 0,
@@ -9489,7 +9489,7 @@
       "op": "25GPPV c FAX c EDL c SOI LE,16%C3F8",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-09",
       "days_pending": 0,
@@ -9559,7 +9559,7 @@
       "op": "PE with IOL OS",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-10",
       "days_pending": 0,
@@ -9573,7 +9573,7 @@
       "op": "LT C/S",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-10",
       "days_pending": 0,
@@ -9741,7 +9741,7 @@
       "op": "LT C/S",
       "circ": "นางณัฐณิชา ไชยพะยวน, น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9769,7 +9769,7 @@
       "op": "Remove EF c manipulate Rt. Knee",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9825,7 +9825,7 @@
       "op": "Explore lap with simple suture with omental graft",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9839,7 +9839,7 @@
       "op": "PE with IOL OS",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9853,7 +9853,7 @@
       "op": "PE c IOL c tapping vitreous LE",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9881,7 +9881,7 @@
       "op": "PE with IOL OS,Iris retractor + lysis PS",
       "circ": "พรชิตา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9895,7 +9895,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
       "days_pending": 0,
@@ -9966,7 +9966,7 @@
       "op": "excisional DB gluteal",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-12",
       "days_pending": 0,
@@ -10008,7 +10008,7 @@
       "op": "PE with IOL  LE",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-12",
       "days_pending": 0,
@@ -10022,7 +10022,7 @@
       "op": "Pneumatic OD",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-12",
       "days_pending": 0,
@@ -10291,7 +10291,7 @@
       "op": "PE with IOL OS",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-02",
       "days_pending": 0,
@@ -10404,7 +10404,7 @@
       "op": "ORIF with  PHILOS plate at Rt. humerus with flu",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-03",
       "days_pending": 0,
@@ -10446,7 +10446,7 @@
       "op": "Systematic DB with SLS Rt. Foot",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-04",
       "days_pending": 0,
@@ -10544,7 +10544,7 @@
       "op": "Explore lap,with Lt.SO",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-04",
       "days_pending": 0,
@@ -10558,7 +10558,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.กาญจนา เชื้อสีดา",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-04",
       "days_pending": 0,
@@ -10572,7 +10572,7 @@
       "op": "TR",
       "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-04",
       "days_pending": 0,
@@ -10586,7 +10586,7 @@
       "op": "ORIF c  Volar LCP Rt. DER",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-04",
       "days_pending": 0,
@@ -10628,7 +10628,7 @@
       "op": "ORIF c distal fibular LCP at distal Rt. fibular c CRIF c DMT at distal Rt. tibia c flu",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-05",
       "days_pending": 0,
@@ -10656,7 +10656,7 @@
       "op": "LT C/S with TR,Myomectomy",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-05",
       "days_pending": 0,
@@ -10881,7 +10881,7 @@
       "op": "Excisional DB Rt. foot",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-07",
       "days_pending": 0,
@@ -10923,7 +10923,7 @@
       "op": "Fasciotomy Rt. Foot,and Rt. Leg",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์, น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-07",
       "days_pending": 0,
@@ -10993,7 +10993,7 @@
       "op": "APR",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-08",
       "days_pending": 0,
@@ -11050,7 +11050,7 @@
       "op": "Debridement with ORIF with k-wire fixation right big toe (2 piece) and suture wound right 2nd toe",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-09",
       "days_pending": 0,
@@ -11122,7 +11122,7 @@
       "op": "LT C/S (TR)",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ทีมซ้ำในชุด"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2569-09",
       "days_pending": 0,
