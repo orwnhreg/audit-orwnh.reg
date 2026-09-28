@@ -10542,13 +10542,13 @@
       "ever": 5
     },
     "2569-09": {
-      "total": 621,
+      "total": 606,
       "pending": 5,
       "resolved": 5,
       "ever": 10
     },
     "all": {
-      "total": 13456,
+      "total": 13441,
       "pending": 646,
       "resolved": 58,
       "ever": 704
