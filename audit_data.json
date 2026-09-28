@@ -43,19 +43,6 @@
         "days_pending": 3
       },
       {
-        "date": "21/9/2569",
-        "hn": "263586",
-        "name": "Mr.SANN LIN AUNG",
-        "dept": "Orthopedic",
-        "op": "DB with suture left middle finger",
-        "circ": "น.ส.กรรณชดา สาลีเพ็ง",
-        "missing": [
-          "First Dx",
-          "Last Dx"
-        ],
-        "days_pending": 3
-      },
-      {
         "date": "22/9/2569",
         "hn": "250866",
         "name": "นางบังอร เชื้อวังคำ",
@@ -198,7 +185,7 @@
       {
         "day": 21,
         "total": 22,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 22,
@@ -233,9 +220,9 @@
     ]
   },
   "insights": {
-    "completeness_pct": 99.0,
+    "completeness_pct": 99.2,
     "finished_total": 606,
-    "missing_total": 6,
+    "missing_total": 5,
     "dept_breakdown": [
       {
         "dept": "Surgery",
@@ -245,7 +232,7 @@
       {
         "dept": "Orthopedic",
         "total": 122,
-        "missing": 3
+        "missing": 2
       },
       {
         "dept": "E.N.T",
@@ -266,11 +253,11 @@
     "top_missing_cols": [
       {
         "col": "First Dx",
-        "count": 3
+        "count": 2
       },
       {
         "col": "Last Dx",
-        "count": 3
+        "count": 2
       },
       {
         "col": "Risk",
@@ -286,7 +273,7 @@
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": -0.3
+    "trend_delta": -0.1
   },
   "all_cases": [
     {
@@ -10254,21 +10241,6 @@
       "first_seen": "2026-09-25"
     },
     {
-      "date": "21/9/2569",
-      "hn": "263586",
-      "name": "Mr.SANN LIN AUNG",
-      "dept": "Orthopedic",
-      "op": "DB with suture left middle finger",
-      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "First Dx",
-        "Last Dx"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 3,
-      "first_seen": "2026-09-25"
-    },
-    {
       "date": "22/9/2569",
       "hn": "250866",
       "name": "นางบังอร เชื้อวังคำ",
@@ -14378,7 +14350,7 @@
       {
         "day": 21,
         "total": 22,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 22,
@@ -14545,7 +14517,7 @@
       {
         "day": "ก.ย.",
         "total": 610,
-        "missing": 6
+        "missing": 5
       }
     ]
   }
