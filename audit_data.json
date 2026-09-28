@@ -10542,13 +10542,13 @@
       "ever": 5
     },
     "2569-09": {
-      "total": 617,
+      "total": 618,
       "pending": 5,
       "resolved": 5,
       "ever": 10
     },
     "all": {
-      "total": 13452,
+      "total": 13453,
       "pending": 646,
       "resolved": 58,
       "ever": 704
@@ -14548,7 +14548,7 @@
       },
       {
         "day": 28,
-        "total": 11,
+        "total": 12,
         "missing": 0
       }
     ],
@@ -14680,7 +14680,7 @@
       },
       {
         "day": "ก.ย.",
-        "total": 617,
+        "total": 618,
         "missing": 5
       }
     ]
