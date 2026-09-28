@@ -2,11 +2,11 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "28/09/2026",
-  "rows": 13507,
+  "rows": 13509,
   "colA": {
-    "dup": 2,
+    "dup": 3,
     "missing": 4,
-    "offset": 4
+    "offset": 6
   },
   "blank_cols": {},
   "team": {
