@@ -428,12 +428,22 @@ def build_html(data: dict) -> str:
 
   .progress-fill-resolved {{
     height: 100%;
-    background: var(--ok);
+    background: repeating-linear-gradient(
+      45deg,
+      var(--ok) 0, var(--ok) 4px,
+      transparent 4px, transparent 8px
+    );
+    background-color: var(--ok);
   }}
 
   .progress-fill-pending {{
     height: 100%;
     background: var(--warn);
+  }}
+
+  .progress-fill-rest {{
+    height: 100%;
+    background: var(--ok);
   }}
 
   .progress-pct {{
@@ -710,6 +720,7 @@ def build_html(data: dict) -> str:
         <div class="progress-track">
           <div class="progress-fill-resolved" id="progFillResolved" style="width:0%"></div>
           <div class="progress-fill-pending" id="progFillPending" style="width:0%"></div>
+          <div class="progress-fill-rest" id="progFillRest" style="width:0%"></div>
         </div>
         <p class="progress-pct" id="progPct">0% แก้ไขแล้ว</p>
       </div>
@@ -769,6 +780,7 @@ def build_html(data: dict) -> str:
       var progResolved = document.getElementById('progResolved');
       var progFillResolved = document.getElementById('progFillResolved');
       var progFillPending = document.getElementById('progFillPending');
+      var progFillRest = document.getElementById('progFillRest');
       var progPct = document.getElementById('progPct');
       var progressCaption = document.getElementById('progressCaption');
       function applyFilter() {{
@@ -793,8 +805,10 @@ def build_html(data: dict) -> str:
         progResolved.textContent = prog.resolved;
         var resolvedPct = prog.total ? (prog.resolved / prog.total) * 100 : 0;
         var pendingPct = prog.total ? (prog.pending / prog.total) * 100 : 0;
+        var restPct = Math.max(100 - resolvedPct - pendingPct, 0);
         progFillResolved.style.width = resolvedPct + '%';
         progFillPending.style.width = pendingPct + '%';
+        progFillRest.style.width = restPct + '%';
         var pctDisplay = prog.ever ? Math.round((prog.resolved / prog.ever) * 1000) / 10 : 100;
         progPct.textContent = pctDisplay + '% แก้ไขแล้ว (' + prog.resolved + '/' + prog.ever + ' เคสที่เคยถูกแจ้งบนเว็บ)';
         progressCaption.textContent = val === 'all' ? 'ทั้งหมด' : label;
