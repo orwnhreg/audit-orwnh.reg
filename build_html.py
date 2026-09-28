@@ -787,17 +787,16 @@ def build_html(data: dict) -> str:
         chartCaption.textContent = val === 'all'
           ? 'ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายเดือน) — ทั้งหมด'
           : 'ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — ' + label;
-        var prog = monthProgress[val] || {{ total: 0, pending: 0, resolved: 0 }};
-        var resolvedCount = prog.total - prog.pending;
+        var prog = monthProgress[val] || {{ total: 0, pending: 0, resolved: 0, ever: 0 }};
         progTotal.textContent = prog.total;
         progPending.textContent = prog.pending;
-        progResolved.textContent = resolvedCount;
-        var resolvedPct = prog.total ? (resolvedCount / prog.total) * 100 : 0;
+        progResolved.textContent = prog.resolved;
+        var resolvedPct = prog.total ? (prog.resolved / prog.total) * 100 : 0;
         var pendingPct = prog.total ? (prog.pending / prog.total) * 100 : 0;
         progFillResolved.style.width = resolvedPct + '%';
         progFillPending.style.width = pendingPct + '%';
-        var pctDisplay = prog.total ? Math.round(resolvedPct * 10) / 10 : 100;
-        progPct.textContent = pctDisplay + '% แก้ไขแล้ว/ไม่ต้องแก้ (' + resolvedCount + '/' + prog.total + ' เคส)';
+        var pctDisplay = prog.ever ? Math.round((prog.resolved / prog.ever) * 1000) / 10 : 100;
+        progPct.textContent = pctDisplay + '% แก้ไขแล้ว (' + prog.resolved + '/' + prog.ever + ' เคสที่เคยถูกแจ้งบนเว็บ)';
         progressCaption.textContent = val === 'all' ? 'ทั้งหมด' : label;
       }}
       sel.addEventListener('change', applyFilter);
