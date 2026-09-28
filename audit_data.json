@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "28/09/2026",
-  "rows": 13502,
+  "rows": 13503,
   "colA": {
     "dup": 1,
     "missing": 0,
@@ -10542,13 +10542,13 @@
       "ever": 5
     },
     "2569-09": {
-      "total": 618,
+      "total": 619,
       "pending": 5,
       "resolved": 5,
       "ever": 10
     },
     "all": {
-      "total": 13453,
+      "total": 13454,
       "pending": 646,
       "resolved": 58,
       "ever": 704
@@ -14548,7 +14548,7 @@
       },
       {
         "day": 28,
-        "total": 12,
+        "total": 13,
         "missing": 0
       }
     ],
@@ -14680,7 +14680,7 @@
       },
       {
         "day": "ก.ย.",
-        "total": 618,
+        "total": 619,
         "missing": 5
       }
     ]
