@@ -140,6 +140,8 @@ def build_html(data: dict) -> str:
     month_select_html = render_month_select(month_options, default_key=current_month_key)
     daily_by_month = data.get("daily_by_month", {}) or {}
     daily_by_month_json = json.dumps(daily_by_month, ensure_ascii=False)
+    month_progress = data.get("month_progress", {}) or {}
+    month_progress_json = json.dumps(month_progress, ensure_ascii=False)
     chart_js = render_bar_chart_js()
 
     return f'''<!DOCTYPE html>
@@ -377,6 +379,58 @@ def build_html(data: dict) -> str:
 
   .table-wrap {{
     overflow-x: auto;
+  }}
+
+  .progress-stats {{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }}
+
+  .progress-stat {{
+    flex: 1 1 90px;
+    text-align: center;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-soft);
+    padding: 10px 8px;
+  }}
+
+  .progress-stat-label {{
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    margin: 0 0 4px;
+  }}
+
+  .progress-stat-value {{
+    font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 1.4rem;
+    font-weight: 650;
+    color: var(--text);
+    margin: 0;
+  }}
+
+  .progress-warn {{ color: var(--warn); }}
+  .progress-ok {{ color: var(--ok); }}
+
+  .progress-track {{
+    width: 100%;
+    height: 10px;
+    background: var(--bg-muted);
+    overflow: hidden;
+  }}
+
+  .progress-fill {{
+    height: 100%;
+    background: var(--ok);
+    transition: width 0.3s ease;
+  }}
+
+  .progress-pct {{
+    margin: 8px 0 0;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    text-align: right;
   }}
 
   .filter-row {{
@@ -625,6 +679,31 @@ def build_html(data: dict) -> str:
       </div>
     </div>
 
+    <div class="panel" id="progress">
+      <div class="panel-body">
+        <p class="section-title">ความคืบหน้าการแก้ไข</p>
+        <p class="section-sub" id="progressCaption">เดือนนี้</p>
+        <div class="progress-stats">
+          <div class="progress-stat">
+            <p class="progress-stat-label">เคสทั้งหมด</p>
+            <p class="progress-stat-value" id="progTotal">0</p>
+          </div>
+          <div class="progress-stat">
+            <p class="progress-stat-label progress-warn">รอแก้ไข</p>
+            <p class="progress-stat-value progress-warn" id="progPending">0</p>
+          </div>
+          <div class="progress-stat">
+            <p class="progress-stat-label progress-ok">แก้ไขแล้ว</p>
+            <p class="progress-stat-value progress-ok" id="progResolved">0</p>
+          </div>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progFill" style="width:0%"></div>
+        </div>
+        <p class="progress-pct" id="progPct">0% แก้ไขแล้ว</p>
+      </div>
+    </div>
+
     <div class="panel" id="chart">
       <div class="panel-body">
         <p class="section-sub" id="chartCaption">ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — เดือนนี้</p>
@@ -673,6 +752,13 @@ def build_html(data: dict) -> str:
       var countEl = document.getElementById('caseCountValue');
       var chartHost = document.getElementById('chartHost');
       var chartCaption = document.getElementById('chartCaption');
+      var monthProgress = {month_progress_json};
+      var progTotal = document.getElementById('progTotal');
+      var progPending = document.getElementById('progPending');
+      var progResolved = document.getElementById('progResolved');
+      var progFill = document.getElementById('progFill');
+      var progPct = document.getElementById('progPct');
+      var progressCaption = document.getElementById('progressCaption');
       function applyFilter() {{
         var val = sel.value;
         var visible = 0;
@@ -689,6 +775,14 @@ def build_html(data: dict) -> str:
         chartCaption.textContent = val === 'all'
           ? 'ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายเดือน) — ทั้งหมด'
           : 'ยอดเคสทั้งเดือน vs ข้อมูลไม่ครบ (รายวัน) — ' + label;
+        var prog = monthProgress[val] || {{ total: 0, pending: 0, resolved: 0 }};
+        progTotal.textContent = prog.total;
+        progPending.textContent = prog.pending;
+        progResolved.textContent = prog.resolved;
+        var pct = prog.total ? Math.round((prog.resolved / prog.total) * 1000) / 10 : 100;
+        progFill.style.width = pct + '%';
+        progPct.textContent = pct + '% แก้ไขแล้ว';
+        progressCaption.textContent = val === 'all' ? 'ทั้งหมด' : label;
       }}
       sel.addEventListener('change', applyFilter);
       applyFilter();
