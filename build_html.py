@@ -796,12 +796,12 @@ def build_html(data: dict) -> str:
         progTotal.textContent = prog.total;
         progPending.textContent = prog.pending;
         progResolved.textContent = prog.resolved;
-        var resolvedPct = prog.total ? (prog.resolved / prog.total) * 100 : 0;
-        var pendingPct = prog.total ? (prog.pending / prog.total) * 100 : 0;
+        var resolvedPct = prog.ever ? (prog.resolved / prog.ever) * 100 : 0;
+        var pendingPct = prog.ever ? (prog.pending / prog.ever) * 100 : 0;
         progFillResolved.style.width = resolvedPct + '%';
         progFillPending.style.width = pendingPct + '%';
-        var pctDisplay = prog.total ? Math.round((prog.resolved / prog.total) * 1000) / 10 : 100;
-        progPct.textContent = pctDisplay + '% แก้ไขแล้ว';
+        var pctDisplay = prog.ever ? Math.round((prog.resolved / prog.ever) * 1000) / 10 : 100;
+        progPct.textContent = pctDisplay + '% แก้ไขแล้ว (' + prog.resolved + '/' + prog.ever + ' เคสที่เคยไม่ครบ)';
         progressCaption.textContent = val === 'all' ? 'ทั้งหมด' : label;
       }}
       sel.addEventListener('change', applyFilter);
