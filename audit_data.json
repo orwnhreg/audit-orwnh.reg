@@ -18,19 +18,6 @@
     "total": 606,
     "cases": [
       {
-        "date": "8/9/2569",
-        "hn": "30030",
-        "name": "นายวน เนื่องจำนงค์",
-        "dept": "Surgery",
-        "op": "Suture Wound",
-        "circ": "น.ส.มัญชุกร เกิดไทย",
-        "missing": [
-          "First Dx",
-          "Last Dx"
-        ],
-        "days_pending": 3
-      },
-      {
         "date": "22/9/2569",
         "hn": "250866",
         "name": "นางบังอร เชื้อวังคำ",
@@ -108,7 +95,7 @@
       {
         "day": 8,
         "total": 35,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 9,
@@ -208,19 +195,19 @@
     ]
   },
   "insights": {
-    "completeness_pct": 99.3,
+    "completeness_pct": 99.5,
     "finished_total": 606,
-    "missing_total": 4,
+    "missing_total": 3,
     "dept_breakdown": [
-      {
-        "dept": "Surgery",
-        "total": 219,
-        "missing": 2
-      },
       {
         "dept": "Orthopedic",
         "total": 122,
         "missing": 2
+      },
+      {
+        "dept": "Surgery",
+        "total": 219,
+        "missing": 1
       },
       {
         "dept": "E.N.T",
@@ -240,24 +227,24 @@
     ],
     "top_missing_cols": [
       {
-        "col": "First Dx",
-        "count": 2
-      },
-      {
-        "col": "Last Dx",
-        "count": 2
-      },
-      {
         "col": "เวลาออกจากห้องผ่าตัด",
         "count": 1
       },
       {
         "col": "Aneasthesia",
         "count": 1
+      },
+      {
+        "col": "First Dx",
+        "count": 1
+      },
+      {
+        "col": "Last Dx",
+        "count": 1
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": 0.0
+    "trend_delta": 0.2
   },
   "all_cases": [
     {
@@ -10196,21 +10183,6 @@
       "first_seen": "2026-09-26"
     },
     {
-      "date": "8/9/2569",
-      "hn": "30030",
-      "name": "นายวน เนื่องจำนงค์",
-      "dept": "Surgery",
-      "op": "Suture Wound",
-      "circ": "น.ส.มัญชุกร เกิดไทย",
-      "missing": [
-        "First Dx",
-        "Last Dx"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 3,
-      "first_seen": "2026-09-25"
-    },
-    {
       "date": "22/9/2569",
       "hn": "250866",
       "name": "นางบังอร เชื้อวังคำ",
@@ -10513,14 +10485,14 @@
     },
     "2569-09": {
       "total": 606,
-      "pending": 4,
-      "resolved": 6,
+      "pending": 3,
+      "resolved": 7,
       "ever": 10
     },
     "all": {
       "total": 13441,
-      "pending": 645,
-      "resolved": 59,
+      "pending": 644,
+      "resolved": 60,
       "ever": 704
     }
   },
@@ -14419,7 +14391,7 @@
       {
         "day": 8,
         "total": 35,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 9,
@@ -14651,7 +14623,7 @@
       {
         "day": "ก.ย.",
         "total": 622,
-        "missing": 4
+        "missing": 3
       }
     ]
   }
