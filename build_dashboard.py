@@ -235,16 +235,31 @@ def build_dashboard(data: dict) -> str:
   .tabs {{ display: flex; gap: 4px; flex-wrap: wrap; margin-left: 4px; }}
 
   .tab {{
-    padding: 8px 12px 9px;
-    font-size: 0.88rem;
+    padding: 8px 16px 9px;
+    font-size: 0.85rem;
+    font-weight: 600;
     color: var(--text-muted);
     white-space: nowrap;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
+    background: var(--bg-muted);
+    border: 1px solid var(--border);
+    border-bottom: none;
     margin-bottom: -1px;
+    position: relative;
+    top: 3px;
+    transition: top 0.15s ease, color 0.15s ease;
   }}
 
-  .tab.active {{ color: var(--accent); border-bottom-color: var(--accent); }}
+  .tab:hover {{ color: var(--text); top: 1px; }}
+
+  .tab.active {{
+    color: var(--accent);
+    background: var(--bg);
+    border-color: var(--border);
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 -2px 0 var(--accent) inset;
+  }}
 
   .page-head {{ padding: 22px 2px 14px; }}
 
