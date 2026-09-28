@@ -707,13 +707,6 @@ def build_html(data: dict) -> str:
       {unfinished_note}
     </div>
 
-    <div class="stat-row">
-      <div class="stat">
-        <p class="stat-label">จำนวนเคสที่ข้อมูลไม่ครบ</p>
-        <p class="stat-value" id="caseCountValue">{esc(all_cases_total)}</p>
-      </div>
-    </div>
-
     <div class="panel" id="progress">
       <div class="panel-body">
         <p class="section-title">ความคืบหน้าการแก้ไข</p>
@@ -786,7 +779,6 @@ def build_html(data: dict) -> str:
       var sel = monthSelectEl;
       var rows = Array.prototype.slice.call(document.querySelectorAll('#allCasesTable tbody tr'));
       var noMsg = document.getElementById('noCasesMsg');
-      var countEl = document.getElementById('caseCountValue');
       var chartHost = document.getElementById('chartHost');
       var chartCaption = document.getElementById('chartCaption');
       var monthProgress = {month_progress_json};
@@ -807,7 +799,6 @@ def build_html(data: dict) -> str:
           if (show) visible++;
         }});
         noMsg.style.display = visible === 0 ? '' : 'none';
-        countEl.textContent = visible;
         var daily = dailyByMonth[val] || [];
         chartHost.innerHTML = renderBarChart(daily);
         var label = monthLabels[val] || val;

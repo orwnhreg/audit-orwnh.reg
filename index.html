@@ -557,15 +557,8 @@
 
     <div class="page-head">
       <h1 class="page-title">รายงานข้อมูลไม่ครบถ้วน</h1>
-      <p class="page-sub">วันที่ 1/09/69 ถึง 27/09/69 · อัปเดตล่าสุด 15:30</p>
+      <p class="page-sub">วันที่ 1/09/69 ถึง 27/09/69 · อัปเดตล่าสุด 15:36</p>
       
-    </div>
-
-    <div class="stat-row">
-      <div class="stat">
-        <p class="stat-label">จำนวนเคสที่ข้อมูลไม่ครบ</p>
-        <p class="stat-value" id="caseCountValue">5</p>
-      </div>
     </div>
 
     <div class="panel" id="progress">
@@ -6543,7 +6536,6 @@
       var sel = monthSelectEl;
       var rows = Array.prototype.slice.call(document.querySelectorAll('#allCasesTable tbody tr'));
       var noMsg = document.getElementById('noCasesMsg');
-      var countEl = document.getElementById('caseCountValue');
       var chartHost = document.getElementById('chartHost');
       var chartCaption = document.getElementById('chartCaption');
       var monthProgress = {"2567-08": {"total": 157, "pending": 103, "resolved": 0, "ever": 103}, "2567-09": {"total": 103, "pending": 55, "resolved": 0, "ever": 55}, "2567-10": {"total": 298, "pending": 90, "resolved": 0, "ever": 90}, "2567-11": {"total": 419, "pending": 79, "resolved": 0, "ever": 79}, "2567-12": {"total": 487, "pending": 110, "resolved": 2, "ever": 112}, "2568-01": {"total": 540, "pending": 21, "resolved": 2, "ever": 23}, "2568-02": {"total": 478, "pending": 6, "resolved": 6, "ever": 12}, "2568-03": {"total": 600, "pending": 20, "resolved": 3, "ever": 23}, "2568-04": {"total": 507, "pending": 19, "resolved": 2, "ever": 21}, "2568-05": {"total": 511, "pending": 10, "resolved": 4, "ever": 14}, "2568-06": {"total": 561, "pending": 11, "resolved": 1, "ever": 12}, "2568-07": {"total": 570, "pending": 6, "resolved": 3, "ever": 9}, "2568-08": {"total": 561, "pending": 13, "resolved": 4, "ever": 17}, "2568-09": {"total": 675, "pending": 14, "resolved": 3, "ever": 17}, "2568-10": {"total": 615, "pending": 14, "resolved": 2, "ever": 16}, "2568-11": {"total": 498, "pending": 6, "resolved": 6, "ever": 12}, "2568-12": {"total": 565, "pending": 8, "resolved": 3, "ever": 11}, "2569-01": {"total": 601, "pending": 8, "resolved": 0, "ever": 8}, "2569-02": {"total": 596, "pending": 9, "resolved": 1, "ever": 10}, "2569-03": {"total": 596, "pending": 7, "resolved": 1, "ever": 8}, "2569-04": {"total": 580, "pending": 8, "resolved": 5, "ever": 13}, "2569-05": {"total": 609, "pending": 8, "resolved": 2, "ever": 10}, "2569-06": {"total": 562, "pending": 5, "resolved": 0, "ever": 5}, "2569-07": {"total": 606, "pending": 7, "resolved": 2, "ever": 9}, "2569-08": {"total": 540, "pending": 4, "resolved": 1, "ever": 5}, "2569-09": {"total": 606, "pending": 5, "resolved": 5, "ever": 10}, "all": {"total": 13441, "pending": 646, "resolved": 58, "ever": 704}};
@@ -6564,7 +6556,6 @@
           if (show) visible++;
         });
         noMsg.style.display = visible === 0 ? '' : 'none';
-        countEl.textContent = visible;
         var daily = dailyByMonth[val] || [];
         chartHost.innerHTML = renderBarChart(daily);
         var label = monthLabels[val] || val;
