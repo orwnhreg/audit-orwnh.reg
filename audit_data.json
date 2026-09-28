@@ -31,18 +31,6 @@
         "days_pending": 3
       },
       {
-        "date": "14/9/2569",
-        "hn": "263237",
-        "name": "นายส่งศักดิ์ ภูเวียนวงค์",
-        "dept": "Surgery",
-        "op": "Excisional DB Lt.foot",
-        "circ": "น.ส.มัญชุกร เกิดไทย",
-        "missing": [
-          "Risk"
-        ],
-        "days_pending": 3
-      },
-      {
         "date": "22/9/2569",
         "hn": "250866",
         "name": "นางบังอร เชื้อวังคำ",
@@ -150,7 +138,7 @@
       {
         "day": 14,
         "total": 23,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 15,
@@ -220,14 +208,14 @@
     ]
   },
   "insights": {
-    "completeness_pct": 99.2,
+    "completeness_pct": 99.3,
     "finished_total": 606,
-    "missing_total": 5,
+    "missing_total": 4,
     "dept_breakdown": [
       {
         "dept": "Surgery",
         "total": 219,
-        "missing": 3
+        "missing": 2
       },
       {
         "dept": "Orthopedic",
@@ -260,10 +248,6 @@
         "count": 2
       },
       {
-        "col": "Risk",
-        "count": 1
-      },
-      {
         "col": "เวลาออกจากห้องผ่าตัด",
         "count": 1
       },
@@ -273,7 +257,7 @@
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": -0.1
+    "trend_delta": 0.0
   },
   "all_cases": [
     {
@@ -10227,20 +10211,6 @@
       "first_seen": "2026-09-25"
     },
     {
-      "date": "14/9/2569",
-      "hn": "263237",
-      "name": "นายส่งศักดิ์ ภูเวียนวงค์",
-      "dept": "Surgery",
-      "op": "Excisional DB Lt.foot",
-      "circ": "น.ส.มัญชุกร เกิดไทย",
-      "missing": [
-        "Risk"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 3,
-      "first_seen": "2026-09-25"
-    },
-    {
       "date": "22/9/2569",
       "hn": "250866",
       "name": "นางบังอร เชื้อวังคำ",
@@ -10543,14 +10513,14 @@
     },
     "2569-09": {
       "total": 606,
-      "pending": 5,
-      "resolved": 5,
+      "pending": 4,
+      "resolved": 6,
       "ever": 10
     },
     "all": {
       "total": 13441,
-      "pending": 646,
-      "resolved": 58,
+      "pending": 645,
+      "resolved": 59,
       "ever": 704
     }
   },
@@ -14479,7 +14449,7 @@
       {
         "day": 14,
         "total": 23,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 15,
@@ -14548,7 +14518,7 @@
       },
       {
         "day": 28,
-        "total": 15,
+        "total": 16,
         "missing": 0
       }
     ],
@@ -14680,8 +14650,8 @@
       },
       {
         "day": "ก.ย.",
-        "total": 621,
-        "missing": 5
+        "total": 622,
+        "missing": 4
       }
     ]
   }
