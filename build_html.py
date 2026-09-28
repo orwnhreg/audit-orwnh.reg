@@ -423,19 +423,19 @@ def build_html(data: dict) -> str:
 
   .progress-fill-resolved {{
     height: 100%;
-    min-width: 3px;
+    min-width: 8px;
     flex-shrink: 0;
     background: repeating-linear-gradient(
       45deg,
-      var(--ok) 0, var(--ok) 3px,
-      #ffffff55 3px, #ffffff55 6px
+      var(--ok) 0, var(--ok) 4px,
+      #ffffff88 4px, #ffffff88 8px
     );
     background-color: var(--ok);
   }}
 
   .progress-fill-pending {{
     height: 100%;
-    min-width: 3px;
+    min-width: 8px;
     flex-shrink: 0;
     background: var(--warn);
   }}
