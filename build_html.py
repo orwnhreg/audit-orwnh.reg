@@ -415,34 +415,34 @@ def build_html(data: dict) -> str:
 
   .progress-track {{
     width: 100%;
-    height: 10px;
+    height: 14px;
     background: var(--bg-muted);
     overflow: hidden;
     display: flex;
   }}
 
-  .progress-fill {{
-    height: 100%;
-    background: var(--ok);
-  }}
-
   .progress-fill-resolved {{
     height: 100%;
+    min-width: 3px;
+    flex-shrink: 0;
     background: repeating-linear-gradient(
       45deg,
-      var(--ok) 0, var(--ok) 4px,
-      transparent 4px, transparent 8px
+      var(--ok) 0, var(--ok) 3px,
+      #ffffff55 3px, #ffffff55 6px
     );
     background-color: var(--ok);
   }}
 
   .progress-fill-pending {{
     height: 100%;
+    min-width: 3px;
+    flex-shrink: 0;
     background: var(--warn);
   }}
 
   .progress-fill-rest {{
     height: 100%;
+    flex: 1 1 auto;
     background: var(--ok);
   }}
 
