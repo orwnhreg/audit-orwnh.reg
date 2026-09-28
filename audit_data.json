@@ -8,9 +8,7 @@
     "missing": 4,
     "offset": 3
   },
-  "blank_cols": {
-    "เวร": 1
-  },
+  "blank_cols": {},
   "team": {
     "dup_in_set": 101,
     "dup_in_set_recent": 1
@@ -93,18 +91,6 @@
           "Last Dx"
         ],
         "days_pending": 3
-      },
-      {
-        "date": "27/9/2569",
-        "hn": "253266",
-        "name": "นายถาวร นำสงค์",
-        "dept": "Surgery",
-        "op": "Explor lap with repair abdominal wall with retension suture",
-        "circ": "น.ส.รัตติกร แขนธิราช",
-        "missing": [
-          "เวร"
-        ],
-        "days_pending": 0
       }
     ],
     "unfinished": 0,
@@ -242,19 +228,19 @@
       {
         "day": 27,
         "total": 3,
-        "missing": 1
+        "missing": 0
       }
     ]
   },
   "insights": {
-    "completeness_pct": 98.8,
+    "completeness_pct": 99.0,
     "finished_total": 606,
-    "missing_total": 7,
+    "missing_total": 6,
     "dept_breakdown": [
       {
         "dept": "Surgery",
         "total": 219,
-        "missing": 4
+        "missing": 3
       },
       {
         "dept": "Orthopedic",
@@ -297,14 +283,10 @@
       {
         "col": "Aneasthesia",
         "count": 1
-      },
-      {
-        "col": "เวร",
-        "count": 1
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": -0.5
+    "trend_delta": -0.3
   },
   "all_cases": [
     {
@@ -10328,20 +10310,6 @@
       "month_key": "2569-09",
       "days_pending": 3,
       "first_seen": "2026-09-25"
-    },
-    {
-      "date": "27/9/2569",
-      "hn": "253266",
-      "name": "นายถาวร นำสงค์",
-      "dept": "Surgery",
-      "op": "Explor lap with repair abdominal wall with retension suture",
-      "circ": "น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "เวร"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-09-28"
     }
   ],
   "month_options": [
@@ -14440,7 +14408,12 @@
       {
         "day": 27,
         "total": 3,
-        "missing": 1
+        "missing": 0
+      },
+      {
+        "day": 28,
+        "total": 1,
+        "missing": 0
       }
     ],
     "all": [
@@ -14571,8 +14544,8 @@
       },
       {
         "day": "ก.ย.",
-        "total": 606,
-        "missing": 7
+        "total": 607,
+        "missing": 6
       }
     ]
   }
