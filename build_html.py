@@ -443,7 +443,7 @@ def build_html(data: dict) -> str:
   .progress-fill-rest {{
     height: 100%;
     flex: 1 1 auto;
-    background: transparent;
+    background: var(--ok);
   }}
 
   .progress-pct {{
