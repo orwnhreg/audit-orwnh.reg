@@ -305,7 +305,7 @@ def build_html(data: dict) -> str:
     border-color: var(--border);
     top: 0;
     z-index: 1;
-    box-shadow: 0 -2px 0 var(--accent) inset;
+    box-shadow: 2px -2px 4px rgba(0, 0, 0, 0.15);
   }}
 
   .page-head {{
