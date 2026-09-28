@@ -418,12 +418,27 @@ def build_html(data: dict) -> str:
     height: 10px;
     background: var(--bg-muted);
     overflow: hidden;
+    display: flex;
   }}
 
   .progress-fill {{
     height: 100%;
     background: var(--ok);
-    transition: width 0.3s ease;
+  }}
+
+  .progress-fill-resolved {{
+    height: 100%;
+    background: repeating-linear-gradient(
+      45deg,
+      var(--ok) 0, var(--ok) 4px,
+      transparent 4px, transparent 8px
+    );
+    background-color: var(--bg-muted);
+  }}
+
+  .progress-fill-pending {{
+    height: 100%;
+    background: var(--warn);
   }}
 
   .progress-pct {{
@@ -698,7 +713,8 @@ def build_html(data: dict) -> str:
           </div>
         </div>
         <div class="progress-track">
-          <div class="progress-fill" id="progFill" style="width:0%"></div>
+          <div class="progress-fill-resolved" id="progFillResolved" style="width:0%"></div>
+          <div class="progress-fill-pending" id="progFillPending" style="width:0%"></div>
         </div>
         <p class="progress-pct" id="progPct">0% แก้ไขแล้ว</p>
       </div>
@@ -756,7 +772,8 @@ def build_html(data: dict) -> str:
       var progTotal = document.getElementById('progTotal');
       var progPending = document.getElementById('progPending');
       var progResolved = document.getElementById('progResolved');
-      var progFill = document.getElementById('progFill');
+      var progFillResolved = document.getElementById('progFillResolved');
+      var progFillPending = document.getElementById('progFillPending');
       var progPct = document.getElementById('progPct');
       var progressCaption = document.getElementById('progressCaption');
       function applyFilter() {{
@@ -779,9 +796,12 @@ def build_html(data: dict) -> str:
         progTotal.textContent = prog.total;
         progPending.textContent = prog.pending;
         progResolved.textContent = prog.resolved;
-        var pct = prog.total ? Math.round((prog.resolved / prog.total) * 1000) / 10 : 100;
-        progFill.style.width = pct + '%';
-        progPct.textContent = pct + '% แก้ไขแล้ว';
+        var resolvedPct = prog.total ? (prog.resolved / prog.total) * 100 : 0;
+        var pendingPct = prog.total ? (prog.pending / prog.total) * 100 : 0;
+        progFillResolved.style.width = resolvedPct + '%';
+        progFillPending.style.width = pendingPct + '%';
+        var pctDisplay = prog.total ? Math.round((prog.resolved / prog.total) * 1000) / 10 : 100;
+        progPct.textContent = pctDisplay + '% แก้ไขแล้ว';
         progressCaption.textContent = val === 'all' ? 'ทั้งหมด' : label;
       }}
       sel.addEventListener('change', applyFilter);

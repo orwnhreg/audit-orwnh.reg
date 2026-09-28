@@ -10394,137 +10394,164 @@
     "2567-08": {
       "total": 157,
       "pending": 103,
-      "resolved": 54
+      "resolved": 0,
+      "ever": 103
     },
     "2567-09": {
       "total": 103,
       "pending": 55,
-      "resolved": 48
+      "resolved": 0,
+      "ever": 55
     },
     "2567-10": {
       "total": 298,
       "pending": 90,
-      "resolved": 208
+      "resolved": 0,
+      "ever": 90
     },
     "2567-11": {
       "total": 419,
       "pending": 79,
-      "resolved": 340
+      "resolved": 0,
+      "ever": 79
     },
     "2567-12": {
       "total": 487,
       "pending": 110,
-      "resolved": 377
+      "resolved": 0,
+      "ever": 110
     },
     "2568-01": {
       "total": 540,
       "pending": 21,
-      "resolved": 519
+      "resolved": 0,
+      "ever": 21
     },
     "2568-02": {
       "total": 478,
       "pending": 6,
-      "resolved": 472
+      "resolved": 0,
+      "ever": 6
     },
     "2568-03": {
       "total": 600,
       "pending": 20,
-      "resolved": 580
+      "resolved": 0,
+      "ever": 20
     },
     "2568-04": {
       "total": 507,
       "pending": 19,
-      "resolved": 488
+      "resolved": 0,
+      "ever": 19
     },
     "2568-05": {
       "total": 511,
       "pending": 10,
-      "resolved": 501
+      "resolved": 0,
+      "ever": 10
     },
     "2568-06": {
       "total": 561,
       "pending": 11,
-      "resolved": 550
+      "resolved": 0,
+      "ever": 11
     },
     "2568-07": {
       "total": 570,
       "pending": 6,
-      "resolved": 564
+      "resolved": 0,
+      "ever": 6
     },
     "2568-08": {
       "total": 561,
       "pending": 13,
-      "resolved": 548
+      "resolved": 0,
+      "ever": 13
     },
     "2568-09": {
       "total": 675,
       "pending": 14,
-      "resolved": 661
+      "resolved": 0,
+      "ever": 14
     },
     "2568-10": {
       "total": 615,
       "pending": 14,
-      "resolved": 601
+      "resolved": 0,
+      "ever": 14
     },
     "2568-11": {
       "total": 498,
       "pending": 6,
-      "resolved": 492
+      "resolved": 0,
+      "ever": 6
     },
     "2568-12": {
       "total": 565,
       "pending": 8,
-      "resolved": 557
+      "resolved": 0,
+      "ever": 8
     },
     "2569-01": {
       "total": 601,
       "pending": 8,
-      "resolved": 593
+      "resolved": 0,
+      "ever": 8
     },
     "2569-02": {
       "total": 596,
       "pending": 9,
-      "resolved": 587
+      "resolved": 0,
+      "ever": 9
     },
     "2569-03": {
       "total": 596,
       "pending": 7,
-      "resolved": 589
+      "resolved": 0,
+      "ever": 7
     },
     "2569-04": {
       "total": 580,
       "pending": 8,
-      "resolved": 572
+      "resolved": 0,
+      "ever": 8
     },
     "2569-05": {
       "total": 609,
       "pending": 8,
-      "resolved": 601
+      "resolved": 0,
+      "ever": 8
     },
     "2569-06": {
       "total": 562,
       "pending": 5,
-      "resolved": 557
+      "resolved": 0,
+      "ever": 5
     },
     "2569-07": {
       "total": 606,
       "pending": 7,
-      "resolved": 599
+      "resolved": 0,
+      "ever": 7
     },
     "2569-08": {
       "total": 540,
       "pending": 4,
-      "resolved": 536
+      "resolved": 0,
+      "ever": 4
     },
     "2569-09": {
       "total": 616,
       "pending": 5,
-      "resolved": 611
+      "resolved": 0,
+      "ever": 5
     },
     "all": {
       "total": 13451,
       "pending": 646,
-      "resolved": 12805
+      "resolved": 0,
+      "ever": 646
     }
   },
   "daily_by_month": {
