@@ -718,9 +718,9 @@ def build_html(data: dict) -> str:
           </div>
         </div>
         <div class="progress-track">
-          <div class="progress-fill-resolved" id="progFillResolved" style="width:0%"></div>
-          <div class="progress-fill-pending" id="progFillPending" style="width:0%"></div>
           <div class="progress-fill-rest" id="progFillRest" style="width:0%"></div>
+          <div class="progress-fill-pending" id="progFillPending" style="width:0%"></div>
+          <div class="progress-fill-resolved" id="progFillResolved" style="width:0%"></div>
         </div>
         <p class="progress-pct" id="progPct">0% แก้ไขแล้ว</p>
       </div>
