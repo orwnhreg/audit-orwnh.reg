@@ -93,6 +93,18 @@
           "Last Dx"
         ],
         "days_pending": 3
+      },
+      {
+        "date": "27/9/2569",
+        "hn": "253266",
+        "name": "นายถาวร นำสงค์",
+        "dept": "Surgery",
+        "op": "Explor lap with repair abdominal wall with retension suture",
+        "circ": "น.ส.รัตติกร แขนธิราช",
+        "missing": [
+          "เวร"
+        ],
+        "days_pending": 0
       }
     ],
     "unfinished": 0,
@@ -230,19 +242,19 @@
       {
         "day": 27,
         "total": 3,
-        "missing": 0
+        "missing": 1
       }
     ]
   },
   "insights": {
-    "completeness_pct": 99.0,
+    "completeness_pct": 98.8,
     "finished_total": 606,
-    "missing_total": 6,
+    "missing_total": 7,
     "dept_breakdown": [
       {
         "dept": "Surgery",
         "total": 219,
-        "missing": 3
+        "missing": 4
       },
       {
         "dept": "Orthopedic",
@@ -285,10 +297,14 @@
       {
         "col": "Aneasthesia",
         "count": 1
+      },
+      {
+        "col": "เวร",
+        "count": 1
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": -0.3
+    "trend_delta": -0.5
   },
   "all_cases": [
     {
@@ -313,11 +329,26 @@
       "op": "DCL with PDS with PLF L4 - S1",
       "circ": "นายนายณัฐวุฒิ ทิพย์ทอง ทิพย์ทอง",
       "missing": [
-        "Wound Type"
+        "Wound Type",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "2/8/2567",
+      "hn": "3686",
+      "name": "นางผาง วงศ์จันทร์",
+      "dept": "Surgery",
+      "op": "Hemorrhoidectomy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "2/8/2567",
@@ -355,7 +386,8 @@
       "op": "Rt. Bipolar Hemiarthroplasty",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "Wound Type"
+        "Wound Type",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
@@ -369,7 +401,8 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "Wound Type"
+        "Wound Type",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
@@ -383,7 +416,8 @@
       "op": "ORIF with Distal Radius Locking Plate Rt. DER",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "Wound Type"
+        "Wound Type",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
@@ -397,7 +431,8 @@
       "op": "ORIF with Distal Medial Tibia Locking Plate Rt. Tibia",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "Wound Type"
+        "Wound Type",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
@@ -411,11 +446,54 @@
       "op": "ORIF with Distal Fibular Lokcing Plate Rt. Fibular , ORIF with Mini Locking Plate Rt. Medial Malleolar",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "Wound Type"
+        "Wound Type",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "3/8/2567",
+      "hn": "12680",
+      "name": "นางอนงค์ ไชยบุญตา",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "3/8/2567",
+      "hn": "239805",
+      "name": "นายเพลิน ไชยโชติ",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "3/8/2567",
+      "hn": "237148",
+      "name": "นายขันตรี สาครเจริญ",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "5/8/2567",
@@ -461,6 +539,34 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "6/8/2567",
+      "hn": "27507",
+      "name": "นายชินวัฒน์ อัครจันทร์",
+      "dept": "Orthopedic",
+      "op": "Remove IM Nail Lt. Femur",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "6/8/2567",
+      "hn": "84232",
+      "name": "นายสุทธิพร รัตนวงศ์",
+      "dept": "Surgery",
+      "op": "Incisional Debridement",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "7/8/2567",
       "hn": "33137",
       "name": "นางทองจันทร์ ศรีรัตน์",
@@ -482,11 +588,26 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/8/2567",
+      "hn": "240057",
+      "name": "นางรุ่งฤดี จางวางแก้ว",
+      "dept": "Surgery",
+      "op": "Remove FB",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "8/8/2567",
@@ -503,6 +624,188 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "9/8/2567",
+      "hn": "238957",
+      "name": "นายอนันต์สิทธิ์ โมลา",
+      "dept": "Orthopedic",
+      "op": "AAACLR with Hamstring Graft Lt. Knee",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/8/2567",
+      "hn": "240150",
+      "name": "นายทองใส ขันทะสีมา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/8/2567",
+      "hn": "149762",
+      "name": "ด.ช.กันตวิชย์ ตุ่นทอง",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation PP Lt. 5th Finger",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/8/2567",
+      "hn": "98243",
+      "name": "น.ส.สมัย พรมแสง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER , ORIF with Mini Locking Plate Rt. Ulna",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/8/2567",
+      "hn": "240168",
+      "name": "นายประทีป กงบุผา",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement , ORIF with K-Wire Fixation Rt. 5th MCB",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/8/2567",
+      "hn": "43160",
+      "name": "นายทองบาน แสนโสภา",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement , ORIF with Mini Locking Plate Rt. 4th MCB , ORIF with Small Locking Plate Rt. Radius",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/8/2567",
+      "hn": "240172",
+      "name": "นายสมบูรณ์ นาวิเศษ",
+      "dept": "Orthopedic",
+      "op": "Ray Amputation Lt. 1st Toe",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/8/2567",
+      "hn": "240179",
+      "name": "นายฉัตรชัย สุดตา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Screw Fixation Rt. Talus , CRIF with Screw Fixation Rt. Medial Malleolar",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/8/2567",
+      "hn": "44222",
+      "name": "นางแหลมทอง อุ่นวิเศษ",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/8/2567",
+      "hn": "205284",
+      "name": "นายอนุชาติ ศรีสุราช",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/8/2567",
+      "hn": "153640",
+      "name": "นางประยงค์ ชามาตย์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/8/2567",
+      "hn": "153640",
+      "name": "นางประยงค์ ชามาตย์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular,CRIF with Screw Fixation Lt. Medial Malleolar",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "14/8/2567",
+      "hn": "236681",
+      "name": "นางร่วม ประเสริฐสังข์",
+      "dept": "Orthopedic",
+      "op": "DCL with PDS with PLF L4 - S1,PLIF L4 - L5,PLIF L5 - S1",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "14/8/2567",
       "hn": "240190",
       "name": "นางสุดารักษ์ เกษเพชร",
@@ -510,11 +813,26 @@
       "op": "ORIF wthi Distal Radius Locking Plate Lt. DER",
       "circ": "พรชิตา",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/8/2567",
+      "hn": "188258",
+      "name": "นางบรรทม ลีลา",
+      "dept": "Orthopedic",
+      "op": "Ray Amputation Rt. 3rd Toe",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "14/8/2567",
@@ -524,11 +842,26 @@
       "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "15/8/2567",
+      "hn": "97136",
+      "name": "นายนพพร นารินรักษ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with MM Screw Rt. Medial Malleolar",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "15/8/2567",
@@ -566,11 +899,656 @@
       "op": "DCL with PDS with PLF L2 - S1,Cross Link,HA Bone Graft",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "16/8/2567",
+      "hn": "29010",
+      "name": "นางละมุล เพาะพืชดี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "สุรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "16/8/2567",
+      "hn": "240261",
+      "name": "นายพรศักดิ์ เชิดชู",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Lokcing Plate Rt. Fibular",
+      "circ": "สุรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "16/8/2567",
+      "hn": "240335",
+      "name": "ด.ช.ไชยพศ ใจกล้า",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/8/2567",
+      "hn": "240359",
+      "name": "ด.ญ.ปภาวินี สิงห์พล",
+      "dept": "Orthopedic",
+      "op": "ORIF with Small Locking Plate Rt. Tibia",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/8/2567",
+      "hn": "120632",
+      "name": "นายละคร สุกุล",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/8/2567",
+      "hn": "240358",
+      "name": "ด.ญ.กัญญาพัชร ญามาตย์",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. Supracondylar",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/8/2567",
+      "hn": "92530",
+      "name": "นายทัศ พรมเทพ",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,ORIF with K-Wire Fixation Rt. 1st Finger,Repair Tendon",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/8/2567",
+      "hn": "24343",
+      "name": "นายคำพา ดินจำปี",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation PP Lt. 5th Finger",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/8/2567",
+      "hn": "88684",
+      "name": "นายอณุวัฒน์ สุวรรณไตร",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. 4th Toe,CRIF with K-Wire Fixation Rt. 5th Toe,CRIF with K-Wire Fixation Rt. 5th MTB",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/8/2567",
+      "hn": "240368",
+      "name": "นายนวพล ชื่นตา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/8/2567",
+      "hn": "240172",
+      "name": "นายสมบูรณ์ นาวิเศษ",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/8/2567",
+      "hn": "240390",
+      "name": "ด.ช.สุเมธ หารมนตรี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Small DCP Plate Both Bone Rt. Forearm",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/8/2567",
+      "hn": "236900",
+      "name": "ด.ช.สิทธิพร สะแสงสาร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Small Locking Plate Lt. Humerus",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/8/2567",
+      "hn": "240156",
+      "name": "พระสมพร ป้องปาน",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "82274",
+      "name": "นายเริงชัย วงวิลัยย์",
+      "dept": "Orthopedic",
+      "op": "Rt. THA",
+      "circ": "รัตติยา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "240441",
+      "name": "นายมานะ จันทะแค",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,ORIF with Distal Tibia Medial Locking Plate Lt. Tibia,ORIF with Distal Fibular Locking Plate Lt. Fibular",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "24347",
+      "name": "นางปราศัย ขุนทอง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "193264",
+      "name": "นายทิวทัศน์ อาบสุววรณ์",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Lt. DER",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "240434",
+      "name": "นางบุญจันทร์ ประสาทเขตการ",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,ORIF with Mini Locking Plate Rt. 2nd MCB",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "239343",
+      "name": "นางค้อม อนันตะบุตร",
+      "dept": "Orthopedic",
+      "op": "Arthrocentesis Rt. Hip",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/8/2567",
+      "hn": "240475",
+      "name": "นายไกรสร แวงวัน",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Tendon",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/8/2567",
+      "hn": "30270",
+      "name": "นางอุทัย พิมพะบุตร",
+      "dept": "Orthopedic",
+      "op": "CRIF with PFNA Rt. Femur",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/8/2567",
+      "hn": "240512",
+      "name": "นางคำใหล พันธ์โพคา",
+      "dept": "Orthopedic",
+      "op": "CRIF with PFNA Rt. Femur",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/8/2567",
+      "hn": "122575",
+      "name": "นางรัติกาล วงษ์อินตา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Proximal Phalang Rt. 1st Finger",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/8/2567",
+      "hn": "240504",
+      "name": "นางลมุล บาลวิมล",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/8/2567",
+      "hn": "196669",
+      "name": "นายจา ประหยัด",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Sequestectomy Rt. Humerus,Cement ATB",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/8/2567",
+      "hn": "64398",
+      "name": "นางวานิช วงศาเนา",
+      "dept": "Orthopedic",
+      "op": "Open Arthrotomy Lt. Knee",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "24/8/2567",
+      "hn": "152666",
+      "name": "ด.ช.ณรินท์ทรณ์ วรรณโนมัย",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. 3rd MTB,CRIF with K-Wire Fixation Rt. 4th MTB,CRIF with K-Wire Fixation Rt. 5th MTB",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "24/8/2567",
+      "hn": "240537",
+      "name": "นางสาวเมษา หล้าชนบท",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Lt. Clavicle",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "24/8/2567",
+      "hn": "240545",
+      "name": "นายจักรพงษ์ ปัญญาวิชัย",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Rt. Fibular",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "24/8/2567",
+      "hn": "240539",
+      "name": "นางสาวอรจิรา ฮาบละคร",
+      "dept": "Orthopedic",
+      "op": "Skeleton Traction",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "24/8/2567",
+      "hn": "90657",
+      "name": "นางละมัย ศรีประทุม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Narrow Locking Plate Lt. Humerus,ORIF with Small Locking Plate Lt. Radius",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/8/2567",
+      "hn": "109780",
+      "name": "นายกิตติชัย เสนารักษ์",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Remove FB,ORIF with Distal Femur Locking Plate Lt. Femur",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/8/2567",
+      "hn": "239301",
+      "name": "นายสมพาร น้อมวงค์",
+      "dept": "Surgery",
+      "op": "OC",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "26/8/2567",
+      "hn": "119473",
+      "name": "นายศักรินทร์ เฉียงกลาง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Medial Tibia Locking Plate Lt. Tibia",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "26/8/2567",
+      "hn": "127187",
+      "name": "ด.ช.ทรงศักดิ์ บุญเฮ้า",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Medial Tibia Locking Plate Rt. Tibia,ORIF with 1/3 Tubular Locking Plate Rt. Fibular",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "26/8/2567",
+      "hn": "45644",
+      "name": "นางปัญญา สุวรรณไชยรบ",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Tendon",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "26/8/2567",
+      "hn": "143755",
+      "name": "ด.ช.นฤพล สาเดช",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Lt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/8/2567",
+      "hn": "741",
+      "name": "นายดำรงค์ ถาจันทา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Rt. 5th MCB",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/8/2567",
+      "hn": "149689",
+      "name": "นางสีฟอง จูมสุพรรณ์",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/8/2567",
+      "hn": "240603",
+      "name": "นายบุญลักษ์ แก้วดี",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,ORIF with Calcaneus Locking Plate Lt. Calcaneus",
+      "circ": "รัตติยา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/8/2567",
+      "hn": "44974",
+      "name": "นายวิลัย คุณแรง",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,ORIF with Small Locking Plate Rt. Radius,ORIF with 1/3 Tubular Locking Plate Rt. Ulna,ORIF with Mini Locking Plate Rt. 5th MCB",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/8/2567",
+      "hn": "196461",
+      "name": "นางสาวสุดารัตน์ บุตรสุวรรณ์",
+      "dept": "Surgery",
+      "op": "Suture Wound",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/8/2567",
+      "hn": "13485",
+      "name": "นายประมวน ไชยดวง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Narrow Locking Plate Lt. Humerus",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/8/2567",
+      "hn": "5738",
+      "name": "นางปราณี แก้วปัญญา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/8/2567",
+      "hn": "77396",
+      "name": "นางปรีชา แสนสนุก",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "30/8/2567",
@@ -580,7 +1558,8 @@
       "op": "Resection Trophi Gout Rt. Ankle",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
@@ -595,11 +1574,222 @@
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
         "First Dx",
-        "Last Dx"
+        "Last Dx",
+        "เวร"
       ],
       "month_key": "2567-08",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "30/8/2567",
+      "hn": "65670",
+      "name": "นางฉวีวรรณ สิงห์เปรม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "30/8/2567",
+      "hn": "38954",
+      "name": "นางนริศรา จิตธรรม",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Tendon",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "30/8/2567",
+      "hn": "240156",
+      "name": "พระสมพร ป้องปาน",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "240713",
+      "name": "นายทศพล บุดดีคำ",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Lt. Clavicle",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "240708",
+      "name": "ด.ญ.พัชรินทร์ แก้วดี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "53522",
+      "name": "นายบัวหัน ยางไชย",
+      "dept": "Orthopedic",
+      "op": "CR Rt. Hip",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "69622",
+      "name": "นางสมปอง คำมา",
+      "dept": "Surgery",
+      "op": "Appendectomy with Delay Suture",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "239805",
+      "name": "นายเพลิน ไชยโชติ",
+      "dept": "Surgery",
+      "op": "PTBS",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "22287",
+      "name": "นายบุญเพ็ง ไตรวงค์ย้อย",
+      "dept": "Surgery",
+      "op": "PCD",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "236394",
+      "name": "นางสาววิมลรัตน์ มาตราช",
+      "dept": "Surgery",
+      "op": "PTBS",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "240725",
+      "name": "นายสมคิด เดชโฮม",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "240716",
+      "name": "นายสีคาร วุติยะตา",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "918",
+      "name": "นางวิจิตร แขกวันวงค์",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "31/8/2567",
+      "hn": "73237",
+      "name": "นายสุรินทร์ พิมจักแสน",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-08",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "2/9/2567",
+      "hn": "113872",
+      "name": "นายสมพงษ์ วงศ์อุดมศิลป์",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,ORIF with Proximal Medial Tibia Locking Plate Lt. Tibia,Repair MCL Rt. Knee,Repair Muscle",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "2/9/2567",
@@ -609,7 +1799,8 @@
       "op": "Excisional Debridement,Repair tendon Rt. Foot",
       "circ": "-",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-09",
       "days_pending": 2,
@@ -623,7 +1814,8 @@
       "op": "CRIF with K-Wire Fixation Lt. DER",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-09",
       "days_pending": 2,
@@ -641,7 +1833,8 @@
         "Last Dx",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-09",
       "days_pending": 2,
@@ -662,6 +1855,76 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "6/9/2567",
+      "hn": "50942",
+      "name": "นางสาวศศิธร ทองเลิศ",
+      "dept": "Orthopedic",
+      "op": "ORIF with K-Wire Fixation Lt. 1st Toe",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "6/9/2567",
+      "hn": "76422",
+      "name": "นางกองชาย ใยรีอ่าง",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation PP Rt. 5th Finger",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "6/9/2567",
+      "hn": "240882",
+      "name": "ด.ช.ศุภณัธ เพิ่มชาติ",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. DER",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "7/9/2567",
+      "hn": "240883",
+      "name": "ด.ช.ธนภัทร จันทร์เมืองมา",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-wire Fixation Lt. Tibia",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "7/9/2567",
+      "hn": "216588",
+      "name": "นางสาวรัฐธรรม บุญเรือง",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Suture Wound,Repair Nail Bed",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "7/9/2567",
       "hn": "240894",
       "name": "ด.ช.นภัสพล แสนซ้ง",
@@ -669,11 +1932,68 @@
       "op": "ORIF with Small Locking Plate Rt. Tibia",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-09",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "8/9/2567",
+      "hn": "240895",
+      "name": "ด.ช.จตุรงค์ ทองเฟื่อง",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Lt. DER",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "8/9/2567",
+      "hn": "89897",
+      "name": "นายบุญสวน วันดี",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,ORIF with K-Wire Fixation Lt. 2nd Toe,Amputation Rt. 1st Toe",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/9/2567",
+      "hn": "191445",
+      "name": "นายคมกริช ไชยบุตร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Calcaneal Locking Plate Rt. Calcaneous",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/9/2567",
+      "hn": "240936",
+      "name": "ด.ช.ณัฐภูมิ ขามพวง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Lt. Humerus",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "11/9/2567",
@@ -689,6 +2009,286 @@
       "month_key": "2567-09",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "11/9/2567",
+      "hn": "230409",
+      "name": "ด.ช.ธนกร แถมสมดี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Small Locking Plate Rt. Radius,ORIF with 1/3 Tubular Locking Plate Lt. Ulna",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/9/2567",
+      "hn": "240879",
+      "name": "น.ส.ชญานิศ ไชยบัณฑิต",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Lt. Ulna,ORIF with Mini Locking Plate Lt. radius",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "13/9/2567",
+      "hn": "222264",
+      "name": "นายนิสันติ์ บุญช่วย",
+      "dept": "Orthopedic",
+      "op": "DB with Repair tendon rt. 5th finger,Repair Nail Bed,ORIF with K-wire Fixation 2rd,5th Lt. Finger",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "13/9/2567",
+      "hn": "241072",
+      "name": "ด.ช.กฤษกรณ์ สุภาพงษ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Narrow Locking Plate Lt. Tibia",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "13/9/2567",
+      "hn": "241065",
+      "name": "ด.ช.กีรติ แสงสุวรรณ์",
+      "dept": "Orthopedic",
+      "op": "CR with LAS Rt. DER",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "14/9/2567",
+      "hn": "241078",
+      "name": "นางหลา อาจสุรินทร์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Narrow Locking Plate Lt. Tibia",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "14/9/2567",
+      "hn": "241078",
+      "name": "นางหลา อาจสุรินทร์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Lt. DER",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/9/2567",
+      "hn": "71908",
+      "name": "นายกวน แก้วอุดร",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,ORIF with 1/3 Tubular Locking Plate Rt. Fibular",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/9/2567",
+      "hn": "219717",
+      "name": "นางสาวจินตนา อ้มพรม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/9/2567",
+      "hn": "123335",
+      "name": "นายธีรภัทร แสนโคตร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Femur Locking Plate and Small Locking Plate Lt. Femur,Excisional Debridement,Repair Tendon Rt. Foot",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "17/9/2567",
+      "hn": "62045",
+      "name": "นายธีรพันธุ์ พิมุขกรพงศ์",
+      "dept": "Orthopedic",
+      "op": "DCL with PDS with PLF L4 - S1",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "17/9/2567",
+      "hn": "241130",
+      "name": "นายอนันต์ ภูสดแสง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Rt. 5th MCB",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "17/9/2567",
+      "hn": "27462",
+      "name": "นายดวงจันทร์ เจริญสุข",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Nail Bed",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/9/2567",
+      "hn": "241146",
+      "name": "นายสงค์ คุณคราม",
+      "dept": "Orthopedic",
+      "op": "Remove Plate and Screw Corrective Osteotomy with External Fixation Rt. Tibia",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/9/2567",
+      "hn": "241125",
+      "name": "นายยุพิน ศรีเมฆ",
+      "dept": "Orthopedic",
+      "op": "PCD Rt. Ankle with Fasciotomy Rt. Foot",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/9/2567",
+      "hn": "241199",
+      "name": "ด.ช.ปรมัตถ์ ยามงคล",
+      "dept": "Orthopedic",
+      "op": "CRFI with K-Wire Fixation Both Bone Lt. Forearm",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/9/2567",
+      "hn": "58716",
+      "name": "นางสาวการต์ธีรา เขตตวิทย์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/9/2567",
+      "hn": "241168",
+      "name": "ด.ญ.อนุสรณ์ โพธิ์ศรี",
+      "dept": "Orthopedic",
+      "op": "CRFI with K-Wire Fixation Both Bone Rt. Forearm",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/9/2567",
+      "hn": "54271",
+      "name": "นายวิเชษฐ สมทอง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Rt. 5th MCB",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/9/2567",
+      "hn": "217512",
+      "name": "นายดาวรรณ คำชะนะ",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Medial Tibia Locking Plate Rt. Tibia,ORIF with 1/3 Tubular Locking Plate Rt. Fibular",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "20/9/2567",
@@ -712,11 +2312,138 @@
       "op": "Excisional Debridement,Closed Stump Rt. 3rd Finger",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "Last Dx"
+        "Last Dx",
+        "เวร"
       ],
       "month_key": "2567-09",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "22/9/2567",
+      "hn": "33182",
+      "name": "นางจิตรา จันทะเลิง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "22/9/2567",
+      "hn": "76015",
+      "name": "นางสาวสุดาพร ไชยเชษฐา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Rt. 1st MTB",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/9/2567",
+      "hn": "241285",
+      "name": "นางสาววราภรณ์ มูลราช",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Humerus Locking Plate Rt. Humerus",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "23/9/2567",
+      "hn": "82461",
+      "name": "นายบรรเลง บังบัวบาน",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Tendon",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/9/2567",
+      "hn": "241359",
+      "name": "นายกมล ศิริมานพ",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Rt. Clavicle",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/9/2567",
+      "hn": "79052",
+      "name": "นายเต็ม ธิวงศ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Lt. 4th MTB,ORIF with Mini Locking Plate Lt. 5th MTB",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/9/2567",
+      "hn": "192668",
+      "name": "นางสาวก้านทิวา โคตมน",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "25/9/2567",
+      "hn": "112468",
+      "name": "นางคำพัน อุดารักษ์",
+      "dept": "Orthopedic",
+      "op": "ORIF with TBW Rt. Patellar",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "27/9/2567",
+      "hn": "230632",
+      "name": "นายถาวร แสนอุบล",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Rt. 5th MCB",
+      "circ": "น.ส.มัญชุกร เกิดไทย",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "27/9/2567",
@@ -726,11 +2453,152 @@
       "op": "ORIF with Distal Radius Locking Plate Rt. DER",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "Risk"
+        "Risk",
+        "เวร"
       ],
       "month_key": "2567-09",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "28/9/2567",
+      "hn": "241445",
+      "name": "นายกฤษฎา กัญญารัตน์",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Tendon",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/9/2567",
+      "hn": "148347",
+      "name": "นางจันที ศรีเสริม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Mini Locking Plate Rt. 1st MCB",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/9/2567",
+      "hn": "241444",
+      "name": "ด.ช.ณัฐวุฒิ สุนทรวัด",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Both Bone Lt. Forearm",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "28/9/2567",
+      "hn": "241448",
+      "name": "น.ส.พรทิวา สุทธิมาตย์",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. 2nd Toe,CRIF with K-Wire Fixation Rt. 3rd Toe",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "29/9/2567",
+      "hn": "160106",
+      "name": "นายอุไร วงษ์สาลี",
+      "dept": "Orthopedic",
+      "op": "Debrightment with V-Y Flap Rt. 3rd Finger",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "29/9/2567",
+      "hn": "19557",
+      "name": "นายชัยวัฒน์ สิงห์คำ",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Nail Bed,ORIF with K-Wire Fixation Rt. 1st Toe",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "29/9/2567",
+      "hn": "241471",
+      "name": "นายรัสมี วิลัยมาตร",
+      "dept": "Orthopedic",
+      "op": "ORIF with K-Wire Fixation Rt. 5th Toe,Excisional Debridement",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "30/9/2567",
+      "hn": "132384",
+      "name": "นางสาวหย่วน เอี่ยมศรี",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Humerus Locking Plate Rt. Humerus",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "241592",
+      "name": "Mr.THORSTEN BINDER",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Rt. Clavicle",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "46778",
+      "name": "นายวุฒินันท์ งันปัญญา",
+      "dept": "Orthopedic",
+      "op": "DB c Sequestrectomy Lt ulna",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "4/10/2567",
@@ -740,11 +2608,68 @@
       "op": "Systematic Debridement,Repair Tendon,ORIF with K-Wire Fixation Rt. 2nd MTB",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "147309",
+      "name": "ด.ช.ทินภัทร์ อุสาจิตร",
+      "dept": "Orthopedic",
+      "op": "skeletal traction",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "213386",
+      "name": "นางสาวธนิษฐาน์ รุ่งรัตน์วสุสิน",
+      "dept": "Orthopedic",
+      "op": "ORIF with mini locking plate Rt. distal ulna",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "241627",
+      "name": "น.ส.บานเย็น แก้วอัคฮาด",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-wire fixation 5th finger with repair tendon 5 th finfger",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "4/10/2567",
+      "hn": "217146",
+      "name": "เด็กชายอาทิตย์ กลางศรี",
+      "dept": "Orthopedic",
+      "op": "Debridement,Suture Wound ,Skeleton Traction",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "4/10/2567",
@@ -761,6 +2686,76 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "5/10/2567",
+      "hn": "195886",
+      "name": "นางอภินันท์ ลุนนา",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "5/10/2567",
+      "hn": "241630",
+      "name": "ด.ช.เทียนชัย เยี่ยมเจริญ",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement Lt Humerus",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "6/10/2567",
+      "hn": "241644",
+      "name": "นายรัฐศาสตร์ แสนจันทร์",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "6/10/2567",
+      "hn": "214327",
+      "name": "นายอภินันท์ จันทะลุน",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Rt. Clavicle",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "6/10/2567",
+      "hn": "72286",
+      "name": "นายจันไทย เหลาแตว",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement,Repair Tendon",
+      "circ": "-",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
       "date": "6/10/2567",
       "hn": "129103",
       "name": "ด.ช.สงกรานต์ บุตตะ",
@@ -770,11 +2765,334 @@
       "missing": [
         "First Dx",
         "Last Dx",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/10/2567",
+      "hn": "241650",
+      "name": "อิทธิพล  แสงสีบับ",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Lt. Clavicle",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "7/10/2567",
+      "hn": "5036",
+      "name": "นายสมใจ ศรีสร้อย",
+      "dept": "Orthopedic",
+      "op": "Systomatic DB Rt. tibia",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "7/10/2567",
+      "hn": "170007",
+      "name": "นายยุทนา ผลาวงค์",
+      "dept": "Orthopedic",
+      "op": "ORIF with narrow LCP Lt. leg with ORIF with DMT with distal fibular LCP Rt.",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "8/10/2567",
+      "hn": "241460",
+      "name": "นายณรงค์ มะณีสาย",
+      "dept": "Orthopedic",
+      "op": "ORIF with Narrow Locking Plate Lt. Tibia,ORIF with 1/3 Tubular Locking Plate Lt. Fibular",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "8/10/2567",
+      "hn": "241297",
+      "name": "นายคำจันทร์ สง่าพันธ์",
+      "dept": "Orthopedic",
+      "op": "Rayamputation MTB 5 th  Rt. foot",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "8/10/2567",
+      "hn": "241711",
+      "name": "ด.ช.รังสิมันตุ์ ลาชัย",
+      "dept": "Orthopedic",
+      "op": "Systermatic DB c ORIF PP 3nd Rt. finger c K-wire fixation c CRIF c -wire fixation 1st.  Rt. thumb",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/10/2567",
+      "hn": "241660",
+      "name": "นางกระนิช สะแสงสาร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/10/2567",
+      "hn": "113060",
+      "name": "นายศิริคูณ จันทร์ทรง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/10/2567",
+      "hn": "197829",
+      "name": "นางสาวละออง  ทองมาก",
+      "dept": "Orthopedic",
+      "op": "Debridement with Repair tendon",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "9/10/2567",
+      "hn": "241717",
+      "name": "นายดาราวรรณ เวียงคำ",
+      "dept": "Orthopedic",
+      "op": "ORIF with 1/3tubular locking plate Rt.distal ulna with DB with k-wire fixation 4,5MCBRt.hand",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/10/2567",
+      "hn": "101648",
+      "name": "นายเพชรสกล  ประทุมมา",
+      "dept": "Orthopedic",
+      "op": "Systematic DB c k-wire fixation MP c repair tendon 3rd EDC (5 piece)",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/10/2567",
+      "hn": "181035",
+      "name": "ด.ช.ณัฐสิทธิ์ นารินทร์รักษ์",
+      "dept": "Orthopedic",
+      "op": "CRIF with K-Wire Fixation Rt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "10/10/2567",
+      "hn": "241767",
+      "name": "นายประสิทธิ์ สาไธสง",
+      "dept": "Orthopedic",
+      "op": "ORIF with K-Wire Fixation Lt. 2nd MTB,CRIF with K-Wire Fixation Lt. 3rd MTB,Repair Tendon",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/10/2567",
+      "hn": "67279",
+      "name": "นางสาวเจนจิรา  ทิพย์สมบัติ",
+      "dept": "Surgery",
+      "op": "explore lap c repair cecum c abdominal toilet",
+      "circ": "น.ส.ขวัญจิรา เฮียงราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/10/2567",
+      "hn": "147136",
+      "name": "นายรำเพลิน ทองไสย์",
+      "dept": "Orthopedic",
+      "op": "CRIF with FNS Plate Lt. Femur",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/10/2567",
+      "hn": "241777",
+      "name": "นางสาวประภัสสร วัดตะเสน",
+      "dept": "Orthopedic",
+      "op": "ORIF c S-Clavicle LCP Lt.clavicle",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/10/2567",
+      "hn": "180598",
+      "name": "ด.ช.ทินภัทร์ ปาระมี",
+      "dept": "Orthopedic",
+      "op": "Excisional Debridement",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "11/10/2567",
+      "hn": "120767",
+      "name": "นายภูมิรพี ปูคะสินทร์",
+      "dept": "Orthopedic",
+      "op": "ORIF with S-Clavicle Locking Plate Rt. Clavicle",
+      "circ": "นางณัฐณิชา ไชยพะยวน",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/10/2567",
+      "hn": "190249",
+      "name": "ด.ช.ศิวกร แก้วมณี",
+      "dept": "Orthopedic",
+      "op": "DB with ORIF with K-Wire fixation Rt. middle finger.",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/10/2567",
+      "hn": "151880",
+      "name": "ด.ช.นพรุจ วงค์ละคร",
+      "dept": "Orthopedic",
+      "op": "ORIF with 1/3 Tubular Locking Plate Rt. Ulna",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/10/2567",
+      "hn": "241797",
+      "name": "นางทองใบ เสถียร",
+      "dept": "Orthopedic",
+      "op": "DB c ORIF c K-wire at PP c repair central slip at Lt middle finger c splint c DB c suture  Lt 4 tor c splint",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/10/2567",
+      "hn": "241800",
+      "name": "น.ส.ราตรี ศรีเสริม",
+      "dept": "Orthopedic",
+      "op": "DB c repair  FRC PL tendon Rt wrist c SAS",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "12/10/2567",
+      "hn": "43891",
+      "name": "นายสิทธิ์พงษ์ ช่วยจันทร์ดี",
+      "dept": "Orthopedic",
+      "op": "DB with Repair Tendon",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "14/10/2567",
@@ -784,11 +3102,180 @@
       "op": "Ray amputation 3nd finger Rt. hand",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "14/10/2567",
+      "hn": "241804",
+      "name": "นายชาญชัย งามบุตรดา",
+      "dept": "Orthopedic",
+      "op": "ORIF with K-Wire Fixation Lt. 5th Finger",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/10/2567",
+      "hn": "241630",
+      "name": "ด.ช.เทียนชัย เยี่ยมเจริญ",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Humerus Locking Plate Lt. Humerus",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/10/2567",
+      "hn": "227725",
+      "name": "นายสนั่น ผันพรม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "15/10/2567",
+      "hn": "241870",
+      "name": "นางสาวณัฐริกา  โภคาพานิช",
+      "dept": "Orthopedic",
+      "op": "ORIF with Proximal Lateral Tibia Locking Plate Rt. Tibia",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "16/10/2567",
+      "hn": "114020",
+      "name": "นายร่วมรัก อินภูมี",
+      "dept": "Orthopedic",
+      "op": "DB with closed stump Lt.thumb",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "16/10/2567",
+      "hn": "135462",
+      "name": "นายสถานพร สิงห์โต",
+      "dept": "Orthopedic",
+      "op": "Remove Plate and Screw Lt.Femur",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "16/10/2567",
+      "hn": "228959",
+      "name": "นางสมประสงค์   ภักดีดำรงกุล",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER,ORIF with mini loking plate Lt Ulnacki",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "16/10/2567",
+      "hn": "9653",
+      "name": "นางอนงค์  มุงคุณโคตร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Volar locking plate",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "17/10/2567",
+      "hn": "109410",
+      "name": "นายบัญชา แสนสุภา",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,k wire fixation ,Repair Nail Bed",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "17/10/2567",
+      "hn": "241882",
+      "name": "นายจรูญ โม่งโอชา",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,OREF at MCB 4th-5th Lt finger ,proximal phalanx of 4th   Lt finger",
+      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "17/10/2567",
+      "hn": "241879",
+      "name": "นางสาวหนูเปียง พันธ์มุง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Hook LCP Lt.clavicle",
+      "circ": "พรชิตา",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/10/2567",
+      "hn": "241933",
+      "name": "นายบัวปิ่น นามบำรุง",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "18/10/2567",
@@ -812,11 +3299,40 @@
       "op": "ORIF with Distal Fibular Locking Plate Rt. Fibular",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "18/10/2567",
+      "hn": "4524",
+      "name": "นางสาวคำใส แสนนาม",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Rt. DER",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "18/10/2567",
+      "hn": "186067",
+      "name": "นายชัยยศ  คลองแก้ว",
+      "dept": "Orthopedic",
+      "op": "ORIF with K wire Fixation Lt Middle phalange 2nd Toe",
+      "circ": "นายกิตติวัฒน์ ผัดอาจ",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "18/10/2567",
@@ -827,11 +3343,96 @@
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
         "First Dx",
-        "Last Dx"
+        "Last Dx",
+        "เวร"
       ],
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "219031",
+      "name": "นายวันณี หาระมี",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "27390",
+      "name": "นางบัวใคร ดอบุตร",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal fibular locking plate Rt.fibular with MM screw Rt.medail malleolus",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "241955",
+      "name": "นางใคร ศรีมุงคุล",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "83605",
+      "name": "นางสาวบัณฑิตา ฮาบพนม",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "160284",
+      "name": "นางสาวธนิดา ฝ่ายรีย์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "27248",
+      "name": "นายอำคา แสนพันนา",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "19/10/2567",
@@ -841,11 +3442,236 @@
       "op": "ERCP",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "174408",
+      "name": "นางทองใบ สุขพุฒ",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "241698",
+      "name": "น.ส.ณัฐวดี ไชยวุฒิ",
+      "dept": "Surgery",
+      "op": "Hemorrhiodectomy",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "19/10/2567",
+      "hn": "241884",
+      "name": "นายพงศกร ตุรินทร",
+      "dept": "Surgery",
+      "op": "liver biopsy",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "241978",
+      "name": "นางอภิญญา คำมุลตรี",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "23875",
+      "name": "นางจันแก้ว วรรณวาส",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "241973",
+      "name": "นางสาวสมจิตร ทองขาว",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "-",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "117429",
+      "name": "นางดาวเรือง จันทร์สุข",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "241247",
+      "name": "นางทองมา พุทสาลา",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "219263",
+      "name": "นายสีสมพร ลีพรม",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "235981",
+      "name": "นายขันชัย บรรเทา",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "18469",
+      "name": "นางบุญชม แสนมะณี",
+      "dept": "Surgery",
+      "op": "ERCP",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "240725",
+      "name": "นายสมคิด เดชโฮม",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "180183",
+      "name": "นายสว่าง ยมภูมี",
+      "dept": "Surgery",
+      "op": "Revise PTBD",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "145498",
+      "name": "นายสุภี เหล่าการ",
+      "dept": "Surgery",
+      "op": "DB at scrotum",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "20/10/2567",
+      "hn": "224731",
+      "name": "นางหนูเจียม ดอกจันทร์",
+      "dept": "Orthopedic",
+      "op": "Systematic Debridement,ORIF with Proximal Humerus Locking Plate Lt. Humerus,ORIF with Distal Radius Locking Plate Lt. DER",
+      "circ": "น.ส.อารียา มัตตะราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
+    },
+    {
+      "date": "21/10/2567",
+      "hn": "165382",
+      "name": "นางปายักษ์ ฮองต้น",
+      "dept": "Orthopedic",
+      "op": "ORIF with Distal Radius Locking Plate Lt. DER,ORIF with Mini Locking Plate Lt. Ulna",
+      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "21/10/2567",
@@ -1003,6 +3829,20 @@
       "month_key": "2567-10",
       "days_pending": 2,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "31/10/2567",
+      "hn": "138693",
+      "name": "น.ส.สุภาวดี ฮาบพรม",
+      "dept": "Gyne-Obs",
+      "op": "Lt. C/S",
+      "circ": "น.ส.พรพิมล บุญครอง",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2567-10",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     },
     {
       "date": "1/11/2567",
@@ -2490,7 +5330,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -2510,7 +5351,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -2551,7 +5393,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -2590,7 +5433,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -2629,7 +5473,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -2747,7 +5592,8 @@
         "Last Dx",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3121,7 +5967,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3141,7 +5988,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3161,7 +6009,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3181,7 +6030,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3201,7 +6051,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3221,7 +6072,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3241,7 +6093,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3261,7 +6114,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3369,7 +6223,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3389,7 +6244,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3509,7 +6365,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3529,7 +6386,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3569,7 +6427,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3629,7 +6488,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3729,7 +6589,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3770,7 +6631,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3790,7 +6652,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3810,7 +6673,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3830,7 +6694,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3890,7 +6755,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -3910,7 +6776,8 @@
         "Type",
         "Risk",
         "Wound Type",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2567-12",
       "days_pending": 2,
@@ -4531,7 +7398,8 @@
         "First Dx",
         "Last Dx",
         "Risk",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2568-01",
       "days_pending": 2,
@@ -4567,7 +7435,8 @@
         "First Dx",
         "Last Dx",
         "Risk",
-        "Aneasthesia"
+        "Aneasthesia",
+        "เวร"
       ],
       "month_key": "2568-01",
       "days_pending": 2,
@@ -7445,6 +10314,20 @@
       "month_key": "2569-09",
       "days_pending": 3,
       "first_seen": "2026-09-25"
+    },
+    {
+      "date": "27/9/2569",
+      "hn": "253266",
+      "name": "นายถาวร นำสงค์",
+      "dept": "Surgery",
+      "op": "Explor lap with repair abdominal wall with retension suture",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "เวร"
+      ],
+      "month_key": "2569-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-28"
     }
   ],
   "month_options": [
@@ -7563,12 +10446,12 @@
       {
         "day": 2,
         "total": 8,
-        "missing": 7
+        "missing": 8
       },
       {
         "day": 3,
         "total": 3,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 4,
@@ -7583,12 +10466,12 @@
       {
         "day": 6,
         "total": 4,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 7,
         "total": 7,
-        "missing": 2
+        "missing": 3
       },
       {
         "day": 8,
@@ -7598,17 +10481,17 @@
       {
         "day": 9,
         "total": 7,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 10,
         "total": 5,
-        "missing": 0
+        "missing": 5
       },
       {
         "day": 11,
         "total": 4,
-        "missing": 0
+        "missing": 4
       },
       {
         "day": 12,
@@ -7623,17 +10506,17 @@
       {
         "day": 14,
         "total": 6,
-        "missing": 2
+        "missing": 4
       },
       {
         "day": 15,
         "total": 4,
-        "missing": 3
+        "missing": 4
       },
       {
         "day": 16,
         "total": 3,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 17,
@@ -7643,12 +10526,12 @@
       {
         "day": 18,
         "total": 5,
-        "missing": 0
+        "missing": 5
       },
       {
         "day": 19,
         "total": 8,
-        "missing": 0
+        "missing": 6
       },
       {
         "day": 20,
@@ -7658,7 +10541,7 @@
       {
         "day": 21,
         "total": 9,
-        "missing": 0
+        "missing": 7
       },
       {
         "day": 22,
@@ -7668,32 +10551,32 @@
       {
         "day": 23,
         "total": 11,
-        "missing": 0
+        "missing": 6
       },
       {
         "day": 24,
         "total": 5,
-        "missing": 0
+        "missing": 5
       },
       {
         "day": 25,
         "total": 2,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 26,
         "total": 6,
-        "missing": 0
+        "missing": 4
       },
       {
         "day": 27,
         "total": 10,
-        "missing": 0
+        "missing": 5
       },
       {
         "day": 28,
         "total": 6,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 29,
@@ -7703,12 +10586,12 @@
       {
         "day": 30,
         "total": 9,
-        "missing": 2
+        "missing": 5
       },
       {
         "day": 31,
         "total": 11,
-        "missing": 0
+        "missing": 11
       }
     ],
     "2567-09": [
@@ -7720,7 +10603,7 @@
       {
         "day": 2,
         "total": 9,
-        "missing": 2
+        "missing": 3
       },
       {
         "day": 3,
@@ -7740,22 +10623,22 @@
       {
         "day": 6,
         "total": 3,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 7,
         "total": 3,
-        "missing": 1
+        "missing": 3
       },
       {
         "day": 8,
         "total": 2,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 9,
         "total": 4,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 10,
@@ -7765,27 +10648,27 @@
       {
         "day": 11,
         "total": 4,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 12,
         "total": 4,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 13,
         "total": 4,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 14,
         "total": 2,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 15,
         "total": 3,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 16,
@@ -7795,17 +10678,17 @@
       {
         "day": 17,
         "total": 5,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 18,
         "total": 8,
-        "missing": 0
+        "missing": 6
       },
       {
         "day": 19,
         "total": 5,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 20,
@@ -7820,12 +10703,12 @@
       {
         "day": 22,
         "total": 2,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 23,
         "total": 5,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 24,
@@ -7835,7 +10718,7 @@
       {
         "day": 25,
         "total": 7,
-        "missing": 0
+        "missing": 4
       },
       {
         "day": 26,
@@ -7845,22 +10728,22 @@
       {
         "day": 27,
         "total": 3,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 28,
         "total": 4,
-        "missing": 0
+        "missing": 4
       },
       {
         "day": 29,
         "total": 3,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 30,
         "total": 4,
-        "missing": 0
+        "missing": 1
       }
     ],
     "2567-10": [
@@ -7882,47 +10765,47 @@
       {
         "day": 4,
         "total": 11,
-        "missing": 2
+        "missing": 8
       },
       {
         "day": 5,
         "total": 2,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 6,
         "total": 5,
-        "missing": 1
+        "missing": 5
       },
       {
         "day": 7,
         "total": 8,
-        "missing": 0
+        "missing": 2
       },
       {
         "day": 8,
         "total": 7,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 9,
         "total": 4,
-        "missing": 0
+        "missing": 4
       },
       {
         "day": 10,
         "total": 5,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 11,
         "total": 6,
-        "missing": 0
+        "missing": 5
       },
       {
         "day": 12,
         "total": 5,
-        "missing": 0
+        "missing": 5
       },
       {
         "day": 13,
@@ -7932,42 +10815,42 @@
       {
         "day": 14,
         "total": 2,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 15,
         "total": 7,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 16,
         "total": 6,
-        "missing": 0
+        "missing": 4
       },
       {
         "day": 17,
         "total": 6,
-        "missing": 0
+        "missing": 3
       },
       {
         "day": 18,
         "total": 14,
-        "missing": 3
+        "missing": 6
       },
       {
         "day": 19,
         "total": 10,
-        "missing": 1
+        "missing": 10
       },
       {
         "day": 20,
         "total": 12,
-        "missing": 0
+        "missing": 12
       },
       {
         "day": 21,
         "total": 12,
-        "missing": 2
+        "missing": 3
       },
       {
         "day": 22,
@@ -8017,7 +10900,7 @@
       {
         "day": 31,
         "total": 19,
-        "missing": 1
+        "missing": 2
       }
     ],
     "2567-11": [
@@ -11543,24 +14426,24 @@
       {
         "day": 27,
         "total": 3,
-        "missing": 0
+        "missing": 1
       }
     ],
     "all": [
       {
         "day": "ส.ค.",
         "total": 157,
-        "missing": 22
+        "missing": 104
       },
       {
         "day": "ก.ย.",
         "total": 103,
-        "missing": 9
+        "missing": 56
       },
       {
         "day": "ต.ค.",
         "total": 298,
-        "missing": 19
+        "missing": 90
       },
       {
         "day": "พ.ย.",
@@ -11675,7 +14558,7 @@
       {
         "day": "ก.ย.",
         "total": 606,
-        "missing": 6
+        "missing": 7
       }
     ]
   }
