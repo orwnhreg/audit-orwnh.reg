@@ -1,21 +1,30 @@
 {
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
-  "as_of": "28/09/2026",
+  "as_of": "29/09/2026",
   "rows": 13516,
   "colA": {
     "dup": 4,
     "missing": 0,
     "offset": 9
   },
-  "blank_cols": {},
+  "blank_cols": {
+    "HN": 1,
+    "เวลาเข้าห้องผ่าตัด": 1,
+    "เวลาเริ่มผ่าตัด": 1,
+    "เวลาผ่าตัดเสร็จ": 1,
+    "เวลาออกจากห้องผ่าตัด": 1,
+    "First Dx": 1,
+    "Last Dx": 1,
+    "Type": 1
+  },
   "team": {
     "dup_in_set": 101,
     "dup_in_set_recent": 1
   },
   "month": {
-    "label": "วันที่ 1/09/69 ถึง 27/09/69",
-    "total": 606,
+    "label": "วันที่ 1/09/69 ถึง 28/09/69",
+    "total": 627,
     "cases": [
       {
         "date": "22/9/2569",
@@ -27,7 +36,7 @@
         "missing": [
           "เวลาออกจากห้องผ่าตัด"
         ],
-        "days_pending": 3
+        "days_pending": 4
       },
       {
         "date": "22/9/2569",
@@ -39,10 +48,10 @@
         "missing": [
           "Aneasthesia"
         ],
-        "days_pending": 3
+        "days_pending": 4
       }
     ],
-    "unfinished": 0,
+    "unfinished": 1,
     "daily": [
       {
         "day": 1,
@@ -178,32 +187,37 @@
         "day": 27,
         "total": 3,
         "missing": 0
+      },
+      {
+        "day": 28,
+        "total": 20,
+        "missing": 0
       }
     ]
   },
   "insights": {
     "completeness_pct": 99.7,
-    "finished_total": 606,
+    "finished_total": 626,
     "missing_total": 2,
     "dept_breakdown": [
       {
         "dept": "Orthopedic",
-        "total": 122,
+        "total": 126,
         "missing": 2
       },
       {
         "dept": "E.N.T",
-        "total": 19,
+        "total": 22,
         "missing": 0
       },
       {
         "dept": "Surgery",
-        "total": 219,
+        "total": 229,
         "missing": 0
       },
       {
         "dept": "Gyne-Obs",
-        "total": 104,
+        "total": 107,
         "missing": 0
       },
       {
@@ -237,7 +251,7 @@
         "Wound Type"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -252,7 +266,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -266,7 +280,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -280,7 +294,7 @@
         "Wound Type"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -294,7 +308,7 @@
         "Wound Type"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -309,7 +323,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -324,7 +338,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -339,7 +353,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -354,7 +368,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -369,7 +383,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -383,7 +397,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -397,7 +411,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -411,7 +425,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -425,7 +439,7 @@
         "Wound Type"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -439,7 +453,7 @@
         "Wound Type"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -454,7 +468,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -468,7 +482,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -482,7 +496,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -496,7 +510,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -511,7 +525,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -525,7 +539,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -539,7 +553,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -553,7 +567,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -567,7 +581,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -581,7 +595,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -595,7 +609,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -609,7 +623,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -623,7 +637,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -637,7 +651,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -651,7 +665,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -665,7 +679,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -679,7 +693,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -693,7 +707,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -707,7 +721,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -721,7 +735,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -736,7 +750,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -750,7 +764,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -765,7 +779,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -779,7 +793,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -793,7 +807,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -807,7 +821,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -822,7 +836,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -836,7 +850,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -850,7 +864,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -864,7 +878,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -878,7 +892,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -892,7 +906,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -906,7 +920,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -920,7 +934,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -934,7 +948,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -948,7 +962,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -962,7 +976,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -976,7 +990,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -990,7 +1004,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1004,7 +1018,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1018,7 +1032,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1032,7 +1046,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1046,7 +1060,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1060,7 +1074,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1074,7 +1088,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1088,7 +1102,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1102,7 +1116,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1116,7 +1130,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1130,7 +1144,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1144,7 +1158,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1158,7 +1172,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1172,7 +1186,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1186,7 +1200,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1200,7 +1214,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1214,7 +1228,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1228,7 +1242,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1242,7 +1256,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1256,7 +1270,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1270,7 +1284,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1284,7 +1298,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1298,7 +1312,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1312,7 +1326,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1326,7 +1340,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1340,7 +1354,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1354,7 +1368,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1368,7 +1382,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1382,7 +1396,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1396,7 +1410,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1410,7 +1424,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1424,7 +1438,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1438,7 +1452,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1452,7 +1466,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1466,7 +1480,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1481,7 +1495,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1497,7 +1511,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1511,7 +1525,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1525,7 +1539,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1539,7 +1553,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1553,7 +1567,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1567,7 +1581,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1581,7 +1595,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1595,7 +1609,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1609,7 +1623,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1623,7 +1637,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1637,7 +1651,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1651,7 +1665,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1665,7 +1679,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1679,7 +1693,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1693,7 +1707,7 @@
         "เวร"
       ],
       "month_key": "2567-08",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1707,7 +1721,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1722,7 +1736,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1737,7 +1751,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1756,7 +1770,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1770,7 +1784,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1784,7 +1798,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1798,7 +1812,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1812,7 +1826,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1826,7 +1840,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1840,7 +1854,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1855,7 +1869,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1869,7 +1883,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1883,7 +1897,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1897,7 +1911,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1911,7 +1925,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1926,7 +1940,7 @@
         "Last Dx"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -1940,7 +1954,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1954,7 +1968,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1968,7 +1982,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1982,7 +1996,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -1996,7 +2010,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2010,7 +2024,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2024,7 +2038,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2038,7 +2052,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2052,7 +2066,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2066,7 +2080,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2080,7 +2094,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2094,7 +2108,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2108,7 +2122,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2122,7 +2136,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2136,7 +2150,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2150,7 +2164,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2164,7 +2178,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2178,7 +2192,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2192,7 +2206,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2206,7 +2220,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2220,7 +2234,7 @@
         "Last Dx"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -2235,7 +2249,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -2249,7 +2263,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2263,7 +2277,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2277,7 +2291,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2291,7 +2305,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2305,7 +2319,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2319,7 +2333,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2333,7 +2347,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2347,7 +2361,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2361,7 +2375,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2376,7 +2390,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -2390,7 +2404,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2404,7 +2418,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2418,7 +2432,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2432,7 +2446,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2446,7 +2460,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2460,7 +2474,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2474,7 +2488,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2488,7 +2502,7 @@
         "เวร"
       ],
       "month_key": "2567-09",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2502,7 +2516,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2516,7 +2530,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2531,7 +2545,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -2545,7 +2559,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2559,7 +2573,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2573,7 +2587,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2587,7 +2601,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2601,7 +2615,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -2615,7 +2629,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2629,7 +2643,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2643,7 +2657,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2657,7 +2671,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2671,7 +2685,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2688,7 +2702,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -2702,7 +2716,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2716,7 +2730,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2730,7 +2744,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2744,7 +2758,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2758,7 +2772,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2772,7 +2786,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2786,7 +2800,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2800,7 +2814,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2814,7 +2828,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2828,7 +2842,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2842,7 +2856,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2856,7 +2870,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2870,7 +2884,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2884,7 +2898,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2898,7 +2912,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2912,7 +2926,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2926,7 +2940,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2940,7 +2954,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2954,7 +2968,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2968,7 +2982,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2982,7 +2996,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -2996,7 +3010,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3010,7 +3024,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3025,7 +3039,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3039,7 +3053,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3053,7 +3067,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3067,7 +3081,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3081,7 +3095,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3095,7 +3109,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3109,7 +3123,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3123,7 +3137,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3137,7 +3151,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3151,7 +3165,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3165,7 +3179,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3179,7 +3193,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3193,7 +3207,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3207,7 +3221,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3222,7 +3236,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3236,7 +3250,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3250,7 +3264,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3266,7 +3280,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3280,7 +3294,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3294,7 +3308,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3308,7 +3322,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3322,7 +3336,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3336,7 +3350,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3350,7 +3364,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3365,7 +3379,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3379,7 +3393,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3393,7 +3407,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3407,7 +3421,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3421,7 +3435,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3435,7 +3449,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3449,7 +3463,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3463,7 +3477,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3477,7 +3491,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3491,7 +3505,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3505,7 +3519,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3519,7 +3533,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3533,7 +3547,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3547,7 +3561,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3561,7 +3575,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3575,7 +3589,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3589,7 +3603,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3603,7 +3617,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3617,7 +3631,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3632,7 +3646,7 @@
         "Last Dx"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3646,7 +3660,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3660,7 +3674,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3675,7 +3689,7 @@
         "Last Dx"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3689,7 +3703,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3704,7 +3718,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3718,7 +3732,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3732,7 +3746,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3746,7 +3760,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3760,7 +3774,7 @@
         "เวร"
       ],
       "month_key": "2567-10",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -3774,7 +3788,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3788,7 +3802,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3802,7 +3816,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3816,7 +3830,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3830,7 +3844,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3844,7 +3858,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3858,7 +3872,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3872,7 +3886,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3888,7 +3902,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3902,7 +3916,7 @@
         "Wound Type"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3916,7 +3930,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3932,7 +3946,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3947,7 +3961,7 @@
         "Last Dx"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3961,7 +3975,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3975,7 +3989,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -3989,7 +4003,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4005,7 +4019,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4019,7 +4033,7 @@
         "AN"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4033,7 +4047,7 @@
         "AN"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4047,7 +4061,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4061,7 +4075,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4075,7 +4089,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4090,7 +4104,7 @@
         "Last Dx"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4105,7 +4119,7 @@
         "Last Dx"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4121,7 +4135,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4137,7 +4151,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4153,7 +4167,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4169,7 +4183,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4185,7 +4199,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4201,7 +4215,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4217,7 +4231,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4234,7 +4248,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4251,7 +4265,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4268,7 +4282,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4285,7 +4299,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4302,7 +4316,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4320,7 +4334,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4337,7 +4351,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4356,7 +4370,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4375,7 +4389,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4394,7 +4408,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4413,7 +4427,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4427,7 +4441,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4446,7 +4460,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4465,7 +4479,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4484,7 +4498,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4502,7 +4516,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4521,7 +4535,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4540,7 +4554,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4560,7 +4574,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4579,7 +4593,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4598,7 +4612,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4617,7 +4631,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4636,7 +4650,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4655,7 +4669,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4674,7 +4688,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4693,7 +4707,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4712,7 +4726,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4731,7 +4745,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4750,7 +4764,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4769,7 +4783,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4788,7 +4802,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4807,7 +4821,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4826,7 +4840,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4845,7 +4859,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4864,7 +4878,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4883,7 +4897,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4902,7 +4916,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4921,7 +4935,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4940,7 +4954,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4959,7 +4973,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4978,7 +4992,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -4997,7 +5011,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5016,7 +5030,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5035,7 +5049,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5054,7 +5068,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5068,7 +5082,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5082,7 +5096,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5096,7 +5110,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5110,7 +5124,7 @@
         "Type"
       ],
       "month_key": "2567-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5130,7 +5144,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5145,7 +5159,7 @@
         "Risk"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5159,7 +5173,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5173,7 +5187,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5190,7 +5204,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5211,7 +5225,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5232,7 +5246,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5253,7 +5267,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5274,7 +5288,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5295,7 +5309,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5316,7 +5330,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5335,7 +5349,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5356,7 +5370,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5375,7 +5389,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5396,7 +5410,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5416,7 +5430,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5435,7 +5449,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5455,7 +5469,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5475,7 +5489,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5495,7 +5509,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5515,7 +5529,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5535,7 +5549,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5555,7 +5569,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5575,7 +5589,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5595,7 +5609,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5615,7 +5629,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5635,7 +5649,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5655,7 +5669,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5675,7 +5689,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5695,7 +5709,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5715,7 +5729,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5735,7 +5749,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5755,7 +5769,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5775,7 +5789,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5795,7 +5809,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5815,7 +5829,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5835,7 +5849,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5849,7 +5863,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5869,7 +5883,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5890,7 +5904,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5911,7 +5925,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5932,7 +5946,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5953,7 +5967,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5974,7 +5988,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -5995,7 +6009,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6016,7 +6030,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6037,7 +6051,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6051,7 +6065,7 @@
         "Type"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6065,7 +6079,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6085,7 +6099,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6105,7 +6119,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6125,7 +6139,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6146,7 +6160,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6167,7 +6181,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6187,7 +6201,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6207,7 +6221,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6227,7 +6241,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6247,7 +6261,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6267,7 +6281,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6288,7 +6302,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6309,7 +6323,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6329,7 +6343,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6350,7 +6364,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6370,7 +6384,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6390,7 +6404,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6411,7 +6425,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6431,7 +6445,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6451,7 +6465,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6471,7 +6485,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6491,7 +6505,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6512,7 +6526,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6532,7 +6546,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6554,7 +6568,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6575,7 +6589,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6596,7 +6610,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6617,7 +6631,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6637,7 +6651,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6657,7 +6671,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6678,7 +6692,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6699,7 +6713,7 @@
         "เวร"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6719,7 +6733,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6739,7 +6753,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6759,7 +6773,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6779,7 +6793,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6793,7 +6807,7 @@
         "Type"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6813,7 +6827,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6833,7 +6847,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6853,7 +6867,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6874,7 +6888,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6894,7 +6908,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6914,7 +6928,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6934,7 +6948,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6948,7 +6962,7 @@
         "Last Dx"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6968,7 +6982,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -6988,7 +7002,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7008,7 +7022,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7022,7 +7036,7 @@
         "Last Dx"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7036,7 +7050,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7056,7 +7070,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7075,7 +7089,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7095,7 +7109,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7114,7 +7128,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7133,7 +7147,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7152,7 +7166,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7166,7 +7180,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7185,7 +7199,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7199,7 +7213,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7213,7 +7227,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7227,7 +7241,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7241,7 +7255,7 @@
         "สิทธิ์"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7260,7 +7274,7 @@
         "Aneasthesia"
       ],
       "month_key": "2567-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7274,7 +7288,7 @@
         "Risk"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7288,7 +7302,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7302,7 +7316,7 @@
         "Last Dx"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7321,7 +7335,7 @@
         "เวร"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7339,7 +7353,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7358,7 +7372,7 @@
         "เวร"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7373,7 +7387,7 @@
         "Last Dx"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7392,7 +7406,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7406,7 +7420,7 @@
         "เวลาออกจากห้องผ่าตัด"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7420,7 +7434,7 @@
         "สิทธิ์"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7434,7 +7448,7 @@
         "AN"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7448,7 +7462,7 @@
         "AN"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7462,7 +7476,7 @@
         "AN"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7476,7 +7490,7 @@
         "AN"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7490,7 +7504,7 @@
         "AN"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7504,7 +7518,7 @@
         "Last Dx"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7519,7 +7533,7 @@
         "Last Dx"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7533,7 +7547,7 @@
         "Risk"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7547,7 +7561,7 @@
         "First Dx"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7562,7 +7576,7 @@
         "Last Dx"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7576,7 +7590,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7590,7 +7604,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7604,7 +7618,7 @@
         "AN"
       ],
       "month_key": "2568-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7618,7 +7632,7 @@
         "สิทธิ์"
       ],
       "month_key": "2568-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7632,7 +7646,7 @@
         "Risk"
       ],
       "month_key": "2568-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7646,7 +7660,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7661,7 +7675,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7675,7 +7689,7 @@
         "สิทธิ์"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7689,7 +7703,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7703,7 +7717,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7717,7 +7731,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7731,7 +7745,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7745,7 +7759,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7759,7 +7773,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7773,7 +7787,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7787,7 +7801,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7801,7 +7815,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7815,7 +7829,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7830,7 +7844,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7844,7 +7858,7 @@
         "First Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7858,7 +7872,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7873,7 +7887,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7887,7 +7901,7 @@
         "Last Dx"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7901,7 +7915,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7915,7 +7929,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7929,7 +7943,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7943,7 +7957,7 @@
         "Risk"
       ],
       "month_key": "2568-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7957,7 +7971,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7971,7 +7985,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -7985,7 +7999,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8000,7 +8014,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8014,7 +8028,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8028,7 +8042,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8042,7 +8056,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8056,7 +8070,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8070,7 +8084,7 @@
         "สิทธิ์"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8084,7 +8098,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8098,7 +8112,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8113,7 +8127,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8128,7 +8142,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8143,7 +8157,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8157,7 +8171,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8171,7 +8185,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8185,7 +8199,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8199,7 +8213,7 @@
         "Last Dx"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8213,7 +8227,7 @@
         "Risk"
       ],
       "month_key": "2568-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8227,7 +8241,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8241,7 +8255,7 @@
         "สิทธิ์"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8255,7 +8269,7 @@
         "Last Dx"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8269,7 +8283,7 @@
         "Risk"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8283,7 +8297,7 @@
         "Last Dx"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8297,7 +8311,7 @@
         "Risk"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8312,7 +8326,7 @@
         "Last Dx"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8326,7 +8340,7 @@
         "Risk"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8340,7 +8354,7 @@
         "Last Dx"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8354,7 +8368,7 @@
         "เวลาออกจากห้องผ่าตัด"
       ],
       "month_key": "2568-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8369,7 +8383,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8383,7 +8397,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8397,7 +8411,7 @@
         "Risk"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8411,7 +8425,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8425,7 +8439,7 @@
         "Risk"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8439,7 +8453,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8453,7 +8467,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8467,7 +8481,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8482,7 +8496,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8496,7 +8510,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8510,7 +8524,7 @@
         "Last Dx"
       ],
       "month_key": "2568-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8524,7 +8538,7 @@
         "Risk"
       ],
       "month_key": "2568-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8538,7 +8552,7 @@
         "Last Dx"
       ],
       "month_key": "2568-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8552,7 +8566,7 @@
         "Operation"
       ],
       "month_key": "2568-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8566,7 +8580,7 @@
         "Risk"
       ],
       "month_key": "2568-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8580,7 +8594,7 @@
         "Last Dx"
       ],
       "month_key": "2568-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8594,7 +8608,7 @@
         "Risk"
       ],
       "month_key": "2568-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8608,7 +8622,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8622,7 +8636,7 @@
         "Risk"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8636,7 +8650,7 @@
         "Wound Type"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8650,7 +8664,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8664,7 +8678,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8678,7 +8692,7 @@
         "Risk"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8692,7 +8706,7 @@
         "Aneasthesia"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8706,7 +8720,7 @@
         "Risk"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8720,7 +8734,7 @@
         "Last Dx"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8734,7 +8748,7 @@
         "Wound Type"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8750,7 +8764,7 @@
         "Wound Type"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8764,7 +8778,7 @@
         "Risk"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8778,7 +8792,7 @@
         "Risk"
       ],
       "month_key": "2568-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8792,7 +8806,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8806,7 +8820,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8820,7 +8834,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8834,7 +8848,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8848,7 +8862,7 @@
         "Last Dx"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8862,7 +8876,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8876,7 +8890,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8890,7 +8904,7 @@
         "Last Dx"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8904,7 +8918,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8918,7 +8932,7 @@
         "Risk"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8934,7 +8948,7 @@
         "Operation"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8948,7 +8962,7 @@
         "AN"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8962,7 +8976,7 @@
         "Last Dx"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8976,7 +8990,7 @@
         "Last Dx"
       ],
       "month_key": "2568-09",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -8990,7 +9004,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9004,7 +9018,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9018,7 +9032,7 @@
         "AN"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9032,7 +9046,7 @@
         "AN"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9046,7 +9060,7 @@
         "AN"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9060,7 +9074,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9074,7 +9088,7 @@
         "AN"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9088,7 +9102,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9102,7 +9116,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9116,7 +9130,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9130,7 +9144,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9144,7 +9158,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9158,7 +9172,7 @@
         "AN"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9172,7 +9186,7 @@
         "Risk"
       ],
       "month_key": "2568-10",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9186,7 +9200,7 @@
         "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-11",
-      "days_pending": 0,
+      "days_pending": 1,
       "first_seen": "2026-09-28"
     },
     {
@@ -9200,7 +9214,7 @@
         "Risk"
       ],
       "month_key": "2568-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9214,7 +9228,7 @@
         "Last Dx"
       ],
       "month_key": "2568-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9228,7 +9242,7 @@
         "AN"
       ],
       "month_key": "2568-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9242,7 +9256,7 @@
         "Last Dx"
       ],
       "month_key": "2568-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9256,7 +9270,7 @@
         "Risk"
       ],
       "month_key": "2568-11",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9270,7 +9284,7 @@
         "เวลาออกจากห้องผ่าตัด"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9284,7 +9298,7 @@
         "Last Dx"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9299,7 +9313,7 @@
         "Risk"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9313,7 +9327,7 @@
         "สิทธิ์"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9327,7 +9341,7 @@
         "Last Dx"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9341,7 +9355,7 @@
         "AN"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9356,7 +9370,7 @@
         "Risk"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9370,7 +9384,7 @@
         "AN"
       ],
       "month_key": "2568-12",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9385,7 +9399,7 @@
         "Last Dx"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9399,7 +9413,7 @@
         "Risk"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9413,7 +9427,7 @@
         "Aneasthesia"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9427,7 +9441,7 @@
         "AN"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9441,7 +9455,7 @@
         "Last Dx"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9455,7 +9469,7 @@
         "Risk"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9469,7 +9483,7 @@
         "AN"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9483,7 +9497,7 @@
         "Last Dx"
       ],
       "month_key": "2569-01",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9497,7 +9511,7 @@
         "Operation"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9511,7 +9525,7 @@
         "Last Dx"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9525,7 +9539,7 @@
         "Risk"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9540,7 +9554,7 @@
         "Last Dx"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9554,7 +9568,7 @@
         "Aneasthesia"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9568,7 +9582,7 @@
         "Risk"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9582,7 +9596,7 @@
         "Last Dx"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9596,7 +9610,7 @@
         "Aneasthesia"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9610,7 +9624,7 @@
         "Risk"
       ],
       "month_key": "2569-02",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9624,7 +9638,7 @@
         "AN"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9638,7 +9652,7 @@
         "Aneasthesia"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9652,7 +9666,7 @@
         "AN"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9667,7 +9681,7 @@
         "Last Dx"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9681,7 +9695,7 @@
         "Risk"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9695,7 +9709,7 @@
         "AN"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9709,7 +9723,7 @@
         "Risk"
       ],
       "month_key": "2569-03",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9723,7 +9737,7 @@
         "Risk"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9737,7 +9751,7 @@
         "Last Dx"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9751,7 +9765,7 @@
         "Risk"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9765,7 +9779,7 @@
         "Last Dx"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9779,7 +9793,7 @@
         "Last Dx"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9793,7 +9807,7 @@
         "Last Dx"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9807,7 +9821,7 @@
         "Last Dx"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9821,7 +9835,7 @@
         "Risk"
       ],
       "month_key": "2569-04",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9835,7 +9849,7 @@
         "Risk"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9849,7 +9863,7 @@
         "Last Dx"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9863,7 +9877,7 @@
         "Last Dx"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9878,7 +9892,7 @@
         "Last Dx"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9892,7 +9906,7 @@
         "Last Dx"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9906,7 +9920,7 @@
         "Operation"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9920,7 +9934,7 @@
         "Risk"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9934,7 +9948,7 @@
         "Risk"
       ],
       "month_key": "2569-05",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9948,7 +9962,7 @@
         "Last Dx"
       ],
       "month_key": "2569-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9962,7 +9976,7 @@
         "Risk"
       ],
       "month_key": "2569-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9976,7 +9990,7 @@
         "Risk"
       ],
       "month_key": "2569-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -9990,7 +10004,7 @@
         "AN"
       ],
       "month_key": "2569-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10004,7 +10018,7 @@
         "AN"
       ],
       "month_key": "2569-06",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10018,7 +10032,7 @@
         "AN"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10032,7 +10046,7 @@
         "Risk"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10046,7 +10060,7 @@
         "Risk"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10060,7 +10074,7 @@
         "Surgeon"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10074,7 +10088,7 @@
         "Risk"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10088,7 +10102,7 @@
         "Risk"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10102,7 +10116,7 @@
         "Risk"
       ],
       "month_key": "2569-07",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10116,7 +10130,7 @@
         "AN"
       ],
       "month_key": "2569-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10130,7 +10144,7 @@
         "Risk"
       ],
       "month_key": "2569-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10144,7 +10158,7 @@
         "Last Dx"
       ],
       "month_key": "2569-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10158,7 +10172,7 @@
         "Risk"
       ],
       "month_key": "2569-08",
-      "days_pending": 2,
+      "days_pending": 3,
       "first_seen": "2026-09-26"
     },
     {
@@ -10172,7 +10186,7 @@
         "เวลาออกจากห้องผ่าตัด"
       ],
       "month_key": "2569-09",
-      "days_pending": 3,
+      "days_pending": 4,
       "first_seen": "2026-09-25"
     },
     {
@@ -10186,7 +10200,7 @@
         "Aneasthesia"
       ],
       "month_key": "2569-09",
-      "days_pending": 3,
+      "days_pending": 4,
       "first_seen": "2026-09-25"
     }
   ],
@@ -10448,13 +10462,13 @@
       "ever": 5
     },
     "2569-09": {
-      "total": 606,
+      "total": 626,
       "pending": 2,
       "resolved": 8,
       "ever": 10
     },
     "all": {
-      "total": 13441,
+      "total": 13461,
       "pending": 643,
       "resolved": 61,
       "ever": 704
@@ -14454,7 +14468,7 @@
       },
       {
         "day": 28,
-        "total": 19,
+        "total": 20,
         "missing": 0
       }
     ],
@@ -14586,7 +14600,7 @@
       },
       {
         "day": "ก.ย.",
-        "total": 625,
+        "total": 626,
         "missing": 2
       }
     ]
