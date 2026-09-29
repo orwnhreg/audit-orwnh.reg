@@ -30,18 +30,6 @@
           "เวลาออกจากห้องผ่าตัด"
         ],
         "days_pending": 4
-      },
-      {
-        "date": "22/9/2569",
-        "hn": "4675",
-        "name": "นายเสียง แก้วเหล็ก",
-        "dept": "Orthopedic",
-        "op": "Debridement of wound Lt Leg",
-        "circ": "นางณัฐณิชา ไชยพะยวน",
-        "missing": [
-          "Aneasthesia"
-        ],
-        "days_pending": 4
       }
     ],
     "unfinished": 0,
@@ -154,7 +142,7 @@
       {
         "day": 22,
         "total": 29,
-        "missing": 2
+        "missing": 1
       },
       {
         "day": 23,
@@ -189,14 +177,14 @@
     ]
   },
   "insights": {
-    "completeness_pct": 99.7,
+    "completeness_pct": 99.8,
     "finished_total": 626,
-    "missing_total": 2,
+    "missing_total": 1,
     "dept_breakdown": [
       {
         "dept": "Orthopedic",
         "total": 126,
-        "missing": 2
+        "missing": 1
       },
       {
         "dept": "E.N.T",
@@ -223,14 +211,10 @@
       {
         "col": "เวลาออกจากห้องผ่าตัด",
         "count": 1
-      },
-      {
-        "col": "Aneasthesia",
-        "count": 1
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": 0.4
+    "trend_delta": 0.5
   },
   "all_cases": [
     {
@@ -10181,20 +10165,6 @@
       "month_key": "2569-09",
       "days_pending": 4,
       "first_seen": "2026-09-25"
-    },
-    {
-      "date": "22/9/2569",
-      "hn": "4675",
-      "name": "นายเสียง แก้วเหล็ก",
-      "dept": "Orthopedic",
-      "op": "Debridement of wound Lt Leg",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "Aneasthesia"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 4,
-      "first_seen": "2026-09-25"
     }
   ],
   "month_options": [
@@ -10456,14 +10426,14 @@
     },
     "2569-09": {
       "total": 626,
-      "pending": 2,
-      "resolved": 8,
+      "pending": 1,
+      "resolved": 9,
       "ever": 10
     },
     "all": {
       "total": 13461,
-      "pending": 643,
-      "resolved": 61,
+      "pending": 642,
+      "resolved": 62,
       "ever": 704
     }
   },
@@ -14432,7 +14402,7 @@
       {
         "day": 22,
         "total": 29,
-        "missing": 2
+        "missing": 1
       },
       {
         "day": 23,
@@ -14599,7 +14569,7 @@
       {
         "day": "ก.ย.",
         "total": 629,
-        "missing": 2
+        "missing": 1
       }
     ]
   }
