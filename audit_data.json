@@ -4,9 +4,9 @@
   "as_of": "29/09/2026",
   "rows": 13517,
   "colA": {
-    "dup": 4,
+    "dup": 0,
     "missing": 0,
-    "offset": 9
+    "offset": 0
   },
   "blank_cols": {
     "HN": 1
