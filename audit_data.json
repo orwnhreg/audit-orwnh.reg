@@ -80,18 +80,6 @@
         "days_pending": 0
       },
       {
-        "date": "14/9/2569",
-        "hn": "248273",
-        "name": "นายปรารถนา โพธิ์ศรีลอย",
-        "dept": "E.N.T",
-        "op": "Debridement of wound",
-        "circ": "น.ส.รัตติกร แขนธิราช",
-        "missing": [
-          "Team"
-        ],
-        "days_pending": 0
-      },
-      {
         "date": "18/9/2569",
         "hn": "107822",
         "name": "นางนฤมล เรือนไทย",
@@ -222,7 +210,7 @@
       {
         "day": 14,
         "total": 23,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 15,
@@ -302,9 +290,9 @@
     ]
   },
   "insights": {
-    "completeness_pct": 98.3,
+    "completeness_pct": 98.4,
     "finished_total": 642,
-    "missing_total": 11,
+    "missing_total": 10,
     "dept_breakdown": [
       {
         "dept": "Surgery",
@@ -322,14 +310,14 @@
         "missing": 2
       },
       {
-        "dept": "E.N.T",
-        "total": 25,
-        "missing": 1
-      },
-      {
         "dept": "Gyne-Obs",
         "total": 110,
         "missing": 1
+      },
+      {
+        "dept": "E.N.T",
+        "total": 25,
+        "missing": 0
       }
     ],
     "top_missing_cols": [
@@ -375,7 +363,7 @@
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": -1.0
+    "trend_delta": -0.9
   },
   "all_cases": [
     {
@@ -25992,20 +25980,6 @@
       "first_seen": "2026-09-30"
     },
     {
-      "date": "14/9/2569",
-      "hn": "248273",
-      "name": "นายปรารถนา โพธิ์ศรีลอย",
-      "dept": "E.N.T",
-      "op": "Debridement of wound",
-      "circ": "น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "Team"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-09-30"
-    },
-    {
       "date": "18/9/2569",
       "hn": "107822",
       "name": "นางนฤมล เรือนไทย",
@@ -26335,14 +26309,14 @@
     },
     "2569-09": {
       "total": 642,
-      "pending": 11,
-      "resolved": 10,
+      "pending": 10,
+      "resolved": 11,
       "ever": 21
     },
     "all": {
       "total": 13477,
-      "pending": 1484,
-      "resolved": 62,
+      "pending": 1483,
+      "resolved": 63,
       "ever": 1546
     }
   },
@@ -30271,7 +30245,7 @@
       {
         "day": 14,
         "total": 23,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 15,
@@ -30478,7 +30452,7 @@
       {
         "day": "ก.ย.",
         "total": 642,
-        "missing": 11
+        "missing": 10
       }
     ]
   }
