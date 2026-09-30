@@ -1,0 +1,5147 @@
+{
+  "000251254|22/8/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-08"
+  },
+  "100091|8/5/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-05"
+  },
+  "10019|22/1/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-01"
+  },
+  "100993|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "101117|15/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "101431|28/2/2568": {
+    "missing": [
+      "Aneasthesia",
+      "Last Dx"
+    ],
+    "month_key": "2568-02"
+  },
+  "101467|11/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "1015181|15/1/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-01"
+  },
+  "101648|10/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "101829|23/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "104794|6/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "105299|10/12/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-12"
+  },
+  "106047|19/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "106162|17/4/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "107143|11/1/2569": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2569-01"
+  },
+  "108279|1/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "109410|17/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "109457|14/8/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-08"
+  },
+  "109780|25/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "110166|5/8/2567": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2567-08"
+  },
+  "11031|26/6/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-06"
+  },
+  "110437|4/3/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-03"
+  },
+  "111118|6/11/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-11"
+  },
+  "11127|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "112468|25/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "112470|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "113060|9/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "113355|30/4/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-04"
+  },
+  "113872|2/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "114020|16/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "115613|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "115778|7/11/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-11"
+  },
+  "116112|18/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "116219|20/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "117429|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "117707|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "118369|19/6/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-06"
+  },
+  "119235|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "119473|26/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "119516|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "119821|18/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "120440|29/4/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-04"
+  },
+  "120579|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "120632|18/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "120767|11/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "121004|4/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "122078|24/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "122190|1/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "122204|21/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "122575|23/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "123282|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "123335|15/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "12357|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "125819|6/2/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-02"
+  },
+  "12680|3/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "12699|19/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "127187|26/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "12718|27/2/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-02"
+  },
+  "12739|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "128452|4/12/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-12"
+  },
+  "129103|6/10/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "129137|6/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "129272|16/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "129625|5/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "130261|23/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "130914|8/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "131091|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "131229|5/8/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-08"
+  },
+  "131772|19/4/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "13187|6/12/2568": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2568-12"
+  },
+  "132145|10/7/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-07"
+  },
+  "132384|30/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "134337|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "134514|18/8/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-08"
+  },
+  "13485|28/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "135425|5/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "135462|16/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "135775|28/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "136010|19/9/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-09"
+  },
+  "136802|6/8/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-08"
+  },
+  "138693|31/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "138790|23/5/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-05"
+  },
+  "139194|12/2/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-02"
+  },
+  "141329|12/2/2569": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2569-02"
+  },
+  "143755|26/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "144040|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "144484|21/1/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-01"
+  },
+  "145010|14/1/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-01"
+  },
+  "145498|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "147136|11/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "147309|4/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "147959|11/9/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-09"
+  },
+  "148312|29/4/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-04"
+  },
+  "148347|28/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "148395|9/1/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-01"
+  },
+  "149689|15/8/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "149689|27/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "149762|9/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "15025|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "151754|26/4/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-04"
+  },
+  "151880|12/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "152481|13/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "152666|24/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "1529|4/10/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-10"
+  },
+  "15359|8/7/2568": {
+    "missing": [
+      "Operation"
+    ],
+    "month_key": "2568-07"
+  },
+  "153640|11/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "15482|13/3/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "155736|18/5/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-05"
+  },
+  "155966|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Operation",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "155|22/1/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-01"
+  },
+  "155|29/1/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-01"
+  },
+  "156210|1/9/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-09"
+  },
+  "156861|12/9/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-09"
+  },
+  "15742|7/2/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-02"
+  },
+  "157594|7/4/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-04"
+  },
+  "158048|13/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "159585|2/4/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "160106|29/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "160284|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "160341|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "161694|15/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "161694|17/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "162318|30/7/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-07"
+  },
+  "163702|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "163972|18/8/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-08"
+  },
+  "163999|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "164315|26/7/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-07"
+  },
+  "164735|15/8/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-08"
+  },
+  "165382|21/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "165662|10/7/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-07"
+  },
+  "166115|4/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "166763|8/8/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-08"
+  },
+  "167335|23/9/2569": {
+    "missing": [
+      "Type"
+    ],
+    "month_key": "2569-09"
+  },
+  "167620|26/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "16831|20/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "169822|17/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "170007|7/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "174305|16/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "174380|31/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "174408|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "174423|2/8/2567": {
+    "missing": [
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "176313|16/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "176330|6/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "176460|16/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "177899|24/7/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-07"
+  },
+  "179710|1/3/2568": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2568-03"
+  },
+  "180183|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "180206|5/8/2567": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2567-08"
+  },
+  "180568|14/10/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-10"
+  },
+  "180598|11/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "180886|17/4/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "181035|10/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "182158|16/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "182551|19/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "183929|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "18394|9/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "18462|7/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "18469|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "18482|5/11/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-11"
+  },
+  "185048|15/2/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-02"
+  },
+  "18586|23/10/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-10"
+  },
+  "18586|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "186067|18/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "186209|2/8/2567": {
+    "missing": [
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "188251|20/3/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "188258|14/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "188258|26/3/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-03"
+  },
+  "188620|16/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "188815|22/5/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-05"
+  },
+  "189019|3/7/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-07"
+  },
+  "190249|12/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "190769|15/5/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-05"
+  },
+  "191443|24/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "191445|9/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "191941|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "192668|25/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "193264|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "194591|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "19557|29/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "195886|5/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "196461|27/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "196596|15/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "196669|23/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "197474|20/11/2567": {
+    "missing": [
+      "AN",
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "197707|7/11/2567": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2567-11"
+  },
+  "197734|18/12/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "197829|9/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "199710|12/4/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-04"
+  },
+  "199878|18/4/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-04"
+  },
+  "200168|24/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "200415|7/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "200929|15/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "203232|1/1/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-01"
+  },
+  "203389|20/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "205284|11/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "206473|9/12/2567": {
+    "missing": [
+      "Type"
+    ],
+    "month_key": "2567-12"
+  },
+  "207219|14/12/2567": {
+    "missing": [
+      "Type"
+    ],
+    "month_key": "2567-12"
+  },
+  "211804|28/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "213386|4/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "214267|17/12/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-12"
+  },
+  "214327|6/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "215836|21/4/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-04"
+  },
+  "216203|3/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "216588|7/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "217146|4/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "217512|19/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "218283|22/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "218836|24/2/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-02"
+  },
+  "218938|14/11/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-11"
+  },
+  "219031|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "219263|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "219717|15/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "219894|18/10/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx",
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "22007|26/12/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-12"
+  },
+  "220410|29/1/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-01"
+  },
+  "22078|1/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "221047|18/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "221208|30/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "221664|12/3/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-03"
+  },
+  "222264|13/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "22287|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "222974|21/5/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-05"
+  },
+  "223125|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "223989|26/12/2568": {
+    "missing": [
+      "AN",
+      "Risk"
+    ],
+    "month_key": "2568-12"
+  },
+  "224731|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "22476|17/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "225267|10/2/2568": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2568-02"
+  },
+  "22573819868|14/1/2568": {
+    "missing": [
+      "AN",
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "สิทธิ์"
+    ],
+    "month_key": "2568-01"
+  },
+  "225938|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "22656|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "226711|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "227461|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "227725|15/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "228582|9/10/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-10"
+  },
+  "228626|3/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "228959|16/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "229029|4/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "22952|19/3/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-03"
+  },
+  "229866|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "22993|1/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "229958|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "230409|11/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "230632|27/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "232009|5/2/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-02"
+  },
+  "23269|7/8/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "2337132|4/11/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-11"
+  },
+  "235039|11/12/2567": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2567-12"
+  },
+  "235112|13/1/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-01"
+  },
+  "235981|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "236394|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "236451|5/3/2569": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2569-03"
+  },
+  "236681|14/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "236797|25/7/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-07"
+  },
+  "236900|19/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "236999|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "237148|3/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "237624|11/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "237907|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "237907|9/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "23792|2/8/2567": {
+    "missing": [
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "238083|2/8/2567": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2567-08"
+  },
+  "238306|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "238556|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "23875|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "238957|9/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "239168|14/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "239301|25/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "239343|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "239425|29/10/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-10"
+  },
+  "239507|4/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "239547|11/1/2568": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2568-01"
+  },
+  "239588|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "239805|3/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "239805|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "23984|5/8/2567": {
+    "missing": [
+      "Aneasthesia",
+      "Wound Type"
+    ],
+    "month_key": "2567-08"
+  },
+  "240057|7/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240091|5/2/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-02"
+  },
+  "240148|15/8/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-08"
+  },
+  "240150|9/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240156|19/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240156|30/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240156|6/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "240168|10/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240172|10/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240172|19/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240172|30/8/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240179|10/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240190|14/8/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240261|16/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240335|16/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240358|18/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240359|18/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240368|19/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240390|19/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240434|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240439|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "240441|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240475|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240504|23/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240512|23/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240537|24/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240539|24/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240545|24/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240603|27/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240603|5/9/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-09"
+  },
+  "240610|11/9/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-09"
+  },
+  "24062|19/9/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-09"
+  },
+  "240652|9/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "240685|30/8/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240708|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240713|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240716|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240725|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "240725|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "240725|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "240767|2/9/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240771|2/9/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240818|5/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "240838|4/9/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240849|29/10/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวลาออกจากห้องผ่าตัด"
+    ],
+    "month_key": "2567-10"
+  },
+  "240879|12/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240882|6/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240883|7/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240894|7/9/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240895|8/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240906|1/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "240936|9/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "240948|22/1/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-01"
+  },
+  "241065|13/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241072|13/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241078|14/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241125|18/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241130|17/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241146|18/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241168|18/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241181|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "241199|18/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241247|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241247|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "241255|20/9/2567": {
+    "missing": [
+      "Last Dx",
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241285|23/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241297|8/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241359|25/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241381|4/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "241438|27/9/2567": {
+    "missing": [
+      "Risk",
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241444|28/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241445|28/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241448|28/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241460|8/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241471|29/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "241592|4/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241627|4/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241630|15/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241630|5/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241644|6/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241650|6/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241660|9/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241696|22/10/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-10"
+  },
+  "241698|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241700|12/2/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-02"
+  },
+  "241711|14/10/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241711|8/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241717|9/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241767|10/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241777|11/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241797|12/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241800|12/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241804|14/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241867|30/1/2568": {
+    "missing": [
+      "First Dx"
+    ],
+    "month_key": "2568-01"
+  },
+  "241870|15/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241879|17/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241882|17/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241884|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241906|9/4/2568": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2568-04"
+  },
+  "241933|18/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241949|23/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "241955|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241973|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241978|20/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "242004|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242008|16/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "242201|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "242203|30/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "242258|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242277|24/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242285|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "242285|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242285|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "242317|4/11/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-11"
+  },
+  "242392|6/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "242417|27/11/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-11"
+  },
+  "242520|10/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "242559|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "242581|15/11/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "242605|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242681|16/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242690|15/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "242699|15/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "242705|17/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "24272|4/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "242872|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242895|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242904|10/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "242904|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "242904|15/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "242904|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "242904|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "242942|25/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "2429533|4/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2567-12"
+  },
+  "243000|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243055|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243055|30/11/2567": {
+    "missing": [
+      "Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "243119|4/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "243132|4/12/2567": {
+    "missing": [
+      "AN",
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243140|4/12/2567": {
+    "missing": [
+      "AN",
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243160|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "243196|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243199|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243201|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243207|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243217|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "243246|9/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243292|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "243293|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243295|11/1/2568": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2568-01"
+  },
+  "243323|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "243326|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243350|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "243354|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243359|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243377|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "243406|14/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "24343|18/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "243475|2/1/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-01"
+  },
+  "24347|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "243491|17/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243672|26/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "243679|1/4/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-04"
+  },
+  "243704|29/12/2567": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243756|29/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "243911|15/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "244047|14/3/2568": {
+    "missing": [
+      "First Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "244097|16/1/2568": {
+    "missing": [
+      "เวลาออกจากห้องผ่าตัด"
+    ],
+    "month_key": "2568-01"
+  },
+  "244377|21/1/2568": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2568-01"
+  },
+  "244438|24/1/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-01"
+  },
+  "244446|23/1/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-01"
+  },
+  "244672|31/1/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-01"
+  },
+  "244791|5/2/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-02"
+  },
+  "244885|7/2/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-02"
+  },
+  "24500|25/4/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "245039|12/2/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-02"
+  },
+  "245050|12/2/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-02"
+  },
+  "245364|7/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "245409|26/2/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-02"
+  },
+  "245564|5/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "245684|10/3/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-03"
+  },
+  "245842|4/4/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "246008|21/7/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-07"
+  },
+  "246103|1/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "246160|2/4/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "246272|27/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "246521|5/4/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "246565|26/8/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-08"
+  },
+  "24660|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "246827|20/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "247148|22/5/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-05"
+  },
+  "247182|22/4/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "248065|16/5/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-05"
+  },
+  "248109|12/5/2568": {
+    "missing": [
+      "สิทธิ์"
+    ],
+    "month_key": "2568-05"
+  },
+  "248218|13/5/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-05"
+  },
+  "24854|18/2/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-02"
+  },
+  "248575|25/9/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-09"
+  },
+  "248809|27/5/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-05"
+  },
+  "248813|17/9/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx",
+      "Operation"
+    ],
+    "month_key": "2568-09"
+  },
+  "249154|6/6/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-06"
+  },
+  "249334|27/8/2568": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2568-08"
+  },
+  "249366|15/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "249679|24/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "249739|28/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "249757|27/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "249802|29/6/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "249807|8/7/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-07"
+  },
+  "249869|3/7/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-07"
+  },
+  "250300|21/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "250692|22/8/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-08"
+  },
+  "250816|1/8/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-08"
+  },
+  "250841|3/8/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-08"
+  },
+  "250866|22/9/2569": {
+    "missing": [
+      "เวลาออกจากห้องผ่าตัด"
+    ],
+    "month_key": "2569-09"
+  },
+  "251026|6/8/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-08"
+  },
+  "251475|24/8/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-08"
+  },
+  "251610|29/8/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-08"
+  },
+  "251735|27/8/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx",
+      "Wound Type"
+    ],
+    "month_key": "2568-08"
+  },
+  "251752|29/8/2568": {
+    "missing": [
+      "Risk",
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-08"
+  },
+  "252031|27/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "252301|24/9/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-09"
+  },
+  "252367|11/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "252387|24/10/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-10"
+  },
+  "252621|17/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "252723|17/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "252956|10/10/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-10"
+  },
+  "253266|27/9/2569": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2569-09"
+  },
+  "253659|10/10/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-10"
+  },
+  "253696|10/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "254733|24/12/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-12"
+  },
+  "254811|28/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "255207|6/12/2568": {
+    "missing": [
+      "AN",
+      "Risk"
+    ],
+    "month_key": "2568-12"
+  },
+  "25574|22/1/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-01"
+  },
+  "255857|16/1/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-01"
+  },
+  "255966|6/1/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-01"
+  },
+  "256217|7/5/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-05"
+  },
+  "256504|23/1/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-01"
+  },
+  "256586|8/2/2569": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2569-02"
+  },
+  "257096|13/3/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-03"
+  },
+  "257678|7/3/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-03"
+  },
+  "257922|16/3/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-03"
+  },
+  "258559|6/4/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-04"
+  },
+  "258750|11/4/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-04"
+  },
+  "258758|11/4/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-04"
+  },
+  "259360|19/8/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-08"
+  },
+  "259424|21/5/2569": {
+    "missing": [
+      "Operation"
+    ],
+    "month_key": "2569-05"
+  },
+  "259477|15/5/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-05"
+  },
+  "259562|12/5/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-05"
+  },
+  "259608|29/5/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-05"
+  },
+  "259650|13/5/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-05"
+  },
+  "260018|23/6/2569": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2569-06"
+  },
+  "260189|10/6/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-06"
+  },
+  "260288|2/6/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-06"
+  },
+  "260648|16/6/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-06"
+  },
+  "260983|19/8/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-08"
+  },
+  "261201|4/7/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-07"
+  },
+  "262215|23/9/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-09"
+  },
+  "262528|20/8/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-08"
+  },
+  "263237|14/9/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-09"
+  },
+  "263289|26/9/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-09"
+  },
+  "263586|21/9/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-09"
+  },
+  "26563|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "27248|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "27248|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "27390|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "27462|17/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "27507|6/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "2786|2/8/2567": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2567-08"
+  },
+  "28763|9/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "29010|16/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "29160|15/12/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-12"
+  },
+  "29503|5/6/2568": {
+    "missing": [
+      "Aneasthesia",
+      "Risk"
+    ],
+    "month_key": "2568-06"
+  },
+  "30030|8/9/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-09"
+  },
+  "30270|23/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "30748|6/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "30839|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "31214|5/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "31287|11/1/2568": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "สิทธิ์"
+    ],
+    "month_key": "2568-01"
+  },
+  "31596|2/8/2567": {
+    "missing": [
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "31875|18/9/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-09"
+  },
+  "33137|7/8/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-08"
+  },
+  "33182|22/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "33932|4/4/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-04"
+  },
+  "34301|22/5/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-05"
+  },
+  "35352|17/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "3686|2/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "37521|23/7/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-07"
+  },
+  "37761|6/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "37845|17/12/2567": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2567-12"
+  },
+  "37965|22/9/2569": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2569-09"
+  },
+  "38525|20/4/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-04"
+  },
+  "38954|30/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "39025|5/5/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-05"
+  },
+  "39528|20/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "40676|4/10/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "41162|7/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "41507|22/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "42246|17/4/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "42578|15/12/2567": {
+    "missing": [
+      "AN",
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "42722|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "43160|10/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "43442|20/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "43597|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "43891|12/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "44222|11/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "44317|1/7/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-07"
+  },
+  "44505|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "44601|4/12/2567": {
+    "missing": [
+      "Risk",
+      "Type"
+    ],
+    "month_key": "2567-12"
+  },
+  "44974|27/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "4524|18/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "45644|26/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "46188|16/9/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-09"
+  },
+  "46245|27/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "4675|22/9/2569": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2569-09"
+  },
+  "46778|4/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "47284|2/12/2568": {
+    "missing": [
+      "เวลาออกจากห้องผ่าตัด"
+    ],
+    "month_key": "2568-12"
+  },
+  "47387|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "47431|6/11/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "48439|15/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "49280|23/7/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-07"
+  },
+  "4953|27/4/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-04"
+  },
+  "5036|7/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "50780|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "50942|6/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "51429|23/5/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-05"
+  },
+  "5142|9/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "51441|7/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "5181|27/6/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-06"
+  },
+  "52837|17/5/2569": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2569-05"
+  },
+  "53360|15/1/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-01"
+  },
+  "53522|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "54271|18/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "54918|3/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "55310|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "55544|20/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "5606|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "56180|24/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "56730|19/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "56781|10/2/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-02"
+  },
+  "5738|28/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "58716|18/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "59985|3/3/2568": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2568-03"
+  },
+  "59990|25/12/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-12"
+  },
+  "60768|10/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "60768|15/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "60768|22/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "60867|11/7/2569": {
+    "missing": [
+      "Surgeon"
+    ],
+    "month_key": "2569-07"
+  },
+  "62045|17/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "62209|18/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "63133|21/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "6402|10/6/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-06"
+  },
+  "64398|23/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "64543|30/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "64750|28/10/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-10"
+  },
+  "65272|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "65361|27/3/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-03"
+  },
+  "65670|30/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "66011|31/1/2568": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2568-01"
+  },
+  "6620|1/8/2567": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2567-08"
+  },
+  "67279|11/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "67345|19/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "67345|26/12/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-12"
+  },
+  "68026|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "6884|15/5/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-05"
+  },
+  "69247|21/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "69349|8/1/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-01"
+  },
+  "69604|27/3/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-03"
+  },
+  "69622|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "69788|10/4/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-04"
+  },
+  "71908|15/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "72260|1/2/2569": {
+    "missing": [
+      "Operation"
+    ],
+    "month_key": "2569-02"
+  },
+  "72286|6/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "73237|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "73942|5/10/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-10"
+  },
+  "741|27/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "74294|15/11/2567": {
+    "missing": [
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "75151|11/12/2567": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2567-12"
+  },
+  "75289|13/7/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-07"
+  },
+  "7555|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "75821|7/11/2567": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2567-11"
+  },
+  "76015|22/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "76422|6/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "76633|19/8/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-08"
+  },
+  "76841|10/3/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-03"
+  },
+  "77396|28/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "77727|10/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "7783|12/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "78587|8/8/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-08"
+  },
+  "78930|7/11/2567": {
+    "missing": [
+      "Aneasthesia"
+    ],
+    "month_key": "2567-11"
+  },
+  "79052|25/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "79205|18/12/2567": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2567-12"
+  },
+  "81514|18/10/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "81681|3/9/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-09"
+  },
+  "81832|21/11/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-11"
+  },
+  "81990|13/7/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-07"
+  },
+  "82274|21/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "82379|20/9/2567": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2567-09"
+  },
+  "82461|23/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "83303|8/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์",
+      "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "83605|19/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "8393|22/1/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-01"
+  },
+  "84232|6/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "84436|18/3/2569": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2569-03"
+  },
+  "85525|18/5/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-05"
+  },
+  "85743|1/9/2568": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2568-09"
+  },
+  "86687|10/10/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-10"
+  },
+  "88684|19/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "89897|8/9/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-09"
+  },
+  "90053|19/10/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "90499|4/8/2568": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2568-08"
+  },
+  "90657|24/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "9137|11/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "918|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "918|31/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "92530|18/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "93603|15/9/2568": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2568-09"
+  },
+  "93853|6/2/2569": {
+    "missing": [
+      "Risk"
+    ],
+    "month_key": "2569-02"
+  },
+  "94287|14/8/2567": {
+    "missing": [
+      "Aneasthesia",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "95045|26/9/2569": {
+    "missing": [
+      "Last Dx"
+    ],
+    "month_key": "2569-09"
+  },
+  "95123|19/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "95518|6/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "95698|16/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "95834|8/10/2568": {
+    "missing": [
+      "AN"
+    ],
+    "month_key": "2568-10"
+  },
+  "95891|28/5/2568": {
+    "missing": [
+      "เวลาออกจากห้องผ่าตัด"
+    ],
+    "month_key": "2568-05"
+  },
+  "95957|5/11/2568": {
+    "missing": [
+      "ชื่อซ้ำในทีม"
+    ],
+    "month_key": "2568-11"
+  },
+  "9653|16/10/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "9670|2/8/2567": {
+    "missing": [
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "96834|16/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx"
+    ],
+    "month_key": "2567-11"
+  },
+  "97136|15/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "98243|10/8/2567": {
+    "missing": [
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "98423|13/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type",
+      "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "98765|1/8/2567": {
+    "missing": [
+      "Wound Type",
+      "เวร"
+    ],
+    "month_key": "2567-08"
+  },
+  "99188|19/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "First Dx",
+      "Last Dx",
+      "Risk",
+      "Type",
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "99733|5/11/2567": {
+    "missing": [
+      "Wound Type"
+    ],
+    "month_key": "2567-11"
+  }
+}

@@ -209,6 +209,42 @@
     ],
     "top_missing_cols": [
       {
+        "col": "Last Dx",
+        "count": 4
+      },
+      {
+        "col": "First Dx",
+        "count": 3
+      },
+      {
+        "col": "Risk",
+        "count": 2
+      },
+      {
+        "col": "ชื่อซ้ำในทีม",
+        "count": 2
+      },
+      {
+        "col": "AN",
+        "count": 1
+      },
+      {
+        "col": "Aneasthesia",
+        "count": 1
+      },
+      {
+        "col": "Type",
+        "count": 1
+      },
+      {
+        "col": "Wound Type",
+        "count": 1
+      },
+      {
+        "col": "เวร",
+        "count": 1
+      },
+      {
         "col": "เวลาออกจากห้องผ่าตัด",
         "count": 1
       }
