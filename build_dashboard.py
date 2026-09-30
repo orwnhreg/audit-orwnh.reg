@@ -414,7 +414,7 @@ def build_dashboard(data: dict) -> str:
     <div class="panel">
       <div class="panel-body">
         <p class="section-title">ช่องที่ขาดบ่อยสุด</p>
-        <p class="section-sub">เรียงจากมากไปน้อย เดือนนี้</p>
+        <p class="section-sub">สะสมทั้งเดือน รวมเคสที่แก้ไขแล้ว · เรียงจากมากไปน้อย</p>
         {top_missing_html}
       </div>
     </div>
