@@ -18,20 +18,7 @@
   "month": {
     "label": "วันที่ 1/09/69 ถึง 29/09/69",
     "total": 642,
-    "cases": [
-      {
-        "date": "22/9/2569",
-        "hn": "250866",
-        "name": "นางบังอร เชื้อวังคำ",
-        "dept": "Orthopedic",
-        "op": "Posterior  pedicle screw fixation c PLF T5-T9",
-        "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ",
-        "missing": [
-          "เวลาออกจากห้องผ่าตัด"
-        ],
-        "days_pending": 5
-      }
-    ],
+    "cases": [],
     "unfinished": 0,
     "daily": [
       {
@@ -142,7 +129,7 @@
       {
         "day": 22,
         "total": 29,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 23,
@@ -182,15 +169,10 @@
     ]
   },
   "insights": {
-    "completeness_pct": 99.8,
+    "completeness_pct": 100.0,
     "finished_total": 642,
-    "missing_total": 1,
+    "missing_total": 0,
     "dept_breakdown": [
-      {
-        "dept": "Orthopedic",
-        "total": 128,
-        "missing": 1
-      },
       {
         "dept": "E.N.T",
         "total": 25,
@@ -199,6 +181,11 @@
       {
         "dept": "Surgery",
         "total": 237,
+        "missing": 0
+      },
+      {
+        "dept": "Orthopedic",
+        "total": 128,
         "missing": 0
       },
       {
@@ -255,7 +242,7 @@
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": 0.5
+    "trend_delta": 0.7
   },
   "all_cases": [
     {
@@ -10192,20 +10179,6 @@
       "month_key": "2569-08",
       "days_pending": 4,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "22/9/2569",
-      "hn": "250866",
-      "name": "นางบังอร เชื้อวังคำ",
-      "dept": "Orthopedic",
-      "op": "Posterior  pedicle screw fixation c PLF T5-T9",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "เวลาออกจากห้องผ่าตัด"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 5,
-      "first_seen": "2026-09-25"
     }
   ],
   "month_options": [
@@ -10467,14 +10440,14 @@
     },
     "2569-09": {
       "total": 642,
-      "pending": 1,
-      "resolved": 9,
+      "pending": 0,
+      "resolved": 10,
       "ever": 10
     },
     "all": {
       "total": 13477,
-      "pending": 642,
-      "resolved": 62,
+      "pending": 641,
+      "resolved": 63,
       "ever": 704
     }
   },
@@ -14443,7 +14416,7 @@
       {
         "day": 22,
         "total": 29,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 23,
@@ -14615,7 +14588,7 @@
       {
         "day": "ก.ย.",
         "total": 643,
-        "missing": 1
+        "missing": 0
       }
     ]
   }
