@@ -314,15 +314,15 @@
         "count": 1
       },
       {
+        "col": "Team",
+        "count": 1
+      },
+      {
         "col": "เวลาออกจากห้องผ่าตัด",
         "count": 1
       },
       {
         "col": "เวร",
-        "count": 1
-      },
-      {
-        "col": "Wound Type",
         "count": 1
       }
     ],
