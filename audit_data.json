@@ -365,6 +365,7 @@
       "op": "DCL with PDS with PLF L4 - S1",
       "circ": "นายนายณัฐวุฒิ ทิพย์ทอง ทิพย์ทอง",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "เวร",
         "Team",
@@ -432,6 +433,7 @@
       "op": "Rt. Bipolar Hemiarthroplasty",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "เวร",
         "Team",
@@ -451,6 +453,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "เวร",
         "Team",
@@ -471,6 +474,7 @@
       "op": "ORIF with Distal Radius Locking Plate Rt. DER",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "เวร",
         "Team",
@@ -491,6 +495,7 @@
       "op": "ORIF with Distal Medial Tibia Locking Plate Rt. Tibia",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "เวร",
         "Team",
@@ -511,6 +516,7 @@
       "op": "ORIF with Distal Fibular Lokcing Plate Rt. Fibular , ORIF with Mini Locking Plate Rt. Medial Malleolar",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "เวร",
         "Team",
@@ -588,6 +594,7 @@
       "op": "ORIF with Proximal Lateral Tibia Locking Plate Rt. Tibia",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
+        "ตึกผู้ป่วย",
         "Wound Type",
         "Nurse Aid"
       ],
@@ -6913,6 +6920,8 @@
       "op": "Rt. Superficail parotidectomy",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
+        "เวลาเข้าห้องผ่าตัด",
+        "เวลาเริ่มผ่าตัด",
         "เวลาออกจากห้องผ่าตัด",
         "Aneasthesia"
       ],
@@ -8388,6 +8397,7 @@
       "op": "Excision of pterygium LE",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN"
       ],
       "month_key": "2567-11",
@@ -8402,6 +8412,7 @@
       "op": "Excision of pterygium RE",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN"
       ],
       "month_key": "2567-11",
@@ -12081,6 +12092,7 @@
       "op": "Debridement Rt. hand",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12265,6 +12277,7 @@
       "op": "Excision at back",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN",
         "Address",
         "สิทธิ์",
@@ -12291,6 +12304,7 @@
       "op": "Excision at sclap",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN",
         "Address",
         "สิทธิ์",
@@ -12371,6 +12385,7 @@
       "op": "Excision mass at scalp",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN",
         "Address",
         "สิทธิ์",
@@ -12612,6 +12627,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12724,6 +12740,7 @@
       "op": "LC",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12748,6 +12765,7 @@
       "op": "LC",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12775,6 +12793,7 @@
       "op": "LC coverse OC",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12800,6 +12819,7 @@
       "op": "Lt. lumpectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12827,6 +12847,7 @@
       "op": "EDB with Remove FB Lt. index finger",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12852,6 +12873,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12876,6 +12898,7 @@
       "op": "Explore wound with stop bleeding Rt. hand",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12902,6 +12925,7 @@
       "op": "Explore lap with vaccum dressing with abdominal toilet",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -12928,6 +12952,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13034,6 +13059,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13060,6 +13086,7 @@
       "op": "Explore lap with lysis adhesion",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13086,6 +13113,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13112,6 +13140,7 @@
       "op": "LC with Liver bx.",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13138,6 +13167,7 @@
       "op": "LC",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13164,6 +13194,7 @@
       "op": "ERCP",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13190,6 +13221,7 @@
       "op": "ERCP",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13216,6 +13248,7 @@
       "op": "ERCP with remove stent",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13242,6 +13275,7 @@
       "op": "ERCP (fail)",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13268,6 +13302,7 @@
       "op": "ERCP with Metalic stent",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13294,6 +13329,7 @@
       "op": "Revise PTBD",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13320,6 +13356,7 @@
       "op": "PTBD",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13346,6 +13383,7 @@
       "op": "PTBD,PTBS",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13372,6 +13410,7 @@
       "op": "Reviese PTBD",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13398,6 +13437,7 @@
       "op": "Fasciotomy Rt. hand",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -13424,6 +13464,7 @@
       "op": "Explore lap with simple suture with omental graft",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -14048,6 +14089,7 @@
       "op": "EL with vacuum Dissing with partial closue suture",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15209,6 +15251,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15235,6 +15278,7 @@
       "op": "EL with change with closed abdomen",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15316,6 +15360,7 @@
       "op": "Scrub burn Lt leg",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15396,6 +15441,7 @@
       "op": "Sigmoidectomy end to end anastomosis",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15422,6 +15468,7 @@
       "op": "EL with change with closed abdomen",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15448,6 +15495,7 @@
       "op": "Lumpectomy Lt. shoulder",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN",
         "Address",
         "สิทธิ์",
@@ -15493,6 +15541,7 @@
       "op": "LC",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15518,6 +15567,7 @@
       "op": "C line",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15543,6 +15593,7 @@
       "op": "Explore laparotomy with total spleectomy withhepatic packing",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15664,6 +15715,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15690,6 +15742,7 @@
       "op": "Explore wound Lt. leg c remove bullet",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15716,6 +15769,7 @@
       "op": "EDB anal",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15883,6 +15937,7 @@
       "op": "Exploratory laparotomy c lysis adhesion c appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15909,6 +15964,7 @@
       "op": "Rectal exam",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15933,6 +15989,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -15995,6 +16052,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -16020,6 +16078,7 @@
       "op": "Mass resection,Lt.thigh",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -16127,6 +16186,7 @@
       "op": "Appendectomy",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -16441,6 +16501,7 @@
       "op": "Excisional Debridement",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -17400,6 +17461,7 @@
       "op": "Fasciotomy Lt. foot",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "Address",
         "สิทธิ์",
         "First Dx",
@@ -18974,6 +19036,7 @@
       "op": "Ray Amputation Rt. 1st Toe",
       "circ": "-",
       "missing": [
+        "ตึกผู้ป่วย",
         "AN",
         "Address",
         "สิทธิ์",
@@ -20381,6 +20444,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "21/3/2568",
+      "hn": "51999",
+      "name": "นางนกเอี้ยง อุดม",
+      "dept": "Surgery",
+      "op": "Excisional Debridement",
+      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
+      "missing": [
+        "ตึกผู้ป่วย"
+      ],
+      "month_key": "2568-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
+    },
+    {
       "date": "23/3/2568",
       "hn": "101829",
       "name": "นางพรนภา มาละอินทร์",
@@ -21355,6 +21432,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "16/5/2568",
+      "hn": "64475",
+      "name": "นายวาสนา บาลนาคม",
+      "dept": "Surgery",
+      "op": "PTBD",
+      "circ": "น.ส.รัตติกร แขนธิราช",
+      "missing": [
+        "ตึกผู้ป่วย"
+      ],
+      "month_key": "2568-05",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
+    },
+    {
       "date": "22/5/2568",
       "hn": "247517",
       "name": "นางรัตนภรณ์ ผายเงิน",
@@ -21550,6 +21641,7 @@
       "op": "Appendectomy",
       "circ": "พรชิตา",
       "missing": [
+        "เวลาเข้าห้องผ่าตัด",
         "เวลาออกจากห้องผ่าตัด"
       ],
       "month_key": "2568-05",
@@ -21584,6 +21676,20 @@
       "month_key": "2568-06",
       "days_pending": 4,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "6/6/2568",
+      "hn": "45131",
+      "name": "นางสาวชลดา เยาวะไสย",
+      "dept": "Gyne-Obs",
+      "op": "Tubal Resection (TR)",
+      "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์, น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "อายุ"
+      ],
+      "month_key": "2568-06",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
     },
     {
       "date": "9/6/2568",
@@ -22412,6 +22518,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "19/9/2568",
+      "hn": "251314",
+      "name": "นายบุญโฮม แสนสุริวงศ์",
+      "dept": "Surgery",
+      "op": "LC",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "ตึกผู้ป่วย"
+      ],
+      "month_key": "2568-09",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
+    },
+    {
       "date": "24/9/2568",
       "hn": "252578",
       "name": "นางสิงห์   โพธิศรี",
@@ -22922,6 +23042,20 @@
       "first_seen": "2026-09-26"
     },
     {
+      "date": "9/12/2568",
+      "hn": "253306",
+      "name": "น.ส.ดาราวรรณ ใจเย็น",
+      "dept": "Gyne-Obs",
+      "op": "LT C/S with TR",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "ตึกผู้ป่วย"
+      ],
+      "month_key": "2568-12",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
+    },
+    {
       "date": "15/12/2568",
       "hn": "29160",
       "name": "นายสุพัฒน์ ทิพย์สุริย์",
@@ -23252,6 +23386,20 @@
       "first_seen": "2026-09-30"
     },
     {
+      "date": "4/2/2569",
+      "hn": "115799",
+      "name": "นางนิรันดร ลือชัย",
+      "dept": "Orthopedic",
+      "op": "A1 Pullay Release Lt. 1st Finger",
+      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
+      "missing": [
+        "อายุ"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
+    },
+    {
       "date": "5/2/2569",
       "hn": "240091",
       "name": "นางอังคณา ประฮาดชัย",
@@ -23335,6 +23483,20 @@
       "month_key": "2569-02",
       "days_pending": 4,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "12/2/2569",
+      "hn": "249222",
+      "name": "นายแสงจันทร์ นนสุภาพ",
+      "dept": "Eye",
+      "op": "PE with IOL  RE",
+      "circ": "น.ส.รัตติกร แขนธิราช, น.ส.ณัฎฐากร ก้านศรีรัตน์",
+      "missing": [
+        "ตึกผู้ป่วย"
+      ],
+      "month_key": "2569-02",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
     },
     {
       "date": "12/2/2569",
@@ -23475,6 +23637,20 @@
       "month_key": "2569-03",
       "days_pending": 4,
       "first_seen": "2026-09-26"
+    },
+    {
+      "date": "7/3/2569",
+      "hn": "180943",
+      "name": "นายหนู พุทธซ้าย",
+      "dept": "Orthopedic",
+      "op": "Ray Amputate Lt.big toe",
+      "circ": "น.ส.วิภาวรรณ ไชโย",
+      "missing": [
+        "อายุ"
+      ],
+      "month_key": "2569-03",
+      "days_pending": 0,
+      "first_seen": "2026-09-30"
     },
     {
       "date": "9/3/2569",
@@ -24659,9 +24835,9 @@
     },
     "2568-03": {
       "total": 600,
-      "pending": 55,
+      "pending": 56,
       "resolved": 3,
-      "ever": 58
+      "ever": 59
     },
     "2568-04": {
       "total": 507,
@@ -24671,15 +24847,15 @@
     },
     "2568-05": {
       "total": 511,
-      "pending": 26,
+      "pending": 27,
       "resolved": 4,
-      "ever": 30
+      "ever": 31
     },
     "2568-06": {
       "total": 561,
-      "pending": 16,
+      "pending": 17,
       "resolved": 1,
-      "ever": 17
+      "ever": 18
     },
     "2568-07": {
       "total": 570,
@@ -24695,9 +24871,9 @@
     },
     "2568-09": {
       "total": 675,
-      "pending": 19,
+      "pending": 20,
       "resolved": 3,
-      "ever": 22
+      "ever": 23
     },
     "2568-10": {
       "total": 615,
@@ -24713,9 +24889,9 @@
     },
     "2568-12": {
       "total": 565,
-      "pending": 13,
+      "pending": 14,
       "resolved": 3,
-      "ever": 16
+      "ever": 17
     },
     "2569-01": {
       "total": 601,
@@ -24725,15 +24901,15 @@
     },
     "2569-02": {
       "total": 596,
-      "pending": 15,
+      "pending": 17,
       "resolved": 1,
-      "ever": 16
+      "ever": 18
     },
     "2569-03": {
       "total": 596,
-      "pending": 15,
+      "pending": 16,
       "resolved": 1,
-      "ever": 16
+      "ever": 17
     },
     "2569-04": {
       "total": 580,
@@ -24773,9 +24949,9 @@
     },
     "all": {
       "total": 13477,
-      "pending": 1386,
+      "pending": 1394,
       "resolved": 62,
-      "ever": 1448
+      "ever": 1456
     }
   },
   "daily_by_month": {
@@ -25957,7 +26133,7 @@
       {
         "day": 21,
         "total": 25,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 22,
@@ -26241,7 +26417,7 @@
       {
         "day": 16,
         "total": 27,
-        "missing": 2
+        "missing": 3
       },
       {
         "day": 17,
@@ -26348,7 +26524,7 @@
       {
         "day": 6,
         "total": 25,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 7,
@@ -26879,7 +27055,7 @@
       {
         "day": 19,
         "total": 30,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 20,
@@ -27290,7 +27466,7 @@
       {
         "day": 9,
         "total": 19,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 10,
@@ -27579,7 +27755,7 @@
       {
         "day": 4,
         "total": 27,
-        "missing": 0
+        "missing": 1
       },
       {
         "day": 5,
@@ -27619,7 +27795,7 @@
       {
         "day": 12,
         "total": 30,
-        "missing": 3
+        "missing": 4
       },
       {
         "day": 13,
@@ -27736,7 +27912,7 @@
       {
         "day": 7,
         "total": 7,
-        "missing": 1
+        "missing": 2
       },
       {
         "day": 8,
@@ -28820,7 +28996,7 @@
       {
         "day": "มี.ค.",
         "total": 600,
-        "missing": 55
+        "missing": 56
       },
       {
         "day": "เม.ย.",
@@ -28830,12 +29006,12 @@
       {
         "day": "พ.ค.",
         "total": 511,
-        "missing": 26
+        "missing": 27
       },
       {
         "day": "มิ.ย.",
         "total": 561,
-        "missing": 16
+        "missing": 17
       },
       {
         "day": "ก.ค.",
@@ -28850,7 +29026,7 @@
       {
         "day": "ก.ย.",
         "total": 675,
-        "missing": 19
+        "missing": 20
       },
       {
         "day": "ต.ค.",
@@ -28865,7 +29041,7 @@
       {
         "day": "ธ.ค.",
         "total": 565,
-        "missing": 13
+        "missing": 14
       },
       {
         "day": "ม.ค.",
@@ -28875,12 +29051,12 @@
       {
         "day": "ก.พ.",
         "total": 596,
-        "missing": 15
+        "missing": 17
       },
       {
         "day": "มี.ค.",
         "total": 596,
-        "missing": 15
+        "missing": 16
       },
       {
         "day": "เม.ย.",
