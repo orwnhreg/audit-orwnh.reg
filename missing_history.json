@@ -13,7 +13,8 @@
   },
   "10019|22/1/2568": {
     "missing": [
-      "AN"
+      "AN",
+      "Address"
     ],
     "month_key": "2568-01"
   },
@@ -68,6 +69,7 @@
   },
   "101648|10/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -78,9 +80,70 @@
     ],
     "month_key": "2568-03"
   },
+  "102309|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "102790|11/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "103226|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "103483|1/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "103969|29/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "104299|26/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "104330|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "104542|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "104751|22/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "104794|6/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "105127|15/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -89,6 +152,24 @@
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-12"
+  },
+  "105528|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "105588|24/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "105604|20/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "106047|19/6/2568": {
     "missing": [
@@ -102,6 +183,18 @@
       "Last Dx"
     ],
     "month_key": "2568-04"
+  },
+  "10655|7/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "107091|8/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "107143|11/1/2569": {
     "missing": [
@@ -123,6 +216,8 @@
   },
   "109410|17/10/2567": {
     "missing": [
+      "Address",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -135,9 +230,16 @@
   },
   "109780|25/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "110025|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "110166|5/8/2567": {
     "missing": [
@@ -157,11 +259,35 @@
     ],
     "month_key": "2569-03"
   },
+  "110466|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "11110|4/9/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-09"
+  },
   "111118|6/11/2568": {
     "missing": [
       "Last Dx"
     ],
     "month_key": "2568-11"
+  },
+  "111124|27/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "11126|25/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "11127|21/11/2567": {
     "missing": [
@@ -174,8 +300,21 @@
     ],
     "month_key": "2567-11"
   },
+  "111607|17/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "11215|9/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "112468|25/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -186,16 +325,36 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "112563|24/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "112617|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "113060|9/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "113111|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "113355|30/4/2569": {
     "missing": [
@@ -205,18 +364,33 @@
   },
   "113872|2/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "114020|16/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "115032|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "115514|3/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "115613|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -233,6 +407,12 @@
     ],
     "month_key": "2568-11"
   },
+  "115805|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "116112|18/10/2567": {
     "missing": [
       "Aneasthesia"
@@ -245,11 +425,30 @@
     ],
     "month_key": "2568-11"
   },
+  "116935|2/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "117230|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "117429|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "117698|12/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "117707|22/11/2567": {
     "missing": [
@@ -268,12 +467,26 @@
     ],
     "month_key": "2568-06"
   },
+  "118447|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "118503|25/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "119235|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -283,16 +496,19 @@
   },
   "119473|26/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "119516|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -301,6 +517,7 @@
   },
   "119821|18/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -310,18 +527,44 @@
     ],
     "month_key": "2567-12"
   },
+  "119821|23/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "119989|10/6/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-06"
+  },
   "120440|29/4/2569": {
     "missing": [
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2569-04"
   },
+  "120566|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "120573|21/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "120579|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -330,22 +573,26 @@
   },
   "120632|18/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "120767|11/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "121004|4/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -355,10 +602,12 @@
   },
   "122078|24/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์"
     ],
@@ -390,9 +639,16 @@
   },
   "122575|23/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "122754|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "123282|20/11/2567": {
     "missing": [
@@ -400,28 +656,50 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "123286|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "123326|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "123335|15/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "12357|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์",
       "เวร"
     ],
     "month_key": "2567-12"
+  },
+  "123595|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "125819|6/2/2569": {
     "missing": [
@@ -432,6 +710,7 @@
   },
   "12680|3/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -442,13 +721,21 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "127148|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "127187|26/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -461,6 +748,7 @@
   },
   "12739|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -468,6 +756,18 @@
       "Type",
       "Wound Type",
       "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "127492|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "128269|5/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
@@ -482,6 +782,7 @@
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -497,6 +798,7 @@
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "Wound Type"
     ],
     "month_key": "2567-11"
@@ -507,20 +809,41 @@
     ],
     "month_key": "2568-09"
   },
+  "129760|2/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "130058|6/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "130261|23/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "130501|26/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "130914|8/12/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-12"
   },
@@ -541,6 +864,12 @@
     ],
     "month_key": "2569-08"
   },
+  "131236|1/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "131772|19/4/2568": {
     "missing": [
       "First Dx",
@@ -560,18 +889,39 @@
     ],
     "month_key": "2568-07"
   },
+  "132147|21/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "132384|30/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "133189|30/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "134085|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "134337|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -584,8 +934,21 @@
     ],
     "month_key": "2568-08"
   },
+  "134588|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "134721|1/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "13485|28/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -598,6 +961,7 @@
   },
   "135462|16/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -614,14 +978,45 @@
     ],
     "month_key": "2569-09"
   },
+  "136778|21/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "136802|6/8/2568": {
     "missing": [
       "Aneasthesia"
     ],
     "month_key": "2568-08"
   },
+  "137252|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "137516|2/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "137903|30/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "138660|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "138693|31/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -631,6 +1026,18 @@
       "Risk"
     ],
     "month_key": "2568-05"
+  },
+  "138849|29/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "139052|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "139194|12/2/2569": {
     "missing": [
@@ -644,8 +1051,33 @@
     ],
     "month_key": "2569-02"
   },
+  "141898|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "141953|2/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "141970|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "143348|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "143755|26/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -656,6 +1088,7 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -674,27 +1107,62 @@
     ],
     "month_key": "2568-01"
   },
+  "145070|23/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "14542|4/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "145498|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "1459|14/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "147136|11/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "147298|9/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "147309|4/10/2567": {
     "missing": [
+      "Address",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "147413|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "147959|11/9/2569": {
     "missing": [
-      "AN"
+      "AN",
+      "Address"
     ],
     "month_key": "2569-09"
   },
@@ -706,6 +1174,7 @@
   },
   "148347|28/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -716,24 +1185,45 @@
     ],
     "month_key": "2569-01"
   },
+  "149285|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "149689|15/8/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "149689|27/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "149762|9/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "149897|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "150068|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "15025|22/11/2567": {
     "missing": [
@@ -746,6 +1236,24 @@
     ],
     "month_key": "2567-11"
   },
+  "150521|6/3/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-03"
+  },
+  "150913|24/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "150942|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "151754|26/4/2569": {
     "missing": [
       "ชื่อซ้ำในทีม"
@@ -754,9 +1262,22 @@
   },
   "151880|12/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "152251|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "152251|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "152481|13/9/2568": {
     "missing": [
@@ -766,6 +1287,7 @@
   },
   "152666|24/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -784,6 +1306,7 @@
   },
   "153640|11/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -794,6 +1317,18 @@
       "Last Dx"
     ],
     "month_key": "2568-03"
+  },
+  "155109|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "155111|28/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "155247|29/1/2569": {
     "missing": [
@@ -807,13 +1342,21 @@
     ],
     "month_key": "2569-05"
   },
+  "155756|4/9/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-09"
+  },
   "155966|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Operation",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -823,7 +1366,8 @@
   },
   "155|22/1/2568": {
     "missing": [
-      "AN"
+      "AN",
+      "Address"
     ],
     "month_key": "2568-01"
   },
@@ -840,6 +1384,12 @@
     ],
     "month_key": "2568-09"
   },
+  "156388|24/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "156861|12/9/2568": {
     "missing": [
       "Last Dx"
@@ -852,17 +1402,53 @@
     ],
     "month_key": "2568-02"
   },
+  "157512|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "157594|7/4/2568": {
     "missing": [
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-04"
   },
+  "157764|18/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "157877|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "158048|13/9/2568": {
     "missing": [
       "Risk"
     ],
     "month_key": "2568-09"
+  },
+  "15804|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "158379|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "159122|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "159585|2/4/2568": {
     "missing": [
@@ -871,27 +1457,43 @@
     ],
     "month_key": "2568-04"
   },
+  "159617|15/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "160106|29/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "160284|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "160341|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "161102|26/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
@@ -899,7 +1501,8 @@
     "missing": [
       "Aneasthesia",
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -908,6 +1511,7 @@
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "Wound Type"
     ],
     "month_key": "2567-11"
@@ -918,16 +1522,29 @@
     ],
     "month_key": "2568-07"
   },
+  "163060|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "163702|21/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
+  },
+  "163831|20/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "163972|18/8/2568": {
     "missing": [
@@ -937,10 +1554,12 @@
   },
   "163999|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -962,6 +1581,7 @@
   },
   "165382|21/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -971,6 +1591,12 @@
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-05"
+  },
+  "165651|24/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "165662|10/7/2569": {
     "missing": [
@@ -1002,6 +1628,12 @@
     ],
     "month_key": "2568-08"
   },
+  "166997|1/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "167335|23/9/2569": {
     "missing": [
       "Type"
@@ -1014,12 +1646,20 @@
     ],
     "month_key": "2567-11"
   },
+  "167773|30/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "16831|20/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์"
     ],
@@ -1031,18 +1671,45 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
   "170007|7/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "17133|27/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "17240|29/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "17257|27/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "174116|26/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "174305|16/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1061,22 +1728,43 @@
   },
   "174408|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "174423|2/8/2567": {
     "missing": [
+      "Team",
       "Wound Type",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "174495|6/4/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-04"
+  },
+  "175635|15/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "175699|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "176313|16/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "Wound Type"
     ],
     "month_key": "2567-11"
@@ -1087,8 +1775,15 @@
     ],
     "month_key": "2568-03"
   },
+  "176417|17/4/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-04"
+  },
   "176460|16/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1099,11 +1794,35 @@
     ],
     "month_key": "2567-12"
   },
+  "176460|17/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "176460|29/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "176739|22/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "176916|10/11/2568": {
     "missing": [
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-11"
+  },
+  "177199|25/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "177899|24/7/2569": {
     "missing": [
@@ -1117,8 +1836,15 @@
     ],
     "month_key": "2568-03"
   },
+  "18015|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "180183|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -1137,9 +1863,16 @@
   },
   "180598|11/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "180819|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "180886|17/4/2568": {
     "missing": [
@@ -1147,9 +1880,28 @@
     ],
     "month_key": "2568-04"
   },
+  "180888|4/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "181035|10/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "181387|24/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "181571|26/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
@@ -1158,16 +1910,19 @@
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
   "182551|19/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์"
     ],
@@ -1186,6 +1941,7 @@
   },
   "18394|9/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1212,12 +1968,20 @@
   },
   "18469|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "184704|21/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
   "18482|5/11/2567": {
     "missing": [
+      "Team",
       "สิทธิ์"
     ],
     "month_key": "2567-11"
@@ -1228,19 +1992,40 @@
     ],
     "month_key": "2568-02"
   },
+  "185063|5/3/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-03"
+  },
+  "185190|4/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "185259|3/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "18586|23/10/2567": {
     "missing": [
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2567-10"
   },
   "18586|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -1249,6 +2034,7 @@
   },
   "186067|18/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -1261,10 +2047,23 @@
   },
   "186209|2/8/2567": {
     "missing": [
+      "Team",
       "Wound Type",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "187267|15/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "187948|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "188251|20/3/2568": {
     "missing": [
@@ -1275,6 +2074,7 @@
   },
   "188258|14/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -1284,6 +2084,12 @@
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-03"
+  },
+  "188258|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "188620|16/9/2568": {
     "missing": [
@@ -1309,8 +2115,15 @@
     ],
     "month_key": "2569-07"
   },
+  "189948|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "190249|12/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -1323,6 +2136,7 @@
   },
   "191443|24/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1334,12 +2148,14 @@
   },
   "191445|9/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "191941|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1356,20 +2172,35 @@
     ],
     "month_key": "2568-12"
   },
+  "192538|1/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "192668|25/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "193264|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "19432|9/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "194591|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1380,20 +2211,35 @@
     ],
     "month_key": "2567-12"
   },
+  "19475|25/3/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-03"
+  },
   "19557|29/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "195704|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "195886|5/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "196461|27/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -1406,9 +2252,28 @@
   },
   "196669|23/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "196773|7/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "197144|1/5/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-05"
+  },
+  "197208|23/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "197474|20/11/2567": {
     "missing": [
@@ -1430,15 +2295,29 @@
   },
   "197734|18/12/2567": {
     "missing": [
+      "Team",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
   "197829|9/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "197898|31/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "198303|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "199710|12/4/2569": {
     "missing": [
@@ -1454,14 +2333,22 @@
   },
   "200168|24/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
+  },
+  "200261|28/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "200415|7/9/2568": {
     "missing": [
@@ -1469,29 +2356,80 @@
     ],
     "month_key": "2568-09"
   },
+  "200776|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "200929|15/10/2568": {
     "missing": [
       "Risk"
     ],
     "month_key": "2568-10"
   },
+  "20232|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "202516|7/9/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-09"
+  },
+  "202692|24/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "203232|1/1/2568": {
     "missing": [
-      "Risk"
+      "Risk",
+      "Team"
     ],
     "month_key": "2568-01"
   },
   "203389|20/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-11"
   },
+  "203617|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "204700|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "205284|11/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "205309|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "206274|21/5/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-05"
   },
   "206473|9/12/2567": {
     "missing": [
@@ -1501,9 +2439,40 @@
   },
   "207219|14/12/2567": {
     "missing": [
+      "Team",
       "Type"
     ],
     "month_key": "2567-12"
+  },
+  "207919|9/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "208846|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "208985|19/6/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-06"
+  },
+  "209575|10/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "210816|29/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "211804|28/4/2568": {
     "missing": [
@@ -1513,9 +2482,22 @@
   },
   "213386|4/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "213406|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "213898|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "214267|17/12/2568": {
     "missing": [
@@ -1525,9 +2507,28 @@
   },
   "214327|6/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "21485|23/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "214999|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "215024|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "215036|30/3/2569": {
     "missing": [
@@ -1543,10 +2544,12 @@
   },
   "216203|3/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -1555,9 +2558,16 @@
   },
   "216588|7/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "216828|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "217146|15/10/2567": {
     "missing": [
@@ -1567,21 +2577,54 @@
   },
   "217146|4/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "217512|19/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
-  "218283|22/12/2567": {
+  "217955|13/12/2567": {
     "missing": [
-      "Aneasthesia"
+      "Team"
     ],
     "month_key": "2567-12"
+  },
+  "218043|24/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "218283|22/12/2567": {
+    "missing": [
+      "Aneasthesia",
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "218283|25/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "218283|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "218773|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "218836|24/2/2568": {
     "missing": [
@@ -1597,18 +2640,21 @@
   },
   "219031|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "219263|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "219717|15/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -1617,6 +2663,7 @@
     "missing": [
       "First Dx",
       "Last Dx",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -1633,6 +2680,12 @@
     ],
     "month_key": "2568-01"
   },
+  "220692|3/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "22078|1/4/2568": {
     "missing": [
       "Risk"
@@ -1641,10 +2694,12 @@
   },
   "221047|18/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -1653,12 +2708,20 @@
   },
   "221208|30/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "221406|18/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
@@ -1669,14 +2732,28 @@
     ],
     "month_key": "2569-03"
   },
+  "221794|29/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "222264|13/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "222476|9/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "22287|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -1687,16 +2764,29 @@
     ],
     "month_key": "2568-05"
   },
+  "22298|1/7/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-07"
+  },
   "223125|20/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
+  },
+  "223850|2/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "223989|26/12/2568": {
     "missing": [
@@ -1705,23 +2795,38 @@
     ],
     "month_key": "2568-12"
   },
+  "224149|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "224731|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "22476|17/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
+  },
+  "225123|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "225267|10/2/2568": {
     "missing": [
@@ -1729,42 +2834,84 @@
     ],
     "month_key": "2568-02"
   },
+  "225320|17/7/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-07"
+  },
   "22573819868|14/1/2568": {
     "missing": [
       "AN",
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "สิทธิ์"
     ],
     "month_key": "2568-01"
   },
+  "225738|12/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "225738|26/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "225938|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
       "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "226032|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "226213|10/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
   "22656|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
       "เวร"
     ],
     "month_key": "2567-12"
+  },
+  "226711|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "226711|20/11/2567": {
     "missing": [
@@ -1772,10 +2919,17 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
+  },
+  "22690|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "226984|9/3/2569": {
     "missing": [
@@ -1783,8 +2937,27 @@
     ],
     "month_key": "2569-03"
   },
+  "227209|31/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "227364|15/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "22742|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "227461|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1794,11 +2967,36 @@
     ],
     "month_key": "2567-12"
   },
+  "227606|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "227725|15/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "22790|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "228031|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "228262|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "228582|9/10/2568": {
     "missing": [
@@ -1808,12 +3006,14 @@
   },
   "228626|3/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "228959|16/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -1838,6 +3038,7 @@
   },
   "229866|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -1859,22 +3060,44 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "229958|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "230409|11/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "230632|27/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "23160|31/12/2567": {
+    "missing": [
+      "Address",
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "231682|24/4/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-04"
   },
   "232009|5/2/2568": {
     "missing": [
@@ -1891,9 +3114,28 @@
   "23269|7/8/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "232886|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "233542|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "233712|29/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "2337132|4/11/2568": {
     "missing": [
@@ -1901,8 +3143,21 @@
     ],
     "month_key": "2568-11"
   },
+  "234265|15/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "234503|25/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "235039|11/12/2567": {
     "missing": [
+      "Team",
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2567-12"
@@ -1913,14 +3168,34 @@
     ],
     "month_key": "2568-01"
   },
+  "235965|24/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "235981|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "236287|28/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "236361|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "236394|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -1933,9 +3208,16 @@
   },
   "236681|14/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "236729|24/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "236747|27/10/2568": {
     "missing": [
@@ -1951,16 +3233,25 @@
   },
   "236900|19/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "236999|22/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "236999|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์"
     ],
@@ -1968,9 +3259,16 @@
   },
   "237148|3/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "237370|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "237624|11/11/2567": {
     "missing": [
@@ -1980,10 +3278,12 @@
   },
   "237907|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -1992,6 +3292,7 @@
   },
   "237907|9/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -2004,6 +3305,7 @@
   },
   "23792|2/8/2567": {
     "missing": [
+      "Team",
       "Wound Type",
       "เวร"
     ],
@@ -2017,14 +3319,22 @@
   },
   "238306|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
       "เวร"
+    ],
+    "month_key": "2567-12"
+  },
+  "238387|31/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
@@ -2041,12 +3351,20 @@
   },
   "23875|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "2388|23/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "238957|9/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -2059,18 +3377,21 @@
   },
   "239301|25/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "239343|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "239425|29/10/2567": {
     "missing": [
+      "Team",
       "สิทธิ์"
     ],
     "month_key": "2567-10"
@@ -2083,10 +3404,12 @@
   },
   "239547|11/1/2568": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "สิทธิ์",
       "เวร"
     ],
@@ -2098,6 +3421,7 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -2105,12 +3429,14 @@
   },
   "239805|3/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "239805|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -2124,6 +3450,7 @@
   },
   "240057|7/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -2142,42 +3469,55 @@
   },
   "240150|9/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240156|19/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240156|30/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "240156|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "240156|6/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "240168|10/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240172|10/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240172|19/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -2186,12 +3526,14 @@
     "missing": [
       "First Dx",
       "Last Dx",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240179|10/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -2199,58 +3541,74 @@
   "240190|14/8/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240261|16/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240335|16/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240358|18/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240359|18/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240368|19/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "240386|28/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "240390|19/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240434|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240439|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -2259,48 +3617,56 @@
   },
   "240441|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240475|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240504|23/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240512|23/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240537|24/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240539|24/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240545|24/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240603|27/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -2333,46 +3699,54 @@
   "240685|30/8/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240708|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240713|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240716|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240725|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "240725|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "240725|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -2382,6 +3756,7 @@
   "240767|2/9/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -2389,9 +3764,16 @@
   "240771|2/9/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "240790|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "240818|5/11/2567": {
     "missing": [
@@ -2401,12 +3783,19 @@
     ],
     "month_key": "2567-11"
   },
+  "240819|31/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "240838|4/9/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "เวร"
     ],
@@ -2421,18 +3810,21 @@
   },
   "240879|12/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "240882|6/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "240883|7/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -2440,12 +3832,14 @@
   "240894|7/9/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "240895|8/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -2458,57 +3852,90 @@
   },
   "240936|9/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "240948|22/1/2568": {
     "missing": [
-      "AN"
+      "AN",
+      "Address"
     ],
     "month_key": "2568-01"
   },
+  "240974|14/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "240986|23/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "241065|13/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241072|13/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241078|14/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "241125|1/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "241125|18/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241130|17/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241146|18/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241168|18/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "241180|25/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "241181|21/11/2567": {
     "missing": [
@@ -2516,6 +3943,7 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -2523,22 +3951,26 @@
   },
   "241199|18/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241247|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241247|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -2548,27 +3980,50 @@
   "241255|20/9/2567": {
     "missing": [
       "Last Dx",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241285|23/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241297|8/10/2567": {
     "missing": [
+      "Address",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "241298|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "241340|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "241359|25/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "241366|31/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "241381|4/12/2567": {
     "missing": [
@@ -2579,79 +4034,146 @@
   "241438|27/9/2567": {
     "missing": [
       "Risk",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241444|28/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241445|28/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241448|28/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "241460|8/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241471|29/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "241505|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "241510|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "241517|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "241540|1/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "241541|1/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "241592|4/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241627|4/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241628|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "241628|22/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
   "241630|15/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241630|5/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "241639|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "241644|6/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241650|6/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241660|9/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241696|10/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
@@ -2664,6 +4186,7 @@
   },
   "241698|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -2674,52 +4197,84 @@
     ],
     "month_key": "2568-02"
   },
+  "241703|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "241711|14/10/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241711|8/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241717|9/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241767|10/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241777|11/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "241790|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "241797|12/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241800|12/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241804|14/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241835|2/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "241855|29/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
@@ -2731,61 +4286,95 @@
   },
   "241870|15/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241879|17/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241882|17/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241882|23/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
   "241884|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241906|9/4/2568": {
     "missing": [
+      "Address",
       "สิทธิ์"
     ],
     "month_key": "2568-04"
   },
+  "241929|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "241933|18/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241949|23/10/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-10"
   },
+  "241949|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "241955|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241973|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "241978|20/10/2567": {
     "missing": [
+      "Team",
       "เวร"
+    ],
+    "month_key": "2567-10"
+  },
+  "241991|21/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
@@ -2795,18 +4384,50 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "242005|6/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "242008|16/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2567-11"
+  },
+  "242008|27/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242022|30/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242027|23/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242042|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "242047|28/10/2567": {
     "missing": [
@@ -2814,12 +4435,98 @@
     ],
     "month_key": "2567-10"
   },
+  "242068|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242075|24/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242082|23/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242112|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242112|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "242113|25/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242138|27/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242142|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242145|27/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242162|29/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242165|27/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242166|4/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242173|30/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242195|30/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "242201|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -2829,7 +4536,14 @@
   },
   "242203|30/10/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242238|30/10/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-10"
   },
@@ -2844,8 +4558,21 @@
     ],
     "month_key": "2567-11"
   },
+  "242258|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "242261|21/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "242277|24/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -2857,10 +4584,12 @@
   },
   "242285|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -2870,10 +4599,12 @@
   },
   "242285|22/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -2881,10 +4612,12 @@
   },
   "242285|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -2892,9 +4625,64 @@
     ],
     "month_key": "2567-12"
   },
+  "242287|27/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242296|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242298|2/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "2423066|1/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "242307|2/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242309|4/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "242317|4/11/2567": {
     "missing": [
+      "Team",
       "สิทธิ์"
+    ],
+    "month_key": "2567-11"
+  },
+  "242333|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242365|17/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242365|7/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -2906,30 +4694,113 @@
     ],
     "month_key": "2567-11"
   },
+  "242400|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "242417|27/11/2567": {
     "missing": [
+      "Address",
+      "Team",
       "สิทธิ์"
+    ],
+    "month_key": "2567-11"
+  },
+  "242427|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "242436|12/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242437|7/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242447|10/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242461|9/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242479|8/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242494|8/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242507|9/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242509|8/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242511|8/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "242520|10/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242541|11/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "242559|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
       "เวร"
     ],
     "month_key": "2567-12"
+  },
+  "242570|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "242581|15/11/2567": {
     "missing": [
@@ -2948,11 +4819,30 @@
     ],
     "month_key": "2567-11"
   },
+  "242606|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "242617|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "242652|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "242681|16/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "Wound Type"
     ],
     "month_key": "2567-11"
@@ -2961,7 +4851,14 @@
     "missing": [
       "Aneasthesia",
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242697|15/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -2969,7 +4866,8 @@
     "missing": [
       "Aneasthesia",
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -2978,16 +4876,25 @@
       "Aneasthesia",
       "First Dx",
       "Last Dx",
+      "Team",
       "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "242712|17/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "24272|4/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -2995,12 +4902,19 @@
     ],
     "month_key": "2567-12"
   },
+  "242823|21/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "242872|21/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -3008,10 +4922,12 @@
   },
   "242895|22/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -3019,10 +4935,12 @@
   },
   "242904|10/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3032,10 +4950,12 @@
   },
   "242904|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -3044,22 +4964,32 @@
   },
   "242904|15/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
+  "242904|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "242904|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -3068,21 +4998,48 @@
   },
   "242904|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
-  "242942|25/11/2567": {
+  "242916|24/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Team"
     ],
     "month_key": "2567-11"
+  },
+  "242928|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "242941|25/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242942|25/11/2567": {
+    "missing": [
+      "Aneasthesia",
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "242952|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "2429533|4/12/2567": {
     "missing": [
@@ -3093,8 +5050,15 @@
     ],
     "month_key": "2567-12"
   },
+  "242966|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243000|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3105,8 +5069,21 @@
     ],
     "month_key": "2567-12"
   },
+  "243040|29/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "243052|22/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243055|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3119,19 +5096,58 @@
   },
   "243055|30/11/2567": {
     "missing": [
+      "Team",
       "Type"
     ],
     "month_key": "2567-11"
   },
+  "243062|1/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243064|1/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243067|1/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243100|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243119|4/12/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243127|6/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243129|8/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
   "243132|4/12/2567": {
     "missing": [
       "AN",
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3145,6 +5161,7 @@
   "243140|4/12/2567": {
     "missing": [
       "AN",
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3155,12 +5172,20 @@
     ],
     "month_key": "2567-12"
   },
+  "243158|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243160|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3168,12 +5193,32 @@
     ],
     "month_key": "2567-12"
   },
+  "243180|6/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243182|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243186|6/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243196|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -3182,10 +5227,12 @@
   },
   "243199|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -3194,34 +5241,58 @@
   },
   "243201|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243202|11/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
   "243207|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
+  "243211|8/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243215|8/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243217|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3229,8 +5300,39 @@
     ],
     "month_key": "2567-12"
   },
+  "243221|7/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243224|7/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243227|8/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243231|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243236|10/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243246|9/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3241,12 +5343,44 @@
     ],
     "month_key": "2567-12"
   },
+  "243274|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243275|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243278|14/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243279|9/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243281|10/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243292|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3256,6 +5390,7 @@
   },
   "243293|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3268,21 +5403,37 @@
   },
   "243295|11/1/2568": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "สิทธิ์",
       "เวร"
     ],
     "month_key": "2568-01"
   },
+  "243308|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243310|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243323|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3292,6 +5443,7 @@
   },
   "243326|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3304,10 +5456,12 @@
   },
   "243350|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3317,10 +5471,12 @@
   },
   "243354|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -3329,6 +5485,7 @@
   },
   "243359|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -3339,12 +5496,20 @@
     ],
     "month_key": "2567-12"
   },
+  "243374|13/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243377|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -3354,21 +5519,36 @@
   },
   "243406|14/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
+  "243419|17/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "24343|18/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "243460|6/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "243475|2/1/2568": {
     "missing": [
@@ -3378,19 +5558,88 @@
   },
   "24347|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "243491|17/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243495|18/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243508|18/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243524|19/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243548|20/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243556|20/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243578|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243602|23/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243618|24/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243622|23/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243646|24/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243666|25/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
@@ -3406,29 +5655,231 @@
     ],
     "month_key": "2569-04"
   },
+  "243698|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243701|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "243704|29/12/2567": {
     "missing": [
+      "Team",
       "สิทธิ์"
+    ],
+    "month_key": "2567-12"
+  },
+  "243705|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243729|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243735|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243738|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243740|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243743|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243748|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243755|30/12/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-12"
   },
   "243756|29/12/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-12"
   },
+  "243767|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243769|2/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243772|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243778|31/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243793|31/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243794|31/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243797|1/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243819|31/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "243838|1/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243853|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243864|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243874|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243876|2/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243876|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243906|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243907|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243910|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "243911|15/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
+  },
+  "243915|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243918|4/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243925|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243934|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243953|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "243962|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "244047|14/3/2568": {
     "missing": [
@@ -3456,6 +5907,7 @@
   },
   "244377|21/1/2568": {
     "missing": [
+      "Address",
       "สิทธิ์"
     ],
     "month_key": "2568-01"
@@ -3526,6 +5978,12 @@
     ],
     "month_key": "2568-03"
   },
+  "245392|5/3/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-03"
+  },
   "245409|26/2/2568": {
     "missing": [
       "Aneasthesia"
@@ -3538,6 +5996,12 @@
     ],
     "month_key": "2568-03"
   },
+  "245606|5/3/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-03"
+  },
   "245684|10/3/2568": {
     "missing": [
       "Last Dx"
@@ -3547,6 +6011,12 @@
   "245842|4/4/2568": {
     "missing": [
       "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "245846|4/4/2568": {
+    "missing": [
+      "Address"
     ],
     "month_key": "2568-04"
   },
@@ -3586,17 +6056,43 @@
     ],
     "month_key": "2568-08"
   },
+  "246600|17/4/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-04"
+  },
+  "24660|1/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "24660|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
+  },
+  "24663|23/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "246812|16/4/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-04"
   },
   "246827|20/4/2568": {
     "missing": [
@@ -3620,6 +6116,18 @@
   "247182|22/4/2568": {
     "missing": [
       "Last Dx"
+    ],
+    "month_key": "2568-04"
+  },
+  "2472655|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "247270|24/4/2568": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2568-04"
   },
@@ -3649,6 +6157,7 @@
   },
   "248109|12/5/2568": {
     "missing": [
+      "Address",
       "สิทธิ์"
     ],
     "month_key": "2568-05"
@@ -3658,6 +6167,18 @@
       "Last Dx"
     ],
     "month_key": "2568-05"
+  },
+  "248273|14/9/2569": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2569-09"
+  },
+  "248280|23/12/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-12"
   },
   "24854|18/2/2569": {
     "missing": [
@@ -3781,6 +6302,12 @@
     ],
     "month_key": "2568-08"
   },
+  "251464|1/10/2568": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2568-10"
+  },
   "251475|24/8/2568": {
     "missing": [
       "Last Dx"
@@ -3790,6 +6317,12 @@
   "251610|29/8/2568": {
     "missing": [
       "Risk"
+    ],
+    "month_key": "2568-08"
+  },
+  "251664|26/8/2568": {
+    "missing": [
+      "Address"
     ],
     "month_key": "2568-08"
   },
@@ -3874,11 +6407,23 @@
     ],
     "month_key": "2569-09"
   },
+  "253505|8/4/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-04"
+  },
   "253659|10/10/2568": {
     "missing": [
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-10"
+  },
+  "25367|26/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "253696|10/10/2568": {
     "missing": [
@@ -3919,7 +6464,8 @@
   },
   "25574|22/1/2568": {
     "missing": [
-      "AN"
+      "AN",
+      "Address"
     ],
     "month_key": "2568-01"
   },
@@ -3948,9 +6494,21 @@
     ],
     "month_key": "2569-01"
   },
+  "256523|26/1/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-01"
+  },
   "256586|8/2/2569": {
     "missing": [
       "Aneasthesia"
+    ],
+    "month_key": "2569-02"
+  },
+  "257080|12/2/2569": {
+    "missing": [
+      "Address"
     ],
     "month_key": "2569-02"
   },
@@ -3959,6 +6517,12 @@
       "Risk"
     ],
     "month_key": "2569-03"
+  },
+  "257389|24/2/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-02"
   },
   "257678|7/3/2569": {
     "missing": [
@@ -4087,6 +6651,12 @@
     ],
     "month_key": "2569-09"
   },
+  "26332|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "263586|21/9/2569": {
     "missing": [
       "First Dx",
@@ -4096,15 +6666,23 @@
   },
   "26563|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
+  },
+  "26643|21/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "26706|29/9/2569": {
     "missing": [
@@ -4112,8 +6690,21 @@
     ],
     "month_key": "2569-09"
   },
+  "26918|2/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "2698|30/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "27248|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4126,24 +6717,28 @@
   },
   "27248|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "27390|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "27462|17/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "27507|6/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4162,6 +6757,7 @@
   },
   "29010|16/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4188,9 +6784,16 @@
   },
   "30270|23/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "3053|17/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "30748|6/11/2567": {
     "missing": [
@@ -4200,10 +6803,12 @@
   },
   "30839|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -4212,10 +6817,12 @@
   },
   "31214|5/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -4225,6 +6832,7 @@
   },
   "31287|11/1/2568": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4235,6 +6843,7 @@
   },
   "31596|2/8/2567": {
     "missing": [
+      "Team",
       "Wound Type",
       "เวร"
     ],
@@ -4246,6 +6855,18 @@
     ],
     "month_key": "2568-09"
   },
+  "32391|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "32653|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "33137|7/8/2567": {
     "missing": [
       "Aneasthesia"
@@ -4254,9 +6875,16 @@
   },
   "33182|22/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "33720|28/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "33932|4/4/2569": {
     "missing": [
@@ -4264,29 +6892,80 @@
     ],
     "month_key": "2569-04"
   },
+  "33962|4/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "34301|22/5/2569": {
     "missing": [
       "Risk"
     ],
     "month_key": "2569-05"
   },
+  "35070|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "35352|17/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
+  "35988|19/6/2569": {
+    "missing": [
+      "Address"
+    ],
+    "month_key": "2569-06"
+  },
+  "36451|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "36718|3/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "3686|2/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "36960|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "37052|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "37121|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "37521|23/7/2569": {
     "missing": [
@@ -4299,6 +6978,12 @@
       "Risk"
     ],
     "month_key": "2568-03"
+  },
+  "37826|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "37845|17/12/2567": {
     "missing": [
@@ -4326,9 +7011,16 @@
   },
   "38954|30/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "38991|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "39025|5/5/2568": {
     "missing": [
@@ -4342,9 +7034,16 @@
     ],
     "month_key": "2568-10"
   },
+  "40676|11/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "40676|4/10/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -4372,10 +7071,12 @@
   "42578|15/12/2567": {
     "missing": [
       "AN",
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -4384,6 +7085,7 @@
   },
   "42722|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4396,6 +7098,7 @@
   },
   "43160|10/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4408,6 +7111,7 @@
   },
   "43597|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4418,14 +7122,22 @@
     ],
     "month_key": "2567-12"
   },
+  "43756|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "43891|12/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "44222|11/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4442,6 +7154,7 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -4454,20 +7167,29 @@
     ],
     "month_key": "2567-12"
   },
+  "44770|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "44974|27/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "4524|18/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "45644|26/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4484,6 +7206,12 @@
     ],
     "month_key": "2568-03"
   },
+  "46489|6/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "4675|22/9/2569": {
     "missing": [
       "Aneasthesia"
@@ -4492,9 +7220,16 @@
   },
   "46778|4/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
+  },
+  "4691|18/3/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-03"
   },
   "47284|2/12/2568": {
     "missing": [
@@ -4504,15 +7239,23 @@
   },
   "47387|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
+  },
+  "47431|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "47431|6/11/2567": {
     "missing": [
@@ -4521,13 +7264,32 @@
     ],
     "month_key": "2567-11"
   },
+  "47485|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "48439|15/11/2567": {
     "missing": [
       "Aneasthesia",
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2567-11"
+  },
+  "48588|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "49133|22/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "49280|23/7/2568": {
     "missing": [
@@ -4543,16 +7305,19 @@
   },
   "5036|7/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "50780|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -4562,6 +7327,7 @@
   },
   "50942|6/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -4580,10 +7346,12 @@
   },
   "51441|7/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -4597,6 +7365,18 @@
     ],
     "month_key": "2568-06"
   },
+  "51955|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "52721|19/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "52837|17/5/2569": {
     "missing": [
       "First Dx",
@@ -4604,32 +7384,78 @@
     ],
     "month_key": "2569-05"
   },
+  "52939|25/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "53360|15/1/2569": {
     "missing": [
       "Last Dx"
     ],
     "month_key": "2569-01"
   },
+  "53373|3/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "53522|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "53723|25/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
+  "53892|8/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "54177|23/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "54271|18/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "54303|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
+  "5463|3/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "54918|3/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "55310|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4646,8 +7472,21 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "55549|8/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "55949|19/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -4657,6 +7496,7 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -4664,10 +7504,12 @@
   },
   "56180|24/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
@@ -4675,10 +7517,12 @@
   },
   "56730|19/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Wound Type",
       "สิทธิ์"
     ],
@@ -4698,15 +7542,41 @@
   },
   "5738|28/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "57886|9/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "58325|23/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "5864|26/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "58716|18/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "59147|18/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "59985|3/3/2568": {
     "missing": [
@@ -4720,9 +7590,16 @@
     ],
     "month_key": "2568-12"
   },
+  "60768|1/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "60768|10/11/2567": {
     "missing": [
-      "Aneasthesia"
+      "Aneasthesia",
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -4736,6 +7613,7 @@
   },
   "60768|22/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4745,24 +7623,45 @@
     ],
     "month_key": "2567-11"
   },
+  "60768|3/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "60867|11/7/2569": {
     "missing": [
       "Surgeon"
     ],
     "month_key": "2569-07"
   },
+  "61927|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "62045|17/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "62177|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "62209|18/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -4775,6 +7674,12 @@
     ],
     "month_key": "2567-10"
   },
+  "6369|27/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "6402|10/6/2568": {
     "missing": [
       "Risk"
@@ -4783,6 +7688,7 @@
   },
   "64398|23/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4801,10 +7707,12 @@
   },
   "65272|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -4820,6 +7728,7 @@
   },
   "65670|30/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4837,8 +7746,15 @@
     ],
     "month_key": "2567-08"
   },
+  "66272|12/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "67279|11/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -4860,8 +7776,21 @@
     ],
     "month_key": "2567-12"
   },
+  "67769|9/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "67864|14/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "68026|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4880,6 +7809,7 @@
   },
   "69247|21/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -4891,9 +7821,16 @@
   },
   "69349|8/1/2568": {
     "missing": [
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2568-01"
+  },
+  "69532|6/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
   },
   "69604|27/3/2568": {
     "missing": [
@@ -4903,6 +7840,7 @@
   },
   "69622|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4913,11 +7851,24 @@
     ],
     "month_key": "2569-04"
   },
+  "70089|19/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "71908|15/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
+  },
+  "7201|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
   },
   "72260|1/2/2569": {
     "missing": [
@@ -4927,12 +7878,14 @@
   },
   "72286|6/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "73237|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4945,6 +7898,7 @@
   },
   "741|27/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -4964,6 +7918,7 @@
   },
   "75151|11/12/2567": {
     "missing": [
+      "Team",
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2567-12"
@@ -4976,10 +7931,12 @@
   },
   "7555|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -4995,12 +7952,14 @@
   },
   "76015|22/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
   "76422|6/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -5011,24 +7970,45 @@
     ],
     "month_key": "2568-08"
   },
+  "76816|30/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "76841|10/3/2568": {
     "missing": [
       "ชื่อซ้ำในทีม"
     ],
     "month_key": "2568-03"
   },
+  "76929|13/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "77396|28/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "77661|16/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "77727|10/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -5036,12 +8016,20 @@
     ],
     "month_key": "2567-12"
   },
+  "7783|10/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "7783|12/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -5057,12 +8045,14 @@
   },
   "78930|7/11/2567": {
     "missing": [
+      "Address",
       "Aneasthesia"
     ],
     "month_key": "2567-11"
   },
   "79052|25/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
@@ -5073,9 +8063,34 @@
     ],
     "month_key": "2567-12"
   },
+  "79791|29/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "80280|20/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "80928|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "81070|24/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "81514|18/10/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -5098,8 +8113,15 @@
     ],
     "month_key": "2569-07"
   },
+  "82158|28/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
+  },
   "82274|21/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -5112,16 +8134,31 @@
   },
   "82461|23/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "82831|10/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "83169|4/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "83303|8/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์",
@@ -5129,15 +8166,29 @@
     ],
     "month_key": "2567-12"
   },
+  "83475|27/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "83605|19/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
+  "83651|10/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "8393|22/1/2568": {
     "missing": [
-      "AN"
+      "AN",
+      "Address"
     ],
     "month_key": "2568-01"
   },
@@ -5147,8 +8198,15 @@
     ],
     "month_key": "2568-11"
   },
+  "84104|5/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "84232|6/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -5177,14 +8235,45 @@
     ],
     "month_key": "2568-09"
   },
+  "86401|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "86687|10/10/2568": {
     "missing": [
       "AN"
     ],
     "month_key": "2568-10"
   },
+  "86736|30/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "86926|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "88374|11/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "88623|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "88684|19/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -5195,15 +8284,29 @@
     ],
     "month_key": "2568-03"
   },
+  "89797|5/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "89897|8/9/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-09"
   },
+  "9004|5/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "90053|19/10/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
@@ -5216,12 +8319,20 @@
   },
   "90657|24/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
+  "90799|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "9137|11/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -5232,12 +8343,20 @@
     ],
     "month_key": "2567-12"
   },
+  "91727|7/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "918|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
@@ -5246,12 +8365,14 @@
   },
   "918|31/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "92530|18/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -5268,15 +8389,28 @@
     ],
     "month_key": "2568-09"
   },
+  "93730|31/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "93853|6/2/2569": {
     "missing": [
       "Risk"
     ],
     "month_key": "2569-02"
   },
+  "93874|2/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "94287|14/8/2567": {
     "missing": [
       "Aneasthesia",
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
@@ -5295,6 +8429,7 @@
   },
   "95518|6/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
@@ -5305,17 +8440,43 @@
     ],
     "month_key": "2567-12"
   },
+  "95583|10/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
   "95698|16/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
+  },
+  "95698|18/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "95698|2/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
+  "9575|25/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "95834|8/10/2568": {
     "missing": [
@@ -5337,12 +8498,14 @@
   },
   "9653|16/10/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-10"
   },
   "9670|2/8/2567": {
     "missing": [
+      "Team",
       "Wound Type",
       "เวร"
     ],
@@ -5352,15 +8515,23 @@
     "missing": [
       "Aneasthesia",
       "First Dx",
-      "Last Dx"
+      "Last Dx",
+      "Team"
     ],
     "month_key": "2567-11"
   },
   "97136|15/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "97520|21/10/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-10"
   },
   "98087|16/1/2568": {
     "missing": [
@@ -5370,28 +8541,50 @@
   },
   "98243|10/8/2567": {
     "missing": [
+      "Team",
       "เวร"
     ],
     "month_key": "2567-08"
   },
   "98423|13/12/2567": {
     "missing": [
+      "Address",
       "Aneasthesia",
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type",
       "สิทธิ์"
     ],
     "month_key": "2567-12"
   },
+  "98590|28/11/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-11"
+  },
+  "98685|28/12/2567": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2567-12"
+  },
   "98765|1/8/2567": {
     "missing": [
+      "Team",
       "Wound Type",
       "เวร"
     ],
     "month_key": "2567-08"
+  },
+  "98923|7/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
   },
   "99188|19/11/2567": {
     "missing": [
@@ -5399,14 +8592,27 @@
       "First Dx",
       "Last Dx",
       "Risk",
+      "Team",
       "Type",
       "Wound Type"
     ],
     "month_key": "2567-11"
   },
+  "9967|8/1/2568": {
+    "missing": [
+      "Team"
+    ],
+    "month_key": "2568-01"
+  },
   "99733|5/11/2567": {
     "missing": [
       "Wound Type"
+    ],
+    "month_key": "2567-11"
+  },
+  "99764|1/11/2567": {
+    "missing": [
+      "Team"
     ],
     "month_key": "2567-11"
   },
@@ -5418,7 +8624,8 @@
   },
   "|4/11/2567": {
     "missing": [
-      "HN"
+      "HN",
+      "Team"
     ],
     "month_key": "2567-11"
   }
