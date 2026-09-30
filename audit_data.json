@@ -300,15 +300,15 @@
         "count": 3
       },
       {
-        "col": "Address",
-        "count": 2
-      },
-      {
         "col": "Risk",
         "count": 2
       },
       {
         "col": "AN",
+        "count": 1
+      },
+      {
+        "col": "Address",
         "count": 1
       },
       {
@@ -26230,14 +26230,14 @@
     "2569-09": {
       "total": 642,
       "pending": 7,
-      "resolved": 14,
-      "ever": 21
+      "resolved": 13,
+      "ever": 20
     },
     "all": {
       "total": 13477,
       "pending": 1480,
-      "resolved": 66,
-      "ever": 1546
+      "resolved": 65,
+      "ever": 1545
     }
   },
   "daily_by_month": {
