@@ -2,15 +2,13 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "30/09/2026",
-  "rows": 13550,
+  "rows": 13551,
   "colA": {
     "dup": 0,
     "missing": 1,
     "offset": 0
   },
-  "blank_cols": {
-    "HN": 1
-  },
+  "blank_cols": {},
   "team": {
     "dup_in_set": 46,
     "dup_in_set_recent": 1
@@ -92,18 +90,6 @@
         "days_pending": 0
       },
       {
-        "date": "18/9/2569",
-        "hn": "48086",
-        "name": "น.ส.เฟื่องฟ้า โคตรอาษา",
-        "dept": "Orthopedic",
-        "op": "Systematic DB c repair nail bed c ORIF c K wire at Rt 5 finger under LA",
-        "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-        "missing": [
-          "ค่าหัตถการ"
-        ],
-        "days_pending": 0
-      },
-      {
         "date": "23/9/2569",
         "hn": "109193",
         "name": "น.ส.ประภาพร กุลพันธ์",
@@ -112,18 +98,6 @@
         "circ": "น.ส.กรรณชดา สาลีเพ็ง",
         "missing": [
           "ค่าหัตถการ"
-        ],
-        "days_pending": 0
-      },
-      {
-        "date": "28/9/2569",
-        "hn": "",
-        "name": "นางจารุวรรณ ประกิระนะ",
-        "dept": "Surgery",
-        "op": "Suture wound Abdomen",
-        "circ": "น.ส.รัตติกร แขนธิราช",
-        "missing": [
-          "HN"
         ],
         "days_pending": 0
       },
@@ -230,7 +204,7 @@
       {
         "day": 18,
         "total": 38,
-        "missing": 2
+        "missing": 1
       },
       {
         "day": 19,
@@ -280,7 +254,7 @@
       {
         "day": 28,
         "total": 20,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 29,
@@ -290,24 +264,24 @@
     ]
   },
   "insights": {
-    "completeness_pct": 98.4,
+    "completeness_pct": 98.8,
     "finished_total": 642,
-    "missing_total": 10,
+    "missing_total": 8,
     "dept_breakdown": [
       {
         "dept": "Surgery",
         "total": 237,
-        "missing": 5
-      },
-      {
-        "dept": "Orthopedic",
-        "total": 128,
-        "missing": 2
+        "missing": 4
       },
       {
         "dept": "Eye",
         "total": 142,
         "missing": 2
+      },
+      {
+        "dept": "Orthopedic",
+        "total": 128,
+        "missing": 1
       },
       {
         "dept": "Gyne-Obs",
@@ -363,7 +337,7 @@
       }
     ],
     "prev_completeness_pct": 99.3,
-    "trend_delta": -0.9
+    "trend_delta": -0.5
   },
   "all_cases": [
     {
@@ -25994,20 +25968,6 @@
       "first_seen": "2026-09-30"
     },
     {
-      "date": "18/9/2569",
-      "hn": "48086",
-      "name": "น.ส.เฟื่องฟ้า โคตรอาษา",
-      "dept": "Orthopedic",
-      "op": "Systematic DB c repair nail bed c ORIF c K wire at Rt 5 finger under LA",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ค่าหัตถการ"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-09-30"
-    },
-    {
       "date": "23/9/2569",
       "hn": "109193",
       "name": "น.ส.ประภาพร กุลพันธ์",
@@ -26016,20 +25976,6 @@
       "circ": "น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
         "ค่าหัตถการ"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "date": "28/9/2569",
-      "hn": "",
-      "name": "นางจารุวรรณ ประกิระนะ",
-      "dept": "Surgery",
-      "op": "Suture wound Abdomen",
-      "circ": "น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "HN"
       ],
       "month_key": "2569-09",
       "days_pending": 0,
@@ -26309,14 +26255,14 @@
     },
     "2569-09": {
       "total": 642,
-      "pending": 10,
-      "resolved": 11,
+      "pending": 8,
+      "resolved": 13,
       "ever": 21
     },
     "all": {
       "total": 13477,
-      "pending": 1483,
-      "resolved": 63,
+      "pending": 1481,
+      "resolved": 65,
       "ever": 1546
     }
   },
@@ -30265,7 +30211,7 @@
       {
         "day": 18,
         "total": 38,
-        "missing": 2
+        "missing": 1
       },
       {
         "day": 19,
@@ -30315,7 +30261,7 @@
       {
         "day": 28,
         "total": 20,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 29,
@@ -30452,7 +30398,7 @@
       {
         "day": "ก.ย.",
         "total": 642,
-        "missing": 10
+        "missing": 8
       }
     ]
   }
