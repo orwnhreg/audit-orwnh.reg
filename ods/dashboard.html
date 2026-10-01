@@ -274,16 +274,46 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     var f = front();
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
-  /* หมุนตามตอนเลื่อนผ่าน (ไม่ตรึงจอ): เข้าจอล่าง = 0° ออกจอบน = ครบ 360° */
+  /* ล็อก scroll หมุนให้ครบก่อนค่อยปล่อย (กันติด: ล็อกเฉพาะขาลง ขาขึ้นผ่านฟรีเสมอ) */
+  var P = 0, locked = false, TRIGGER = 120, RANGE = 1400;
+  function applyLock() {
+    scrollAng = -P * 360;
+    prog.style.width = Math.round(P * 100) + '%';
+  }
   function onScroll() {
+    /* ผ่านไปไกลแล้วรีเซ็ต P ไว้รอรอบถัดไป (มุม -360 เท่ากับ 0 มองไม่เห็นรอยต่อ) */
     var r = wrap.getBoundingClientRect();
-    var total = window.innerHeight + r.height;
-    var p = Math.min(1, Math.max(0, (window.innerHeight - r.top) / total));
-    scrollAng = -p * 360;
-    prog.style.width = Math.round(p * 100) + '%';
+    if (r.top < -window.innerHeight && (P !== 0 || locked)) {
+      P = 0; locked = false; applyLock();
+    }
   }
   window.addEventListener('scroll', onScroll, { passive: true });
-  window.addEventListener('resize', onScroll);
+  function handleDelta(dy, e) {
+    if (dy <= 0 || P >= 1) return false;
+    var r = wrap.getBoundingClientRect();
+    if (r.top <= TRIGGER && r.top > -300 && r.bottom > window.innerHeight * 0.3) {
+      if (e && e.cancelable !== false) e.preventDefault();
+      if (!locked) { locked = true; window.scrollTo(0, window.scrollY + r.top); }
+      P = Math.min(1, P + Math.abs(dy) / RANGE);
+      applyLock();
+      if (P >= 1) locked = false;
+      return true;
+    }
+    return false;
+  }
+  window.addEventListener('wheel', function (e) {
+    if (e.ctrlKey) return;
+    handleDelta(e.deltaY, e);
+  }, { passive: false });
+  var lastTY = null;
+  window.addEventListener('touchmove', function (e) {
+    if (e.touches.length !== 1) return;
+    var y = e.touches[0].clientY;
+    if (lastTY === null) { lastTY = y; return; }
+    var dy = lastTY - y; lastTY = y;
+    handleDelta(dy, e);
+  }, { passive: false });
+  window.addEventListener('touchend', function () { lastTY = null; });
   function go(i) { manual = -i * STEP - scrollAng; }
   document.getElementById('spinPrev').addEventListener('click', function () { manual += STEP; });
   document.getElementById('spinNext').addEventListener('click', function () { manual -= STEP; });
