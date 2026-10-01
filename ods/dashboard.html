@@ -69,6 +69,14 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .mval { font-size: .78rem; font-weight: 700; margin-top: 4px; min-height: 1.2em; }
 .mlab { font-size: .72rem; color: #6b7280; }
 .mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
+.spin-pin-wrap { height: 320vh; position: relative; margin-top: 40px; }
+.spin-sticky { position: sticky; top: 0; min-height: 100vh; display: flex;
+  flex-direction: column; justify-content: center; background: #fff; }
+.spin-sticky h2 { font-size: 1.3rem; margin: 0 0 4px; text-align: center; }
+.spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 0 0 6px; text-align: center; }
+.spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 8px auto;
+  width: min(420px, 80%); overflow: hidden; }
+.spin-prog-fill { height: 100%; width: 0%; background: #1a1a2e; border-radius: 999px; }
 .spin-stage { perspective: 1200px; height: 300px; position: relative; overflow: hidden;
   --rz: 250px; touch-action: pan-y; cursor: grab; }
 .spin-stage:active { cursor: grabbing; }
@@ -121,9 +129,11 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     <a class="btn btn-line" href="./#panel-yearly" onclick="return false" id="goYearly">📊 ดูตารางรายปีงบ</a>
   </div>
 
-  <section class="block">
+  <section class="block spin-pin-wrap" id="spinWrap">
+    <div class="spin-sticky">
     <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
-    <p class="sub">ลากซ้าย–ขวาเพื่อหมุน · กดลูกศรหรือจุดเพื่อเลื่อน · หยุดเมื่อแตะค้าง</p>
+    <p class="sub">เลื่อนลงเพื่อหมุนให้ครบรอบ · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
+    <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
     </div>
@@ -131,6 +141,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
       <button type="button" class="sbtn" id="spinPrev">‹</button>
       <div class="dots" id="spinDots"></div>
       <button type="button" class="sbtn" id="spinNext">›</button>
+    </div>
     </div>
   </section>
 
@@ -213,43 +224,53 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     ring.appendChild(el);
     var d = document.createElement('button');
     d.type = 'button'; d.className = 'dot2'; d.setAttribute('aria-label', g.name);
-    d.addEventListener('click', function () { go(i); poke(); });
+    d.addEventListener('click', function () { go(i); });
     dotsBox.appendChild(d);
   });
   var dots = Array.prototype.slice.call(dotsBox.children);
-  var ang = 0, target = 0, idle = 0, dragging = false, lastX = 0;
-  function front() { return ((Math.round(-target / STEP) % N) + N) % N; }
+  var ang = 0, scrollAng = 0, manual = 0, dragging = false, lastX = 0;
+  var wrap = document.getElementById('spinWrap');
+  var prog = document.getElementById('spinProg');
+  function target() { return scrollAng + manual; }
+  function front() { return ((Math.round(-target() / STEP) % N) + N) % N; }
   function paint() {
     ring.style.transform = 'rotateY(' + ang + 'deg)';
     var f = front();
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
-  function go(i) { target = -i * STEP; }
-  function poke() { idle = 0; }
-  document.getElementById('spinPrev').addEventListener('click', function () { target += STEP; poke(); });
-  document.getElementById('spinNext').addEventListener('click', function () { target -= STEP; poke(); });
+  /* เลื่อนลง = หมุนครบ 1 รอบ (ตรึงวงล้อไว้จนกว่าจะครบ) */
+  function onScroll() {
+    var r = wrap.getBoundingClientRect();
+    var total = wrap.offsetHeight - window.innerHeight;
+    var p = Math.min(1, Math.max(0, -r.top / total));
+    scrollAng = -p * 360;
+    prog.style.width = Math.round(p * 100) + '%';
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+  function go(i) { manual = -i * STEP - scrollAng; }
+  document.getElementById('spinPrev').addEventListener('click', function () { manual += STEP; });
+  document.getElementById('spinNext').addEventListener('click', function () { manual -= STEP; });
   var stage = document.getElementById('spinStage');
-  stage.addEventListener('pointerdown', function (e) { dragging = true; lastX = e.clientX; idle = 0;
+  stage.addEventListener('pointerdown', function (e) { dragging = true; lastX = e.clientX;
     stage.setPointerCapture(e.pointerId); });
   stage.addEventListener('pointermove', function (e) {
     if (!dragging) return;
     var dx = e.clientX - lastX; lastX = e.clientX;
-    target += dx * 0.35; idle = 0;
+    manual += dx * 0.35;
   });
   ['pointerup', 'pointercancel', 'pointerleave'].forEach(function (ev) {
-    stage.addEventListener(ev, function () { dragging = false; idle = 0;
-      target = Math.round(target / STEP) * STEP; });
+    stage.addEventListener(ev, function () { dragging = false;
+      manual = Math.round(manual / STEP) * STEP; });
   });
   (function tick() {
-    if (!dragging) {
-      idle++;
-      if (idle > 180) target -= 0.25;   /* หมุนเองเมื่อไม่แตะ ~3 วิ */
-    }
-    ang += (target - ang) * 0.12;
-    if (Math.abs(target - ang) < 0.02) ang = target;
+    var t = target();
+    ang += (t - ang) * 0.12;
+    if (Math.abs(t - ang) < 0.02) ang = t;
     paint();
     requestAnimationFrame(tick);
   })();
+  onScroll();
   paint();
 })();
 </script>
