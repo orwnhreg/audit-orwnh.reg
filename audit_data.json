@@ -26,8 +26,8 @@
     "missing_total": 0,
     "dept_breakdown": [],
     "top_missing_cols": [],
-    "prev_completeness_pct": 99.6,
-    "trend_delta": 0.4
+    "prev_completeness_pct": 99.7,
+    "trend_delta": 0.3
   },
   "all_cases": [
     {
@@ -26544,20 +26544,6 @@
       "first_seen": "2026-09-26"
     },
     {
-      "date": "18/9/2569",
-      "hn": "107822",
-      "name": "นางนฤมล เรือนไทย",
-      "dept": "Gyne-Obs",
-      "op": "TAH with Bilateral salpingo-oophorectomy",
-      "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ค่าหัตถการ"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 1,
-      "first_seen": "2026-09-30"
-    },
-    {
       "date": "19/9/2569",
       "hn": "136010",
       "name": "นายเสรีไชย ท่าหาญ",
@@ -26845,14 +26831,14 @@
     },
     "2569-09": {
       "total": 667,
-      "pending": 3,
-      "resolved": 17,
+      "pending": 2,
+      "resolved": 18,
       "ever": 20
     },
     "all": {
       "total": 13502,
-      "pending": 1545,
-      "resolved": 19,
+      "pending": 1544,
+      "resolved": 20,
       "ever": 1564
     }
   },
@@ -30801,7 +30787,7 @@
       {
         "day": 18,
         "total": 38,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 19,
@@ -30993,7 +30979,7 @@
       {
         "day": "ก.ย.",
         "total": 667,
-        "missing": 3
+        "missing": 2
       }
     ]
   }
