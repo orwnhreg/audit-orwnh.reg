@@ -319,21 +319,21 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     if (e.ctrlKey) return;
     handleDelta(e.deltaY, e);
   }, { passive: false });
-  var lastTY = null;
+  var lastTY = null, startY = null;
+  window.addEventListener('touchstart', function (e) {
+    startY = (e.touches.length === 1) ? e.touches[0].clientY : null;
+  }, { passive: true });
   window.addEventListener('touchmove', function (e) {
     if (e.touches.length !== 1) return;
     var y = e.touches[0].clientY;
-    if (lastTY === null) {
-      lastTY = y;
-      /* แตะแรกดักไว้ก่อน ไม่งั้น iOS ล็อก native scroll แล้วห้ามไม่ทัน */
-      if (P < 1 && inZone() && e.cancelable !== false) e.preventDefault();
-      return;
-    }
+    /* ใช้จุดแตะเริ่มจาก touchstart ทำให้ move แรกมี dy เลย — ดักเฉพาะตอนกินจริงเท่านั้น
+       (ของเดิมดัก move แรกทุกครั้ง ทำให้ iOS ยกเลิก scroll ทั้ง gesture แล้วค้างไม่เลื่อนต่อ) */
+    if (lastTY === null) lastTY = (startY !== null ? startY : y);
     var dy = lastTY - y; lastTY = y;
     handleDelta(dy, e);
   }, { passive: false });
-  window.addEventListener('touchend', function () { lastTY = null; });
-  window.addEventListener('touchcancel', function () { lastTY = null; });
+  window.addEventListener('touchend', function () { lastTY = null; startY = null; });
+  window.addEventListener('touchcancel', function () { lastTY = null; startY = null; });
   function go(i) { manual = -i * STEP - scrollAng; }
   document.getElementById('spinPrev').addEventListener('click', function () { manual += STEP; });
   document.getElementById('spinNext').addEventListener('click', function () { manual -= STEP; });
