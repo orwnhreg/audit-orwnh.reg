@@ -69,18 +69,18 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .mval { font-size: .78rem; font-weight: 700; margin-top: 4px; min-height: 1.2em; }
 .mlab { font-size: .72rem; color: #6b7280; }
 .mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
-.spin-pin-wrap { height: 320vh; position: relative; margin-top: 40px; }
+.spin-pin-wrap { height: 320vh; position: relative; margin-top: 24px; }
 .spin-sticky { position: sticky; top: 0; min-height: 100vh; display: flex;
   flex-direction: column; justify-content: center; background: #fff; }
-.spin-sticky h2 { font-size: 1.3rem; margin: 0 0 4px; text-align: center; }
-.spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 0 0 6px; text-align: center; }
-.spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 8px auto;
+.spin-sticky h2 { font-size: 1.3rem; margin: 0; text-align: center; }
+.spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 2px 0; text-align: center; }
+.spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 6px auto;
   width: min(420px, 80%); overflow: hidden; }
 .spin-prog-fill { height: 100%; width: 0%; background: #1a1a2e; border-radius: 999px; }
-.spin-stage { perspective: 1200px; height: 300px; position: relative; overflow: hidden;
+.spin-stage { perspective: 1200px; height: 230px; position: relative; overflow: hidden;
   --rz: 250px; touch-action: pan-y; cursor: grab; }
 .spin-stage:active { cursor: grabbing; }
-@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 270px; } }
+@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 210px; } }
 .spin-ring { position: absolute; left: 50%; top: 50%; width: 0; height: 0;
   transform-style: preserve-3d; }
 .scard {
@@ -91,7 +91,7 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   backface-visibility: hidden; user-select: none;
 }
 @media (max-width: 620px) { .scard { left: -105px; top: -85px; width: 210px; min-height: 170px; } }
-.spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 6px; }
+.spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 2px; }
 .sbtn {
   width: 44px; height: 44px; border-radius: 50%; border: 1px solid #dfe3ea; background: #fff;
   font-size: 1.4rem; line-height: 1; cursor: pointer; color: #1a1a2e; font-family: inherit;
