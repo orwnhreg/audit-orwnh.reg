@@ -13,8 +13,9 @@ import register_gsheet_report as rep  # noqa: E402
 def row(date, dept="Surgery", g="ในเวลา", hn="1", name="ทดสอบ", op="Appendectomy", missing=False):
     r = [""] * 60
     r[2], r[4], r[6], r[13], r[15], r[21] = date, dept, g, name, hn, op
-    r[11] = "10:00"
-    for j in (9, 10, 12, 16, 17, 18, 19, 20, 22, 23, 24, 25, 38, 40):
+    r[5], r[14] = "ศัลยกรรมชาย", "40"
+    r[9], r[10], r[11], r[12] = "09:00:00", "09:10:00", "10:00:00", "10:10:00"
+    for j in (16, 17, 18, 19, 20, 22, 23, 24, 25, 38, 40):
         r[j] = "x"
     for j, who in zip((26, 27, 28, 29), ("นาง ก", "นาง ข", "นาง ค", "นาง ง")):
         r[j] = who
