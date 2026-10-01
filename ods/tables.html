@@ -97,15 +97,21 @@ footer.page-footer { text-align: center; color: #9aa0ae; font-size: .82rem; marg
   font-weight: 700; font-size: .88rem; text-decoration: none; color: var(--text); white-space: nowrap;
 }
 .catab.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.hero-tabs { justify-content: center; margin: 6px 0 12px; }
+.hero-tabs .catab { font-size: 1.15rem; padding: 12px 36px; }
+/* ===== เข้าหน้านุ่ม (กดสลับเพจไม่กระพริบ) ===== */
+.container { animation: page-in .35s ease both; }
+@keyframes page-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .container { animation: none; } }
 @media (max-width: 620px) { .catab { padding: 7px 14px; font-size: .8rem; } }
 </style>
 </head>
 <body>
 <div class="container">
-  <div class="topnav" style="justify-content:center">
-    <div class="catabs"><a class="catab active" href="./">ODS</a><a class="catab" href="mis.html">MIS</a></div>
+  <div class="hero">
+    <div class="catabs hero-tabs"><a class="catab active" href="./">ODS</a><a class="catab" href="mis.html">MIS</a></div>
+    <h1>ตาราง ODS</h1>
   </div>
-  <div class="hero"><h1>ตาราง ODS</h1></div>
 
   <div class="stats">
     <div class="stat"><div class="n">507</div><div class="l">ปีงบ 2566 (ครบปี)</div></div>
