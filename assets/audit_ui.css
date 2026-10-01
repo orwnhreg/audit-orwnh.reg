@@ -1,0 +1,128 @@
+/* audit_ui.css — shared interactive components for index.html + dashboard.html
+ * Both build scripts link this file after their inline <style> so the two pages
+ * cannot drift apart. ใช้ตัวแปรสีชุดเดียวกับหน้า (ดู :root ใน build_html.py /
+ * build_dashboard.py) — ห้าม hardcode สี เพื่อให้ light/dark ใช้ได้ทั้งคู่.
+ * ขอบเหลี่ยมเสมอ (border-radius: 0) ตามสเปกหน้าเว็บ.
+ */
+
+.audit-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  align-items: flex-end;
+  padding: 12px 14px;
+  margin: 0 0 18px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 0;
+}
+
+.filter-field { display: flex; flex-direction: column; gap: 5px; }
+.filter-field.grow { flex: 1 1 200px; }
+
+.filter-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.audit-select,
+.month-select,
+.audit-input {
+  background: var(--bg-elevated);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 7px 9px;
+  font-size: 0.86rem;
+  font-family: inherit;
+  min-width: 140px;
+}
+
+.audit-select:focus,
+.audit-input:focus { outline: 1px solid var(--accent); }
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  margin: 0 0 14px;
+}
+
+.filter-chips:empty { display: none; }
+.chip-label { font-size: 0.72rem; color: var(--text-muted); }
+
+.filter-chip {
+  background: var(--bg-elevated);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 4px 9px;
+  font-size: 0.74rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.filter-chip:hover { border-color: var(--accent); }
+.filter-chip-clear { color: var(--warn); }
+
+.audit-pager {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.page-info { font-size: 0.74rem; color: var(--text-muted); margin-right: 8px; }
+
+.page-btn {
+  background: var(--bg-elevated);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 0;
+  padding: 3px 9px;
+  font-size: 0.76rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.page-btn.active { border-color: var(--accent); color: var(--accent); }
+
+.empty-state {
+  padding: 22px 16px;
+  margin: 0;
+  text-align: center;
+  color: var(--text-muted);
+  background: var(--bg-elevated);
+  border: 1px dashed var(--border);
+  border-radius: 0;
+  font-size: 0.86rem;
+}
+
+.pct-none { color: var(--text-dim); }
+
+th[data-sort] { cursor: pointer; user-select: none; }
+th[data-sort]:hover { color: var(--accent); }
+th[data-sort]::after { content: ' ⇅'; color: var(--text-dim); font-size: 0.7rem; }
+th[data-sort].sorted-asc::after { content: ' ↑'; color: var(--accent); }
+th[data-sort].sorted-desc::after { content: ' ↓'; color: var(--accent); }
+
+[data-drill] { cursor: pointer; }
+[data-drill]:hover { border-color: var(--accent); }
+
+.bar-col[data-drill]:hover .bar-stack { outline: 1px solid var(--accent); }
+
+.scope-note {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  margin: 6px 0 0;
+}
+
+@media (max-width: 640px) {
+  .audit-filters { gap: 10px; }
+  .filter-field, .audit-select, .month-select, .audit-input { width: 100%; min-width: 0; }
+  .audit-select, .month-select, .audit-input { font-size: 0.9rem; }
+}
