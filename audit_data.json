@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "02/10/2026",
-  "generated_at": "01:39",
+  "generated_at": "01:41",
   "rows": 13589,
   "colA": {
     "dup": 0,
@@ -123,11 +123,11 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "ห้องผ่าตัดซ้ำกัน",
           "count": 2
         },
         {
-          "col": "ห้องผ่าตัดซ้ำกัน",
+          "col": "เวลาซ้อนทับ",
           "count": 2
         },
         {
@@ -191,7 +191,7 @@
           "count": 46
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 6
         },
         {
@@ -428,7 +428,7 @@
           "count": 27
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 4
         },
         {
@@ -658,7 +658,7 @@
           "count": 20
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 16
         },
         {
@@ -904,7 +904,7 @@
           "count": 12
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 10
         },
         {
@@ -1137,7 +1137,7 @@
           "count": 23
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 12
         },
         {
@@ -1379,7 +1379,7 @@
           "count": 13
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 8
         },
         {
@@ -1616,7 +1616,7 @@
           "count": 12
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 10
         },
         {
@@ -1858,7 +1858,7 @@
           "count": 19
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 10
         },
         {
@@ -2089,7 +2089,7 @@
           "count": 10
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 7
         },
         {
@@ -2323,7 +2323,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 15
         },
         {
@@ -2569,7 +2569,7 @@
           "count": 10
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 10
         },
         {
@@ -2806,7 +2806,7 @@
           "count": 7
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 6
         },
         {
@@ -3036,7 +3036,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 21
         },
         {
@@ -3273,7 +3273,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 16
         },
         {
@@ -3520,7 +3520,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 26
         },
         {
@@ -3766,7 +3766,7 @@
           "count": 21
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 20
         },
         {
@@ -4003,7 +4003,7 @@
           "count": 15
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 14
         },
         {
@@ -4241,7 +4241,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 21
         },
         {
@@ -4478,7 +4478,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 39
         },
         {
@@ -4720,7 +4720,7 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 23
         },
         {
@@ -4967,7 +4967,7 @@
           "count": 70
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 47
         },
         {
@@ -5709,7 +5709,7 @@
           "count": 10
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 8
         }
       ],
@@ -5924,7 +5924,7 @@
           "count": 51
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 6
         },
         {
@@ -6150,7 +6150,7 @@
           "count": 63
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 13
         },
         {
@@ -6383,7 +6383,7 @@
           "count": 64
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 19
         },
         {
@@ -6479,7 +6479,7 @@
           "count": 578
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 330
         },
         {
@@ -6622,7 +6622,7 @@
           "count": 226
         },
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "เวลาซ้อนทับ",
           "count": 114
         },
         {
@@ -6777,11 +6777,11 @@
       ],
       "top_missing_cols": [
         {
-          "col": "ห้องซ้อนเวลา",
+          "col": "ห้องผ่าตัดซ้ำกัน",
           "count": 2
         },
         {
-          "col": "ห้องผ่าตัดซ้ำกัน",
+          "col": "เวลาซ้อนทับ",
           "count": 2
         },
         {
@@ -6845,7 +6845,7 @@
       "op": "Excisional DB with Suture Lt. 2nd finger",
       "circ": "น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-10",
       "days_pending": 0,
@@ -6873,7 +6873,7 @@
       "op": "Suture wound Rt. Foot",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-10",
       "days_pending": 0,
@@ -7125,7 +7125,7 @@
       "op": "Rt. Herniotomy with Herniorraphy with mesh graft",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -7139,7 +7139,7 @@
       "op": "ERCP",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -7153,7 +7153,7 @@
       "op": "LC",
       "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -7181,7 +7181,7 @@
       "op": "Explore lap,Feeding jejunostomy",
       "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -7209,7 +7209,7 @@
       "op": "Explore wound with repair Lt radial artery with repair tendon with repair median nerve",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -7223,7 +7223,7 @@
       "op": "Fasciotomy Rt. foot",
       "circ": "น.ส.อลิชา สุริวรรณ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -7755,7 +7755,7 @@
       "op": "LT C/S with TR",
       "circ": "น.ส.ปัญฑิษา วังวิวัฒน์ขจร",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-08",
       "days_pending": 1,
@@ -7769,7 +7769,7 @@
       "op": "LT C/S",
       "circ": "น.ส.วิภาวรรณ ไชโย, น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-08",
       "days_pending": 1,
@@ -7979,7 +7979,7 @@
       "op": "Rt inguinal Lympnode biopsy",
       "circ": "น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-08",
       "days_pending": 1,
@@ -7993,7 +7993,7 @@
       "op": "CNB Rt Breast",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-08",
       "days_pending": 1,
@@ -8458,7 +8458,7 @@
       "op": "SPL",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8486,7 +8486,7 @@
       "op": "Rt. herniotomy with Herniorhaphy with Mesh graft",
       "circ": "น.ส.กาญจนา เชื้อสีดา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8514,7 +8514,7 @@
       "op": "CNB right Breast,aspirate cyst Left Breast",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8528,7 +8528,7 @@
       "op": "CNB Bilateral Breast",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8556,7 +8556,7 @@
       "op": "ESI L4-L5",
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8570,7 +8570,7 @@
       "op": "Rt. TKA",
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8598,7 +8598,7 @@
       "op": "TAH with Bilateral salpingo-oophorectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย, น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8612,7 +8612,7 @@
       "op": "Excision Mass Rt. Gluteal,Excision Mass at back",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8626,7 +8626,7 @@
       "op": "Suture wound Lt. foot",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8640,7 +8640,7 @@
       "op": "LT C/S",
       "circ": "น.ส.รัตติกร แขนธิราช, น.ส.ปัญฑิษา วังวิวัฒน์ขจร",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8766,7 +8766,7 @@
       "op": "EDB Lt.toe",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8780,7 +8780,7 @@
       "op": "EDB Lt.finger,Suture Wound",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -8949,7 +8949,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -9005,7 +9005,7 @@
       "op": "excision mass at back",
       "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-07",
       "days_pending": 1,
@@ -9019,7 +9019,7 @@
       "op": "excision mass at arm,Lt.",
       "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ห้องซ้อนเวลา",
+        "เวลาซ้อนทับ",
         "ห้องผ่าตัดซ้ำกัน"
       ],
       "month_key": "2569-07",
@@ -9034,7 +9034,7 @@
       "op": "excision mass at back",
       "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ห้องซ้อนเวลา",
+        "เวลาซ้อนทับ",
         "ห้องผ่าตัดซ้ำกัน"
       ],
       "month_key": "2569-07",
@@ -9175,7 +9175,7 @@
       "op": "CRIF c K wire c SAS Lt.distal radius and Ulnar",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9203,7 +9203,7 @@
       "op": "DB with repair tendon at Lt 4 th finger,2เส้น",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9597,7 +9597,7 @@
       "op": "ERCP,with plastic stent 7fr/7cm",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9611,7 +9611,7 @@
       "op": "Ray Amputation Rt. 5th Toe",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9625,7 +9625,7 @@
       "op": "Lt.TKA,repair MCL legament",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9639,7 +9639,7 @@
       "op": "ESI L3/4",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9823,7 +9823,7 @@
       "op": "Rt.MRM",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9837,7 +9837,7 @@
       "op": "FNA Rt Axillary",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9893,7 +9893,7 @@
       "op": "excision mass At back",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9907,7 +9907,7 @@
       "op": "excision corn Rt. foot",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-06",
       "days_pending": 1,
@@ -9935,7 +9935,7 @@
       "op": "LC",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -9977,7 +9977,7 @@
       "op": "Lt Open repair Hernia",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10159,7 +10159,7 @@
       "op": "Tonsillectomy",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10173,7 +10173,7 @@
       "op": "Total thyroidectomy",
       "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10187,7 +10187,7 @@
       "op": "Incisional Bx. Rt. Neck",
       "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10257,7 +10257,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.อลิชา สุริวรรณ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10271,7 +10271,7 @@
       "op": "EDB rt.foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10397,7 +10397,7 @@
       "op": "ORIF with Mini LCP Lt. Medial Malleolous",
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10411,7 +10411,7 @@
       "op": "Lt. CTR",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10425,7 +10425,7 @@
       "op": "Excision mass Lt wrist",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10555,7 +10555,7 @@
       "op": "CNB Rt. breast",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -10569,7 +10569,7 @@
       "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-05",
       "days_pending": 1,
@@ -11078,7 +11078,7 @@
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11092,7 +11092,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา",
+        "เวลาซ้อนทับ",
         "ห้องผ่าตัดซ้ำกัน"
       ],
       "month_key": "2569-04",
@@ -11207,7 +11207,7 @@
       "op": "ORIF with hook clavicle LCP Lt. clavicle",
       "circ": "น.ส.อลิชา สุริวรรณ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11221,7 +11221,7 @@
       "op": "DB Lt. leg",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11305,7 +11305,7 @@
       "op": "Fasciotomy with DB Lt. hand",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11319,7 +11319,7 @@
       "op": "CRIF c K- wire fixation RT. DER",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11545,7 +11545,7 @@
       "op": "Left herniotomy with herniorhaphy with mesh graft",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11560,7 +11560,7 @@
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-04",
       "days_pending": 1,
@@ -11588,7 +11588,7 @@
       "op": "ORIF with LCP Lt. Patella",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11606,7 +11606,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11634,7 +11634,7 @@
       "op": "Appendectomy",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11648,7 +11648,7 @@
       "op": "Fasciotomy Lt. leg",
       "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11816,7 +11816,7 @@
       "op": "LT C/S",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11844,7 +11844,7 @@
       "op": "Explor lap with Rt Salpingectomy",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11858,7 +11858,7 @@
       "op": "CRIF  with K-wire at Rt.DER  with flu with SAS",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -11873,7 +11873,7 @@
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -12100,7 +12100,7 @@
       "op": "EDB with Suture Rt. Foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -12114,7 +12114,7 @@
       "op": "EDB Rt.big toe",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-03",
       "days_pending": 1,
@@ -12439,7 +12439,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -12453,7 +12453,7 @@
       "op": "suture wound LT & RT foot",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -12621,7 +12621,7 @@
       "op": "Adenotonsillectomy",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -12635,7 +12635,7 @@
       "op": "Excisional LN left neck",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -12663,7 +12663,7 @@
       "op": "CR c spaning EF Lt. ankle",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -12691,7 +12691,7 @@
       "op": "Systematic with closed stump 2nd-5th finger with repair muscle Rt hand with repair muscle Rt leg",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -13015,7 +13015,7 @@
       "op": "ORIF Narrow LCP at Lt. tibia,CRIF c  K-Wire at Lt. DER c SAC",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -13071,7 +13071,7 @@
       "op": "DB c repair muscle c repair planta fascia Rt.foot c SLS",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -13099,7 +13099,7 @@
       "op": "Anal  Fistulotomy",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -13113,7 +13113,7 @@
       "op": "Ray amputation Rt. 5th toe c fasciotomy Rt. foot",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-02",
       "days_pending": 1,
@@ -13466,7 +13466,7 @@
       "op": "LT C/S",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13480,7 +13480,7 @@
       "op": "C/S with TR",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13692,7 +13692,7 @@
       "op": "EDB Rt.foot",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13706,7 +13706,7 @@
       "op": "Fasciotomy Rt.foot",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13791,7 +13791,7 @@
       "op": "ORIF with S-Clavicle Locking Plate Lt. Clavicle",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13805,7 +13805,7 @@
       "op": "CRIF with K-wire fixation with flu Rt. big toe",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13819,7 +13819,7 @@
       "op": "OREF c k-wire 4-5 th finger c flu",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2569-01",
       "days_pending": 1,
@@ -13890,7 +13890,7 @@
       "op": "EL c LN biopsy",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -13904,7 +13904,7 @@
       "op": "Herniotomy with Herniorhaphy",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -13918,7 +13918,7 @@
       "op": "Systematic Debridement,ORIF with Mini Locking Plate Rt. 5th MCB",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -13932,7 +13932,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14088,7 +14088,7 @@
       "op": "LC",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14116,7 +14116,7 @@
       "op": "excision at labia",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14130,7 +14130,7 @@
       "op": "excision Rt.leg",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14229,7 +14229,7 @@
       "op": "Wide excision mass Rt breast with Excision RT axillary LN",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14243,7 +14243,7 @@
       "op": "Excision mass Lt.flank",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14285,7 +14285,7 @@
       "op": "Fasciotomy Rt. leg",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14299,7 +14299,7 @@
       "op": "Fasciotomy Rt.Foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14513,7 +14513,7 @@
       "op": "Fasciotomy Rt. foot",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14527,7 +14527,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14555,7 +14555,7 @@
       "op": "LT C/S",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14569,7 +14569,7 @@
       "op": "LT C/S with TR",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-12",
       "days_pending": 1,
@@ -14724,7 +14724,7 @@
       "op": "LT C/S with TR",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -14738,7 +14738,7 @@
       "op": "TAH c Lt. SO c Rt. salpingectomy  c lysis adhesion",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -14822,7 +14822,7 @@
       "op": "Excision mass Lt cheek",
       "circ": "น.ส.พรพิมล บุญครอง, น.ส.กาญจนา เชื้อสีดา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -14836,7 +14836,7 @@
       "op": "CNB Rt. breast",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -14850,7 +14850,7 @@
       "op": "ORIF c mini LCP 2.4 mm. (PN) at Rt. Olecranon c flu",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -14864,7 +14864,7 @@
       "op": "DB c ORIF c mini LCP 2.0 at 2 nd MCB c Repair tendon Lt. hand c Flu",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -15004,7 +15004,7 @@
       "op": "Lt.breast mass",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -15018,7 +15018,7 @@
       "op": "CNB Bilateral breast",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -15033,7 +15033,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "Risk",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 6,
@@ -15047,7 +15047,7 @@
       "op": "Lt. axillary fistulectomy",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-11",
       "days_pending": 1,
@@ -15398,7 +15398,7 @@
       "op": "revise colotomy",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-10",
       "days_pending": 1,
@@ -15412,7 +15412,7 @@
       "op": "Fasciotomy Rt. foot",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-10",
       "days_pending": 1,
@@ -15553,7 +15553,7 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-10",
       "days_pending": 1,
@@ -15567,7 +15567,7 @@
       "op": "debridement Lt. breast",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา",
+        "เวลาซ้อนทับ",
         "ห้องผ่าตัดซ้ำกัน"
       ],
       "month_key": "2568-10",
@@ -15836,7 +15836,7 @@
       "op": "Excision Mass Lt. Knee",
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-10",
       "days_pending": 1,
@@ -15851,7 +15851,7 @@
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "Address",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-10",
       "days_pending": 1,
@@ -16065,7 +16065,7 @@
       "op": "Cementless Lt THA with Auto bone graft augment acetabulum with Flu Under",
       "circ": "น.ส.กรรณชดา สาลีเพ็ง, นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16079,7 +16079,7 @@
       "op": "Rt. CTR",
       "circ": "น.ส.กรรณชดา สาลีเพ็ง, นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16093,7 +16093,7 @@
       "op": "Remove minips at Lt little finger",
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.กรรณชดา สาลีเพ็ง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16275,7 +16275,7 @@
       "op": "TR",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16289,7 +16289,7 @@
       "op": "TR",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16318,7 +16318,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16332,7 +16332,7 @@
       "op": "Lumpectomy Rt. breast",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16347,7 +16347,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "Risk",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 6,
@@ -16361,7 +16361,7 @@
       "op": "Explore wound 2nd Lt hand",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16467,7 +16467,7 @@
       "op": "Repair Flap coverage",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16481,7 +16481,7 @@
       "op": "Fasciotomy Lt. foot",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16495,7 +16495,7 @@
       "op": "EL with uterus bx.",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16509,7 +16509,7 @@
       "op": "LC",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16523,7 +16523,7 @@
       "op": "Lt. PCN Lt. abdomen",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16537,7 +16537,7 @@
       "op": "AVF Lt. Fore arm",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16649,7 +16649,7 @@
       "op": "DB c repair tendon Lt  wrist",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16678,7 +16678,7 @@
       "op": "Systematic Debridement Lt. Hand",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16693,7 +16693,7 @@
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16707,7 +16707,7 @@
       "op": "LT C/S,TR",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16721,7 +16721,7 @@
       "op": "Ray Amputation Lt. 5th Toe,Fasciotomy Lt. foot",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -16735,7 +16735,7 @@
       "op": "Ray Amputation Lt. 1st-3rd Toe,Fasciotomy Lt. Foot",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-09",
       "days_pending": 1,
@@ -17271,7 +17271,7 @@
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17285,7 +17285,7 @@
       "op": "Suture wound Lt leg",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17299,7 +17299,7 @@
       "op": "Suture wound Rt. foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17342,7 +17342,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17456,7 +17456,7 @@
       "op": "Tonsillectomy",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17470,7 +17470,7 @@
       "op": "Remove FB Lt. ear",
       "circ": "น.ส.ขวัญจิรา เฮียงราช, น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17526,7 +17526,7 @@
       "op": "ORIF c small LCP  Rt. Radius",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17540,7 +17540,7 @@
       "op": "skeletal traction",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17596,7 +17596,7 @@
       "op": "EDB Lt.Breast",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17610,7 +17610,7 @@
       "op": "ray amputation 4th,5th LT.foot",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17624,7 +17624,7 @@
       "op": "Explore lap,with Appendectomy",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17638,7 +17638,7 @@
       "op": "Explore lap with simple suture with omental graft",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17667,7 +17667,7 @@
       "op": "EL with sigmoidectomy with hartmann operation",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17681,7 +17681,7 @@
       "op": "Open Drain ( Fail )",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17808,7 +17808,7 @@
       "op": "Fasciotomy Rt. foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17822,7 +17822,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-08",
       "days_pending": 1,
@@ -17864,7 +17864,7 @@
       "op": "Remove P & S Rt. leg",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -17878,7 +17878,7 @@
       "op": "DB c External fixation,Rt. Leg",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18032,7 +18032,7 @@
       "op": "excisional debridement Lt. 5th finger",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18046,7 +18046,7 @@
       "op": "Suture wound Rt. foot",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, น.ส.กาญจนา เชื้อสีดา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18075,7 +18075,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "Last Dx",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 6,
@@ -18090,7 +18090,7 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18146,7 +18146,7 @@
       "op": "remove TK insertion",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18174,7 +18174,7 @@
       "op": "ERCP with plastic stent",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18244,7 +18244,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18258,7 +18258,7 @@
       "op": "ORIF with LCP Lt.DER",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18342,7 +18342,7 @@
       "op": "LAR",
       "circ": "น.ส.วิภาวรรณ ไชโย, น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18370,7 +18370,7 @@
       "op": "excision cyst Rt.cheek",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18399,7 +18399,7 @@
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.พรพิมล บุญครอง",
       "missing": [
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18414,7 +18414,7 @@
       "circ": "น.ส.พรพิมล บุญครอง, นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18442,7 +18442,7 @@
       "op": "ORIF with Hock clavicle locking plate Lt.clavicle",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18456,7 +18456,7 @@
       "op": "ORIF with Dital Radius locking plate Rt.DER",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18470,7 +18470,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18638,7 +18638,7 @@
       "op": "LT C/S with TR",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18652,7 +18652,7 @@
       "op": "LT C/S",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18709,7 +18709,7 @@
       "op": "Fasciotomy Rt. foot",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18723,7 +18723,7 @@
       "op": "Fasciotomy Lt. foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18737,7 +18737,7 @@
       "op": "EDB Lt.Thigh",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18751,7 +18751,7 @@
       "op": "Fasciotomy Rt. leg",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18793,7 +18793,7 @@
       "op": "OC",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18807,7 +18807,7 @@
       "op": "Explore lap with simple suture with omental graft",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18950,7 +18950,7 @@
       "op": "CNB Rt. neck with FNA Rt. thyroid",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -18964,7 +18964,7 @@
       "op": "Suture wound Rt. foot",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-07",
       "days_pending": 1,
@@ -19020,7 +19020,7 @@
       "op": "Explore wound with repair muscle with remove FB Rt. Leg",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19048,7 +19048,7 @@
       "op": "Fasciotomy Rt. arm",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19091,7 +19091,7 @@
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
         "Last Dx",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 6,
@@ -19105,7 +19105,7 @@
       "op": "Fistulectomy",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19133,7 +19133,7 @@
       "op": "Fasciotomy Lt. leg",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19147,7 +19147,7 @@
       "op": "Fasciotomy Lt. leg",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19288,7 +19288,7 @@
       "op": "Fasciotomy,Lt.leg",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19330,7 +19330,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19414,7 +19414,7 @@
       "op": "Fasciotomy Lt. leg",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19428,7 +19428,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19624,7 +19624,7 @@
       "op": "ERCP",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19638,7 +19638,7 @@
       "op": "Appendectomy",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19652,7 +19652,7 @@
       "op": "Rt. MRM",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19666,7 +19666,7 @@
       "op": "Open repair hernia Lt",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19725,7 +19725,7 @@
       "op": "Implantation cather",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19739,7 +19739,7 @@
       "op": "wide excision Right breast",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19825,7 +19825,7 @@
       "op": "ORIF with S-Clavicle Locking Plate Rt. Clavicle",
       "circ": "น.ส.อลิชา สุริวรรณ, นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19839,7 +19839,7 @@
       "op": "Skeleton Traction",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -19995,7 +19995,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -20009,7 +20009,7 @@
       "op": "CR c K-wire Fixation",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-06",
       "days_pending": 1,
@@ -20093,7 +20093,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20107,7 +20107,7 @@
       "op": "Excision mass at back",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20163,7 +20163,7 @@
       "op": "Interval  TR",
       "circ": "น.ส.อารียา มัตตะราช, รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20177,7 +20177,7 @@
       "op": "Lt.SO",
       "circ": "น.ส.อารียา มัตตะราช, รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20338,7 +20338,7 @@
       "op": "ESI L4-L5",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20422,7 +20422,7 @@
       "op": "Rt. CTR",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20719,7 +20719,7 @@
       "op": "ORIF c Volar LCP Lt.DER c ORIF c mini LCP at distal Lt.ulnar c flu",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20733,7 +20733,7 @@
       "op": "Repair Tendon,Lt. forearm",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20891,7 +20891,7 @@
       "op": "Hysterotomy with TR",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -20905,7 +20905,7 @@
       "op": "LT C/S with TR",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -21031,7 +21031,7 @@
       "op": "Excisional Debridement,Repair Rt. Achillis Tendon",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -21045,7 +21045,7 @@
       "op": "DB c ORIF c broad LCP at Rt femur c DB c ORIF c K-wire 2-3 toe Rt foot c SLS",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -21073,7 +21073,7 @@
       "op": "ORIF with Proximal Humerus Locking Plate Lt. Humerus",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -21105,7 +21105,7 @@
       "op": "Open Arthrotomy Lt. Knee",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-05",
       "days_pending": 1,
@@ -21136,7 +21136,7 @@
       "op": "DCL with PDS with PLF L4 - L5,PLIF L4 - L5",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21150,7 +21150,7 @@
       "op": "Remove Plate and Screw Both Bone Lt. Leg",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21248,7 +21248,7 @@
       "op": "Remove bullet Rt leg,with repair muscle ,RepIR Vacular Rt. leg",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21262,7 +21262,7 @@
       "op": "Repair MCL c MEFL  Lt knee",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21277,7 +21277,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "Last Dx",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 6,
@@ -21291,7 +21291,7 @@
       "op": "Remove  EF c Flu test Stability Rt. Knee",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21416,7 +21416,7 @@
       "missing": [
         "ค่าหัตถการ",
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21479,7 +21479,7 @@
       "op": "Rt. Hemicolectomy",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21493,7 +21493,7 @@
       "op": "Rt.hepatectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21507,7 +21507,7 @@
       "op": "CNB Lt. breast",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21521,7 +21521,7 @@
       "op": "CNB Rt. breast",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21683,7 +21683,7 @@
       "op": "excisional Debridement Rt breast",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21711,7 +21711,7 @@
       "op": "Suture Wound",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21829,7 +21829,7 @@
       "op": "CNB Lt. breast",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21843,7 +21843,7 @@
       "op": "overtie dressing, Lt ear",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21857,7 +21857,7 @@
       "op": "Excision ulcer Lt tongue",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -21871,7 +21871,7 @@
       "op": "Rt.herniotomy with herniorhaphy with mesh graft",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -22227,7 +22227,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -22241,7 +22241,7 @@
       "op": "LC",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -22382,7 +22382,7 @@
       "op": "off TK",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -22396,7 +22396,7 @@
       "op": "Ray amputate 4th toe right foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-04",
       "days_pending": 1,
@@ -22555,7 +22555,7 @@
       "op": "Excisional Debridement",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -22569,7 +22569,7 @@
       "op": "Appendectomy",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -22869,7 +22869,7 @@
       "op": "Excisional DB with vac dressing Rt.leg",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -22883,7 +22883,7 @@
       "op": "DB with repair tendon  Lt. foot",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -22897,7 +22897,7 @@
       "op": "Systematic Debridement,with Kwire fixation,with flu",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23010,7 +23010,7 @@
       "op": "Explor lap with lysis adhesion,Omentectomy",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23024,7 +23024,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23066,7 +23066,7 @@
       "op": "Implantation catheter",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23097,7 +23097,7 @@
       "op": "explore with take down hartmann",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23111,7 +23111,7 @@
       "op": "CRIF with K-Wire Fixation Rt. DER,ORIF with K-Wire Fixation Lt. Humerus",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23125,7 +23125,7 @@
       "op": "CNB Rt.Breast",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23139,7 +23139,7 @@
       "op": "CNB Rt.Breast",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23153,7 +23153,7 @@
       "op": "Rt. CTR",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23167,7 +23167,7 @@
       "op": "Lt. CTR",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23211,7 +23211,7 @@
       "missing": [
         "Team",
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23226,7 +23226,7 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23254,7 +23254,7 @@
       "op": "ORIF with K-Wire Fixation with Repair Terminal Tendon",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23268,7 +23268,7 @@
       "op": "mass resection Lt foot",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23282,7 +23282,7 @@
       "op": "A1 Pullay Release Lt. 1st Finger",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23296,7 +23296,7 @@
       "op": "CRIF with K-Wire Fixation Lt. DER",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23353,7 +23353,7 @@
       "op": "Rt.MRM",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23367,7 +23367,7 @@
       "op": "Lt.MRM",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23381,7 +23381,7 @@
       "op": "Suture Wound",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23466,7 +23466,7 @@
       "op": "PPPD",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23509,7 +23509,7 @@
       "circ": "รัตติยา",
       "missing": [
         "Assistant",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23537,7 +23537,7 @@
       "op": "Appendectomy",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23552,7 +23552,7 @@
       "circ": "พรชิตา",
       "missing": [
         "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23906,7 +23906,7 @@
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
         "Address",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -23920,7 +23920,7 @@
       "op": "Explore lap c small bowel resection c stop bleed,remove bullet",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24033,7 +24033,7 @@
       "op": "Suture wound",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24047,7 +24047,7 @@
       "op": "Explor lap with Sigmoidectomy",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24061,7 +24061,7 @@
       "op": "Wide Excision Rt.Breast",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24089,7 +24089,7 @@
       "op": "CNB Lt.breast",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24103,7 +24103,7 @@
       "op": "ORIF with Mini Locking Plate Rt. 5th MCB",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24117,7 +24117,7 @@
       "op": "Remove Plate and Screw Rt. Radius,ORIF with Distal Radius Locking Plate Rt. DER",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24131,7 +24131,7 @@
       "op": "DB c amputation DP Lt middle finger c repair tendon Lt ringer finger c splint",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24146,7 +24146,7 @@
       "circ": "พรชิตา",
       "missing": [
         "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24245,7 +24245,7 @@
       "op": "LC",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24259,7 +24259,7 @@
       "op": "Revise PTBD",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-03",
       "days_pending": 1,
@@ -24402,7 +24402,7 @@
       "op": "Open Repair Ligament with Anchor Suture with K-Wire Fixation Rt. 2nd Finger",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24416,7 +24416,7 @@
       "op": "CRIF with K-Wire Fixation Lt. DER",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24629,7 +24629,7 @@
       "op": "Excisional   DB",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24643,7 +24643,7 @@
       "op": "PCD",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24699,7 +24699,7 @@
       "op": "PCD Rt. psoas abscess",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24713,7 +24713,7 @@
       "op": "I&D Rt. leg",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24727,7 +24727,7 @@
       "op": "CRIF c K wire at PP Rt 5 finger c flu c splint",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24741,7 +24741,7 @@
       "op": "DB with ORIF with MM screw with tubular 1/3 LCP at Lt ankle with Flu",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24755,7 +24755,7 @@
       "op": "ORIF c MM screw c distal fibular LCP at Rt. ankle c flu",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24769,7 +24769,7 @@
       "op": "fistulectomy",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24783,7 +24783,7 @@
       "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24797,7 +24797,7 @@
       "op": "ERCP with plastic stent,10F10cm",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24811,7 +24811,7 @@
       "op": "PTBD",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24881,7 +24881,7 @@
       "op": "Amputation DP RMF",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -24895,7 +24895,7 @@
       "op": "ORIF with Distal Radius Locking Plate Rt. DER",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25063,7 +25063,7 @@
       "op": "LC",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25091,7 +25091,7 @@
       "op": "Lymph Node Biopsy Lt. groin",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25161,7 +25161,7 @@
       "op": "CNB Lt. breast",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25175,7 +25175,7 @@
       "op": "Suture wound Rt. foot",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25217,7 +25217,7 @@
       "op": "pyramidal nodulectomy",
       "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25231,7 +25231,7 @@
       "op": "TAH c BSO",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25245,7 +25245,7 @@
       "op": "LT C/S",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25259,7 +25259,7 @@
       "op": "Excision bx at lower lip",
       "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-02",
       "days_pending": 1,
@@ -25276,7 +25276,7 @@
         "First Dx",
         "Last Dx",
         "Circulating",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 6,
@@ -25290,7 +25290,7 @@
       "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25333,7 +25333,7 @@
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25347,7 +25347,7 @@
       "op": "Ray Amputation 5th Rt.foot",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25418,7 +25418,7 @@
       "op": "Fistulectomy bilateral",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25446,7 +25446,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25532,7 +25532,7 @@
       "op": "CRIF with K-Wire Fixation Lt. DER",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25546,7 +25546,7 @@
       "op": "ORIF with Distal Fibular Locking Plate Lt. Fibular,ORIF with MM Screw Fixation Lt. Tibia",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25574,7 +25574,7 @@
       "op": "STSG Lt.leg",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25588,7 +25588,7 @@
       "op": "EL c sigmoidectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25616,7 +25616,7 @@
       "op": "EDB",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25630,7 +25630,7 @@
       "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25658,7 +25658,7 @@
       "op": "Tubal Resection (TR)",
       "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25672,7 +25672,7 @@
       "op": "Vaginal hysterectomy with AP repair",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25700,7 +25700,7 @@
       "op": "LT C/S",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25714,7 +25714,7 @@
       "op": "LT C/S",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25905,7 +25905,7 @@
       "op": "Exision Rt Axillary mass",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25919,7 +25919,7 @@
       "op": "CNB Lt. breast",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25947,7 +25947,7 @@
       "op": "excision Rt.groin mass",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25961,7 +25961,7 @@
       "op": "suture wound Rt Gluteal",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -25990,7 +25990,7 @@
       "op": "Rt. Submandibular Gland resection",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26004,7 +26004,7 @@
       "op": "Tonsillectomy",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26235,7 +26235,7 @@
       "op": "Excision Lt. thigh",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26249,7 +26249,7 @@
       "op": "Excision mass Rt. knee",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26277,7 +26277,7 @@
       "op": "ORIF with Narrow Locking Plate Rt. Tibia",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26291,7 +26291,7 @@
       "op": "excisional debridement with repair muscle",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26419,7 +26419,7 @@
       "op": "CRIF with K-Wire Fixation Lt. DER,with SAS",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26433,7 +26433,7 @@
       "op": "Ray Amputation Lt. 2 nd toe with fasciotomy Lt.foot",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26447,7 +26447,7 @@
       "op": "Appendectomy",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26461,7 +26461,7 @@
       "op": "Appendectomy,Delayed Suture",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26573,7 +26573,7 @@
       "op": "Hemorrhoidectomy",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26587,7 +26587,7 @@
       "op": "PTBD",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26601,7 +26601,7 @@
       "op": "Mass resection",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26615,7 +26615,7 @@
       "op": "fistulectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26882,7 +26882,7 @@
       "op": "Suture wound",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26896,7 +26896,7 @@
       "op": "LC",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -26986,7 +26986,7 @@
         "Assistant ทีมเวร",
         "Team",
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27019,7 +27019,7 @@
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27167,7 +27167,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27186,7 +27186,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27201,7 +27201,7 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "Nurse Aid ทีมเวร",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27292,7 +27292,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27365,7 +27365,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27599,7 +27599,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27636,7 +27636,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27704,7 +27704,7 @@
       "op": "CNB cervical,Rt.",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์ , นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -27723,7 +27723,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2568-01",
       "days_pending": 1,
@@ -28342,7 +28342,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -28379,7 +28379,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -28553,7 +28553,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -28572,7 +28572,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -29064,7 +29064,7 @@
       "missing": [
         "Aneasthesia",
         "Scrub",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -29096,7 +29096,7 @@
       "op": "laparoscopic cholecystectomy,opend cholecystectomy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -29478,7 +29478,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -29498,7 +29498,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -29618,7 +29618,7 @@
         "Nurse Aid ทีมเวร",
         "Team",
         "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -29647,7 +29647,7 @@
         "Nurse Aid ทีมเวร",
         "Team",
         "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -29890,7 +29890,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -29937,7 +29937,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -30006,7 +30006,7 @@
       "op": "Rt.Herniotomy with Herniorhaphy",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -30039,7 +30039,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -30202,7 +30202,7 @@
       "op": "LC",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -30248,7 +30248,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -30581,7 +30581,7 @@
       "op": "LT C/S",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -30595,7 +30595,7 @@
       "op": "LT C/S with TR",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -30974,7 +30974,7 @@
         "Nurse Aid ทีมเวร",
         "Team",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31014,7 +31014,7 @@
         "Nurse Aid ทีมเวร",
         "Team",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31033,7 +31033,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -31053,7 +31053,7 @@
         "Nurse Aid ทีมเวร",
         "Team",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31099,7 +31099,7 @@
       "op": "Wide Excision Rt.Breast",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31118,7 +31118,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31133,7 +31133,7 @@
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31147,7 +31147,7 @@
       "op": "Lt. Herniotomy with Herniorraphy with mesh graft",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31166,7 +31166,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31180,7 +31180,7 @@
       "op": "CNB Lt.Breast",
       "circ": "น.ส.มัญชุกร เกิดไทย",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31194,7 +31194,7 @@
       "op": "Excision mass Rt. head",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31208,7 +31208,7 @@
       "op": "Suture Wound Rt.foot",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31245,7 +31245,7 @@
         "Wound Type",
         "Aneasthesia",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31270,7 +31270,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31294,7 +31294,7 @@
         "Aneasthesia",
         "Nurse Aid",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31317,7 +31317,7 @@
         "Wound Type",
         "Aneasthesia",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31340,7 +31340,7 @@
         "Wound Type",
         "Aneasthesia",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31363,7 +31363,7 @@
         "Wound Type",
         "Aneasthesia",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31388,7 +31388,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31411,7 +31411,7 @@
         "Wound Type",
         "Aneasthesia",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31438,7 +31438,7 @@
         "เวร",
         "Team",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31463,7 +31463,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31489,7 +31489,7 @@
         "เวร",
         "Team",
         "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31515,7 +31515,7 @@
         "เวร",
         "Team",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -31529,7 +31529,7 @@
       "op": "Lt. TKA",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -31575,7 +31575,7 @@
       "op": "Lt. Bipolar Hemiarthroplasty",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -32007,7 +32007,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -32062,7 +32062,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -32455,7 +32455,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32480,7 +32480,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32505,7 +32505,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32530,7 +32530,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32555,7 +32555,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32710,7 +32710,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32851,7 +32851,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32880,7 +32880,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -32994,7 +32994,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33079,7 +33079,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33291,7 +33291,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33321,7 +33321,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33349,7 +33349,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33379,7 +33379,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33407,7 +33407,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33434,7 +33434,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33448,7 +33448,7 @@
       "op": "CNB Lt. breast",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -33551,7 +33551,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -33570,7 +33570,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -33932,7 +33932,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -33983,7 +33983,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -34041,7 +34041,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -34099,7 +34099,7 @@
         "Circulating",
         "Nurse Aid",
         "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 6,
@@ -34133,7 +34133,7 @@
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -34213,7 +34213,7 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-12",
       "days_pending": 1,
@@ -34824,7 +34824,7 @@
       "op": "LT C/S",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -34838,7 +34838,7 @@
       "op": "TAH with Bilateral salpingo-oophorectomy",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -35022,7 +35022,7 @@
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -35083,7 +35083,7 @@
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -35176,7 +35176,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -35195,7 +35195,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -35727,7 +35727,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 6,
@@ -35799,7 +35799,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 6,
@@ -36095,7 +36095,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 6,
@@ -36119,7 +36119,7 @@
         "Scrub",
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 6,
@@ -36518,7 +36518,7 @@
       "op": "Interval TR",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -36532,7 +36532,7 @@
       "op": "TR",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37099,7 +37099,7 @@
       "circ": "รัตติยา",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37114,7 +37114,7 @@
       "circ": "รัตติยา",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37128,7 +37128,7 @@
       "op": "CC joint fusion c PS c Flu c open repair ATFL c anchor suture 2.8 mm c SLS",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37144,7 +37144,7 @@
       "missing": [
         "Scrub ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37158,7 +37158,7 @@
       "op": "ORIF with Distal Fibular Locking Plate Rt. Fibular,ORIF with Mini Locking Plate Rt. Ulna",
       "circ": "พรชิตา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37177,7 +37177,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37232,7 +37232,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37251,7 +37251,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37270,7 +37270,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37386,7 +37386,7 @@
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
         "ชื่อซ้ำในทีม",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37400,7 +37400,7 @@
       "op": "LT C/S",
       "circ": "นางณัฐณิชา ไชยพะยวน",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37568,7 +37568,7 @@
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "ห้องผ่าตัดซ้ำกัน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -37582,7 +37582,7 @@
       "op": "Laparoscopic cholecystectomy",
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -38641,7 +38641,7 @@
       "op": "CRIF with PFNA Lt. Femur",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -38673,7 +38673,7 @@
       "op": "Rt. CTR",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -38901,7 +38901,7 @@
       "op": "CRIF with K-wire Fixation Rt. Tibia",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -38915,7 +38915,7 @@
       "op": "PI With DCL With L4-S1",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -38956,7 +38956,7 @@
         "Nurse Aid ทีมเวร",
         "Team",
         "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -38977,7 +38977,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -39013,7 +39013,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -39033,7 +39033,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -39248,7 +39248,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -39267,7 +39267,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -39286,7 +39286,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-11",
       "days_pending": 1,
@@ -39526,7 +39526,7 @@
       "op": "CNB Lt breast",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 1,
@@ -39542,7 +39542,7 @@
       "missing": [
         "Circulating",
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 1,
@@ -39561,7 +39561,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 1,
@@ -39617,7 +39617,7 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 1,
@@ -40360,7 +40360,7 @@
         "Assistant",
         "Scrub",
         "Circulating",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 1,
@@ -40407,7 +40407,7 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 1,
@@ -42064,7 +42064,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 4,
@@ -42084,7 +42084,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 4,
@@ -42411,7 +42411,7 @@
       "op": "ESI L4-L5",
       "circ": "รัตติยา",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 6,
@@ -42558,7 +42558,7 @@
       "circ": "รัตติยา",
       "missing": [
         "สิทธิ์",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-10",
       "days_pending": 6,
@@ -42885,7 +42885,7 @@
       "op": "Ray Amputation Rt. 5th Toe",
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-09",
       "days_pending": 1,
@@ -42899,7 +42899,7 @@
       "op": "Excisional Debridement,Repair Tendon",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-09",
       "days_pending": 1,
@@ -43315,7 +43315,7 @@
       "op": "Bilateral CTR",
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-09",
       "days_pending": 1,
@@ -43329,7 +43329,7 @@
       "op": "Bilateral TKA",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-09",
       "days_pending": 1,
@@ -43544,7 +43544,7 @@
       "op": "Lt. CTR",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-09",
       "days_pending": 1,
@@ -43558,7 +43558,7 @@
       "op": "ORIF with Distal Radius Locking Plate Lt. DER,ORIF with Mini Locking Plate Lt. 5th MCB",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-09",
       "days_pending": 1,
@@ -44000,7 +44000,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -44096,7 +44096,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -44132,7 +44132,7 @@
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 1,
@@ -44183,7 +44183,7 @@
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 1,
@@ -44198,7 +44198,7 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 1,
@@ -44772,7 +44772,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -44792,7 +44792,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -45199,7 +45199,7 @@
       "circ": "รัตติยา",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 1,
@@ -45242,7 +45242,7 @@
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "Nurse Aid",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 1,
@@ -45805,7 +45805,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -45825,7 +45825,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -45845,7 +45845,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -45865,7 +45865,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
@@ -45942,7 +45942,7 @@
         "Nurse Aid ทีมเวร",
         "เวร",
         "Team",
-        "ห้องซ้อนเวลา"
+        "เวลาซ้อนทับ"
       ],
       "month_key": "2567-08",
       "days_pending": 4,
