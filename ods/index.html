@@ -3,147 +3,376 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>สรุป ODS รายเดือน–รายปีงบ · รพ.วานรนิวาส</title>
+<title>ODS Wanoniwat · รพ.วานรนิวาส</title>
 <style>
-:root {
-  --bg: #f6f7f9;
-  --card: #fff;
-  --text: #1f2530;
-  --muted: #6b7280;
-  --border: #e5e9f0;
-  --primary: #2563eb;
-  --primary-light: #eaf1fe;
-  --exam: #dc2626;
-  --exam-light: #fdecec;
-  --warn: #d97706;
-  --warn-light: #fdf2e2;
-}
 * { box-sizing: border-box; }
-html { font-size: 18px; }
 body {
-  margin: 0; background: var(--bg); color: var(--text);
-  font-family: "Noto Sans Thai", "Sarabun", "TH Sarabun New", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", system-ui, sans-serif;
-  line-height: 1.4; font-variant-numeric: tabular-nums;
+  margin: 0; background: #fff; color: #1f2530;
+  font-family: "Noto Sans Thai", "Sarabun", "TH Sarabun New", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  line-height: 1.5; font-variant-numeric: tabular-nums;
 }
-.container { max-width: 1080px; margin: 0 auto; padding: 14px 12px 48px; }
-header.course-header {
-  padding: 14px 2px 16px;
-  border-bottom: 2px solid var(--primary);
-  margin-bottom: 10px;
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px 64px; }
+.topnav { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
+.brand { font-weight: 800; font-size: 1.1rem; }
+.brand small { display: block; font-weight: 400; color: #6b7280; font-size: .8rem; }
+.topnav a.back {
+  text-decoration: none; color: #1f2530; border: 1px solid #e5e9f0; border-radius: 999px;
+  padding: 8px 18px; font-size: .88rem; font-weight: 600;
 }
-header.course-header .header-brand {
-  font-size: 1.05rem; font-weight: 800; color: var(--primary);
-  letter-spacing: .02em; margin-bottom: 4px;
+.hero { text-align: center; padding: 34px 0 8px; }
+.hero h1 { font-size: 2.2rem; margin: 0; font-weight: 800; }
+.hero p { color: #6b7280; margin: 10px 0 0; }
+.statrow { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 26px 0 8px; }
+.statbox {
+  background: #f4f4f6; border-radius: 22px; padding: 20px 26px; text-align: center; min-width: 130px;
 }
-header.course-header .header-program { font-size: 1.6rem; font-weight: 700; line-height: 1.35; }
-header.course-header .period { font-size: 1.1rem; font-weight: 600; margin-top: 6px; }
-.stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
-.stat {
-  flex: 1 1 140px; background: var(--card); border: 1px solid var(--border);
-  border-radius: 12px; padding: 10px 12px; text-align: center;
+.stat-n { font-size: 2rem; font-weight: 800; }
+.stat-l { font-size: .9rem; font-weight: 700; margin-top: 2px; }
+.stat-s { font-size: .75rem; color: #6b7280; }
+.cta { display: flex; gap: 10px; justify-content: center; margin: 22px 0 6px; flex-wrap: wrap; }
+.btn {
+  border-radius: 999px; padding: 12px 28px; font-size: .95rem; font-weight: 700;
+  text-decoration: none; display: inline-block; font-family: inherit;
 }
-.stat .n { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
-.stat .l { font-size: .82rem; color: var(--muted); }
-.main-tabs {
-  display: flex; gap: 6px; align-items: flex-end;
-  margin: 10px 0 0; padding: 0 6px; position: relative; z-index: 2;
+.btn-dark { background: #1a1a2e; color: #fff; }
+.btn-line { background: #fff; color: #1a1a2e; border: 1px solid #dfe3ea; }
+section.block { margin-top: 40px; }
+section.block h2 { font-size: 1.3rem; margin: 0 0 4px; }
+section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
+.ggrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.gcard { border: 1px solid #eef0f4; border-radius: 20px; padding: 16px 18px; background: #fff;
+  box-shadow: 0 2px 10px rgba(20, 25, 40, .05); }
+.gname { font-weight: 700; margin: 6px 0 2px; }
+.dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; }
+.grow { display: flex; justify-content: space-between; align-items: baseline; }
+.gnum { font-size: 1.7rem; font-weight: 800; }
+.gpct { color: #6b7280; font-size: .9rem; }
+.bar { height: 8px; background: #f1f2f5; border-radius: 999px; margin-top: 8px; overflow: hidden; }
+.bar .fill { height: 100%; border-radius: 999px; }
+.ytrend { display: flex; gap: 18px; align-items: flex-end; justify-content: center;
+  background: #f7f7f9; border-radius: 24px; padding: 26px 16px 16px; }
+.ycol { text-align: center; min-width: 90px; }
+.ybar { width: 54px; margin: 0 auto; background: #1a1a2e; border-radius: 12px 12px 6px 6px; }
+.yval { font-weight: 800; margin-top: 8px; }
+.ylab { font-size: .82rem; color: #6b7280; }
+.chips { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+.chip {
+  border: 1px solid #dfe3ea; background: #fff; border-radius: 999px; padding: 8px 20px;
+  font-family: inherit; font-weight: 700; font-size: .9rem; cursor: pointer; color: #1f2530;
 }
-.main-tab {
-  flex: 1 1 0; text-align: center;
-  display: flex; align-items: center; justify-content: center; gap: 6px;
-  font-family: inherit; font-weight: 700; font-size: 0.92rem;
-  padding: 10px 10px 12px;
-  border: 1px solid var(--border); border-bottom: none;
-  border-radius: 14px 14px 0 0;
-  background: #e9edf3; color: var(--muted);
-  box-shadow: inset 0 -7px 9px -9px rgba(0, 0, 0, .28);
-  cursor: pointer; margin-bottom: -1px;
+.chip.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+.mchart { background: #f7f7f9; border-radius: 24px; padding: 24px 18px 12px; }
+.mbars { display: flex; gap: 6px; align-items: flex-end; min-height: 190px; }
+.mcol { flex: 1; text-align: center; }
+.mbar { width: 70%; max-width: 44px; margin: 0 auto; background: #2563eb; border-radius: 8px 8px 4px 4px; min-height: 4px; }
+.mbar.na { background: #e2e5eb; }
+.mval { font-size: .78rem; font-weight: 700; margin-top: 4px; min-height: 1.2em; }
+.mlab { font-size: .72rem; color: #6b7280; }
+.mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
+.spin-pin-wrap { margin-top: 12px; }
+.spin-pin-wrap + section.block { margin-top: 10px; }
+.spin-sticky { padding: 4px 0 8px; }
+.spin-head { text-align: center; }
+.spin-sticky h2 { font-size: 1.3rem; margin: 0; text-align: center; }
+.spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 2px 0; text-align: center; }
+.spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 6px auto;
+  width: min(420px, 80%); overflow: hidden; }
+.spin-prog-fill { height: 100%; width: 0%; background: #1a1a2e; border-radius: 999px; }
+.spin-stage { perspective: 1200px; height: 360px; position: relative; overflow: hidden;
+  --rz: 280px; touch-action: pan-y; cursor: grab; }
+.spin-stage:active { cursor: grabbing; }
+@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 250px; } }
+@media (min-width: 621px) and (max-width: 1024px) {
+  .spin-pin-wrap { margin-top: 8px; }
+  .spin-pin-wrap + section.block { margin-top: 6px; }
+  section.block { margin-top: 24px; }
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-size: 1.7rem; }
+  .statrow { margin: 16px 0 4px; }
+  .statbox { padding: 14px 18px; min-width: 110px; }
+  .stat-n { font-size: 1.5rem; }
+  .cta { margin: 14px 0 4px; }
+  .btn { padding: 10px 22px; font-size: .88rem; }
+  .spin-stage { --rz: 300px; height: 300px; }
+  .scard { left: -150px; top: -100px; width: 300px; min-height: 200px; padding: 16px 18px; }
+  .gnum { font-size: 1.4rem; }
 }
-.main-tab.active {
-  background: var(--card); color: var(--primary);
-  border-top: 3px solid var(--primary);
-  box-shadow: 0 -2px 6px -3px rgba(37, 99, 235, .35);
+.spin-ring { position: absolute; left: 50%; top: 50%; width: 0; height: 0;
+  transform-style: preserve-3d; }
+.scard {
+  position: absolute; left: -150px; top: -105px; width: 300px; min-height: 210px;
+  background: #fff; border: 1px solid #eef0f4; border-radius: 20px;
+  box-shadow: 0 8px 26px rgba(20, 25, 40, .12); padding: 18px 20px;
+  transform: rotateY(var(--a)) translateZ(var(--rz));
+  backface-visibility: hidden; user-select: none;
 }
-.main-panel {
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 0 14px 14px 14px;
-  padding: 14px 12px 18px;
+@media (max-width: 620px) { .scard { left: -105px; top: -85px; width: 210px; min-height: 170px; } }
+.spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 2px; }
+.sbtn {
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid #dfe3ea; background: #fff;
+  font-size: 1.4rem; line-height: 1; cursor: pointer; color: #1a1a2e; font-family: inherit;
 }
-.main-panel-hidden { display: none !important; }
-.fy-head { font-size: 1.05rem; margin: 18px 0 8px; }
-.fy-head:first-child { margin-top: 0; }
-.tbl-wrap { overflow-x: auto; }
-table.ods { width: 100%; border-collapse: collapse; font-size: .88rem; background: var(--card); }
-table.ods th, table.ods td { border: 1px solid var(--border); padding: 6px 8px; text-align: center; white-space: nowrap; }
-table.ods td.grp { text-align: left; }
-table.ods th { background: var(--primary-light); color: var(--primary); font-size: .85rem; }
-table.ods th.m-miss { background: var(--warn-light); color: var(--warn); }
-table.ods td.na { color: #c3c9d4; }
-table.ods td.sum { font-weight: 700; }
-table.ods tr.total td { background: var(--primary-light); font-weight: 700; }
-.star { font-size: .85rem; color: var(--muted); margin: 8px 2px 0; }
-.notes { margin: 20px 0 0; padding: 14px 14px 14px 18px; background: #fffbeF;
-  border: 1px solid #f3e3bb; border-radius: 12px; font-size: .88rem; }
-.notes h2 { font-size: 1rem; margin: 0 0 6px; }
-.notes li { margin-top: 5px; }
-.notes .alert { color: var(--exam); font-weight: 700; }
-footer.page-footer { text-align: center; color: var(--muted); font-size: .85rem; margin-top: 24px; }
-@media (max-width: 620px) { html { font-size: 17px; } }
+.sbtn:active { background: #1a1a2e; color: #fff; }
+.dots { display: flex; gap: 8px; }
+.dot2 { width: 10px; height: 10px; border-radius: 50%; background: #e2e5eb; border: none;
+  padding: 0; cursor: pointer; }
+.dot2.active { background: #1a1a2e; transform: scale(1.25); }
+/* ===== สไลด์ทั้งบล็อกจากด้านข้างเมื่อเลื่อนมาถึง ===== */
+.slide-l, .slide-r { opacity: 0; transition: opacity .6s ease, transform .65s cubic-bezier(.22,.8,.3,1); }
+.slide-l { transform: translateX(-64px); }
+.slide-r { transform: translateX(64px); }
+.slide-l.in, .slide-r.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .slide-l, .slide-r { opacity: 1; transform: none; transition: none; }
+  .pop-in { opacity: 1; }
+  .pop-in.pop { animation: none; }
+}
+/* ===== popup เด้งดึ๋งเมื่อเลื่อนมาถึง ===== */
+.pop-in { opacity: 0; }
+.pop-in.pop { opacity: 1; animation: pop-in .7s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes pop-in {
+  0% { opacity: 0; transform: translateY(48px) scale(.92); }
+  60% { opacity: 1; transform: translateY(-8px) scale(1.02); }
+  100% { opacity: 1; transform: none; }
+}
+.alert {
+  margin-top: 36px; background: #fffbef; border: 1px solid #f3e3bb; border-radius: 20px;
+  padding: 16px 20px; font-size: .88rem;
+}
+.alert b.red { color: #dc2626; }
+footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px; }
+@media (max-width: 620px) { .hero h1 { font-size: 1.6rem; } }
 </style>
 </head>
 <body>
-<div class="container">
-  <header class="course-header">
-    <div class="header-brand">🏥 โรงพยาบาลวานรนิวาส · ONE DAY SURGERY</div>
-    <div class="header-program">สรุปข้อมูล ODS รายเดือน – รายปีงบ</div>
-  </header>
-
-  <div class="stats">
-    <div class="stat"><div class="n">507</div><div class="l">ปีงบ 2566 (ครบปี)</div></div>
-    <div class="stat"><div class="n">823</div><div class="l">ปีงบ 2567 (9 เดือน)</div></div>
-    <div class="stat"><div class="n">410</div><div class="l">ปีงบ 2568 (ครบปี)</div></div>
-    <div class="stat"><div class="n">289*</div><div class="l">ปีงบ 2569 (9 เดือน)</div></div>
-    <div class="stat"><div class="n">2,029</div><div class="l">รวม 4 ปีงบ</div></div>
+<div class="wrap">
+<noscript><style>.pop-in,.slide-l,.slide-r{opacity:1 !important;transform:none !important}</style></noscript>
+  <div class="topnav">
+    <div class="brand">🏥 ODS วานรนิวาส<small>One Day Surgery · สรุปข้อมูล</small></div>
+    <a class="back" href="tables.html">← ตาราง ODS</a>
   </div>
 
-  <div class="main-tabs">
-    <button type="button" class="main-tab active" data-main="monthly">📅 รายเดือน</button>
-    <button type="button" class="main-tab" data-main="yearly">📊 รายปีงบ</button>
-  </div>
-  <div class="main-panel" id="panel-monthly">
-    <h3 class="fy-head">📅 ปีงบ 2566 (ต.ค.65–ก.ย.66) · ครบ 12 เดือน</h3><div class="tbl-wrap"><table class="ods"><tr><th>กลุ่มโรค</th><th>ต.ค.</th><th>พ.ย.</th><th>ธ.ค.</th><th>ม.ค.</th><th>ก.พ.</th><th>มี.ค.</th><th>เม.ย.</th><th>พ.ค.</th><th>มิ.ย.</th><th>ก.ค.</th><th>ส.ค.</th><th>ก.ย.</th><th>รวม</th></tr><tr><td class="grp">Pterygium Excision with graft</td><td>12</td><td>11</td><td>6</td><td>7</td><td>18</td><td>11</td><td>55</td><td>4</td><td>13</td><td>11</td><td>20</td><td>16</td><td class="sum">184</td></tr><tr><td class="grp">Colonoscopy (กลุ่มความเสี่ยงสูง)</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>35</td><td>–</td><td>56</td><td>4</td><td>30</td><td>51</td><td class="sum">176</td></tr><tr><td class="grp">Colorectal polyp</td><td>–</td><td>1</td><td>1</td><td>–</td><td>–</td><td>1</td><td>–</td><td>–</td><td>–</td><td>3</td><td>11</td><td>4</td><td class="sum">21</td></tr><tr><td class="grp">Tongue tie Release</td><td>–</td><td>2</td><td>2</td><td>5</td><td>–</td><td>–</td><td>–</td><td>2</td><td>3</td><td>1</td><td>6</td><td>–</td><td class="sum">21</td></tr><tr><td class="grp">Vaginal bleeding</td><td>10</td><td>13</td><td>6</td><td>8</td><td>2</td><td>5</td><td>6</td><td>5</td><td>4</td><td>7</td><td>19</td><td>17</td><td class="sum">102</td></tr><tr><td class="grp">Esophagogastric varices</td><td>–</td><td>1</td><td>–</td><td>–</td><td>–</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>1</td><td class="sum">3</td></tr><tr class="total"><td>รวมทุกกลุ่ม</td><td>22</td><td>28</td><td>15</td><td>20</td><td>20</td><td>18</td><td>96</td><td>11</td><td>76</td><td>26</td><td>86</td><td>89</td><td class="sum">507</td></tr></table></div><h3 class="fy-head">📅 ปีงบ 2567 (ต.ค.66–ก.ย.67) · มีข้อมูล 9 เดือน (ก.ค.–ก.ย.67 ว่าง)</h3><div class="tbl-wrap"><table class="ods"><tr><th>กลุ่มโรค</th><th>ต.ค.</th><th>พ.ย.</th><th>ธ.ค.</th><th>ม.ค.</th><th>ก.พ.</th><th>มี.ค.</th><th>เม.ย.</th><th>พ.ค.</th><th>มิ.ย.</th><th class="m-miss">ก.ค.</th><th class="m-miss">ส.ค.</th><th class="m-miss">ก.ย.</th><th>รวม</th></tr><tr><td class="grp">Pterygium Excision with graft</td><td>17</td><td>12</td><td>11</td><td>15</td><td>10</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">65</td></tr><tr><td class="grp">Colonoscopy (กลุ่มความเสี่ยงสูง)</td><td>48</td><td>38</td><td>25</td><td>40</td><td>38</td><td>21</td><td>19</td><td>31</td><td>273</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">533</td></tr><tr><td class="grp">Colorectal polyp</td><td>5</td><td>3</td><td>3</td><td>3</td><td>6</td><td>4</td><td>1</td><td>103</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">128</td></tr><tr><td class="grp">Tongue tie Release</td><td>–</td><td>1</td><td>2</td><td>4</td><td>1</td><td>3</td><td>4</td><td>1</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">16</td></tr><tr><td class="grp">Vaginal bleeding</td><td>8</td><td>6</td><td>9</td><td>12</td><td>9</td><td>7</td><td>3</td><td>4</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">58</td></tr><tr><td class="grp">Esophagogastric varices</td><td>–</td><td>2</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">3</td></tr><tr><td class="grp">Esophageal-Gastric Stricture</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">1</td></tr><tr><td class="grp">Colonoscopy with biopsy (45.25)</td><td>1</td><td>6</td><td>2</td><td>–</td><td>3</td><td>3</td><td>–</td><td>2</td><td>2</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">19</td></tr><tr class="total"><td>รวมทุกกลุ่ม</td><td>80</td><td>68</td><td>53</td><td>74</td><td>67</td><td>38</td><td>27</td><td>141</td><td>275</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">823</td></tr></table></div><h3 class="fy-head">📅 ปีงบ 2568 (ต.ค.67–ก.ย.68) · ครบ 12 เดือน</h3><div class="tbl-wrap"><table class="ods"><tr><th>กลุ่มโรค</th><th>ต.ค.</th><th>พ.ย.</th><th>ธ.ค.</th><th>ม.ค.</th><th>ก.พ.</th><th>มี.ค.</th><th>เม.ย.</th><th>พ.ค.</th><th>มิ.ย.</th><th>ก.ค.</th><th>ส.ค.</th><th>ก.ย.</th><th>รวม</th></tr><tr><td class="grp">Pterygium Excision with graft</td><td>13</td><td>5</td><td>–</td><td>10</td><td>6</td><td>25</td><td>21</td><td>–</td><td>1</td><td>23</td><td>10</td><td>18</td><td class="sum">132</td></tr><tr><td class="grp">Colonoscopy (กลุ่มความเสี่ยงสูง)</td><td>15</td><td>15</td><td>10</td><td>11</td><td>7</td><td>8</td><td>9</td><td>8</td><td>21</td><td>25</td><td>25</td><td>35</td><td class="sum">189</td></tr><tr><td class="grp">Colorectal polyp</td><td>–</td><td>3</td><td>–</td><td>4</td><td>3</td><td>2</td><td>1</td><td>–</td><td>1</td><td>4</td><td>7</td><td>7</td><td class="sum">32</td></tr><tr><td class="grp">Hysteroscopy</td><td>3</td><td>3</td><td>2</td><td>–</td><td>–</td><td>–</td><td>1</td><td>–</td><td>5</td><td>5</td><td>2</td><td>5</td><td class="sum">26</td></tr><tr><td class="grp">Tongue tie Release</td><td>2</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>4</td><td>2</td><td>2</td><td class="sum">10</td></tr><tr><td class="grp">Vaginal bleeding</td><td>–</td><td>–</td><td>–</td><td>3</td><td>2</td><td>4</td><td>–</td><td>4</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="sum">13</td></tr><tr><td class="grp">Esophagogastric varices</td><td>–</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>2</td><td>–</td><td>–</td><td>–</td><td class="sum">3</td></tr><tr><td class="grp">Colonoscopy with biopsy (45.25)</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="sum">1</td></tr><tr><td class="grp">Submucous myoma uteri, polyp of corpus uteri</td><td>1</td><td>–</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="sum">2</td></tr><tr><td class="grp">Common bile duct stone</td><td>1</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td class="sum">1</td></tr><tr><td class="grp">Inguinal hernia, Femoral hernia</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>1</td><td>–</td><td>–</td><td class="sum">1</td></tr><tr class="total"><td>รวมทุกกลุ่ม</td><td>35</td><td>27</td><td>13</td><td>28</td><td>18</td><td>40</td><td>32</td><td>12</td><td>30</td><td>62</td><td>46</td><td>67</td><td class="sum">410</td></tr></table></div><h3 class="fy-head">📅 ปีงบ 2569 (ต.ค.68–ก.ย.69) · มีข้อมูล 9 เดือน (ขาด ก.ค.–ก.ย.69)</h3><div class="tbl-wrap"><table class="ods"><tr><th>กลุ่มโรค</th><th>ต.ค.</th><th>พ.ย.</th><th>ธ.ค.</th><th>ม.ค.</th><th>ก.พ.</th><th>มี.ค.</th><th>เม.ย.</th><th>พ.ค.</th><th>มิ.ย.</th><th class="m-miss">ก.ค.</th><th class="m-miss">ส.ค.</th><th class="m-miss">ก.ย.</th><th>รวม</th></tr><tr><td class="grp">Pterygium Excision with graft</td><td>14</td><td>8</td><td>10</td><td>13</td><td>21</td><td>17</td><td>15</td><td>20</td><td>5</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">123</td></tr><tr><td class="grp">Colonoscopy (กลุ่มความเสี่ยงสูง)</td><td>18</td><td>11</td><td>18</td><td>10</td><td>8</td><td>13</td><td>4</td><td>10</td><td>7</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">99</td></tr><tr><td class="grp">Colorectal polyp</td><td>2</td><td>2</td><td>7</td><td>–</td><td>4</td><td>2</td><td>1</td><td>2</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">20</td></tr><tr><td class="grp">Hysteroscopy</td><td>7</td><td>3</td><td>3</td><td>5</td><td>1</td><td>3</td><td>2</td><td>–</td><td>1</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">25</td></tr><tr><td class="grp">Tongue tie Release</td><td>3</td><td>3</td><td>3</td><td>3</td><td>3</td><td>4</td><td>1</td><td>2</td><td>–</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">22</td></tr><tr class="total"><td>รวมทุกกลุ่ม</td><td>44</td><td>27</td><td>41</td><td>31</td><td>37</td><td>39</td><td>23</td><td>34</td><td>13</td><td class="na">–</td><td class="na">–</td><td class="na">–</td><td class="sum">289</td></tr></table></div>
-  </div>
-  <div class="main-panel main-panel-hidden" id="panel-yearly">
-    <div class="tbl-wrap"><table class="ods"><tr><th>กลุ่มโรค</th><th>ปีงบ 2566</th><th>ปีงบ 2567</th><th>ปีงบ 2568</th><th>ปีงบ 2569*</th><th>รวม</th></tr><tr><td class="grp">Pterygium Excision with graft</td><td>184</td><td>65</td><td>132</td><td>123</td><td class="sum">504</td></tr><tr><td class="grp">Colonoscopy (กลุ่มความเสี่ยงสูง)</td><td>176</td><td>533</td><td>189</td><td>99</td><td class="sum">997</td></tr><tr><td class="grp">Colorectal polyp</td><td>21</td><td>128</td><td>32</td><td>20</td><td class="sum">201</td></tr><tr><td class="grp">Hysteroscopy</td><td>–</td><td>–</td><td>26</td><td>25</td><td class="sum">51</td></tr><tr><td class="grp">Tongue tie Release</td><td>21</td><td>16</td><td>10</td><td>22</td><td class="sum">69</td></tr><tr><td class="grp">Vaginal bleeding</td><td>102</td><td>58</td><td>13</td><td>–</td><td class="sum">173</td></tr><tr><td class="grp">Esophagogastric varices</td><td>3</td><td>3</td><td>3</td><td>–</td><td class="sum">9</td></tr><tr><td class="grp">Esophageal-Gastric Stricture</td><td>–</td><td>1</td><td>–</td><td>–</td><td class="sum">1</td></tr><tr><td class="grp">Colonoscopy with biopsy (45.25)</td><td>–</td><td>19</td><td>1</td><td>–</td><td class="sum">20</td></tr><tr><td class="grp">Submucous myoma uteri, polyp of corpus uteri</td><td>–</td><td>–</td><td>2</td><td>–</td><td class="sum">2</td></tr><tr><td class="grp">Common bile duct stone</td><td>–</td><td>–</td><td>1</td><td>–</td><td class="sum">1</td></tr><tr><td class="grp">Inguinal hernia, Femoral hernia</td><td>–</td><td>–</td><td>1</td><td>–</td><td class="sum">1</td></tr><tr class="total"><td class="grp">รวมทุกกลุ่ม</td><td>507</td><td>823</td><td>410</td><td>289</td><td class="sum">2029</td></tr></table></div><p class="star">* ปีงบ 2569 มีข้อมูล 9 เดือน (ต.ค.68–มิ.ย.69) — ยังขาด ก.ค.–ก.ย.69</p>
+  <div class="hero">
+    <h1>ODS Wanoniwat</h1>
+    <p>ภาพรวม ODS ในที่เดียว · จำนวนเคสตามกลุ่มโรค ODS · ปีงบประมาณ 2566–2569 (ต.ค.–ก.ย.)</p>
   </div>
 
-  <div class="notes">
-    <h2>⚠️ หมายเหตุก่อนใช้ตัวเลข</h2>
-    <ul>
-      <li>เดือนคิดตาม<b>วันที่ผ่าตัด</b> · เฉพาะกลุ่ม ODS ตัดกลุ่ม MIS ออกแล้ว</li>
-      <li>ปีงบ 2569 มีข้อมูลถึง มิ.ย.69 (ยอด 289 ยังไม่ใช่ยอดเต็มปี) · ปีงบ 2567 มีข้อมูลถึง มิ.ย.67</li>
-      <li><span class="alert">ปีงบ 2567 ไม่ตรงกัน:</span> ชีตต้นทาง 823 / ตารางที่ 61 ในรายงานราชการ 818
-        (ต่าง 5 เคสที่ Colorectal polyp: 128 กับ 123) — ต้องยืนยันก่อนใช้</li>
-      <li>ไส้เลื่อนขาหนีบ 2 เคส (K40.9 + หัตถการ 53.02/53.03) ยังไม่ได้นับ — ถ้านับ ปีงบ 2569 = 291</li>
-      <li>ตัวเลขนี้คือ “เคสตามกลุ่มโรค” ไม่ใช่ “ยอดเบิกได้” (ประกาศมีเงื่อนไข นอน ≤ 2 วัน / ไม่มีภาวะแทรกซ้อน)</li>
-    </ul>
+  <div class="statrow slide-l"><div class="statbox pop-in" style="animation-delay:0ms"><div class="stat-n">507</div><div class="stat-l">ปีงบ 2566</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:80ms"><div class="stat-n">823</div><div class="stat-l">ปีงบ 2567</div><div class="stat-s">มีข้อมูล 9 เดือน</div></div><div class="statbox pop-in" style="animation-delay:160ms"><div class="stat-n">410</div><div class="stat-l">ปีงบ 2568</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:240ms"><div class="stat-n">289</div><div class="stat-l">ปีงบ 2569</div><div class="stat-s">มีข้อมูล 9 เดือน*</div></div><div class="statbox pop-in" style="animation-delay:320ms"><div class="stat-n">2,029</div><div class="stat-l">รวม 4 ปีงบ</div><div class="stat-s">ต.ค.65–มิ.ย.69</div></div></div>
+
+  <div class="cta">
+    <a class="btn btn-dark" href="tables.html#monthly">📅 ดูตารางรายเดือน</a>
+    <a class="btn btn-line" href="tables.html#yearly" id="goYearly">📊 ดูตารางรายปีงบ</a>
   </div>
 
-  <footer class="page-footer">
-    ที่มา: ไฟล์ชุด ODS (ต.ค.65–มิ.ย.69) · อัปเดต 01/10/2026 · ไม่มีข้อมูลผู้ป่วยรายบุคคล
-  </footer>
+  <section class="block spin-pin-wrap" id="spinWrap">
+    <div class="spin-sticky">
+    <div class="spin-head">
+    <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
+    <p class="sub">เลื่อนลงเพื่อหมุนให้ครบรอบ · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
+    <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
+    </div>
+    <div class="spin-stage" id="spinStage">
+      <div class="spin-ring" id="spinRing"></div>
+    </div>
+    <div class="spin-ctl">
+      <button type="button" class="sbtn" id="spinPrev">‹</button>
+      <div class="dots" id="spinDots"></div>
+      <button type="button" class="sbtn" id="spinNext">›</button>
+    </div>
+    </div>
+  </section>
+
+  <section class="block slide-r">
+    <h2>5 กลุ่มโรค ปีงบ 2569</h2>
+    <p class="sub">ต.ค.68–มิ.ย.69 (9 เดือน) · รวม 289 เคส</p>
+    <div class="ggrid"><div class="gcard pop-in" style="animation-delay:0ms"><span class="dot" style="background:#2563eb"></span><div class="gname">Pterygium Excision with graft</div><div class="grow"><div class="gnum">123</div><div class="gpct">43%</div></div><div class="bar"><div class="fill" style="width:43%;background:#2563eb"></div></div></div><div class="gcard pop-in" style="animation-delay:90ms"><span class="dot" style="background:#0d9488"></span><div class="gname">Colonoscopy (กลุ่มความเสี่ยงสูง)</div><div class="grow"><div class="gnum">99</div><div class="gpct">34%</div></div><div class="bar"><div class="fill" style="width:34%;background:#0d9488"></div></div></div><div class="gcard pop-in" style="animation-delay:180ms"><span class="dot" style="background:#d97706"></span><div class="gname">Hysteroscopy</div><div class="grow"><div class="gnum">25</div><div class="gpct">9%</div></div><div class="bar"><div class="fill" style="width:9%;background:#d97706"></div></div></div><div class="gcard pop-in" style="animation-delay:270ms"><span class="dot" style="background:#7c3aed"></span><div class="gname">Tongue tie Release</div><div class="grow"><div class="gnum">22</div><div class="gpct">8%</div></div><div class="bar"><div class="fill" style="width:8%;background:#7c3aed"></div></div></div><div class="gcard pop-in" style="animation-delay:360ms"><span class="dot" style="background:#db2777"></span><div class="gname">Colorectal polyp</div><div class="grow"><div class="gnum">20</div><div class="gpct">7%</div></div><div class="bar"><div class="fill" style="width:7%;background:#db2777"></div></div></div></div>
+  </section>
+
+  <section class="block slide-l">
+    <h2>แนวโน้มรายปี</h2>
+    <p class="sub">ยอดรวมทุกกลุ่มต่อปีงบประมาณ</p>
+    <div class="ytrend pop-in"><div class="ycol"><div class="ybar" style="height:92px" title="507"></div><div class="yval">507</div><div class="ylab">ปีงบ 2566</div></div><div class="ycol"><div class="ybar" style="height:150px" title="823"></div><div class="yval">823</div><div class="ylab">ปีงบ 2567</div></div><div class="ycol"><div class="ybar" style="height:75px" title="410"></div><div class="yval">410</div><div class="ylab">ปีงบ 2568</div></div><div class="ycol"><div class="ybar" style="height:53px" title="289"></div><div class="yval">289</div><div class="ylab">ปีงบ 2569</div></div></div>
+  </section>
+
+  <section class="block slide-r">
+    <h2>รายเดือนตามปีงบ</h2>
+    <p class="sub">เลือกปีงบเพื่อดูยอดรายเดือน (ช่องจาง = เดือนที่ยังไม่มีข้อมูล)</p>
+    <div class="chips"><button type="button" class="chip" data-fy="2566">ปีงบ 2566</button><button type="button" class="chip" data-fy="2567">ปีงบ 2567</button><button type="button" class="chip" data-fy="2568">ปีงบ 2568</button><button type="button" class="chip active" data-fy="2569">ปีงบ 2569</button></div>
+    <div class="mchart pop-in">
+      <div class="mbars" id="mbars"></div>
+      <div class="mtotal" id="mtotal"></div>
+    </div>
+  </section>
+
+  <div class="alert slide-l">
+    ⚠️ <b class="red">ปีงบ 2567 ไม่ตรงกัน:</b> ชีตต้นทาง 823 / ตารางที่ 61 ในรายงาน 818
+    (ต่าง 5 เคสที่ Colorectal polyp) — ต้องยืนยันก่อนใช้ · ปีงบ 2569 ยังไม่ครบปี (ขาด ก.ค.–ก.ย.69)
+  </div>
+
+  <footer>ที่มา: ไฟล์ชุด ODS (ต.ค.65–มิ.ย.69) · อัปเดต 01/10/2026 · ไม่มีข้อมูลผู้ป่วยรายบุคคล</footer>
 </div>
 <script>
+var DATA = {"months": ["ต.ค.", "พ.ย.", "ธ.ค.", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย."], "monthly": {"2566": {"Pterygium Excision with graft": [12, 11, 6, 7, 18, 11, 55, 4, 13, 11, 20, 16], "Colonoscopy (กลุ่มความเสี่ยงสูง)": [0, 0, 0, 0, 0, 0, 35, 0, 56, 4, 30, 51], "Colorectal polyp": [0, 1, 1, 0, 0, 1, 0, 0, 0, 3, 11, 4], "Tongue tie Release": [0, 2, 2, 5, 0, 0, 0, 2, 3, 1, 6, 0], "Vaginal bleeding": [10, 13, 6, 8, 2, 5, 6, 5, 4, 7, 19, 17], "Esophagogastric varices": [0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1]}, "2567": {"Pterygium Excision with graft": [17, 12, 11, 15, 10, 0, 0, 0, 0, 0, 0, 0], "Colonoscopy (กลุ่มความเสี่ยงสูง)": [48, 38, 25, 40, 38, 21, 19, 31, 273, 0, 0, 0], "Colorectal polyp": [5, 3, 3, 3, 6, 4, 1, 103, 0, 0, 0, 0], "Tongue tie Release": [0, 1, 2, 4, 1, 3, 4, 1, 0, 0, 0, 0], "Vaginal bleeding": [8, 6, 9, 12, 9, 7, 3, 4, 0, 0, 0, 0], "Esophagogastric varices": [0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], "Esophageal-Gastric Stricture": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "Colonoscopy with biopsy (45.25)": [1, 6, 2, 0, 3, 3, 0, 2, 2, 0, 0, 0]}, "2568": {"Pterygium Excision with graft": [13, 5, 0, 10, 6, 25, 21, 0, 1, 23, 10, 18], "Colonoscopy (กลุ่มความเสี่ยงสูง)": [15, 15, 10, 11, 7, 8, 9, 8, 21, 25, 25, 35], "Colorectal polyp": [0, 3, 0, 4, 3, 2, 1, 0, 1, 4, 7, 7], "Hysteroscopy": [3, 3, 2, 0, 0, 0, 1, 0, 5, 5, 2, 5], "Tongue tie Release": [2, 0, 0, 0, 0, 0, 0, 0, 0, 4, 2, 2], "Vaginal bleeding": [0, 0, 0, 3, 2, 4, 0, 4, 0, 0, 0, 0], "Esophagogastric varices": [0, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0], "Colonoscopy with biopsy (45.25)": [0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0], "Submucous myoma uteri, polyp of corpus uteri": [1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0], "Common bile duct stone": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "Inguinal hernia, Femoral hernia": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0]}, "2569": {"Pterygium Excision with graft": [14, 8, 10, 13, 21, 17, 15, 20, 5, 0, 0, 0], "Colonoscopy (กลุ่มความเสี่ยงสูง)": [18, 11, 18, 10, 8, 13, 4, 10, 7, 0, 0, 0], "Colorectal polyp": [2, 2, 7, 0, 4, 2, 1, 2, 0, 0, 0, 0], "Hysteroscopy": [7, 3, 3, 5, 1, 3, 2, 0, 1, 0, 0, 0], "Tongue tie Release": [3, 3, 3, 3, 3, 4, 1, 2, 0, 0, 0, 0]}}, "totals": {"2566": {"Pterygium Excision with graft": 184, "Colonoscopy (กลุ่มความเสี่ยงสูง)": 176, "Colorectal polyp": 21, "Tongue tie Release": 21, "Vaginal bleeding": 102, "Esophagogastric varices": 3}, "2567": {"Pterygium Excision with graft": 65, "Colonoscopy (กลุ่มความเสี่ยงสูง)": 533, "Colorectal polyp": 128, "Tongue tie Release": 16, "Vaginal bleeding": 58, "Esophagogastric varices": 3, "Esophageal-Gastric Stricture": 1, "Colonoscopy with biopsy (45.25)": 19}, "2568": {"Pterygium Excision with graft": 132, "Colonoscopy (กลุ่มความเสี่ยงสูง)": 189, "Colorectal polyp": 32, "Hysteroscopy": 26, "Tongue tie Release": 10, "Vaginal bleeding": 13, "Esophagogastric varices": 3, "Colonoscopy with biopsy (45.25)": 1, "Submucous myoma uteri, polyp of corpus uteri": 2, "Common bile duct stone": 1, "Inguinal hernia, Femoral hernia": 1}, "2569": {"Pterygium Excision with graft": 123, "Colonoscopy (กลุ่มความเสี่ยงสูง)": 99, "Colorectal polyp": 20, "Hysteroscopy": 25, "Tongue tie Release": 22}}};
+var chips = Array.prototype.slice.call(document.querySelectorAll('.chip'));
+function render(fy) {
+  var vals = DATA.monthly[fy];
+  var names = Object.keys(vals);
+  var tot = DATA.totals[fy];
+  var sum = names.reduce(function (a, g) { return a + tot[g]; }, 0);
+  var max = Math.max.apply(null, DATA.months.map(function (_, i) {
+    return names.reduce(function (a, g) { return a + vals[g][i]; }, 0);
+  }).concat([1]));
+  var box = document.getElementById('mbars');
+  box.innerHTML = '';
+  DATA.months.forEach(function (m, i) {
+    var v = names.reduce(function (a, g) { return a + vals[g][i]; }, 0);
+    var na = (v === 0);
+    var col = document.createElement('div');
+    col.className = 'mcol';
+    col.innerHTML = '<div class="mbar' + (na ? ' na' : '') + '" style="height:' +
+      Math.max(4, Math.round(150 * v / max)) + 'px" title="' + m + ' ' + v + '"></div>' +
+      '<div class="mval">' + (na ? '' : v) + '</div><div class="mlab">' + m + '</div>';
+    box.appendChild(col);
+  });
+  document.getElementById('mtotal').textContent = 'รวม ปีงบ ' + fy + ': ' + sum + ' เคส';
+  chips.forEach(function (c) { c.classList.toggle('active', c.getAttribute('data-fy') === fy); });
+}
+chips.forEach(function (c) { c.addEventListener('click', function () { render(c.getAttribute('data-fy')); }); });
+render('2569');
+document.getElementById('goYearly').addEventListener('click', function () { window.location.href = 'tables.html#yearly'; });
+
+/* ===== วงล้อหมุน 3D: 5 กลุ่มโรคปี 69 ===== */
 (function () {
-  var tabs = Array.prototype.slice.call(document.querySelectorAll('.main-tab'));
-  function show(name) {
-    tabs.forEach(function (b) { b.classList.toggle('active', b.getAttribute('data-main') === name); });
-    document.getElementById('panel-monthly').classList.toggle('main-panel-hidden', name !== 'monthly');
-    document.getElementById('panel-yearly').classList.toggle('main-panel-hidden', name !== 'yearly');
+  var groups = [{"name": "Pterygium Excision with graft", "n": 123}, {"name": "Colonoscopy (กลุ่มความเสี่ยงสูง)", "n": 99}, {"name": "Hysteroscopy", "n": 25}, {"name": "Tongue tie Release", "n": 22}, {"name": "Colorectal polyp", "n": 20}];
+  var acc = ["#2563eb", "#0d9488", "#d97706", "#7c3aed", "#db2777", "#059669"];
+  var N = groups.length, STEP = 360 / N;
+  var ring = document.getElementById('spinRing');
+  var dotsBox = document.getElementById('spinDots');
+  var total69 = groups.reduce(function (a, g) { return a + g.n; }, 0);
+  groups.forEach(function (g, i) {
+    var el = document.createElement('div');
+    el.className = 'scard';
+    el.style.setProperty('--a', (i * STEP) + 'deg');
+    var pct = Math.round(100 * g.n / total69);
+    el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
+      '<div class="gname">' + g.name + '</div>' +
+      '<div class="grow"><div class="gnum">' + g.n + '</div><div class="gpct">' + pct + '%</div></div>' +
+      '<div class="bar"><div class="fill" style="width:' + pct + '%;background:' + acc[i % acc.length] + '"></div></div>';
+    ring.appendChild(el);
+    var d = document.createElement('button');
+    d.type = 'button'; d.className = 'dot2'; d.setAttribute('aria-label', g.name);
+    d.addEventListener('click', function () { go(i); });
+    dotsBox.appendChild(d);
+  });
+  var dots = Array.prototype.slice.call(dotsBox.children);
+  var ang = 0, scrollAng = 0, manual = 0, dragging = false, lastX = 0;
+  var wrap = document.getElementById('spinWrap');
+  var prog = document.getElementById('spinProg');
+  function target() { return scrollAng + manual; }
+  function front() { return ((Math.round(-target() / STEP) % N) + N) % N; }
+  /* วงล้อแนวราบ: การ์ดอยู่ระดับเดียวกัน ตำแหน่งตาม CSS */
+  function paint() {
+    ring.style.transform = 'rotateY(' + ang + 'deg)';
+    var f = front();
+    dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
-  tabs.forEach(function (b) { b.addEventListener('click', function () { show(b.getAttribute('data-main')); }); });
+  /* ล็อก scroll หมุนให้ครบก่อนค่อยปล่อย (กันติด: ล็อกเฉพาะขาลง ขาขึ้นผ่านฟรีเสมอ) */
+  var P = 0, locked = false, RANGE = 1400;
+  function applyLock() {
+    scrollAng = -P * 360;
+    prog.style.width = Math.round(P * 100) + '%';
+  }
+  function onScroll() {
+    /* ผ่านไปไกลแล้วรีเซ็ต P ไว้รอรอบถัดไป (มุม -360 เท่ากับ 0 มองไม่เห็นรอยต่อ) */
+    var r = wrap.getBoundingClientRect();
+    if (r.top < -window.innerHeight && (P !== 0 || locked)) {
+      P = 0; locked = false; applyLock();
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  /* ดักตั้งแต่การ์ดโผล่เต็มจอ (ไม่ snap — iOS กลาง gesture ไม่ยอมให้ขยับจอ) */
+  function inZone() {
+    var r = wrap.getBoundingClientRect();
+    var vh = window.innerHeight;
+    return (r.bottom <= vh || r.top <= 0) && r.top > -300 && r.bottom > vh * 0.3;
+  }
+  function handleDelta(dy, e) {
+    if (dy <= 0 || P >= 1 || !inZone()) return false;
+    if (e && e.cancelable !== false) e.preventDefault();
+    locked = true;
+    P = Math.min(1, P + Math.abs(dy) / RANGE);
+    applyLock();
+    if (P >= 1) locked = false;
+    return true;
+  }
+  window.addEventListener('wheel', function (e) {
+    if (e.ctrlKey) return;
+    handleDelta(e.deltaY, e);
+  }, { passive: false });
+  var lastTY = null;
+  window.addEventListener('touchmove', function (e) {
+    if (e.touches.length !== 1) return;
+    var y = e.touches[0].clientY;
+    if (lastTY === null) {
+      lastTY = y;
+      /* แตะแรกดักไว้ก่อน ไม่งั้น iOS ล็อก native scroll แล้วห้ามไม่ทัน */
+      if (P < 1 && inZone() && e.cancelable !== false) e.preventDefault();
+      return;
+    }
+    var dy = lastTY - y; lastTY = y;
+    handleDelta(dy, e);
+  }, { passive: false });
+  window.addEventListener('touchend', function () { lastTY = null; });
+  window.addEventListener('touchcancel', function () { lastTY = null; });
+  function go(i) { manual = -i * STEP - scrollAng; }
+  document.getElementById('spinPrev').addEventListener('click', function () { manual += STEP; });
+  document.getElementById('spinNext').addEventListener('click', function () { manual -= STEP; });
+  var stage = document.getElementById('spinStage');
+  stage.addEventListener('pointerdown', function (e) { dragging = true; lastX = e.clientX;
+    stage.setPointerCapture(e.pointerId); });
+  stage.addEventListener('pointermove', function (e) {
+    if (!dragging) return;
+    var dx = e.clientX - lastX; lastX = e.clientX;
+    manual += dx * 0.35;
+  });
+  ['pointerup', 'pointercancel', 'pointerleave'].forEach(function (ev) {
+    stage.addEventListener(ev, function () { dragging = false;
+      manual = Math.round(manual / STEP) * STEP; });
+  });
+  (function tick() {
+    var t = target();
+    ang += (t - ang) * 0.12;
+    if (Math.abs(t - ang) < 0.02) ang = t;
+    paint();
+    requestAnimationFrame(tick);
+  })();
+  onScroll();
+  paint();
+})();
+
+/* ===== popup เด้ง + สไลด์บล็อก: เช็คตำแหน่งเองทุกเฟรม (ไม่พึ่ง IO) เล่นซ้ำทุกครั้งที่เลื่อนผ่าน ===== */
+(function () {
+  var items = [];
+  Array.prototype.forEach.call(document.querySelectorAll('.pop-in'), function (e) {
+    items.push({ el: e, cls: 'pop' });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.slide-l,.slide-r'), function (e) {
+    items.push({ el: e, cls: 'in' });
+  });
+  function vis() {
+    var vh = window.innerHeight;
+    for (var i = 0; i < items.length; i++) {
+      var r = items[i].el.getBoundingClientRect();
+      if (r.top < vh * 0.8 && r.bottom > vh * 0.2) items[i].el.classList.add(items[i].cls);
+      else if (r.bottom < 0 || r.top > vh) items[i].el.classList.remove(items[i].cls);
+    }
+    requestAnimationFrame(vis);
+  }
+  if (!('requestAnimationFrame' in window)) {
+    items.forEach(function (it) { it.el.classList.add(it.cls); });
+    return;
+  }
+  vis();
 })();
 </script>
 </body>

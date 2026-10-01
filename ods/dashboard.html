@@ -149,7 +149,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 <noscript><style>.pop-in,.slide-l,.slide-r{opacity:1 !important;transform:none !important}</style></noscript>
   <div class="topnav">
     <div class="brand">🏥 ODS วานรนิวาส<small>One Day Surgery · สรุปข้อมูล</small></div>
-    <a class="back" href="./">← ตารางรายเดือน</a>
+    <a class="back" href="tables.html">← ตาราง ODS</a>
   </div>
 
   <div class="hero">
@@ -160,8 +160,8 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   <div class="statrow slide-l"><div class="statbox pop-in" style="animation-delay:0ms"><div class="stat-n">507</div><div class="stat-l">ปีงบ 2566</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:80ms"><div class="stat-n">823</div><div class="stat-l">ปีงบ 2567</div><div class="stat-s">มีข้อมูล 9 เดือน</div></div><div class="statbox pop-in" style="animation-delay:160ms"><div class="stat-n">410</div><div class="stat-l">ปีงบ 2568</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:240ms"><div class="stat-n">289</div><div class="stat-l">ปีงบ 2569</div><div class="stat-s">มีข้อมูล 9 เดือน*</div></div><div class="statbox pop-in" style="animation-delay:320ms"><div class="stat-n">2,029</div><div class="stat-l">รวม 4 ปีงบ</div><div class="stat-s">ต.ค.65–มิ.ย.69</div></div></div>
 
   <div class="cta">
-    <a class="btn btn-dark" href="./">📅 ดูตารางรายเดือน</a>
-    <a class="btn btn-line" href="./#panel-yearly" onclick="return false" id="goYearly">📊 ดูตารางรายปีงบ</a>
+    <a class="btn btn-dark" href="tables.html#monthly">📅 ดูตารางรายเดือน</a>
+    <a class="btn btn-line" href="tables.html#yearly" id="goYearly">📊 ดูตารางรายปีงบ</a>
   </div>
 
   <section class="block spin-pin-wrap" id="spinWrap">
@@ -239,7 +239,7 @@ function render(fy) {
 }
 chips.forEach(function (c) { c.addEventListener('click', function () { render(c.getAttribute('data-fy')); }); });
 render('2569');
-document.getElementById('goYearly').addEventListener('click', function () { window.location.href = './'; });
+document.getElementById('goYearly').addEventListener('click', function () { window.location.href = 'tables.html#yearly'; });
 
 /* ===== วงล้อหมุน 3D: 5 กลุ่มโรคปี 69 ===== */
 (function () {
