@@ -157,7 +157,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   <section class="block spin-pin-wrap" id="spinWrap">
     <div class="spin-sticky">
     <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
-    <p class="sub">เลื่อนลงเพื่อหมุนให้ครบรอบ · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
+    <p class="sub">เลื่อนลงเพื่อไต่เกลียวขึ้นทีละขั้น · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
     <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
@@ -253,13 +253,24 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     dotsBox.appendChild(d);
   });
   var dots = Array.prototype.slice.call(dotsBox.children);
+  var cardEls = [];
+  ring.querySelectorAll('.scard').forEach(function (el, i) { cardEls.push({ el: el, a: i * STEP }); });
   var ang = 0, scrollAng = 0, manual = 0, dragging = false, lastX = 0;
   var wrap = document.getElementById('spinWrap');
   var prog = document.getElementById('spinProg');
   function target() { return scrollAng + manual; }
   function front() { return ((Math.round(-target() / STEP) % N) + N) % N; }
+  /* เกลียวขั้นบันได: ความสูงการ์ดขึ้นกับมุมปัจจุบันในรอบ (ไต่ขึ้นขณะหมุน) */
+  function radius() { var w = window.innerWidth; return w <= 620 ? 170 : (w <= 1024 ? 200 : 250); }
+  function spread() { var w = window.innerWidth; return w <= 620 ? 70 : (w <= 1024 ? 90 : 120); }
   function paint() {
     ring.style.transform = 'rotateY(' + ang + 'deg)';
+    var R = radius(), S = spread();
+    cardEls.forEach(function (c) {
+      var w = (((c.a + ang) % 360) + 360) % 360;
+      var dy = -(w / 360) * S;
+      c.el.style.transform = 'rotateY(' + c.a + 'deg) translateZ(' + R + 'px) translateY(' + dy.toFixed(1) + 'px)';
+    });
     var f = front();
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
