@@ -576,6 +576,9 @@ def render_cases_table(cases: list) -> str:
         pair_html = "".join(
             f'<div class="pair-line">HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
             for p in (case.get("pair", []) or []))
+        times = case.get("times", []) or []
+        time_html = (f'<div class="pair-line">เข้า {esc(times[0])} เริ่ม {esc(times[1])} เสร็จ {esc(times[2])} ออก {esc(times[3])}</div>'
+                     if len(times) == 4 else "")
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
         circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
@@ -593,7 +596,7 @@ def render_cases_table(cases: list) -> str:
         <td data-label="แผนก">{esc(case.get("dept", ""))}</td>
         <td data-label="การผ่าตัด">{esc(case.get("op", ""))}</td>
         <td data-label="Circulating" class="circ-cell">{circ_html}</td>
-        <td data-label="ข้อมูลที่ขาด">{missing_html}{pair_html}</td>
+        <td data-label="ข้อมูลที่ขาด">{missing_html}{pair_html}{time_html}</td>
         <td data-label="รอแก้ไข">{days_html}</td>
       </tr>'''
         )
