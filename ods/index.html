@@ -80,6 +80,12 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .spin-prog-fill { height: 100%; width: 0%; background: #14b8a6; border-radius: 999px; }
 .spin-stage { perspective: 1200px; height: 360px; position: relative; overflow: hidden;
   --rz: 280px; touch-action: pan-y; cursor: grab; }
+/* ===== ไอคอนพื้นหลังจาง ๆ กลางวงหมุน ===== */
+.spin-stage::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto;
+  width: min(420px, 92%); aspect-ratio: 1; pointer-events: none; opacity: .07;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath d='M100 8v184M8 100h184' stroke='%2314b8a6' stroke-width='12' stroke-linecap='round' fill='none'/%3E%3C/svg%3E") center/contain no-repeat;
+}
 .spin-stage:active { cursor: grabbing; }
 @media (max-width: 620px) { .spin-stage { --rz: 170px; height: 250px; } }
 @media (min-width: 621px) and (max-width: 1024px) {
