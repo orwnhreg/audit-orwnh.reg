@@ -77,6 +77,14 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   .pop-in.pop { animation: none; }
 }
 @media (max-width: 620px) { .hero h1 { font-size: 1.6rem; } }
+/* ===== แท็บ 2 หมวดใหญ่ ODS / MIS-LC ===== */
+.catabs { display: flex; gap: 8px; }
+.catab {
+  border: 1px solid #dfe3ea; background: #fff; border-radius: 999px; padding: 8px 20px;
+  font-weight: 700; font-size: .88rem; text-decoration: none; color: #1f2530; white-space: nowrap;
+}
+.catab.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+@media (max-width: 620px) { .catab { padding: 7px 14px; font-size: .8rem; } }
 </style>
 </head>
 <body>
@@ -84,7 +92,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 <noscript><style>.pop-in,.slide-l,.slide-r{opacity:1 !important;transform:none !important}</style></noscript>
   <div class="topnav">
     <div class="brand">🏥 ODS MIS WNH<small>One Day Surgery + MIS · รพ.วานรนิวาส</small></div>
-    <div><a class="back" href="tables.html" style="margin-right:8px">ตาราง ODS →</a><a class="back" href="./">← ภาพรวม ODS</a></div>
+    <div class="catabs"><a class="catab" href="./">ODS</a><span class="catab active">MIS-LC</span></div>
   </div>
 
   <div class="hero">
