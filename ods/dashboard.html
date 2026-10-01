@@ -69,7 +69,8 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .mval { font-size: .78rem; font-weight: 700; margin-top: 4px; min-height: 1.2em; }
 .mlab { font-size: .72rem; color: #6b7280; }
 .mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
-.spin-pin-wrap { height: 320vh; position: relative; margin-top: 24px; }
+.spin-pin-wrap { height: 280vh; position: relative; margin-top: 24px; }
+.spin-pin-wrap + section.block { margin-top: 10px; }
 .spin-sticky { position: sticky; top: 0; min-height: 100vh; min-height: 100svh; display: flex;
   flex-direction: column; justify-content: center; background: #fff; z-index: 5; }
 .spin-sticky h2 { font-size: 1.3rem; margin: 0; text-align: center; }
@@ -82,7 +83,8 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .spin-stage:active { cursor: grabbing; }
 @media (max-width: 620px) { .spin-stage { --rz: 170px; height: 210px; } }
 @media (min-width: 621px) and (max-width: 1024px) {
-  .spin-pin-wrap { height: 230vh; margin-top: 20px; }
+  .spin-pin-wrap { height: 160vh; margin-top: 16px; }
+  .spin-pin-wrap + section.block { margin-top: 6px; }
   section.block { margin-top: 24px; }
   .hero { padding: 22px 0 4px; }
   .hero h1 { font-size: 1.7rem; }
@@ -91,7 +93,7 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   .stat-n { font-size: 1.5rem; }
   .cta { margin: 14px 0 4px; }
   .btn { padding: 10px 22px; font-size: .88rem; }
-  .spin-stage { --rz: 200px; height: 220px; }
+  .spin-stage { --rz: 200px; height: 200px; }
   .scard { left: -115px; top: -90px; width: 230px; min-height: 180px; padding: 14px 16px; }
   .gnum { font-size: 1.4rem; }
 }
@@ -115,6 +117,14 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .dot2 { width: 10px; height: 10px; border-radius: 50%; background: #e2e5eb; border: none;
   padding: 0; cursor: pointer; }
 .dot2.active { background: #1a1a2e; transform: scale(1.25); }
+/* ===== popup เด้งดึ๋งเมื่อเลื่อนมาถึง ===== */
+.pop-in { opacity: 0; }
+.pop-in.pop { opacity: 1; animation: pop-in .7s cubic-bezier(.34,1.56,.64,1) both; }
+@keyframes pop-in {
+  0% { opacity: 0; transform: translateY(48px) scale(.92); }
+  60% { opacity: 1; transform: translateY(-8px) scale(1.02); }
+  100% { opacity: 1; transform: none; }
+}
 .alert {
   margin-top: 36px; background: #fffbef; border: 1px solid #f3e3bb; border-radius: 20px;
   padding: 16px 20px; font-size: .88rem;
@@ -126,6 +136,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 </head>
 <body>
 <div class="wrap">
+<noscript><style>.pop-in{opacity:1 !important}</style></noscript>
   <div class="topnav">
     <div class="brand">🏥 ODS วานรนิวาส<small>One Day Surgery · สรุปข้อมูล</small></div>
     <a class="back" href="./">← ตารางรายเดือน</a>
@@ -168,14 +179,14 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   <section class="block">
     <h2>แนวโน้มรายปี</h2>
     <p class="sub">ยอดรวมทุกกลุ่มต่อปีงบประมาณ</p>
-    <div class="ytrend"><div class="ycol"><div class="ybar" style="height:92px" title="507"></div><div class="yval">507</div><div class="ylab">ปีงบ 2566</div></div><div class="ycol"><div class="ybar" style="height:150px" title="823"></div><div class="yval">823</div><div class="ylab">ปีงบ 2567</div></div><div class="ycol"><div class="ybar" style="height:75px" title="410"></div><div class="yval">410</div><div class="ylab">ปีงบ 2568</div></div><div class="ycol"><div class="ybar" style="height:53px" title="289"></div><div class="yval">289</div><div class="ylab">ปีงบ 2569</div></div></div>
+    <div class="ytrend pop-in"><div class="ycol"><div class="ybar" style="height:92px" title="507"></div><div class="yval">507</div><div class="ylab">ปีงบ 2566</div></div><div class="ycol"><div class="ybar" style="height:150px" title="823"></div><div class="yval">823</div><div class="ylab">ปีงบ 2567</div></div><div class="ycol"><div class="ybar" style="height:75px" title="410"></div><div class="yval">410</div><div class="ylab">ปีงบ 2568</div></div><div class="ycol"><div class="ybar" style="height:53px" title="289"></div><div class="yval">289</div><div class="ylab">ปีงบ 2569</div></div></div>
   </section>
 
   <section class="block">
     <h2>รายเดือนตามปีงบ</h2>
     <p class="sub">เลือกปีงบเพื่อดูยอดรายเดือน (ช่องจาง = เดือนที่ยังไม่มีข้อมูล)</p>
     <div class="chips"><button type="button" class="chip" data-fy="2566">ปีงบ 2566</button><button type="button" class="chip" data-fy="2567">ปีงบ 2567</button><button type="button" class="chip" data-fy="2568">ปีงบ 2568</button><button type="button" class="chip active" data-fy="2569">ปีงบ 2569</button></div>
-    <div class="mchart">
+    <div class="mchart pop-in">
       <div class="mbars" id="mbars"></div>
       <div class="mtotal" id="mtotal"></div>
     </div>
@@ -286,6 +297,21 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   })();
   onScroll();
   paint();
+})();
+
+/* ===== popup เด้งเมื่อเลื่อนมาถึงกราฟ ===== */
+(function () {
+  var els = Array.prototype.slice.call(document.querySelectorAll('.pop-in'));
+  if (!('IntersectionObserver' in window)) {
+    els.forEach(function (e) { e.classList.add('pop'); });
+    return;
+  }
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('pop'); io.unobserve(en.target); }
+    });
+  }, { threshold: 0.25 });
+  els.forEach(function (e) { io.observe(e); });
 })();
 </script>
 </body>
