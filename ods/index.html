@@ -110,7 +110,12 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   background: #fff; border: 1px solid #eef0f4; border-radius: 20px;
   box-shadow: 0 8px 26px rgba(20, 25, 40, .12); padding: 18px 20px;
   transform: rotateY(var(--a)) translateZ(var(--rz));
-  backface-visibility: hidden; user-select: none;
+  backface-visibility: hidden; user-select: none; overflow: hidden;
+}
+/* ===== ไอคอนประจำโรคจาง ๆ หลังการ์ดแต่ละใบ ===== */
+.scard::after {
+  content: attr(data-ico); position: absolute; right: -12px; bottom: -24px;
+  font-size: 110px; line-height: 1; opacity: .1; pointer-events: none;
 }
 @media (max-width: 620px) { .scard { left: -105px; top: -85px; width: 210px; min-height: 170px; } }
 .spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 2px; }
@@ -267,6 +272,16 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     var el = document.createElement('div');
     el.className = 'scard';
     el.style.setProperty('--a', (i * STEP) + 'deg');
+    /* ไอคอนประจำโรค (watermark จาง ๆ) */
+    var nm = g.name.toLowerCase();
+    var ico = '➕';
+    if (nm.indexOf('pterygium') >= 0) ico = '👁️';
+    else if (nm.indexOf('colonoscopy') >= 0) ico = '🔬';
+    else if (nm.indexOf('hysteroscopy') >= 0) ico = '🔍';
+    else if (nm.indexOf('tongue') >= 0) ico = '👅';
+    else if (nm.indexOf('polyp') >= 0) ico = '🌱';
+    else if (nm.indexOf('hernia') >= 0) ico = '🩹';
+    el.setAttribute('data-ico', ico);
     var pct = Math.round(100 * g.n / total69);
     el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
       '<div class="gname">' + g.name + '</div>' +
