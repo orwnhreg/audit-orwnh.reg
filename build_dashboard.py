@@ -45,7 +45,7 @@ def render_case_rows(all_cases: list) -> str:
             f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing
         )
         pair_html = "".join(
-            f'<div class="pair-line">โยงกับ HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
+            f'<div class="pair-line">HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
             for p in (c.get("pair", []) or [])
         )
         days = c.get("days_pending")

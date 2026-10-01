@@ -574,7 +574,7 @@ def render_cases_table(cases: list) -> str:
         missing = case.get("missing", []) or []
         missing_html = "".join(f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing)
         pair_html = "".join(
-            f'<div class="pair-line">โยงกับ HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
+            f'<div class="pair-line">HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
             for p in (case.get("pair", []) or []))
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
