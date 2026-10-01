@@ -117,6 +117,14 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .dot2 { width: 10px; height: 10px; border-radius: 50%; background: #e2e5eb; border: none;
   padding: 0; cursor: pointer; }
 .dot2.active { background: #1a1a2e; transform: scale(1.25); }
+/* ===== สไลด์ทั้งบล็อกจากด้านข้างเมื่อเลื่อนมาถึง ===== */
+.slide-l, .slide-r { opacity: 0; transition: opacity .6s ease, transform .65s cubic-bezier(.22,.8,.3,1); }
+.slide-l { transform: translateX(-64px); }
+.slide-r { transform: translateX(64px); }
+.slide-l.in, .slide-r.in { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .slide-l, .slide-r { opacity: 1; transform: none; transition: none; }
+}
 /* ===== popup เด้งดึ๋งเมื่อเลื่อนมาถึง ===== */
 .pop-in { opacity: 0; }
 .pop-in.pop { opacity: 1; animation: pop-in .7s cubic-bezier(.34,1.56,.64,1) both; }
@@ -136,7 +144,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 </head>
 <body>
 <div class="wrap">
-<noscript><style>.pop-in{opacity:1 !important}</style></noscript>
+<noscript><style>.pop-in,.slide-l,.slide-r{opacity:1 !important;transform:none !important}</style></noscript>
   <div class="topnav">
     <div class="brand">🏥 ODS วานรนิวาส<small>One Day Surgery · สรุปข้อมูล</small></div>
     <a class="back" href="./">← ตารางรายเดือน</a>
@@ -147,7 +155,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     <p>จำนวนเคสตามกลุ่มโรค ODS · ปีงบประมาณ 2566–2569 (ต.ค.–ก.ย.)</p>
   </div>
 
-  <div class="statrow"><div class="statbox pop-in" style="animation-delay:0ms"><div class="stat-n">507</div><div class="stat-l">ปีงบ 2566</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:80ms"><div class="stat-n">823</div><div class="stat-l">ปีงบ 2567</div><div class="stat-s">มีข้อมูล 9 เดือน</div></div><div class="statbox pop-in" style="animation-delay:160ms"><div class="stat-n">410</div><div class="stat-l">ปีงบ 2568</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:240ms"><div class="stat-n">289</div><div class="stat-l">ปีงบ 2569</div><div class="stat-s">มีข้อมูล 9 เดือน*</div></div><div class="statbox pop-in" style="animation-delay:320ms"><div class="stat-n">2,029</div><div class="stat-l">รวม 4 ปีงบ</div><div class="stat-s">ต.ค.65–มิ.ย.69</div></div></div>
+  <div class="statrow slide-l"><div class="statbox pop-in" style="animation-delay:0ms"><div class="stat-n">507</div><div class="stat-l">ปีงบ 2566</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:80ms"><div class="stat-n">823</div><div class="stat-l">ปีงบ 2567</div><div class="stat-s">มีข้อมูล 9 เดือน</div></div><div class="statbox pop-in" style="animation-delay:160ms"><div class="stat-n">410</div><div class="stat-l">ปีงบ 2568</div><div class="stat-s">ครบ 12 เดือน</div></div><div class="statbox pop-in" style="animation-delay:240ms"><div class="stat-n">289</div><div class="stat-l">ปีงบ 2569</div><div class="stat-s">มีข้อมูล 9 เดือน*</div></div><div class="statbox pop-in" style="animation-delay:320ms"><div class="stat-n">2,029</div><div class="stat-l">รวม 4 ปีงบ</div><div class="stat-s">ต.ค.65–มิ.ย.69</div></div></div>
 
   <div class="cta">
     <a class="btn btn-dark" href="./">📅 ดูตารางรายเดือน</a>
@@ -157,7 +165,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   <section class="block spin-pin-wrap" id="spinWrap">
     <div class="spin-sticky">
     <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
-    <p class="sub">เลื่อนลงเพื่อไต่เกลียวลงทีละขั้น · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
+    <p class="sub">เลื่อนลงเพื่อหมุนให้ครบรอบ · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
     <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
@@ -170,19 +178,19 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     </div>
   </section>
 
-  <section class="block">
+  <section class="block slide-r">
     <h2>5 กลุ่มโรค ปีงบ 2569</h2>
     <p class="sub">ต.ค.68–มิ.ย.69 (9 เดือน) · รวม 289 เคส</p>
     <div class="ggrid"><div class="gcard pop-in" style="animation-delay:0ms"><span class="dot" style="background:#2563eb"></span><div class="gname">Pterygium Excision with graft</div><div class="grow"><div class="gnum">123</div><div class="gpct">43%</div></div><div class="bar"><div class="fill" style="width:43%;background:#2563eb"></div></div></div><div class="gcard pop-in" style="animation-delay:90ms"><span class="dot" style="background:#0d9488"></span><div class="gname">Colonoscopy (กลุ่มความเสี่ยงสูง)</div><div class="grow"><div class="gnum">99</div><div class="gpct">34%</div></div><div class="bar"><div class="fill" style="width:34%;background:#0d9488"></div></div></div><div class="gcard pop-in" style="animation-delay:180ms"><span class="dot" style="background:#d97706"></span><div class="gname">Hysteroscopy</div><div class="grow"><div class="gnum">25</div><div class="gpct">9%</div></div><div class="bar"><div class="fill" style="width:9%;background:#d97706"></div></div></div><div class="gcard pop-in" style="animation-delay:270ms"><span class="dot" style="background:#7c3aed"></span><div class="gname">Tongue tie Release</div><div class="grow"><div class="gnum">22</div><div class="gpct">8%</div></div><div class="bar"><div class="fill" style="width:8%;background:#7c3aed"></div></div></div><div class="gcard pop-in" style="animation-delay:360ms"><span class="dot" style="background:#db2777"></span><div class="gname">Colorectal polyp</div><div class="grow"><div class="gnum">20</div><div class="gpct">7%</div></div><div class="bar"><div class="fill" style="width:7%;background:#db2777"></div></div></div></div>
   </section>
 
-  <section class="block">
+  <section class="block slide-l">
     <h2>แนวโน้มรายปี</h2>
     <p class="sub">ยอดรวมทุกกลุ่มต่อปีงบประมาณ</p>
     <div class="ytrend pop-in"><div class="ycol"><div class="ybar" style="height:92px" title="507"></div><div class="yval">507</div><div class="ylab">ปีงบ 2566</div></div><div class="ycol"><div class="ybar" style="height:150px" title="823"></div><div class="yval">823</div><div class="ylab">ปีงบ 2567</div></div><div class="ycol"><div class="ybar" style="height:75px" title="410"></div><div class="yval">410</div><div class="ylab">ปีงบ 2568</div></div><div class="ycol"><div class="ybar" style="height:53px" title="289"></div><div class="yval">289</div><div class="ylab">ปีงบ 2569</div></div></div>
   </section>
 
-  <section class="block">
+  <section class="block slide-r">
     <h2>รายเดือนตามปีงบ</h2>
     <p class="sub">เลือกปีงบเพื่อดูยอดรายเดือน (ช่องจาง = เดือนที่ยังไม่มีข้อมูล)</p>
     <div class="chips"><button type="button" class="chip" data-fy="2566">ปีงบ 2566</button><button type="button" class="chip" data-fy="2567">ปีงบ 2567</button><button type="button" class="chip" data-fy="2568">ปีงบ 2568</button><button type="button" class="chip active" data-fy="2569">ปีงบ 2569</button></div>
@@ -192,7 +200,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     </div>
   </section>
 
-  <div class="alert">
+  <div class="alert slide-l">
     ⚠️ <b class="red">ปีงบ 2567 ไม่ตรงกัน:</b> ชีตต้นทาง 823 / ตารางที่ 61 ในรายงาน 818
     (ต่าง 5 เคสที่ Colorectal polyp) — ต้องยืนยันก่อนใช้ · ปีงบ 2569 ยังไม่ครบปี (ขาด ก.ค.–ก.ย.69)
   </div>
@@ -253,24 +261,14 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     dotsBox.appendChild(d);
   });
   var dots = Array.prototype.slice.call(dotsBox.children);
-  var cardEls = [];
-  ring.querySelectorAll('.scard').forEach(function (el, i) { cardEls.push({ el: el, a: i * STEP }); });
   var ang = 0, scrollAng = 0, manual = 0, dragging = false, lastX = 0;
   var wrap = document.getElementById('spinWrap');
   var prog = document.getElementById('spinProg');
   function target() { return scrollAng + manual; }
   function front() { return ((Math.round(-target() / STEP) % N) + N) % N; }
-  /* เกลียวขั้นบันไดแบบลง: ความสูงการ์ดลดตามมุมในรอบ */
-  function radius() { var w = window.innerWidth; return w <= 620 ? 170 : (w <= 1024 ? 220 : 280); }
-  function spread() { var w = window.innerWidth; return w <= 620 ? 80 : (w <= 1024 ? 100 : 140); }
+  /* วงล้อแนวราบ: การ์ดอยู่ระดับเดียวกัน ตำแหน่งตาม CSS */
   function paint() {
     ring.style.transform = 'rotateY(' + ang + 'deg)';
-    var R = radius(), S = spread();
-    cardEls.forEach(function (c) {
-      var w = (((c.a + ang) % 360) + 360) % 360;
-      var dy = (w / 360 - 0.5) * S;
-      c.el.style.transform = 'rotateY(' + c.a + 'deg) translateZ(' + R + 'px) translateY(' + dy.toFixed(1) + 'px)';
-    });
     var f = front();
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
@@ -310,11 +308,13 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   paint();
 })();
 
-/* ===== popup เด้งเมื่อเลื่อนมาถึงกราฟ ===== */
+/* ===== popup เด้ง + สไลด์บล็อกเมื่อเลื่อนมาถึง ===== */
 (function () {
-  var els = Array.prototype.slice.call(document.querySelectorAll('.pop-in'));
+  var pops = Array.prototype.slice.call(document.querySelectorAll('.pop-in'));
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide-l,.slide-r'));
   if (!('IntersectionObserver' in window)) {
-    els.forEach(function (e) { e.classList.add('pop'); });
+    pops.forEach(function (e) { e.classList.add('pop'); });
+    slides.forEach(function (e) { e.classList.add('in'); });
     return;
   }
   var io = new IntersectionObserver(function (es) {
@@ -322,7 +322,13 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
       if (en.isIntersecting) { en.target.classList.add('pop'); io.unobserve(en.target); }
     });
   }, { threshold: 0.25 });
-  els.forEach(function (e) { io.observe(e); });
+  pops.forEach(function (e) { io.observe(e); });
+  var io2 = new IntersectionObserver(function (es) {
+    es.forEach(function (en) {
+      if (en.isIntersecting) { en.target.classList.add('in'); io2.unobserve(en.target); }
+    });
+  }, { threshold: 0.15 });
+  slides.forEach(function (e) { io2.observe(e); });
 })();
 </script>
 </body>
