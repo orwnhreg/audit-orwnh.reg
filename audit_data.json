@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "01/10/2026",
-  "generated_at": "15:39",
+  "generated_at": "15:44",
   "rows": 13590,
   "colA": {
     "dup": 3,
@@ -111,8 +111,8 @@
       "label": "ก.ย. 2569",
       "short_label": "ก.ย. 69",
       "finished": 667,
-      "missing": 66,
-      "completeness_pct": 90.1,
+      "missing": 61,
+      "completeness_pct": 90.9,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -130,20 +130,20 @@
           "missing": 8
         },
         {
-          "dept": "Eye",
-          "total": 146,
-          "missing": 5
-        },
-        {
           "dept": "E.N.T",
           "total": 25,
           "missing": 2
+        },
+        {
+          "dept": "Eye",
+          "total": 146,
+          "missing": 0
         }
       ],
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 57
+          "count": 52
         },
         {
           "col": "ชื่อซ้ำในทีม",
@@ -184,9 +184,9 @@
       ],
       "progress": {
         "total": 667,
-        "pending": 66,
+        "pending": 61,
         "ever": 211,
-        "resolved": 145
+        "resolved": 150
       },
       "unfinished": 0,
       "daily": [
@@ -208,7 +208,7 @@
         {
           "day": 4,
           "total": 31,
-          "missing": 3
+          "missing": 2
         },
         {
           "day": 5,
@@ -308,7 +308,7 @@
         {
           "day": 24,
           "total": 38,
-          "missing": 12
+          "missing": 10
         },
         {
           "day": 25,
@@ -318,7 +318,7 @@
         {
           "day": 26,
           "total": 16,
-          "missing": 3
+          "missing": 1
         },
         {
           "day": 27,
@@ -348,8 +348,8 @@
       "label": "ส.ค. 2569",
       "short_label": "ส.ค. 69",
       "finished": 540,
-      "missing": 42,
-      "completeness_pct": 92.2,
+      "missing": 40,
+      "completeness_pct": 92.6,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -369,7 +369,7 @@
         {
           "dept": "Eye",
           "total": 108,
-          "missing": 5
+          "missing": 3
         },
         {
           "dept": "E.N.T",
@@ -380,7 +380,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 33
+          "count": 31
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -405,9 +405,9 @@
       ],
       "progress": {
         "total": 540,
-        "pending": 42,
+        "pending": 40,
         "ever": 155,
-        "resolved": 113
+        "resolved": 115
       },
       "unfinished": 0,
       "daily": [
@@ -509,7 +509,7 @@
         {
           "day": 20,
           "total": 30,
-          "missing": 3
+          "missing": 2
         },
         {
           "day": 21,
@@ -534,7 +534,7 @@
         {
           "day": 25,
           "total": 32,
-          "missing": 2
+          "missing": 1
         },
         {
           "day": 26,
@@ -574,8 +574,8 @@
       "label": "ก.ค. 2569",
       "short_label": "ก.ค. 69",
       "finished": 606,
-      "missing": 54,
-      "completeness_pct": 91.1,
+      "missing": 52,
+      "completeness_pct": 91.4,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -595,7 +595,7 @@
         {
           "dept": "Eye",
           "total": 138,
-          "missing": 5
+          "missing": 3
         },
         {
           "dept": "E.N.T",
@@ -606,7 +606,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 35
+          "count": 33
         },
         {
           "col": "Risk",
@@ -647,9 +647,9 @@
       ],
       "progress": {
         "total": 606,
-        "pending": 54,
+        "pending": 52,
         "ever": 154,
-        "resolved": 100
+        "resolved": 102
       },
       "unfinished": 0,
       "daily": [
@@ -721,7 +721,7 @@
         {
           "day": 14,
           "total": 26,
-          "missing": 2
+          "missing": 0
         },
         {
           "day": 15,
@@ -816,8 +816,8 @@
       "label": "มิ.ย. 2569",
       "short_label": "มิ.ย. 69",
       "finished": 562,
-      "missing": 65,
-      "completeness_pct": 88.4,
+      "missing": 61,
+      "completeness_pct": 89.1,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -825,14 +825,14 @@
           "missing": 31
         },
         {
-          "dept": "Eye",
-          "total": 84,
-          "missing": 15
-        },
-        {
           "dept": "Orthopedic",
           "total": 116,
           "missing": 14
+        },
+        {
+          "dept": "Eye",
+          "total": 84,
+          "missing": 11
         },
         {
           "dept": "E.N.T",
@@ -848,7 +848,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 37
+          "count": 33
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -889,9 +889,9 @@
       ],
       "progress": {
         "total": 562,
-        "pending": 65,
+        "pending": 61,
         "ever": 164,
-        "resolved": 99
+        "resolved": 103
       },
       "unfinished": 0,
       "daily": [
@@ -943,7 +943,7 @@
         {
           "day": 10,
           "total": 23,
-          "missing": 5
+          "missing": 4
         },
         {
           "day": 11,
@@ -988,7 +988,7 @@
         {
           "day": 19,
           "total": 40,
-          "missing": 14
+          "missing": 11
         },
         {
           "day": 20,
@@ -1053,8 +1053,8 @@
       "label": "พ.ค. 2569",
       "short_label": "พ.ค. 69",
       "finished": 609,
-      "missing": 72,
-      "completeness_pct": 88.2,
+      "missing": 70,
+      "completeness_pct": 88.5,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -1064,7 +1064,7 @@
         {
           "dept": "Eye",
           "total": 125,
-          "missing": 15
+          "missing": 13
         },
         {
           "dept": "Gyne-Obs",
@@ -1085,7 +1085,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 37
+          "count": 35
         },
         {
           "col": "AN",
@@ -1126,9 +1126,9 @@
       ],
       "progress": {
         "total": 609,
-        "pending": 72,
+        "pending": 70,
         "ever": 168,
-        "resolved": 96
+        "resolved": 98
       },
       "unfinished": 0,
       "daily": [
@@ -1200,7 +1200,7 @@
         {
           "day": 14,
           "total": 24,
-          "missing": 4
+          "missing": 2
         },
         {
           "day": 15,
@@ -1295,18 +1295,13 @@
       "label": "เม.ย. 2569",
       "short_label": "เม.ย. 69",
       "finished": 580,
-      "missing": 53,
-      "completeness_pct": 90.9,
+      "missing": 47,
+      "completeness_pct": 91.9,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 175,
           "missing": 15
-        },
-        {
-          "dept": "Eye",
-          "total": 144,
-          "missing": 14
         },
         {
           "dept": "Orthopedic",
@@ -1319,6 +1314,11 @@
           "missing": 10
         },
         {
+          "dept": "Eye",
+          "total": 144,
+          "missing": 8
+        },
+        {
           "dept": "E.N.T",
           "total": 18,
           "missing": 0
@@ -1327,7 +1327,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 24
+          "count": 18
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -1368,9 +1368,9 @@
       ],
       "progress": {
         "total": 580,
-        "pending": 53,
+        "pending": 47,
         "ever": 154,
-        "resolved": 101
+        "resolved": 107
       },
       "unfinished": 0,
       "daily": [
@@ -1417,7 +1417,7 @@
         {
           "day": 9,
           "total": 43,
-          "missing": 6
+          "missing": 2
         },
         {
           "day": 10,
@@ -1487,12 +1487,12 @@
         {
           "day": 23,
           "total": 34,
-          "missing": 2
+          "missing": 1
         },
         {
           "day": 24,
           "total": 27,
-          "missing": 4
+          "missing": 3
         },
         {
           "day": 25,
@@ -1532,8 +1532,8 @@
       "label": "มี.ค. 2569",
       "short_label": "มี.ค. 69",
       "finished": 596,
-      "missing": 55,
-      "completeness_pct": 90.8,
+      "missing": 52,
+      "completeness_pct": 91.3,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -1548,7 +1548,7 @@
         {
           "dept": "Eye",
           "total": 145,
-          "missing": 13
+          "missing": 10
         },
         {
           "dept": "Gyne-Obs",
@@ -1564,7 +1564,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 25
+          "count": 22
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -1605,9 +1605,9 @@
       ],
       "progress": {
         "total": 596,
-        "pending": 55,
+        "pending": 52,
         "ever": 160,
-        "resolved": 105
+        "resolved": 108
       },
       "unfinished": 0,
       "daily": [
@@ -1704,7 +1704,7 @@
         {
           "day": 19,
           "total": 44,
-          "missing": 5
+          "missing": 3
         },
         {
           "day": 20,
@@ -1729,7 +1729,7 @@
         {
           "day": 24,
           "total": 34,
-          "missing": 2
+          "missing": 1
         },
         {
           "day": 25,
@@ -1774,8 +1774,8 @@
       "label": "ก.พ. 2569",
       "short_label": "ก.พ. 69",
       "finished": 596,
-      "missing": 66,
-      "completeness_pct": 88.9,
+      "missing": 57,
+      "completeness_pct": 90.4,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -1785,7 +1785,7 @@
         {
           "dept": "Eye",
           "total": 182,
-          "missing": 19
+          "missing": 10
         },
         {
           "dept": "Orthopedic",
@@ -1806,7 +1806,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 39
+          "count": 29
         },
         {
           "col": "AN ซ้ำข้ามคน",
@@ -1847,9 +1847,9 @@
       ],
       "progress": {
         "total": 596,
-        "pending": 66,
+        "pending": 57,
         "ever": 175,
-        "resolved": 109
+        "resolved": 118
       },
       "unfinished": 0,
       "daily": [
@@ -1906,7 +1906,7 @@
         {
           "day": 11,
           "total": 42,
-          "missing": 2
+          "missing": 1
         },
         {
           "day": 12,
@@ -1936,17 +1936,17 @@
         {
           "day": 17,
           "total": 24,
-          "missing": 4
+          "missing": 3
         },
         {
           "day": 18,
           "total": 28,
-          "missing": 3
+          "missing": 2
         },
         {
           "day": 19,
           "total": 40,
-          "missing": 3
+          "missing": 1
         },
         {
           "day": 20,
@@ -1981,7 +1981,7 @@
         {
           "day": 26,
           "total": 47,
-          "missing": 9
+          "missing": 5
         },
         {
           "day": 27,
@@ -2001,8 +2001,8 @@
       "label": "ม.ค. 2569",
       "short_label": "ม.ค. 69",
       "finished": 601,
-      "missing": 55,
-      "completeness_pct": 90.8,
+      "missing": 50,
+      "completeness_pct": 91.7,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -2012,7 +2012,7 @@
         {
           "dept": "Eye",
           "total": 137,
-          "missing": 17
+          "missing": 12
         },
         {
           "dept": "Gyne-Obs",
@@ -2033,7 +2033,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 26
+          "count": 21
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -2074,9 +2074,9 @@
       ],
       "progress": {
         "total": 601,
-        "pending": 55,
+        "pending": 50,
         "ever": 143,
-        "resolved": 88
+        "resolved": 93
       },
       "unfinished": 0,
       "daily": [
@@ -2113,7 +2113,7 @@
         {
           "day": 7,
           "total": 33,
-          "missing": 2
+          "missing": 0
         },
         {
           "day": 8,
@@ -2193,7 +2193,7 @@
         {
           "day": 23,
           "total": 39,
-          "missing": 11
+          "missing": 10
         },
         {
           "day": 24,
@@ -2223,7 +2223,7 @@
         {
           "day": 29,
           "total": 35,
-          "missing": 8
+          "missing": 6
         },
         {
           "day": 30,
@@ -2243,8 +2243,8 @@
       "label": "ธ.ค. 2568",
       "short_label": "ธ.ค. 68",
       "finished": 565,
-      "missing": 55,
-      "completeness_pct": 90.3,
+      "missing": 50,
+      "completeness_pct": 91.2,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -2254,7 +2254,7 @@
         {
           "dept": "Eye",
           "total": 103,
-          "missing": 17
+          "missing": 12
         },
         {
           "dept": "Gyne-Obs",
@@ -2275,7 +2275,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 28
+          "count": 22
         },
         {
           "col": "ชื่อซ้ำในทีม",
@@ -2316,9 +2316,9 @@
       ],
       "progress": {
         "total": 565,
-        "pending": 55,
+        "pending": 50,
         "ever": 71,
-        "resolved": 16
+        "resolved": 21
       },
       "unfinished": 0,
       "daily": [
@@ -2340,7 +2340,7 @@
         {
           "day": 4,
           "total": 29,
-          "missing": 3
+          "missing": 1
         },
         {
           "day": 5,
@@ -2445,12 +2445,12 @@
         {
           "day": 25,
           "total": 22,
-          "missing": 4
+          "missing": 3
         },
         {
           "day": 26,
           "total": 36,
-          "missing": 9
+          "missing": 7
         },
         {
           "day": 27,
@@ -2485,8 +2485,8 @@
       "label": "พ.ย. 2568",
       "short_label": "พ.ย. 68",
       "finished": 498,
-      "missing": 36,
-      "completeness_pct": 92.8,
+      "missing": 34,
+      "completeness_pct": 93.2,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -2501,7 +2501,7 @@
         {
           "dept": "Eye",
           "total": 81,
-          "missing": 8
+          "missing": 6
         },
         {
           "dept": "Gyne-Obs",
@@ -2517,7 +2517,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 18
+          "count": 16
         },
         {
           "col": "ชื่อซ้ำในทีม",
@@ -2546,9 +2546,9 @@
       ],
       "progress": {
         "total": 498,
-        "pending": 36,
+        "pending": 34,
         "ever": 103,
-        "resolved": 67
+        "resolved": 69
       },
       "unfinished": 0,
       "daily": [
@@ -2675,7 +2675,7 @@
         {
           "day": 25,
           "total": 20,
-          "missing": 2
+          "missing": 0
         },
         {
           "day": 26,
@@ -2710,8 +2710,8 @@
       "label": "ต.ค. 2568",
       "short_label": "ต.ค. 68",
       "finished": 615,
-      "missing": 63,
-      "completeness_pct": 89.8,
+      "missing": 56,
+      "completeness_pct": 90.9,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -2719,14 +2719,14 @@
           "missing": 22
         },
         {
-          "dept": "Eye",
-          "total": 131,
-          "missing": 20
-        },
-        {
           "dept": "Orthopedic",
           "total": 158,
           "missing": 16
+        },
+        {
+          "dept": "Eye",
+          "total": 131,
+          "missing": 13
         },
         {
           "dept": "Gyne-Obs",
@@ -2742,7 +2742,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 28
+          "count": 20
         },
         {
           "col": "Risk",
@@ -2783,9 +2783,9 @@
       ],
       "progress": {
         "total": 615,
-        "pending": 63,
+        "pending": 56,
         "ever": 133,
-        "resolved": 70
+        "resolved": 77
       },
       "unfinished": 0,
       "daily": [
@@ -2827,7 +2827,7 @@
         {
           "day": 8,
           "total": 31,
-          "missing": 8
+          "missing": 5
         },
         {
           "day": 9,
@@ -2872,7 +2872,7 @@
         {
           "day": 17,
           "total": 26,
-          "missing": 3
+          "missing": 1
         },
         {
           "day": 18,
@@ -2937,12 +2937,12 @@
         {
           "day": 30,
           "total": 26,
-          "missing": 3
+          "missing": 2
         },
         {
           "day": 31,
           "total": 27,
-          "missing": 6
+          "missing": 5
         }
       ],
       "elapsed": true
@@ -2952,18 +2952,13 @@
       "label": "ก.ย. 2568",
       "short_label": "ก.ย. 68",
       "finished": 675,
-      "missing": 87,
-      "completeness_pct": 87.1,
+      "missing": 72,
+      "completeness_pct": 89.3,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 246,
           "missing": 40
-        },
-        {
-          "dept": "Eye",
-          "total": 157,
-          "missing": 23
         },
         {
           "dept": "Orthopedic",
@@ -2976,6 +2971,11 @@
           "missing": 12
         },
         {
+          "dept": "Eye",
+          "total": 157,
+          "missing": 8
+        },
+        {
           "dept": "E.N.T",
           "total": 30,
           "missing": 1
@@ -2984,7 +2984,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 53
+          "count": 38
         },
         {
           "col": "Risk",
@@ -3025,9 +3025,9 @@
       ],
       "progress": {
         "total": 675,
-        "pending": 87,
+        "pending": 72,
         "ever": 166,
-        "resolved": 79
+        "resolved": 94
       },
       "unfinished": 0,
       "daily": [
@@ -3044,7 +3044,7 @@
         {
           "day": 3,
           "total": 32,
-          "missing": 8
+          "missing": 0
         },
         {
           "day": 4,
@@ -3124,7 +3124,7 @@
         {
           "day": 19,
           "total": 30,
-          "missing": 11
+          "missing": 4
         },
         {
           "day": 20,
@@ -3189,18 +3189,13 @@
       "label": "ส.ค. 2568",
       "short_label": "ส.ค. 68",
       "finished": 561,
-      "missing": 82,
-      "completeness_pct": 85.4,
+      "missing": 65,
+      "completeness_pct": 88.4,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 231,
           "missing": 37
-        },
-        {
-          "dept": "Eye",
-          "total": 112,
-          "missing": 23
         },
         {
           "dept": "Orthopedic",
@@ -3213,6 +3208,11 @@
           "missing": 9
         },
         {
+          "dept": "Eye",
+          "total": 112,
+          "missing": 6
+        },
+        {
           "dept": "E.N.T",
           "total": 18,
           "missing": 3
@@ -3221,7 +3221,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 44
+          "count": 27
         },
         {
           "col": "ค่าหัตถการ",
@@ -3262,9 +3262,9 @@
       ],
       "progress": {
         "total": 561,
-        "pending": 82,
+        "pending": 65,
         "ever": 204,
-        "resolved": 122
+        "resolved": 139
       },
       "unfinished": 0,
       "daily": [
@@ -3341,7 +3341,7 @@
         {
           "day": 15,
           "total": 28,
-          "missing": 9
+          "missing": 1
         },
         {
           "day": 16,
@@ -3366,7 +3366,7 @@
         {
           "day": 20,
           "total": 27,
-          "missing": 13
+          "missing": 6
         },
         {
           "day": 21,
@@ -3376,7 +3376,7 @@
         {
           "day": 22,
           "total": 29,
-          "missing": 7
+          "missing": 5
         },
         {
           "day": 23,
@@ -3431,8 +3431,8 @@
       "label": "ก.ค. 2568",
       "short_label": "ก.ค. 68",
       "finished": 570,
-      "missing": 97,
-      "completeness_pct": 83.0,
+      "missing": 79,
+      "completeness_pct": 86.1,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -3440,14 +3440,14 @@
           "missing": 41
         },
         {
-          "dept": "Eye",
-          "total": 88,
-          "missing": 30
-        },
-        {
           "dept": "Orthopedic",
           "total": 130,
           "missing": 15
+        },
+        {
+          "dept": "Eye",
+          "total": 88,
+          "missing": 12
         },
         {
           "dept": "Gyne-Obs",
@@ -3468,7 +3468,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 60
+          "count": 40
         },
         {
           "col": "AN ซ้ำข้ามคน",
@@ -3509,16 +3509,16 @@
       ],
       "progress": {
         "total": 570,
-        "pending": 97,
+        "pending": 79,
         "ever": 206,
-        "resolved": 109
+        "resolved": 127
       },
       "unfinished": 0,
       "daily": [
         {
           "day": 1,
           "total": 39,
-          "missing": 16
+          "missing": 5
         },
         {
           "day": 2,
@@ -3528,7 +3528,7 @@
         {
           "day": 3,
           "total": 11,
-          "missing": 2
+          "missing": 1
         },
         {
           "day": 4,
@@ -3553,7 +3553,7 @@
         {
           "day": 8,
           "total": 37,
-          "missing": 7
+          "missing": 5
         },
         {
           "day": 9,
@@ -3623,7 +3623,7 @@
         {
           "day": 22,
           "total": 25,
-          "missing": 8
+          "missing": 4
         },
         {
           "day": 23,
@@ -3678,8 +3678,8 @@
       "label": "มิ.ย. 2568",
       "short_label": "มิ.ย. 68",
       "finished": 561,
-      "missing": 106,
-      "completeness_pct": 81.1,
+      "missing": 76,
+      "completeness_pct": 86.5,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -3687,14 +3687,14 @@
           "missing": 43
         },
         {
-          "dept": "Eye",
-          "total": 96,
-          "missing": 36
-        },
-        {
           "dept": "Orthopedic",
           "total": 136,
           "missing": 18
+        },
+        {
+          "dept": "Eye",
+          "total": 96,
+          "missing": 6
         },
         {
           "dept": "Gyne-Obs",
@@ -3710,7 +3710,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 71
+          "count": 41
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -3751,9 +3751,9 @@
       ],
       "progress": {
         "total": 561,
-        "pending": 106,
+        "pending": 76,
         "ever": 206,
-        "resolved": 100
+        "resolved": 130
       },
       "unfinished": 0,
       "daily": [
@@ -3805,12 +3805,12 @@
         {
           "day": 10,
           "total": 17,
-          "missing": 4
+          "missing": 3
         },
         {
           "day": 11,
           "total": 39,
-          "missing": 2
+          "missing": 0
         },
         {
           "day": 12,
@@ -3845,17 +3845,17 @@
         {
           "day": 18,
           "total": 41,
-          "missing": 15
+          "missing": 6
         },
         {
           "day": 19,
           "total": 37,
-          "missing": 12
+          "missing": 2
         },
         {
           "day": 20,
           "total": 39,
-          "missing": 14
+          "missing": 6
         },
         {
           "day": 21,
@@ -3915,8 +3915,8 @@
       "label": "พ.ค. 2568",
       "short_label": "พ.ค. 68",
       "finished": 511,
-      "missing": 84,
-      "completeness_pct": 83.6,
+      "missing": 74,
+      "completeness_pct": 85.5,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -3936,7 +3936,7 @@
         {
           "dept": "Eye",
           "total": 52,
-          "missing": 13
+          "missing": 3
         },
         {
           "dept": "E.N.T",
@@ -3947,7 +3947,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 39
+          "count": 29
         },
         {
           "col": "ชื่อซ้ำในทีม",
@@ -3988,9 +3988,9 @@
       ],
       "progress": {
         "total": 511,
-        "pending": 84,
+        "pending": 74,
         "ever": 174,
-        "resolved": 90
+        "resolved": 100
       },
       "unfinished": 0,
       "daily": [
@@ -4062,12 +4062,12 @@
         {
           "day": 14,
           "total": 37,
-          "missing": 6
+          "missing": 2
         },
         {
           "day": 15,
           "total": 20,
-          "missing": 9
+          "missing": 3
         },
         {
           "day": 16,
@@ -4157,18 +4157,13 @@
       "label": "เม.ย. 2568",
       "short_label": "เม.ย. 68",
       "finished": 507,
-      "missing": 119,
-      "completeness_pct": 76.5,
+      "missing": 97,
+      "completeness_pct": 80.9,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 207,
           "missing": 55
-        },
-        {
-          "dept": "Eye",
-          "total": 49,
-          "missing": 28
         },
         {
           "dept": "Orthopedic",
@@ -4184,12 +4179,17 @@
           "dept": "E.N.T",
           "total": 30,
           "missing": 7
+        },
+        {
+          "dept": "Eye",
+          "total": 49,
+          "missing": 6
         }
       ],
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 62
+          "count": 38
         },
         {
           "col": "Circulating",
@@ -4230,9 +4230,9 @@
       ],
       "progress": {
         "total": 507,
-        "pending": 119,
+        "pending": 97,
         "ever": 200,
-        "resolved": 81
+        "resolved": 103
       },
       "unfinished": 0,
       "daily": [
@@ -4279,12 +4279,12 @@
         {
           "day": 9,
           "total": 35,
-          "missing": 11
+          "missing": 9
         },
         {
           "day": 10,
           "total": 22,
-          "missing": 9
+          "missing": 0
         },
         {
           "day": 11,
@@ -4349,7 +4349,7 @@
         {
           "day": 23,
           "total": 32,
-          "missing": 8
+          "missing": 4
         },
         {
           "day": 24,
@@ -4384,7 +4384,7 @@
         {
           "day": 30,
           "total": 24,
-          "missing": 10
+          "missing": 3
         }
       ],
       "elapsed": true
@@ -4394,18 +4394,13 @@
       "label": "มี.ค. 2568",
       "short_label": "มี.ค. 68",
       "finished": 600,
-      "missing": 149,
-      "completeness_pct": 75.2,
+      "missing": 124,
+      "completeness_pct": 79.3,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 243,
           "missing": 65
-        },
-        {
-          "dept": "Eye",
-          "total": 116,
-          "missing": 34
         },
         {
           "dept": "Orthopedic",
@@ -4418,6 +4413,11 @@
           "missing": 20
         },
         {
+          "dept": "Eye",
+          "total": 116,
+          "missing": 9
+        },
+        {
           "dept": "E.N.T",
           "total": 20,
           "missing": 2
@@ -4426,7 +4426,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 81
+          "count": 55
         },
         {
           "col": "Circulating",
@@ -4467,9 +4467,9 @@
       ],
       "progress": {
         "total": 600,
-        "pending": 149,
+        "pending": 124,
         "ever": 247,
-        "resolved": 98
+        "resolved": 123
       },
       "unfinished": 0,
       "daily": [
@@ -4566,7 +4566,7 @@
         {
           "day": 19,
           "total": 36,
-          "missing": 4
+          "missing": 2
         },
         {
           "day": 20,
@@ -4601,17 +4601,17 @@
         {
           "day": 26,
           "total": 35,
-          "missing": 11
+          "missing": 6
         },
         {
           "day": 27,
           "total": 32,
-          "missing": 14
+          "missing": 3
         },
         {
           "day": 28,
           "total": 38,
-          "missing": 10
+          "missing": 3
         },
         {
           "day": 29,
@@ -4636,18 +4636,13 @@
       "label": "ก.พ. 2568",
       "short_label": "ก.พ. 68",
       "finished": 478,
-      "missing": 94,
-      "completeness_pct": 80.3,
+      "missing": 70,
+      "completeness_pct": 85.4,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 186,
           "missing": 30
-        },
-        {
-          "dept": "Eye",
-          "total": 81,
-          "missing": 28
         },
         {
           "dept": "Orthopedic",
@@ -4660,6 +4655,11 @@
           "missing": 15
         },
         {
+          "dept": "Eye",
+          "total": 81,
+          "missing": 4
+        },
+        {
           "dept": "E.N.T",
           "total": 18,
           "missing": 3
@@ -4668,7 +4668,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 48
+          "count": 23
         },
         {
           "col": "Circulating",
@@ -4709,9 +4709,9 @@
       ],
       "progress": {
         "total": 478,
-        "pending": 94,
+        "pending": 70,
         "ever": 180,
-        "resolved": 86
+        "resolved": 110
       },
       "unfinished": 0,
       "daily": [
@@ -4808,7 +4808,7 @@
         {
           "day": 19,
           "total": 34,
-          "missing": 20
+          "missing": 8
         },
         {
           "day": 20,
@@ -4818,7 +4818,7 @@
         {
           "day": 21,
           "total": 33,
-          "missing": 10
+          "missing": 2
         },
         {
           "day": 22,
@@ -4843,7 +4843,7 @@
         {
           "day": 26,
           "total": 30,
-          "missing": 7
+          "missing": 3
         },
         {
           "day": 27,
@@ -4863,8 +4863,8 @@
       "label": "ม.ค. 2568",
       "short_label": "ม.ค. 68",
       "finished": 540,
-      "missing": 196,
-      "completeness_pct": 63.7,
+      "missing": 177,
+      "completeness_pct": 67.2,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -4879,7 +4879,7 @@
         {
           "dept": "Eye",
           "total": 91,
-          "missing": 39
+          "missing": 20
         },
         {
           "dept": "Gyne-Obs",
@@ -4893,10 +4893,6 @@
         }
       ],
       "top_missing_cols": [
-        {
-          "col": "ห้องซ้อนเวลา",
-          "count": 89
-        },
         {
           "col": "Nurse Aid ทีมเวร",
           "count": 81
@@ -4918,6 +4914,10 @@
           "count": 70
         },
         {
+          "col": "ห้องซ้อนเวลา",
+          "count": 61
+        },
+        {
           "col": "เวลาผ่าตัดนานผิดปกติ",
           "count": 12
         },
@@ -4936,9 +4936,9 @@
       ],
       "progress": {
         "total": 540,
-        "pending": 196,
+        "pending": 177,
         "ever": 277,
-        "resolved": 81
+        "resolved": 100
       },
       "unfinished": 0,
       "daily": [
@@ -4975,17 +4975,17 @@
         {
           "day": 7,
           "total": 27,
-          "missing": 15
+          "missing": 14
         },
         {
           "day": 8,
           "total": 36,
-          "missing": 18
+          "missing": 16
         },
         {
           "day": 9,
           "total": 19,
-          "missing": 12
+          "missing": 7
         },
         {
           "day": 10,
@@ -5015,7 +5015,7 @@
         {
           "day": 15,
           "total": 36,
-          "missing": 14
+          "missing": 10
         },
         {
           "day": 16,
@@ -5025,7 +5025,7 @@
         {
           "day": 17,
           "total": 21,
-          "missing": 4
+          "missing": 2
         },
         {
           "day": 18,
@@ -5050,7 +5050,7 @@
         {
           "day": 22,
           "total": 34,
-          "missing": 13
+          "missing": 8
         },
         {
           "day": 23,
@@ -5105,8 +5105,8 @@
       "label": "ธ.ค. 2567",
       "short_label": "ธ.ค. 67",
       "finished": 487,
-      "missing": 317,
-      "completeness_pct": 34.9,
+      "missing": 308,
+      "completeness_pct": 36.8,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -5124,14 +5124,14 @@
           "missing": 34
         },
         {
-          "dept": "Eye",
-          "total": 41,
-          "missing": 22
-        },
-        {
           "dept": "ไม่ระบุ",
           "total": 20,
           "missing": 20
+        },
+        {
+          "dept": "Eye",
+          "total": 41,
+          "missing": 13
         },
         {
           "dept": "E.N.T",
@@ -5183,9 +5183,9 @@
       ],
       "progress": {
         "total": 487,
-        "pending": 317,
+        "pending": 308,
         "ever": 343,
-        "resolved": 26
+        "resolved": 35
       },
       "unfinished": 0,
       "daily": [
@@ -5207,7 +5207,7 @@
         {
           "day": 4,
           "total": 28,
-          "missing": 19
+          "missing": 15
         },
         {
           "day": 5,
@@ -5247,7 +5247,7 @@
         {
           "day": 12,
           "total": 40,
-          "missing": 33
+          "missing": 28
         },
         {
           "day": 13,
@@ -5352,8 +5352,8 @@
       "label": "พ.ย. 2567",
       "short_label": "พ.ย. 67",
       "finished": 419,
-      "missing": 276,
-      "completeness_pct": 34.1,
+      "missing": 270,
+      "completeness_pct": 35.6,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -5368,7 +5368,7 @@
         {
           "dept": "Eye",
           "total": 53,
-          "missing": 33
+          "missing": 27
         },
         {
           "dept": "Gyne-Obs",
@@ -5407,10 +5407,6 @@
           "count": 69
         },
         {
-          "col": "ห้องซ้อนเวลา",
-          "count": 65
-        },
-        {
           "col": "First Dx",
           "count": 56
         },
@@ -5419,15 +5415,19 @@
           "count": 56
         },
         {
+          "col": "ห้องซ้อนเวลา",
+          "count": 55
+        },
+        {
           "col": "Nurse Aid",
           "count": 47
         }
       ],
       "progress": {
         "total": 419,
-        "pending": 276,
+        "pending": 270,
         "ever": 294,
-        "resolved": 18
+        "resolved": 24
       },
       "unfinished": 0,
       "daily": [
@@ -5464,7 +5464,7 @@
         {
           "day": 7,
           "total": 20,
-          "missing": 11
+          "missing": 10
         },
         {
           "day": 8,
@@ -5529,7 +5529,7 @@
         {
           "day": 20,
           "total": 26,
-          "missing": 20
+          "missing": 15
         },
         {
           "day": 21,
@@ -6370,8 +6370,8 @@
       "key": "2568",
       "label": "ปีงบ 2568 (ต.ค. 2567 – ก.ย. 2568)",
       "finished": 6207,
-      "missing": 1789,
-      "completeness_pct": 71.2,
+      "missing": 1594,
+      "completeness_pct": 74.3,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -6384,14 +6384,14 @@
           "missing": 423
         },
         {
-          "dept": "Eye",
-          "total": 937,
-          "missing": 310
-        },
-        {
           "dept": "Gyne-Obs",
           "total": 885,
           "missing": 191
+        },
+        {
+          "dept": "Eye",
+          "total": 937,
+          "missing": 115
         },
         {
           "dept": "E.N.T",
@@ -6405,10 +6405,6 @@
         }
       ],
       "top_missing_cols": [
-        {
-          "col": "ห้องซ้อนเวลา",
-          "count": 715
-        },
         {
           "col": "Team",
           "count": 643
@@ -6430,6 +6426,10 @@
           "count": 578
         },
         {
+          "col": "ห้องซ้อนเวลา",
+          "count": 499
+        },
+        {
           "col": "Last Dx",
           "count": 207
         },
@@ -6448,9 +6448,9 @@
       ],
       "progress": {
         "total": 6207,
-        "pending": 1789,
+        "pending": 1594,
         "ever": 2689,
-        "resolved": 900
+        "resolved": 1095
       },
       "unfinished": 0,
       "monthly": [
@@ -6464,78 +6464,78 @@
           "key": "2567-11",
           "label": "พ.ย. 67",
           "total": 419,
-          "missing": 276
+          "missing": 270
         },
         {
           "key": "2567-12",
           "label": "ธ.ค. 67",
           "total": 487,
-          "missing": 317
+          "missing": 308
         },
         {
           "key": "2568-01",
           "label": "ม.ค. 68",
           "total": 540,
-          "missing": 196
+          "missing": 177
         },
         {
           "key": "2568-02",
           "label": "ก.พ. 68",
           "total": 478,
-          "missing": 94
+          "missing": 70
         },
         {
           "key": "2568-03",
           "label": "มี.ค. 68",
           "total": 600,
-          "missing": 149
+          "missing": 124
         },
         {
           "key": "2568-04",
           "label": "เม.ย. 68",
           "total": 507,
-          "missing": 119
+          "missing": 97
         },
         {
           "key": "2568-05",
           "label": "พ.ค. 68",
           "total": 511,
-          "missing": 84
+          "missing": 74
         },
         {
           "key": "2568-06",
           "label": "มิ.ย. 68",
           "total": 561,
-          "missing": 106
+          "missing": 76
         },
         {
           "key": "2568-07",
           "label": "ก.ค. 68",
           "total": 570,
-          "missing": 97
+          "missing": 79
         },
         {
           "key": "2568-08",
           "label": "ส.ค. 68",
           "total": 561,
-          "missing": 82
+          "missing": 65
         },
         {
           "key": "2568-09",
           "label": "ก.ย. 68",
           "total": 675,
-          "missing": 87
+          "missing": 72
         }
       ],
-      "trend_vs_prev": 56.2,
+      "trend_vs_prev": 59.3,
       "prev_label": "ปีงบ 2567 (ต.ค. 2566 – ก.ย. 2567)"
     },
     "2569": {
       "key": "2569",
       "label": "ปีงบ 2569 (ต.ค. 2568 – ก.ย. 2569)",
       "finished": 7035,
-      "missing": 682,
-      "completeness_pct": 90.3,
+      "missing": 630,
+      "completeness_pct": 91.0,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -6543,14 +6543,14 @@
           "missing": 298
         },
         {
-          "dept": "Eye",
-          "total": 1524,
-          "missing": 153
-        },
-        {
           "dept": "Orthopedic",
           "total": 1620,
           "missing": 126
+        },
+        {
+          "dept": "Eye",
+          "total": 1524,
+          "missing": 101
         },
         {
           "dept": "Gyne-Obs",
@@ -6566,7 +6566,7 @@
       "top_missing_cols": [
         {
           "col": "ห้องซ้อนเวลา",
-          "count": 387
+          "count": 332
         },
         {
           "col": "เวลาผ่าตัดนานผิดปกติ",
@@ -6607,9 +6607,9 @@
       ],
       "progress": {
         "total": 7035,
-        "pending": 682,
+        "pending": 630,
         "ever": 1791,
-        "resolved": 1109
+        "resolved": 1161
       },
       "unfinished": 0,
       "monthly": [
@@ -6617,76 +6617,76 @@
           "key": "2568-10",
           "label": "ต.ค. 68",
           "total": 615,
-          "missing": 63
+          "missing": 56
         },
         {
           "key": "2568-11",
           "label": "พ.ย. 68",
           "total": 498,
-          "missing": 36
+          "missing": 34
         },
         {
           "key": "2568-12",
           "label": "ธ.ค. 68",
           "total": 565,
-          "missing": 55
+          "missing": 50
         },
         {
           "key": "2569-01",
           "label": "ม.ค. 69",
           "total": 601,
-          "missing": 55
+          "missing": 50
         },
         {
           "key": "2569-02",
           "label": "ก.พ. 69",
           "total": 596,
-          "missing": 66
+          "missing": 57
         },
         {
           "key": "2569-03",
           "label": "มี.ค. 69",
           "total": 596,
-          "missing": 55
+          "missing": 52
         },
         {
           "key": "2569-04",
           "label": "เม.ย. 69",
           "total": 580,
-          "missing": 53
+          "missing": 47
         },
         {
           "key": "2569-05",
           "label": "พ.ค. 69",
           "total": 609,
-          "missing": 72
+          "missing": 70
         },
         {
           "key": "2569-06",
           "label": "มิ.ย. 69",
           "total": 562,
-          "missing": 65
+          "missing": 61
         },
         {
           "key": "2569-07",
           "label": "ก.ค. 69",
           "total": 606,
-          "missing": 54
+          "missing": 52
         },
         {
           "key": "2569-08",
           "label": "ส.ค. 69",
           "total": 540,
-          "missing": 42
+          "missing": 40
         },
         {
           "key": "2569-09",
           "label": "ก.ย. 69",
           "total": 667,
-          "missing": 66
+          "missing": 61
         }
       ],
-      "trend_vs_prev": 19.1,
+      "trend_vs_prev": 16.7,
       "prev_label": "ปีงบ 2568 (ต.ค. 2567 – ก.ย. 2568)"
     },
     "2570": {
@@ -6717,34 +6717,6 @@
     }
   },
   "all_cases": [
-    {
-      "date": "26/9/2569",
-      "hn": "51234",
-      "name": "นายสมชาย คุณธรรม",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.มัญชุกร เกิดไทย, น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/9/2569",
-      "hn": "263023",
-      "name": "นายเอกชัย บุพศิริ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.มัญชุกร เกิดไทย, น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
     {
       "date": "26/9/2569",
       "hn": "263289",
@@ -6822,34 +6794,6 @@
       "dept": "Orthopedic",
       "op": "ORIF with S clavicle lt LCP",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "24/9/2569",
-      "hn": "259181",
-      "name": "นายประกาย จันมาลา",
-      "dept": "Eye",
-      "op": "PE c IOL c 25GPPV c bimaual vitrectomy with FAX c EDL c SOI IVT Avastin RE",
-      "circ": "น.ส.อารียา มัตตะราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "24/9/2569",
-      "hn": "257016",
-      "name": "น.ส.อารยา อินตระกูล",
-      "dept": "Eye",
-      "op": "25GPPV c retinectomy c MP c EDL c FAX c SOI  c IVT MTX 400 microgram /0.1 ml RE",
-      "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -7530,20 +7474,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "4/9/2569",
-      "hn": "88817",
-      "name": "นางสุพร หอมแพน",
-      "dept": "Eye",
-      "op": "Excision mass RUL",
-      "circ": "น.ส.รัตติกร แขนธิราช, น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "3/9/2569",
       "hn": "81681",
       "name": "นางนารี พลสันต์",
@@ -7782,20 +7712,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "25/8/2569",
-      "hn": "183536",
-      "name": "นายธนัดชัย มารมย์",
-      "dept": "Eye",
-      "op": "Excision pterygium with MMC LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย, น.ส.กาญจนา เชื้อสีดา, น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "24/8/2569",
       "hn": "97725",
       "name": "นางสาวเอมวิกา วงศ์อาสา",
@@ -7830,20 +7746,6 @@
       "dept": "Surgery",
       "op": "debridement with VAC dressing",
       "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2569",
-      "hn": "244016",
-      "name": "นางสังวาล ทองล้วน",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -8505,34 +8407,6 @@
       "dept": "Orthopedic",
       "op": "Rt. TKA",
       "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/7/2569",
-      "hn": "258701",
-      "name": "นางสิงห์ทอง ศรีกา",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/7/2569",
-      "hn": "261074",
-      "name": "นายพนา ไกรษรศรี",
-      "dept": "Eye",
-      "op": "IVT RE",
-      "circ": "น.ส.กาญจนา เชื้อสีดา, นางณัฐณิชา ไชยพะยวน",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -9284,20 +9158,6 @@
     },
     {
       "date": "19/6/2569",
-      "hn": "39185",
-      "name": "นางสุภาพ กลางศรี",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2569",
       "hn": "256042",
       "name": "นางแพร คำใบศรี",
       "dept": "Eye",
@@ -9307,34 +9167,6 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร"
-      ],
-      "month_key": "2569-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2569",
-      "hn": "256679",
-      "name": "นางเนตรนภา ปานพรหม",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2569",
-      "hn": "256680",
-      "name": "นางบำเพ็ญ พงษ์สิทธิศักดิ์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2569-06",
       "days_pending": 0,
@@ -9727,20 +9559,6 @@
       "dept": "Surgery",
       "op": "Excsion mass at scalp",
       "circ": "น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/6/2569",
-      "hn": "257016",
-      "name": "น.ส.อารยา อินตระกูล",
-      "dept": "Eye",
-      "op": "25G PPV c Remove SO c ILMP c AMP c Flange IOL  retinectomy  c  EDL c remove subretinal /PFCL c SOI RE",
-      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์, น.ส.เมธาพร ศรีวิชัย",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -10566,34 +10384,6 @@
     },
     {
       "date": "14/5/2569",
-      "hn": "259516",
-      "name": "นายคำเตือน ชมพุฒ",
-      "dept": "Eye",
-      "op": "25GPPV c  MP c FAX c EDL c SOL LE/LA",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/5/2569",
-      "hn": "99188",
-      "name": "นางบุญมา อันจันทร์หอม",
-      "dept": "Eye",
-      "op": "EPTG c CTG RE",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/5/2569",
       "hn": "259674",
       "name": "นางสาวรุ่งนภา  ศรีกุล",
       "dept": "Surgery",
@@ -11060,20 +10850,6 @@
     },
     {
       "date": "24/4/2569",
-      "hn": "241996",
-      "name": "นายมีมา โพสาวัง",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "24/4/2569",
       "hn": "88513",
       "name": "น.ส.อุไรวรรณ ประฮาดไชย",
       "dept": "Gyne-Obs",
@@ -11081,20 +10857,6 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2569-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "23/4/2569",
-      "hn": "258101",
-      "name": "นางวงษ์ ขุนศรี",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2569-04",
       "days_pending": 0,
@@ -11375,62 +11137,6 @@
       "dept": "Orthopedic",
       "op": "Fasciotomy with DB Lt. hand",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/4/2569",
-      "hn": "257185",
-      "name": "นายปรีดี ผาลี",
-      "dept": "Eye",
-      "op": "REmoval of IOL c CTR c25GPPV c MP c Flang IOL LE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.อลิชา สุริวรรณ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/4/2569",
-      "hn": "258089",
-      "name": "นายสมรัก ปัญญารส",
-      "dept": "Eye",
-      "op": "25GPPV c MP c ILMP LE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.อลิชา สุริวรรณ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/4/2569",
-      "hn": "257487",
-      "name": "นางสมพร เกษมราช",
-      "dept": "Eye",
-      "op": "PE with 25GPPV with Flagmatome with Flage IOL",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/4/2569",
-      "hn": "257287",
-      "name": "นายสุนันท์ พลเสนา",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -11922,20 +11628,6 @@
     },
     {
       "date": "24/3/2569",
-      "hn": "257130",
-      "name": "นายประเสน พาภักดี",
-      "dept": "Eye",
-      "op": "Intravitreal fortum and vancomycin (full dose) RE + anterior chamber paracenthesis RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "24/3/2569",
       "hn": "258130",
       "name": "ด.ช.จิรกร บริบูรณ์",
       "dept": "Orthopedic",
@@ -12013,34 +11705,6 @@
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/3/2569",
-      "hn": "250697",
-      "name": "นางเดลา งามบุตรดา",
-      "dept": "Eye",
-      "op": "25GPPV C Fragmetome with flange IOL RE/LA",
-      "circ": "พรชิตา, น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/3/2569",
-      "hn": "257752",
-      "name": "นางใส อิ่มบุญสุ",
-      "dept": "Eye",
-      "op": "25GPPV c fragmetome with flange IOL LE/LA",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
         "ห้องซ้อนเวลา"
       ],
       "month_key": "2569-03",
@@ -12643,20 +12307,6 @@
     },
     {
       "date": "26/2/2569",
-      "hn": "257283",
-      "name": "นายสำรวย เปล่งปลื้ม",
-      "dept": "Eye",
-      "op": "25GPPV c Fragmatome c Flang IOLRE/LA",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2569",
       "hn": "93449",
       "name": "นางจีระภรณ์  อัน",
       "dept": "Surgery",
@@ -12671,56 +12321,13 @@
     },
     {
       "date": "26/2/2569",
-      "hn": "243135",
-      "name": "น.ส.บัวลี เหล่าจันขาม",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา, น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2569",
       "hn": "218903",
       "name": "นางเครือวัลย์  ศิริกิจ",
       "dept": "Eye",
       "op": "PE with IOL OS",
       "circ": "พรชิตา, น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
-        "HN ซ้ำต่างคน",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2569",
-      "hn": "248623",
-      "name": "นางหอมหวน ขวัญทอง",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา, น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2569",
-      "hn": "257293",
-      "name": "นายทองม้วน นรบุตร",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา, น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "HN ซ้ำต่างคน"
       ],
       "month_key": "2569-02",
       "days_pending": 0,
@@ -12756,34 +12363,6 @@
     },
     {
       "date": "19/2/2569",
-      "hn": "49480",
-      "name": "นายคำมอญ อุ่นทรพันธ์",
-      "dept": "Eye",
-      "op": "exchnage IOL RE",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ, น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2569",
-      "hn": "70779",
-      "name": "นางวิไล ศรีวะรมย์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2569",
       "hn": "5532",
       "name": "นางตุ้น นานาโพธิ์",
       "dept": "Eye",
@@ -12791,20 +12370,6 @@
       "circ": "น.ส.พรพิมล บุญครอง, น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "Nurse Aid ทีมเวร"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/2/2569",
-      "hn": "256217",
-      "name": "นางบุญเถิง โสมณวัตร",
-      "dept": "Eye",
-      "op": "PE c IOL c 25GPPV c MP c ILMP c fax c EDL c  20%Sf6 RE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2569-02",
       "days_pending": 0,
@@ -12847,20 +12412,6 @@
       "circ": "น.ส.รัตติกร แขนธิราช",
       "missing": [
         "Nurse Aid"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "17/2/2569",
-      "hn": "11777",
-      "name": "นายสัมมาอาชีวะ โยธายุทธ",
-      "dept": "Eye",
-      "op": "repair left  lower  eyelid",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2569-02",
       "days_pending": 0,
@@ -13055,20 +12606,6 @@
       "dept": "Surgery",
       "op": "PCD Lt.Psoas",
       "circ": "น.ส.มัญชุกร เกิดไทย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "11/2/2569",
-      "hn": "253848",
-      "name": "พระประดิษฐ์ สอนคำมี",
-      "dept": "Eye",
-      "op": "Flange IOL c anterior vitrectomy",
-      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์, น.ส.กาญจนา เชื้อสีดา",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -13558,34 +13095,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "29/1/2569",
-      "hn": "22111",
-      "name": "นางดวงจันทร์ จูมสุพรรณ",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "29/1/2569",
-      "hn": "43902",
-      "name": "นางกองศิลป์ ศรีสมสาร",
-      "dept": "Eye",
-      "op": "PE With IOL Excistion pterygium LE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "28/1/2569",
       "hn": "254094",
       "name": "นายวินิจ ชานุชิต",
@@ -13650,20 +13159,6 @@
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2569-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "23/1/2569",
-      "hn": "76789",
-      "name": "นางลำใย บุตรเพ็ง",
-      "dept": "Eye",
-      "op": "Excision of pterygium with AMT RE",
-      "circ": "น.ส.รัตติกร แขนธิราช, น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2569-01",
       "days_pending": 0,
@@ -14163,34 +13658,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "7/1/2569",
-      "hn": "252790",
-      "name": "นางกอบแก้ว บุญชาญ",
-      "dept": "Eye",
-      "op": "PE c IOL c 25GPPV c MP c FAX  c EDL c gas c IVT avastin RE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "7/1/2569",
-      "hn": "254730",
-      "name": "นางเทวา ฤาษี",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2569-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "6/1/2569",
       "hn": "255966",
       "name": "นายกาวงศ์ คำชนะ",
@@ -14320,20 +13787,6 @@
     },
     {
       "date": "26/12/2568",
-      "hn": "250523",
-      "name": "นายชอบ ทองพรม",
-      "dept": "Eye",
-      "op": "ECCE RE",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/12/2568",
       "hn": "175045",
       "name": "นางสาวชมพู่ โพธิ์ชัย",
       "dept": "Gyne-Obs",
@@ -14367,20 +13820,6 @@
       "dept": "Surgery",
       "op": "ERCP",
       "circ": "น.ส.อารียา มัตตะราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/12/2568",
-      "hn": "193324",
-      "name": "นางไกรษร คิดโสดา",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -14438,22 +13877,7 @@
       "op": "Excision pterygium RE,conjungtival graft",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "ชื่อซ้ำในทีม",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "25/12/2568",
-      "hn": "85172",
-      "name": "นางสาวอารมณ์ วงค์คะสุ่ม",
-      "dept": "Eye",
-      "op": "Excision ptrygium with  conjungtival graft  LE",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "ชื่อซ้ำในทีม"
       ],
       "month_key": "2568-12",
       "days_pending": 0,
@@ -14943,34 +14367,6 @@
     },
     {
       "date": "4/12/2568",
-      "hn": "174703",
-      "name": "นายไชยยา วารินทร์",
-      "dept": "Eye",
-      "op": "PE c IOL c 25GPPV c MP c FAX c EDL c gas +/- SO RE c IVT avastin 0.05 ml",
-      "circ": "พรชิตา, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "4/12/2568",
-      "hn": "254009",
-      "name": "นางนันทา พรมสาร",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "4/12/2568",
       "hn": "128452",
       "name": "นางสาวจิณดาพร ฮาบพนม",
       "dept": "Gyne-Obs",
@@ -15131,34 +14527,6 @@
       "dept": "Orthopedic",
       "op": "DB c closed stump at Rt. index",
       "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "25/11/2568",
-      "hn": "74280",
-      "name": "นายปิยะวัฒน์ โพธิราช",
-      "dept": "Eye",
-      "op": "Excision  pterygium RE eye",
-      "circ": "น.ส.รัตติกร แขนธิราช, น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "25/11/2568",
-      "hn": "10238",
-      "name": "นางรุจี  บาลจบ",
-      "dept": "Eye",
-      "op": "Excision mass BE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.รัตติกร แขนธิราช",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -15575,20 +14943,6 @@
     },
     {
       "date": "31/10/2568",
-      "hn": "253880",
-      "name": "นายกอน มะนีวัน",
-      "dept": "Eye",
-      "op": "IVT MTX",
-      "circ": "น.ส.อารียา มัตตะราช, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "31/10/2568",
       "hn": "201645",
       "name": "นางกงเกวียน จันทร์มาลา",
       "dept": "Eye",
@@ -15642,20 +14996,6 @@
       "month_key": "2568-10",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "30/10/2568",
-      "hn": "251822",
-      "name": "น.ส.ลำใย จันทร์แดง",
-      "dept": "Eye",
-      "op": "PE c IOL c 25GPPV c MP c ILMP flap c FAX c 20%SF6 LE",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "30/10/2568",
@@ -15782,34 +15122,6 @@
       "month_key": "2568-10",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "17/10/2568",
-      "hn": "190740",
-      "name": "นายคำมี สิตะวัน",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "17/10/2568",
-      "hn": "242382",
-      "name": "นายทิ ศรีหนองฮ้าง",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "17/10/2568",
@@ -16150,56 +15462,13 @@
     },
     {
       "date": "8/10/2568",
-      "hn": "17637",
-      "name": "นายศรีสวัสดิ์ ไชยยศ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "8/10/2568",
-      "hn": "25235",
-      "name": "นายณรงค์ ทัศนิวาส",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "8/10/2568",
-      "hn": "44146",
-      "name": "นางสายยน แก้วกันหา",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-10",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "8/10/2568",
       "hn": "95834",
       "name": "นางจันทร์ไทย ผ่องแผ้ว",
       "dept": "Eye",
       "op": "PE with IOL OD",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "AN",
-        "ห้องซ้อนเวลา"
+        "AN"
       ],
       "month_key": "2568-10",
       "days_pending": 5,
@@ -16781,104 +16050,6 @@
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
         "ตึกผู้ป่วย"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "32626",
-      "name": "นางลำดวน  ผาใต้",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "170628",
-      "name": "นางกรมลี โอระนันท์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "212772",
-      "name": "นางสาวสมัย รังษีรัมย์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "250100",
-      "name": "นายทองปาน นรสาร",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "68653",
-      "name": "นางค้าย หารจิตร",
-      "dept": "Eye",
-      "op": "PE with IOL OS,Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "104710",
-      "name": "นายสง่า ศรีนวลจันทร์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/9/2568",
-      "hn": "252798",
-      "name": "นายสวรรค์เมือง พิกุลทอง",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.รัตติกร แขนธิราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-09",
       "days_pending": 0,
@@ -17484,118 +16655,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "3/9/2568",
-      "hn": "251662",
-      "name": "นางสมพิศ สัพโส",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "101596",
-      "name": "นายสงวน ศรีสมัย",
-      "dept": "Eye",
-      "op": "PE with IOL  OD",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "251732",
-      "name": "น.ส.สุนา ทองคำ",
-      "dept": "Eye",
-      "op": "PE with IOL  OD",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "251733",
-      "name": "นางนาทม ปานพรหม",
-      "dept": "Eye",
-      "op": "PE with IOL  OS",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "125819",
-      "name": "นายสมพล บุตรเพ็ง",
-      "dept": "Eye",
-      "op": "PE with IOL  OD",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "41113",
-      "name": "นางสาวคำป่น ศิริดล",
-      "dept": "Eye",
-      "op": "PE with IOL  OS",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "49804",
-      "name": "นายบุญเถิง วงศ์สุภา",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/9/2568",
-      "hn": "4269",
-      "name": "นางหนา พิมแพง",
-      "dept": "Eye",
-      "op": "AC reform with viscoelastic with remove C3F8 LE /LA",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-09",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "2/9/2568",
       "hn": "217337",
       "name": "นายสถาพร ทับทิมหิน",
@@ -17908,34 +16967,6 @@
     },
     {
       "date": "22/8/2568",
-      "hn": "163408",
-      "name": "นายสมัย โสนางาม",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/8/2568",
-      "hn": "44157",
-      "name": "นางอุทัยวรรณ บุญเฮ้า",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/8/2568",
       "hn": "250692",
       "name": "นางบุญนอง ปัญเศษ",
       "dept": "Eye",
@@ -17985,34 +17016,6 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "ค่าหัตถการ"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
-      "hn": "29801",
-      "name": "นางบัว ละลี",
-      "dept": "Eye",
-      "op": "25GPPV c Flange IOL RE / PE c IOL LE",
-      "circ": "นางณัฐณิชา ไชยพะยวน, น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
-      "hn": "250478",
-      "name": "นายทินกร ตุ่นกลิ่น",
-      "dept": "Eye",
-      "op": "25GPPV c FAX c EDL c SOI RE",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -18076,62 +17079,6 @@
     },
     {
       "date": "20/8/2568",
-      "hn": "54451",
-      "name": "นางเสวย แสงเชื้อพ่อ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
-      "hn": "72098",
-      "name": "นางจอม แสนสีแก้ว",
-      "dept": "Eye",
-      "op": "PE with IOL OD,Excision Pterygium with conjunctiva graft RE",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
-      "hn": "103075",
-      "name": "นางบุญโฮม อ่อนสุระทุม",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
-      "hn": "251351",
-      "name": "นายนิจ เนินทราย",
-      "dept": "Eye",
-      "op": "Evisceration RE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
       "hn": "216824",
       "name": "นางสาวแคทรียา ทองอินที",
       "dept": "Surgery",
@@ -18139,20 +17086,6 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/8/2568",
-      "hn": "236658",
-      "name": "นายชำนาญ สุวรรณแสง",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -18380,118 +17313,6 @@
       "circ": "น.ส.อารียา มัตตะราช, น.ส.มัญชุกร เกิดไทย",
       "missing": [
         "ค่าหัตถการ"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "250144",
-      "name": "นางเทวา  คำมี",
-      "dept": "Eye",
-      "op": "PE c IOL C LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "11743",
-      "name": "นางเครือวัลย์  ดิ่นจำปี",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นางณัฐณิชา ไชยพะยวน, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "250514",
-      "name": "นางหนูเจียม  หล้าหิบ",
-      "dept": "Eye",
-      "op": "PE c IOL RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "239769",
-      "name": "นายบุญชอบ  แดนนาบัว",
-      "dept": "Eye",
-      "op": "PE c IOL RE,Tapping Vitreous",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "86636",
-      "name": "นางกลม  โอกละคร",
-      "dept": "Eye",
-      "op": "PE c IOL RE",
-      "circ": "พรชิตา, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "250146",
-      "name": "นายจันที  ทายะพิม",
-      "dept": "Eye",
-      "op": "PE c IOL RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "251254",
-      "name": "จักรพล เตียงชัย",
-      "dept": "Eye",
-      "op": "Intravitreal ganciclovir 2 mg/0.1 ml + anterior chamber paracenthesis",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-08",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/8/2568",
-      "hn": "241517",
-      "name": "นายดำรงค์ เจริญชัย",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-08",
       "days_pending": 0,
@@ -19160,20 +17981,6 @@
     },
     {
       "date": "22/7/2568",
-      "hn": "13771",
-      "name": "นางอำพร แสงคำ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/7/2568",
       "hn": "147536",
       "name": "นางจารุณี จำปาศิลป์",
       "dept": "Surgery",
@@ -19188,53 +17995,11 @@
     },
     {
       "date": "22/7/2568",
-      "hn": "62829",
-      "name": "นางสายใจ นาโควงค์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/7/2568",
       "hn": "53418",
       "name": "นางคำสิงห์ สุกาวงค์",
       "dept": "Surgery",
       "op": "ERCP with plastic stent",
       "circ": "น.ส.อารียา มัตตะราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/7/2568",
-      "hn": "192851",
-      "name": "นายประยม บุญสุนีย์",
-      "dept": "Eye",
-      "op": "PE with IOL RE",
-      "circ": "น.ส.พรพิมล บุญครอง, น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/7/2568",
-      "hn": "223022",
-      "name": "นางทองใบ เหลาสิทธิ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง, น.ส.พรพิมล บุญครอง",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -19624,46 +18389,17 @@
     },
     {
       "date": "8/7/2568",
-      "hn": "40824",
-      "name": "นางบุญเพ็ง โคตรนาวัง",
-      "dept": "Eye",
-      "op": "Excision ptyerygium with congungtiva graft LE",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง, น.ส.พรพิมล บุญครอง, น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "8/7/2568",
       "hn": "15359",
       "name": "นายสวาท บัวสาย",
       "dept": "Eye",
       "op": "",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง, น.ส.วิภาวรรณ ไชโย, น.ส.พรพิมล บุญครอง",
       "missing": [
-        "Operation",
-        "ห้องซ้อนเวลา"
+        "Operation"
       ],
       "month_key": "2568-07",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "8/7/2568",
-      "hn": "197110",
-      "name": "นางเสมือน ไกรยะราช",
-      "dept": "Eye",
-      "op": "Excision ptyerygium with congungtiva graft LE",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง, น.ส.พรพิมล บุญครอง, น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "8/7/2568",
@@ -19864,28 +18600,13 @@
     },
     {
       "date": "3/7/2568",
-      "hn": "243466",
-      "name": "นางสนม กุลภา",
-      "dept": "Eye",
-      "op": "ECCE with IOL LE",
-      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "3/7/2568",
       "hn": "249869",
       "name": "นางกองเหรียญ สิงห์ซิว",
       "dept": "Eye",
       "op": "Excision Pterygium with conjunctiva graft LE",
       "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
-        "Last Dx",
-        "ห้องซ้อนเวลา"
+        "Last Dx"
       ],
       "month_key": "2568-07",
       "days_pending": 5,
@@ -20050,34 +18771,6 @@
     },
     {
       "date": "1/7/2568",
-      "hn": "24967",
-      "name": "นางกรมลี เบ็ญตัน",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "30073",
-      "name": "นางทองมัด ชาวศรี",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
       "hn": "172780",
       "name": "นางสวัสดิ์  ประสงดี",
       "dept": "Surgery",
@@ -20097,132 +18790,6 @@
       "dept": "Surgery",
       "op": "Suture wound Rt. foot",
       "circ": "น.ส.มัญชุกร เกิดไทย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "249217",
-      "name": "นายนิยม ดวงหล้าเลิศ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "49369",
-      "name": "นางวิเศษ เขื่อนแก้ว",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "249213",
-      "name": "นางหงษ์ทอง ภักดีรักษ์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "247610",
-      "name": "นางประภาพร แก้วมุงคุณ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "244173",
-      "name": "นางศิริพัฒน์ นารีสา",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "52375",
-      "name": "นางขวัญใจ ยาสาไชย",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "6614",
-      "name": "นางสาวพรทิพย์ พวงจันทร์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "160970",
-      "name": "นางสาวเพลินจิตร โสมนาม",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-07",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "1/7/2568",
-      "hn": "200776",
-      "name": "นางคำหยาด แสวงแก้ว",
-      "dept": "Eye",
-      "op": "PE with IOL OS,Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.วิภาวรรณ ไชโย",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -20668,48 +19235,6 @@
     },
     {
       "date": "20/6/2568",
-      "hn": "135364",
-      "name": "แม่ชีชตี จันใด",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "248832",
-      "name": "นายจันทร์ สมาวัด",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "182230",
-      "name": "นายเจษฎา อินทรสิทธิ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
       "hn": "227138",
       "name": "นายเลี่ยม ประชุม",
       "dept": "Eye",
@@ -20717,76 +19242,6 @@
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "78947",
-      "name": "นายสนธยา สวัสดี",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "245954",
-      "name": "นางเวิน อินทรสิทธิ์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "71327",
-      "name": "นายนงเย็น ศรีซองเชษฐ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "11334",
-      "name": "นายสวาท ไชยตะมาตย์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/6/2568",
-      "hn": "164948",
-      "name": "นายนิรัตน์ ศรีไชย",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-06",
       "days_pending": 0,
@@ -20822,34 +19277,6 @@
     },
     {
       "date": "19/6/2568",
-      "hn": "8503",
-      "name": "นายคมสันต์ ยนเพียราช",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "25782",
-      "name": "นายธงชัย ไชยยศ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
       "hn": "118369",
       "name": "นายธนูศิลป์ ยืนสุข",
       "dept": "Surgery",
@@ -20861,118 +19288,6 @@
       "month_key": "2568-06",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "232211",
-      "name": "นางสวน เทือกตาถา",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "199135",
-      "name": "นายถวัล รัดอ้อ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "246575",
-      "name": "นางประยูร กบิลพัฒน์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "5647",
-      "name": "นางรัสมี พิมพ์นาจ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "24459",
-      "name": "นางสงวน แสงประดิษฐ์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "45284",
-      "name": "นางเสถียน ทวีคูณ",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "54558",
-      "name": "นางสีดา สีดา",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/6/2568",
-      "hn": "123134",
-      "name": "พระสมบัติ ศรีวรกุล",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "19/6/2568",
@@ -20990,76 +19305,6 @@
     },
     {
       "date": "18/6/2568",
-      "hn": "249210",
-      "name": "พระธนเกียรติ ชื่นสบาย",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "145007",
-      "name": "นางประเทียน แก่นท้าว",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "67536",
-      "name": "นายกองประดิษฐ์ รัศมีพิพัฒน์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "249216",
-      "name": "นายสวาท เหง้าโอษา",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "37095",
-      "name": "นายสียอน การุญ",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
       "hn": "43253",
       "name": "นายสมพงษ์ ขันทองคำ",
       "dept": "Eye",
@@ -21067,62 +19312,6 @@
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "2297",
-      "name": "นางลำใย วงคำจันทร์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "141115",
-      "name": "พระพิเชษฐ์ศักดิ์ สุนารักษ์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "36156",
-      "name": "นางประเกรียบ ไชยยศ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "18/6/2568",
-      "hn": "246163",
-      "name": "พระหนาน พรมวงศ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-06",
       "days_pending": 0,
@@ -21398,34 +19587,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "11/6/2568",
-      "hn": "187977",
-      "name": "นางเดือน ออมทรัพย์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "11/6/2568",
-      "hn": "130564",
-      "name": "นางมะลิวรรณ กิณเรศ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "10/6/2568",
       "hn": "119989",
       "name": "นายณัฐวุฒิ เชื้อแพ่ง",
@@ -21434,20 +19595,6 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "Team"
-      ],
-      "month_key": "2568-06",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/6/2568",
-      "hn": "140194",
-      "name": "นายมงคล นิยมชัย",
-      "dept": "Eye",
-      "op": "IVT fortum and vancomycin (half dose) RE",
-      "circ": "นางณัฐณิชา ไชยพะยวน, น.ส.อลิชา สุริวรรณ",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-06",
       "days_pending": 0,
@@ -22422,34 +20569,6 @@
     },
     {
       "date": "15/5/2568",
-      "hn": "82016",
-      "name": "นางประนอม นาทุ่งมน",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/5/2568",
-      "hn": "75163",
-      "name": "นางปราจีน เมืองแก้ว",
-      "dept": "Eye",
-      "op": "PE with IOL OD,vitrectomy",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/5/2568",
       "hn": "225681",
       "name": "น.ส.ปณัสดา กุลภา",
       "dept": "Gyne-Obs",
@@ -22459,62 +20578,6 @@
         "Assistant",
         "Scrub",
         "Circulating"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/5/2568",
-      "hn": "245545",
-      "name": "นางดารา โพธิราช",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/5/2568",
-      "hn": "50490",
-      "name": "นายบรรลัย โพธิ์สาวัง",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/5/2568",
-      "hn": "25782",
-      "name": "นายธงชัย ไชยยศ",
-      "dept": "Eye",
-      "op": "PE with IOL OD,vitreous tapping",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/5/2568",
-      "hn": "177751",
-      "name": "ร.ต.ต.สมชาย พวงจันทึก",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-05",
       "days_pending": 0,
@@ -22558,62 +20621,6 @@
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "ค่าหัตถการ"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/5/2568",
-      "hn": "35821",
-      "name": "นางทองใบ แก่นคำ",
-      "dept": "Eye",
-      "op": "Evisceration with glass ball Rt. eye",
-      "circ": "น.ส.อลิชา สุริวรรณ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/5/2568",
-      "hn": "218316",
-      "name": "นายฉลาด ใครอุบล",
-      "dept": "Eye",
-      "op": "PE with IOL OS,Excision massRE",
-      "circ": "นางณัฐณิชา ไชยพะยวน, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/5/2568",
-      "hn": "9420",
-      "name": "นางนาง ศรีหาผล",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นางณัฐณิชา ไชยพะยวน, พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-05",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "14/5/2568",
-      "hn": "93343",
-      "name": "นางทิพย์อักษร ไชยเทศ",
-      "dept": "Eye",
-      "op": "PE with IOL  OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-05",
       "days_pending": 0,
@@ -22934,20 +20941,6 @@
     },
     {
       "date": "30/4/2568",
-      "hn": "247609",
-      "name": "นายทวี อ้นมา",
-      "dept": "Eye",
-      "op": "repair eyelid laceration left",
-      "circ": "น.ส.พรพิมล บุญครอง, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
       "hn": "247526",
       "name": "น.ส.วัณณิตา เหง้าน้อย",
       "dept": "Surgery",
@@ -22984,90 +20977,6 @@
       "dept": "Orthopedic",
       "op": "Remove Plate and Screw Both Bone Lt. Leg",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
-      "hn": "15272",
-      "name": "นางสวนมาลา ร้องขาน",
-      "dept": "Eye",
-      "op": "Wedge resectio with entropion repair RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
-      "hn": "246559",
-      "name": "นางศรีจันทร์ สกุลนัย",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
-      "hn": "246560",
-      "name": "นางเคนน้อย พุตธขันท์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
-      "hn": "10376",
-      "name": "นางหนู เครือวงศ์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
-      "hn": "246565",
-      "name": "นายพรมมี ต้นศรี",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "30/4/2568",
-      "hn": "62595",
-      "name": "นายเสถียร พันธุ์คุ้มเก่า",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE,Subconjunctival injection LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -23292,62 +21201,6 @@
         "Scrub",
         "Circulating",
         "Nurse Aid"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "23/4/2568",
-      "hn": "44100",
-      "name": "นางศิริวรรณ บุญกานญจน์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "23/4/2568",
-      "hn": "225932",
-      "name": "นายสถิตย์ ชนะโคตร",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "23/4/2568",
-      "hn": "245023",
-      "name": "นายแสวง อินทมาต",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "23/4/2568",
-      "hn": "232370",
-      "name": "น.ส.ละมัย นาราษฎร์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-04",
       "days_pending": 0,
@@ -23880,132 +21733,6 @@
       "first_seen": "2026-10-01"
     },
     {
-      "date": "10/4/2568",
-      "hn": "245560",
-      "name": "นางวิภารัตน์ เชื้อหาญ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "129988",
-      "name": "นางวงค์เดือน คุณสมบัติ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "244177",
-      "name": "นางนวลจันทร์ บุญมา",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "35380",
-      "name": "นางณรงค์ แก่นท้าว",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "245744",
-      "name": "นายปริญญา วังทะพันธ์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "83224",
-      "name": "นางเทวี วิเชียรเลิศ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "23311",
-      "name": "นายประทอน ไชยบุญตา",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "129204",
-      "name": "นางสาวขวัญทิพย์ ฮาบสุวรรณ",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "10/4/2568",
-      "hn": "18282",
-      "name": "นางอนุธิดา กลางศรี",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
       "date": "9/4/2568",
       "hn": "237699",
       "name": "น.ส. พรทิตา โคตรสิงห์",
@@ -24050,42 +21777,13 @@
     },
     {
       "date": "9/4/2568",
-      "hn": "1767",
-      "name": "นางประภาวดี พลังน้อย",
-      "dept": "Eye",
-      "op": "Excision pterygium LE with congunctiva graft",
-      "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/4/2568",
       "hn": "191166",
       "name": "นายแสง  จากผา",
       "dept": "Eye",
       "op": "Excision Pterygium RE with conjunctiva graft",
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
-        "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-04",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/4/2568",
-      "hn": "57313",
-      "name": "นายทวีทรัพย์  มาละอินทร์",
-      "dept": "Eye",
-      "op": "Excision pterygium  LE with conjungtiva graft",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "AN ซ้ำข้ามคน"
       ],
       "month_key": "2568-04",
       "days_pending": 0,
@@ -24099,8 +21797,7 @@
       "op": "Excision Pterygium RE with conjunctiva graft",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
+        "AN ซ้ำข้ามคน"
       ],
       "month_key": "2568-04",
       "days_pending": 0,
@@ -24707,34 +22404,6 @@
     },
     {
       "date": "28/3/2568",
-      "hn": "698",
-      "name": "นายกองศรี สร้อยสุข",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
-      "hn": "56420",
-      "name": "นางบุญศรี สมจันทร์",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
       "hn": "132002",
       "name": "นายอำนวย  ปัญญาไว",
       "dept": "Surgery",
@@ -24742,76 +22411,6 @@
       "circ": "น.ส.ณัฎฐาพร โป๊ะไธสง",
       "missing": [
         "AN ซ้ำข้ามคน"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
-      "hn": "94824",
-      "name": "นางประทุมมา แก้วใสยา",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
-      "hn": "105480",
-      "name": "นางหนึ่งฤทัย โคตรคำ",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
-      "hn": "242762",
-      "name": "นายประสพชัย ศรีสุราช",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
-      "hn": "227138",
-      "name": "นายเลี่ยม ประชุม",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "28/3/2568",
-      "hn": "75094",
-      "name": "นางสุพี ใขละมา",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -24844,160 +22443,6 @@
       "month_key": "2568-03",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "231643",
-      "name": "นางพัฒนา เหง้าน้อย",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "245183",
-      "name": "นางเกิ่ง สมดี",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "242370",
-      "name": "นางสุพิน พรมเลิศ",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "201587",
-      "name": "นายเคน ปาเสนา",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "11322",
-      "name": "นางกัลญารัตน์ ธิมาบุตร",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "114418",
-      "name": "นางสุภี ประพัสราง",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "135901",
-      "name": "นางบุญธรรม ดอบุตร",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft  LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "2593",
-      "name": "นางสงวน พลศรี",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "169538",
-      "name": "นางสงวน จิตจักร",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "244753",
-      "name": "นายบุญเหลือ จำปาสี",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "27/3/2568",
-      "hn": "36338",
-      "name": "พระทองแดง งามเถื่อน",
-      "dept": "Eye",
-      "op": "Excision Pterygium with conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "27/3/2568",
@@ -25043,56 +22488,13 @@
     },
     {
       "date": "26/3/2568",
-      "hn": "245385",
-      "name": "นางมลิวัลย์ สุขสุนันท์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/3/2568",
-      "hn": "182230",
-      "name": "นายเจษฎา อินทรสิทธิ์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/3/2568",
       "hn": "9072",
       "name": "นางวัน บัวสกุล",
       "dept": "Eye",
       "op": "PE with IOL OD",
       "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
-        "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/3/2568",
-      "hn": "29595",
-      "name": "นายทองใส พุทธดี",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "AN ซ้ำข้ามคน"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -25107,34 +22509,6 @@
       "circ": "พรชิตา",
       "missing": [
         "AN ซ้ำข้ามคน"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/3/2568",
-      "hn": "101385",
-      "name": "นายชัจจ์ชเดชช์ อิฏฐญานภัส",
-      "dept": "Eye",
-      "op": "lysis synechiae with anterior vitrectomy RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/3/2568",
-      "hn": "20677",
-      "name": "นางบัวพันธ์ บางจักร",
-      "dept": "Eye",
-      "op": "PE OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -25492,34 +22866,6 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "ชื่อซ้ำในทีม"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/3/2568",
-      "hn": "3038",
-      "name": "นางสาวพัง ศรีราช",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-03",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/3/2568",
-      "hn": "192043",
-      "name": "นางอุดร ขวาวงษา",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-03",
       "days_pending": 0,
@@ -26847,62 +24193,6 @@
     },
     {
       "date": "26/2/2568",
-      "hn": "135364",
-      "name": "แม่ชีชตี จันใด",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2568",
-      "hn": "198585",
-      "name": "นายอ่อนศรี พลแสน",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2568",
-      "hn": "244763",
-      "name": "นายคาน ศรีดี",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2568",
-      "hn": "29038",
-      "name": "นายราเมศ วจนะไพบูลย์",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "พรชิตา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "26/2/2568",
       "hn": "190797",
       "name": "นางสาวศศิพร เหง้าสุวรรณ",
       "dept": "Gyne-Obs",
@@ -27127,104 +24417,6 @@
     },
     {
       "date": "21/2/2568",
-      "hn": "67972",
-      "name": "นางมะลิ อัคจันทร์",
-      "dept": "Eye",
-      "op": "Pterygium excidion with conjunctival graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "62595",
-      "name": "นายเสถียร พันธุ์คุ้มเก่า",
-      "dept": "Eye",
-      "op": "excision pterygium with conjunctival graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "3816",
-      "name": "นายไสว ต้นพรม",
-      "dept": "Eye",
-      "op": "excision pterygium with conjunctival graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "19603",
-      "name": "นายปั่น แก้วกันหา",
-      "dept": "Eye",
-      "op": "Pterygium with conjunctival graft RE/LA",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "101596",
-      "name": "นายสงวน ศรีสมัย",
-      "dept": "Eye",
-      "op": "pterygium excision with conjunctival graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "244173",
-      "name": "นางศิริพัฒน์ นารีสา",
-      "dept": "Eye",
-      "op": "pterygium excision with conjunctival graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "244171",
-      "name": "นายนัด อินทนันท์",
-      "dept": "Eye",
-      "op": "pterygium excicion with conjunctival graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
       "hn": "66538",
       "name": "นางสาวสุพัฒตรา วังสะการ",
       "dept": "Gyne-Obs",
@@ -27232,20 +24424,6 @@
       "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
       "missing": [
         "AN ซ้ำข้ามคน"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "21/2/2568",
-      "hn": "42172",
-      "name": "นางกองศรี แสนไตร",
-      "dept": "Eye",
-      "op": "Intracapsular cataract extraction with vitreous tapping with anterior vitrectomy right eye",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -27298,140 +24476,13 @@
     },
     {
       "date": "19/2/2568",
-      "hn": "168424",
-      "name": "นางสมจิตร สมคิด",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ, น.ส.ธิดารัตน์ กิจจำรูญ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "155795",
-      "name": "พระทาชาญ ทาทัดลัย",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "30792",
-      "name": "นายบุญ พรมศาลา",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "71147",
-      "name": "นางบาง อาบทอง",
-      "dept": "Eye",
-      "op": "PE with IOL OD,Anterior  vitrectomy",
-      "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "26182",
-      "name": "นางประกอบ ใยพันธ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "244531",
-      "name": "นายลอน งามสิงห์",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "244532",
-      "name": "นายเอ็ด ถนอมพุทธ",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
       "hn": "241112",
       "name": "นายสมบัติ วงคำพระ",
       "dept": "Eye",
       "op": "PE with IOL OS",
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
-        "AN ซ้ำข้ามคน",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "243470",
-      "name": "นายสมหมาย สังสีราช",
-      "dept": "Eye",
-      "op": "PE with IOL with iris retractor secure bag",
-      "circ": "น.ส.ธิดารัตน์ กิจจำรูญ, นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "82730",
-      "name": "นายกาศ ทาศรีภู",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "AN ซ้ำข้ามคน"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -27446,20 +24497,6 @@
       "circ": "นายณัฐวุฒิ ทิพย์ทอง",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "183949",
-      "name": "นางฮวย ขามพวง",
-      "dept": "Eye",
-      "op": "PE with IOL OD",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-02",
       "days_pending": 0,
@@ -27500,34 +24537,6 @@
       "dept": "Surgery",
       "op": "I&D Rt. leg",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "54224",
-      "name": "นางสมศักด์ เทืองสุข",
-      "dept": "Eye",
-      "op": "PE with IOL OS",
-      "circ": "นายณัฐวุฒิ ทิพย์ทอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-02",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "19/2/2568",
-      "hn": "243473",
-      "name": "นางสาวธัญลักษณ์ ไชยภูมิ",
-      "dept": "Eye",
-      "op": "Excision mass Rt eyelid",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -28594,20 +25603,6 @@
     },
     {
       "date": "22/1/2568",
-      "hn": "230591",
-      "name": "นางสุดสดี ราช้อน",
-      "dept": "Eye",
-      "op": "PE with IOL OS Power lens",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/1/2568",
       "hn": "68026",
       "name": "นางประมวลศิลป์ สิทธิชัย",
       "dept": "Surgery",
@@ -28646,62 +25641,6 @@
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
         "เวลาย้อน"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/1/2568",
-      "hn": "220554",
-      "name": "นายคำภา ไกรวิชัย",
-      "dept": "Eye",
-      "op": "PE with IOL OS Power lens",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/1/2568",
-      "hn": "183329",
-      "name": "นางนิวาส แผ่นผา",
-      "dept": "Eye",
-      "op": "PE with IOL OD Power lens",
-      "circ": "น.ส.อารียา มัตตะราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/1/2568",
-      "hn": "244163",
-      "name": "นายสมพงษ์ สุทธิสินธุ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS Power lens",
-      "circ": "น.ส.อารียา มัตตะราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "22/1/2568",
-      "hn": "33260",
-      "name": "นางคำปอน ชัยบุบผา",
-      "dept": "Eye",
-      "op": "PE with IOL OS Power lens",
-      "circ": "น.ส.อารียา มัตตะราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -28761,8 +25700,7 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "AN",
-        "Address",
-        "ห้องซ้อนเวลา"
+        "Address"
       ],
       "month_key": "2568-01",
       "days_pending": 5,
@@ -28777,8 +25715,7 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "AN",
-        "Address",
-        "ห้องซ้อนเวลา"
+        "Address"
       ],
       "month_key": "2568-01",
       "days_pending": 5,
@@ -28986,20 +25923,6 @@
     },
     {
       "date": "17/1/2568",
-      "hn": "14816",
-      "name": "นางประยิ้ม จันทรักษ์",
-      "dept": "Eye",
-      "op": "Excision Pterygium with Conjunctiva graft RE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "17/1/2568",
       "hn": "1767",
       "name": "นางประภาวดี พลังน้อย",
       "dept": "Eye",
@@ -29007,20 +25930,6 @@
       "circ": "รัตติยา",
       "missing": [
         "AN"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "17/1/2568",
-      "hn": "240634",
-      "name": "นายสนิตย์ อุส่าห์พรม",
-      "dept": "Eye",
-      "op": "Excision Pterygium with Conjunctiva graft LE",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29071,42 +25980,13 @@
     },
     {
       "date": "15/1/2568",
-      "hn": "243459",
-      "name": "นายบุญมี ประเสริฐพงษ์",
-      "dept": "Eye",
-      "op": "PE with IOL OS Power lens",
-      "circ": "รัตติยา",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/1/2568",
       "hn": "88374",
       "name": "นางทองเลื่อน จันทะคัด",
       "dept": "Eye",
       "op": "PE with IOL OD Power lens",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "Nurse Aid ทีมเวร",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/1/2568",
-      "hn": "140710",
-      "name": "นายสำเริง จันทร์คช",
-      "dept": "Eye",
-      "op": "PE with IOL OD Power lens",
-      "circ": "รัตติยา",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "Nurse Aid ทีมเวร"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29136,8 +26016,7 @@
       "op": "PE with IOL OD Power lens",
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
-        "Nurse Aid ทีมเวร",
-        "ห้องซ้อนเวลา"
+        "Nurse Aid ทีมเวร"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29151,22 +26030,7 @@
       "op": "PE with IOL OD Power lens",
       "circ": "รัตติยา, น.ส.พรพิมล บุญครอง",
       "missing": [
-        "Nurse Aid ทีมเวร",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/1/2568",
-      "hn": "71147",
-      "name": "นางบาง อาบทอง",
-      "dept": "Eye",
-      "op": "PE with IOL OS Power lens",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "Nurse Aid ทีมเวร"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29182,22 +26046,7 @@
       "missing": [
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
-        "Nurse Aid ทีมเวร",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "15/1/2568",
-      "hn": "72719",
-      "name": "นางกอง บุราณศรี",
-      "dept": "Eye",
-      "op": "PE with IOL OD Power lens",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
+        "Nurse Aid ทีมเวร"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29599,20 +26448,6 @@
     },
     {
       "date": "9/1/2568",
-      "hn": "44621",
-      "name": "นางศรีพรรณ พิมพ์ชัย",
-      "dept": "Eye",
-      "op": "PE C IOL  OD",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/1/2568",
       "hn": "197564",
       "name": "นายน้อม วันดี",
       "dept": "Eye",
@@ -29620,62 +26455,6 @@
       "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "เวลาผ่าตัดนานผิดปกติ"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/1/2568",
-      "hn": "226728",
-      "name": "นายมนตรี บุญมา",
-      "dept": "Eye",
-      "op": "PE c IOL OD",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/1/2568",
-      "hn": "208969",
-      "name": "นางสลัด บัวรัตน์",
-      "dept": "Eye",
-      "op": "PE c IOL OD",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/1/2568",
-      "hn": "217472",
-      "name": "นางวันนา แสงตะวัน",
-      "dept": "Eye",
-      "op": "PE c IOL OS",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "9/1/2568",
-      "hn": "29010",
-      "name": "นางละมุล เพาะพืชดี",
-      "dept": "Eye",
-      "op": "PE c IOL BE",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29785,20 +26564,6 @@
     },
     {
       "date": "8/1/2568",
-      "hn": "241505",
-      "name": "นายการะเกษ นามพลแสน",
-      "dept": "Eye",
-      "op": "PE c IOL OS",
-      "circ": "น.ส.พรพิมล บุญครอง",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "8/1/2568",
       "hn": "242617",
       "name": "นางณัฎนิดา ธนเฮือง",
       "dept": "Surgery",
@@ -29894,8 +26659,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "Team",
-        "ห้องซ้อนเวลา"
+        "Team"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29912,8 +26676,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "Team",
-        "ห้องซ้อนเวลา"
+        "Team"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29930,8 +26693,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "Team",
-        "ห้องซ้อนเวลา"
+        "Team"
       ],
       "month_key": "2568-01",
       "days_pending": 0,
@@ -29958,20 +26720,6 @@
       "dept": "Surgery",
       "op": "LC",
       "circ": "น.ส.มัญชุกร เกิดไทย",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "8/1/2568",
-      "hn": "118526",
-      "name": "นายสว่าง ศรีพรมษา",
-      "dept": "Eye",
-      "op": "PE c  IOL OS",
-      "circ": "น.ส.พรพิมล บุญครอง",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -30150,20 +26898,6 @@
       "dept": "Surgery",
       "op": "CNB Lt breast",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2568-01",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "7/1/2568",
-      "hn": "3053",
-      "name": "นางหนู บุตรดี",
-      "dept": "Eye",
-      "op": "IVT Fortum+ Vanco RE",
-      "circ": "รัตติยา",
       "missing": [
         "ห้องซ้อนเวลา"
       ],
@@ -34051,20 +30785,6 @@
     },
     {
       "date": "12/12/2567",
-      "hn": "106210",
-      "name": "นายสุรินทร์  ศรีพรมษา",
-      "dept": "Eye",
-      "op": "Excision pterygium AMT BE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "12/12/2567",
       "hn": "243377",
       "name": "นางบันนา สังสะดี",
       "dept": "Surgery",
@@ -34305,20 +31025,6 @@
     },
     {
       "date": "12/12/2567",
-      "hn": "43679",
-      "name": "นายทรงสมัย  บุญเฮ้า",
-      "dept": "Eye",
-      "op": "excision pterygium with AMT LE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "12/12/2567",
       "hn": "243055",
       "name": "นายเมิน  คณาฮาด",
       "dept": "Surgery",
@@ -34333,56 +31039,13 @@
     },
     {
       "date": "12/12/2567",
-      "hn": "10019",
-      "name": "นางทองบาง แดนธานี",
-      "dept": "Eye",
-      "op": "excision pterygium RE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "12/12/2567",
-      "hn": "92134",
-      "name": "นางสำลวย อุ่นวิเศษ",
-      "dept": "Eye",
-      "op": "excision pterygium RE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "12/12/2567",
-      "hn": "1239",
-      "name": "นายโชติก์  ศรีละคร",
-      "dept": "Eye",
-      "op": "Excision  pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "12/12/2567",
       "hn": "31669",
       "name": "นางสุพรรณ์  แก้วลอดหล้า",
       "dept": "Eye",
       "op": "excision pterygium with conjunctiva graft RE",
       "circ": "น.ส.ขวัญจิรา เฮียงราช",
       "missing": [
-        "AN",
-        "ห้องซ้อนเวลา"
+        "AN"
       ],
       "month_key": "2567-12",
       "days_pending": 0,
@@ -36952,8 +33615,7 @@
       "op": "ECCE with IOL  LE",
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
-        "ค่าหัตถการ",
-        "ห้องซ้อนเวลา"
+        "ค่าหัตถการ"
       ],
       "month_key": "2567-12",
       "days_pending": 0,
@@ -36972,62 +33634,6 @@
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
         "Team",
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "4/12/2567",
-      "hn": "240417",
-      "name": "นายวัฒนา จันทรโคตร์",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "4/12/2567",
-      "hn": "243146",
-      "name": "นายวราวุธ บุรเนตร",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "4/12/2567",
-      "hn": "241857",
-      "name": "นายจรรยวรรธน์ จางจันทร์",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft PE",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-12",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "4/12/2567",
-      "hn": "29830",
-      "name": "นางทองสวรรค์ แก้ววะระ",
-      "dept": "Eye",
-      "op": "Excision pterygium with conjunctiva graft LE",
-      "circ": "น.ส.ณัฎฐากร ก้านศรีรัตน์",
-      "missing": [
         "ห้องซ้อนเวลา"
       ],
       "month_key": "2567-12",
@@ -37959,8 +34565,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "Team",
-        "ห้องซ้อนเวลา"
+        "Team"
       ],
       "month_key": "2567-11",
       "days_pending": 0,
@@ -37977,8 +34582,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "Team",
-        "ห้องซ้อนเวลา"
+        "Team"
       ],
       "month_key": "2567-11",
       "days_pending": 0,
@@ -37995,8 +34599,7 @@
         "Scrub ทีมเวร",
         "Circulating ทีมเวร",
         "Nurse Aid ทีมเวร",
-        "Team",
-        "ห้องซ้อนเวลา"
+        "Team"
       ],
       "month_key": "2567-11",
       "days_pending": 0,
@@ -39100,20 +35703,6 @@
     },
     {
       "date": "20/11/2567",
-      "hn": "72280",
-      "name": "นายบุญเลิศ  บุตรแสนคม",
-      "dept": "Eye",
-      "op": "PE c IOL RE Power 19.00",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/11/2567",
       "hn": "203389",
       "name": "นายปรีชา ดีโคตร",
       "dept": "Orthopedic",
@@ -39130,62 +35719,6 @@
       "month_key": "2567-11",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "20/11/2567",
-      "hn": "82068",
-      "name": "นางมานิจ ตำบุญมา",
-      "dept": "Eye",
-      "op": "PE c IOL RE Power 20.50",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/11/2567",
-      "hn": "104854",
-      "name": "นายจันที นามเสนา",
-      "dept": "Eye",
-      "op": "PE c IOL LE Power 21.50",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/11/2567",
-      "hn": "50158",
-      "name": "นายบุญไทย จัดตาดี",
-      "dept": "Eye",
-      "op": "PE c IOL LE Power 22.50",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
-    },
-    {
-      "date": "20/11/2567",
-      "hn": "14216",
-      "name": "นางโท ผาสุวรรณ์",
-      "dept": "Eye",
-      "op": "ECCE c IOL,Power 24.00",
-      "circ": "นายกิตติวัฒน์ ผัดอาจ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "20/11/2567",
@@ -41416,26 +37949,11 @@
       "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
       "missing": [
         "ตึกผู้ป่วย",
-        "AN",
-        "ห้องซ้อนเวลา"
+        "AN"
       ],
       "month_key": "2567-11",
       "days_pending": 5,
       "first_seen": "2026-09-26"
-    },
-    {
-      "date": "7/11/2567",
-      "hn": "39991",
-      "name": "นางเขียนทอง จำรักษา",
-      "dept": "Eye",
-      "op": "phaco with IOL RE",
-      "circ": "น.ส.ธันยธรณ์ ไฝทาคำ",
-      "missing": [
-        "ห้องซ้อนเวลา"
-      ],
-      "month_key": "2567-11",
-      "days_pending": 0,
-      "first_seen": "2026-10-01"
     },
     {
       "date": "7/11/2567",
