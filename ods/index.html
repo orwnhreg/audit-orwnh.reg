@@ -142,6 +142,14 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .alert b.red { color: #dc2626; }
 footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px; }
 @media (max-width: 620px) { .hero h1 { font-size: 1.6rem; } }
+/* ===== แท็บ 2 หมวดใหญ่ ODS / MIS-LC ===== */
+.catabs { display: flex; gap: 8px; }
+.catab {
+  border: 1px solid #dfe3ea; background: #fff; border-radius: 999px; padding: 8px 20px;
+  font-weight: 700; font-size: .88rem; text-decoration: none; color: #1f2530; white-space: nowrap;
+}
+.catab.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+@media (max-width: 620px) { .catab { padding: 7px 14px; font-size: .8rem; } }
 </style>
 </head>
 <body>
@@ -149,7 +157,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 <noscript><style>.pop-in,.slide-l,.slide-r{opacity:1 !important;transform:none !important}</style></noscript>
   <div class="topnav">
     <div class="brand">🏥 ODS MIS WNH<small>One Day Surgery + MIS · รพ.วานรนิวาส</small></div>
-    <div><a class="back" href="mis.html" style="margin-right:8px">MIS-LC →</a><a class="back" href="tables.html">ตาราง ODS →</a></div>
+    <div class="catabs"><span class="catab active">ODS</span><a class="catab" href="mis.html">MIS-LC</a></div>
   </div>
 
   <div class="hero">
@@ -170,7 +178,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     <div class="spin-head">
     <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
     <p class="sub">เลื่อนลงเพื่อหมุนให้ครบรอบ · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
-    <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
+    <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div>
     </div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
@@ -257,8 +265,8 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     var pct = Math.round(100 * g.n / total69);
     el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
       '<div class="gname">' + g.name + '</div>' +
-      '<div class="grow"><div class="gnum">' + g.n + '</div><div class="gpct">' + pct + '%</div></div>' +
-      '<div class="bar"><div class="fill" style="width:' + pct + '%;background:' + acc[i % acc.length] + '"></div></div>';
+      '<div class="grow"><div class="gnum">' + g.n + '</div><div class="gpct">' + pct + '%</div>' +
+      '<div class="bar"><div class="fill" style="width:' + pct + '%;background:' + acc[i % acc.length] + '"></div>';
     ring.appendChild(el);
     var d = document.createElement('button');
     d.type = 'button'; d.className = 'dot2'; d.setAttribute('aria-label', g.name);

@@ -90,13 +90,21 @@ table.ods tr.total td { background: var(--primary-light); font-weight: 700; }
 .notes .alert { color: var(--exam); font-weight: 700; }
 footer.page-footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 24px; }
 @media (max-width: 620px) { html { font-size: 17px; } }
+/* ===== แท็บ 2 หมวดใหญ่ ODS / MIS-LC ===== */
+.catabs { display: flex; gap: 8px; }
+.catab {
+  border: 1px solid var(--border); background: #fff; border-radius: 999px; padding: 8px 20px;
+  font-weight: 700; font-size: .88rem; text-decoration: none; color: var(--text); white-space: nowrap;
+}
+.catab.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+@media (max-width: 620px) { .catab { padding: 7px 14px; font-size: .8rem; } }
 </style>
 </head>
 <body>
 <div class="container">
   <div class="topnav">
     <div class="brand">🏥 ODS MIS WNH<small>One Day Surgery + MIS · รพ.วานรนิวาส</small></div>
-    <div><a class="back" href="mis.html" style="margin-right:8px">MIS-LC →</a><a class="back" href="./">← ภาพรวม ODS</a></div>
+    <div class="catabs"><a class="catab active" href="./">ODS</a><a class="catab" href="mis.html">MIS-LC</a></div>
   </div>
   <div class="hero"><h1>ตาราง ODS</h1></div>
 
