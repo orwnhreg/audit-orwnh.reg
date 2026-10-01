@@ -114,6 +114,13 @@ th[data-sort].sorted-desc::after { content: ' ↓'; color: var(--accent); }
 [data-drill]:hover { border-color: var(--accent); }
 
 .chip[data-rule] { cursor: pointer; }
+.pair-line {
+  margin-top: 6px;
+  font-size: 0.76rem;
+  color: var(--text-muted, #8b8b90);
+  border-top: 1px dashed var(--border, #27272b);
+  padding-top: 5px;
+}
 #ruleToast {
   position: fixed;
   left: 50%;

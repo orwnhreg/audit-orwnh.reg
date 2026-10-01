@@ -573,6 +573,9 @@ def render_cases_table(cases: list) -> str:
     for case in cases:
         missing = case.get("missing", []) or []
         missing_html = "".join(f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing)
+        pair_html = "".join(
+            f'<div class="pair-line">โยงกับ HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
+            for p in (case.get("pair", []) or []))
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
         circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
@@ -590,7 +593,7 @@ def render_cases_table(cases: list) -> str:
         <td data-label="แผนก">{esc(case.get("dept", ""))}</td>
         <td data-label="การผ่าตัด">{esc(case.get("op", ""))}</td>
         <td data-label="Circulating" class="circ-cell">{circ_html}</td>
-        <td data-label="ข้อมูลที่ขาด">{missing_html}</td>
+        <td data-label="ข้อมูลที่ขาด">{missing_html}{pair_html}</td>
         <td data-label="รอแก้ไข">{days_html}</td>
       </tr>'''
         )
