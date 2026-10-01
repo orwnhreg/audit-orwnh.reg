@@ -151,6 +151,10 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 .catab.active { background: #14b8a6; color: #fff; border-color: #14b8a6; }
 .hero-tabs { justify-content: center; margin: 6px 0 4px; }
 .hero-tabs .catab { font-size: 1.15rem; padding: 12px 36px; }
+/* ===== เข้าหน้านุ่ม (กดสลับเพจไม่กระพริบ) ===== */
+.wrap { animation: page-in .35s ease both; }
+@keyframes page-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .wrap { animation: none; } }
 @media (max-width: 620px) { .catab { padding: 7px 14px; font-size: .8rem; } }
 </style>
 </head>
