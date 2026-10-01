@@ -181,7 +181,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   <section class="block spin-pin-wrap" id="spinWrap">
     <div class="spin-sticky">
     <div class="spin-head">
-    <h2>กลุ่มโรค ปีงบ 2569</h2>
+    <h2>ODS จำแนกตามกลุ่มโรค ปีงบ 2569</h2>
     <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div>
     </div>
     <div class="spin-stage" id="spinStage">
@@ -305,12 +305,14 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     return (r.bottom <= vh || r.top <= 0) && r.top > -300 && r.bottom > vh * 0.3;
   }
   function handleDelta(dy, e) {
-    if (dy <= 0 || P >= 1 || !inZone()) return false;
+    if (dy === 0 || !inZone()) return false;
+    if (dy > 0 && P >= 1) return false;
+    if (dy < 0 && P <= 0) return false;
     if (e && e.cancelable !== false) e.preventDefault();
     locked = true;
-    P = Math.min(1, P + Math.abs(dy) / RANGE);
+    P = Math.min(1, Math.max(0, P + dy / RANGE));
     applyLock();
-    if (P >= 1) locked = false;
+    if (P >= 1 || P <= 0) locked = false;
     return true;
   }
   window.addEventListener('wheel', function (e) {
