@@ -69,6 +69,30 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .mval { font-size: .78rem; font-weight: 700; margin-top: 4px; min-height: 1.2em; }
 .mlab { font-size: .72rem; color: #6b7280; }
 .mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
+.spin-stage { perspective: 1200px; height: 300px; position: relative; overflow: hidden;
+  --rz: 250px; touch-action: pan-y; cursor: grab; }
+.spin-stage:active { cursor: grabbing; }
+@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 270px; } }
+.spin-ring { position: absolute; left: 50%; top: 50%; width: 0; height: 0;
+  transform-style: preserve-3d; }
+.scard {
+  position: absolute; left: -130px; top: -95px; width: 260px; min-height: 190px;
+  background: #fff; border: 1px solid #eef0f4; border-radius: 20px;
+  box-shadow: 0 8px 26px rgba(20, 25, 40, .12); padding: 16px 18px;
+  transform: rotateY(var(--a)) translateZ(var(--rz));
+  backface-visibility: hidden; user-select: none;
+}
+@media (max-width: 620px) { .scard { left: -105px; top: -85px; width: 210px; min-height: 170px; } }
+.spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 6px; }
+.sbtn {
+  width: 44px; height: 44px; border-radius: 50%; border: 1px solid #dfe3ea; background: #fff;
+  font-size: 1.4rem; line-height: 1; cursor: pointer; color: #1a1a2e; font-family: inherit;
+}
+.sbtn:active { background: #1a1a2e; color: #fff; }
+.dots { display: flex; gap: 8px; }
+.dot2 { width: 10px; height: 10px; border-radius: 50%; background: #e2e5eb; border: none;
+  padding: 0; cursor: pointer; }
+.dot2.active { background: #1a1a2e; transform: scale(1.25); }
 .alert {
   margin-top: 36px; background: #fffbef; border: 1px solid #f3e3bb; border-radius: 20px;
   padding: 16px 20px; font-size: .88rem;
@@ -96,6 +120,19 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     <a class="btn btn-dark" href="./">📅 ดูตารางรายเดือน</a>
     <a class="btn btn-line" href="./#panel-yearly" onclick="return false" id="goYearly">📊 ดูตารางรายปีงบ</a>
   </div>
+
+  <section class="block">
+    <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
+    <p class="sub">ลากซ้าย–ขวาเพื่อหมุน · กดลูกศรหรือจุดเพื่อเลื่อน · หยุดเมื่อแตะค้าง</p>
+    <div class="spin-stage" id="spinStage">
+      <div class="spin-ring" id="spinRing"></div>
+    </div>
+    <div class="spin-ctl">
+      <button type="button" class="sbtn" id="spinPrev">‹</button>
+      <div class="dots" id="spinDots"></div>
+      <button type="button" class="sbtn" id="spinNext">›</button>
+    </div>
+  </section>
 
   <section class="block">
     <h2>5 กลุ่มโรค ปีงบ 2569</h2>
@@ -155,6 +192,66 @@ function render(fy) {
 chips.forEach(function (c) { c.addEventListener('click', function () { render(c.getAttribute('data-fy')); }); });
 render('2569');
 document.getElementById('goYearly').addEventListener('click', function () { window.location.href = './'; });
+
+/* ===== วงล้อหมุน 3D: 5 กลุ่มโรคปี 69 ===== */
+(function () {
+  var groups = [{"name": "Pterygium Excision with graft", "n": 123}, {"name": "Colonoscopy (กลุ่มความเสี่ยงสูง)", "n": 99}, {"name": "Hysteroscopy", "n": 25}, {"name": "Tongue tie Release", "n": 22}, {"name": "Colorectal polyp", "n": 20}];
+  var acc = ["#2563eb", "#0d9488", "#d97706", "#7c3aed", "#db2777", "#059669"];
+  var N = groups.length, STEP = 360 / N;
+  var ring = document.getElementById('spinRing');
+  var dotsBox = document.getElementById('spinDots');
+  var total69 = groups.reduce(function (a, g) { return a + g.n; }, 0);
+  groups.forEach(function (g, i) {
+    var el = document.createElement('div');
+    el.className = 'scard';
+    el.style.setProperty('--a', (i * STEP) + 'deg');
+    var pct = Math.round(100 * g.n / total69);
+    el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
+      '<div class="gname">' + g.name + '</div>' +
+      '<div class="grow"><div class="gnum">' + g.n + '</div><div class="gpct">' + pct + '%</div></div>' +
+      '<div class="bar"><div class="fill" style="width:' + pct + '%;background:' + acc[i % acc.length] + '"></div></div>';
+    ring.appendChild(el);
+    var d = document.createElement('button');
+    d.type = 'button'; d.className = 'dot2'; d.setAttribute('aria-label', g.name);
+    d.addEventListener('click', function () { go(i); poke(); });
+    dotsBox.appendChild(d);
+  });
+  var dots = Array.prototype.slice.call(dotsBox.children);
+  var ang = 0, target = 0, idle = 0, dragging = false, lastX = 0;
+  function front() { return ((Math.round(-target / STEP) % N) + N) % N; }
+  function paint() {
+    ring.style.transform = 'rotateY(' + ang + 'deg)';
+    var f = front();
+    dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
+  }
+  function go(i) { target = -i * STEP; }
+  function poke() { idle = 0; }
+  document.getElementById('spinPrev').addEventListener('click', function () { target += STEP; poke(); });
+  document.getElementById('spinNext').addEventListener('click', function () { target -= STEP; poke(); });
+  var stage = document.getElementById('spinStage');
+  stage.addEventListener('pointerdown', function (e) { dragging = true; lastX = e.clientX; idle = 0;
+    stage.setPointerCapture(e.pointerId); });
+  stage.addEventListener('pointermove', function (e) {
+    if (!dragging) return;
+    var dx = e.clientX - lastX; lastX = e.clientX;
+    target += dx * 0.35; idle = 0;
+  });
+  ['pointerup', 'pointercancel', 'pointerleave'].forEach(function (ev) {
+    stage.addEventListener(ev, function () { dragging = false; idle = 0;
+      target = Math.round(target / STEP) * STEP; });
+  });
+  (function tick() {
+    if (!dragging) {
+      idle++;
+      if (idle > 180) target -= 0.25;   /* หมุนเองเมื่อไม่แตะ ~3 วิ */
+    }
+    ang += (target - ang) * 0.12;
+    if (Math.abs(target - ang) < 0.02) ang = target;
+    paint();
+    requestAnimationFrame(tick);
+  })();
+  paint();
+})();
 </script>
 </body>
 </html>
