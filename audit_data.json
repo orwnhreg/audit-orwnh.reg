@@ -2,16 +2,16 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "01/10/2026",
-  "rows": 13559,
+  "rows": 13577,
   "colA": {
-    "dup": 0,
+    "dup": 3,
     "missing": 0,
-    "offset": 0
+    "offset": 14
   },
   "blank_cols": {},
   "team": {
-    "dup_in_set": 100,
-    "dup_in_set_recent": 2
+    "dup_in_set": 99,
+    "dup_in_set_recent": 1
   },
   "month": {
     "label": "วันที่ 1/10/69 ถึง 0/10/69",
@@ -26,8 +26,8 @@
     "missing_total": 0,
     "dept_breakdown": [],
     "top_missing_cols": [],
-    "prev_completeness_pct": 99.4,
-    "trend_delta": 0.6
+    "prev_completeness_pct": 99.6,
+    "trend_delta": 0.4
   },
   "all_cases": [
     {
@@ -26584,20 +26584,6 @@
       "month_key": "2569-09",
       "days_pending": 1,
       "first_seen": "2026-09-30"
-    },
-    {
-      "date": "29/9/2569",
-      "hn": "26706",
-      "name": "นางสาววาสนา สุทธิมาต",
-      "dept": "Surgery",
-      "op": "Wide excision right  breast",
-      "circ": "น.ส.รัตติกร แขนธิราช, น.ส.ธนวรรณ วงศ์อุดมศิลป์",
-      "missing": [
-        "ชื่อซ้ำในทีม"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 1,
-      "first_seen": "2026-09-30"
     }
   ],
   "month_options": [
@@ -26859,14 +26845,14 @@
     },
     "2569-09": {
       "total": 667,
-      "pending": 4,
-      "resolved": 16,
+      "pending": 3,
+      "resolved": 17,
       "ever": 20
     },
     "all": {
       "total": 13502,
-      "pending": 1546,
-      "resolved": 18,
+      "pending": 1545,
+      "resolved": 19,
       "ever": 1564
     }
   },
@@ -30870,7 +30856,7 @@
       {
         "day": 29,
         "total": 16,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 30,
@@ -31007,7 +30993,7 @@
       {
         "day": "ก.ย.",
         "total": 667,
-        "missing": 4
+        "missing": 3
       }
     ]
   }
