@@ -5,7 +5,7 @@
   "rows": 13557,
   "colA": {
     "dup": 0,
-    "missing": 1,
+    "missing": 0,
     "offset": 0
   },
   "blank_cols": {},
