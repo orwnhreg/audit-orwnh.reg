@@ -70,8 +70,8 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .mlab { font-size: .72rem; color: #6b7280; }
 .mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
 .spin-pin-wrap { height: 320vh; position: relative; margin-top: 24px; }
-.spin-sticky { position: sticky; top: 0; min-height: 100vh; display: flex;
-  flex-direction: column; justify-content: center; background: #fff; }
+.spin-sticky { position: sticky; top: 0; min-height: 100vh; min-height: 100svh; display: flex;
+  flex-direction: column; justify-content: center; background: #fff; z-index: 5; }
 .spin-sticky h2 { font-size: 1.3rem; margin: 0; text-align: center; }
 .spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 2px 0; text-align: center; }
 .spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 6px auto;
@@ -81,6 +81,20 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   --rz: 250px; touch-action: pan-y; cursor: grab; }
 .spin-stage:active { cursor: grabbing; }
 @media (max-width: 620px) { .spin-stage { --rz: 170px; height: 210px; } }
+@media (min-width: 621px) and (max-width: 1024px) {
+  .spin-pin-wrap { height: 230vh; margin-top: 20px; }
+  section.block { margin-top: 24px; }
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-size: 1.7rem; }
+  .statrow { margin: 16px 0 4px; }
+  .statbox { padding: 14px 18px; min-width: 110px; }
+  .stat-n { font-size: 1.5rem; }
+  .cta { margin: 14px 0 4px; }
+  .btn { padding: 10px 22px; font-size: .88rem; }
+  .spin-stage { --rz: 200px; height: 220px; }
+  .scard { left: -115px; top: -90px; width: 230px; min-height: 180px; padding: 14px 16px; }
+  .gnum { font-size: 1.4rem; }
+}
 .spin-ring { position: absolute; left: 50%; top: 50%; width: 0; height: 0;
   transform-style: preserve-3d; }
 .scard {
