@@ -113,6 +113,27 @@ th[data-sort].sorted-desc::after { content: ' ↓'; color: var(--accent); }
 [data-drill] { cursor: pointer; }
 [data-drill]:hover { border-color: var(--accent); }
 
+.chip[data-rule] { cursor: pointer; }
+#ruleToast {
+  position: fixed;
+  left: 50%;
+  bottom: 22px;
+  transform: translateX(-50%) translateY(20px);
+  max-width: min(92vw, 560px);
+  background: var(--bg-elev, #1c1c1f);
+  color: var(--text, #ededed);
+  border: 1px solid var(--border, #27272b);
+  border-left: 3px solid var(--accent, #fff);
+  padding: 12px 16px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+  z-index: 999;
+}
+#ruleToast.show { opacity: 1; pointer-events: auto; transform: translateX(-50%) translateY(0); }
+
 .bar-col[data-drill]:hover .bar-stack { outline: 1px solid var(--accent); }
 
 .scope-note {

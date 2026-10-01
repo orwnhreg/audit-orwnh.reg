@@ -398,4 +398,50 @@
     FY_ALL: FY_ALL,
     esc: esc
   };
+
+  // กดป้ายแจ้งเตือน (chip) แล้วอธิบายเกณฑ์ — ใช้ได้ทั้งสองหน้า
+  var RULE_EXPLAIN = {
+    'HN ซ้ำต่างคน': 'HN เดียวกัน ผ่าตัดวันเดียวกัน แต่คนละชื่อ — ตรวจ HN จากเอกสารต้นฉบับ',
+    'AN ซ้ำข้ามคน': 'AN เดียวกันอยู่คนละ HN ภายใน 3 วัน — เช็ก AN ว่าตัวใดตัวหนึ่งผิด',
+    'ห้องซ้อนเวลา': 'วันเดียวกันห้องเดียวกัน ช่วงเวลาคาบกัน — ส่วนใหญ่เวลาลงผิด เช็กเวลาก่อนสรุป',
+    'เวลาย้อน': 'ลำดับเวลา เข้าห้อง→เริ่ม→เสร็จ→ออก ย้อนกัน — แก้เวลาให้เรียงกัน',
+    'เวลาผ่าตัดนานผิดปกติ': 'เข้าห้องถึงออกห้องเกิน 12 ชั่วโมง — ตรวจเวลาออกห้องว่าลงผิดหรือไม่',
+    'รูปแบบเวลาเพี้ยน': 'รูปแบบเวลาไม่ใช่ ชั่วโมง:นาที:วินาที — แก้ให้เป็นรูปแบบเวลา',
+    'ชื่อซ้ำในทีม': 'ชื่อเดียวกันอยู่ 2 บทบาทในทีมชุดเดียวกัน — แก้ชื่อให้ถูกคน',
+    'AN': 'AN ว่าง — ODS และตึกผู้ป่วยในต้องมี AN (ยกเว้น OPD)',
+    'Address': 'ที่อยู่ว่าง — กรอกที่อยู่ หรือโน้ตเหตุผลไว้ในหมายเหตุ',
+    'ค่าหัตถการ': 'ราคาหัตถการว่าง — ต้องมีทุกเคส',
+    'เวร': 'เคสนอกเวลาแต่ไม่ลงเวร — ลงรหัสเวร',
+    'Team': 'เคสนอกเวลาแต่ไม่ลงทีม — ลงรหัสทีม',
+    'HN': 'HN ว่าง — กรอก HN ให้ครบทุกเคส',
+    'Aneasthesia': 'วิธีระงับความรู้สึกว่าง — กรอกข้อมูลให้ครบ'
+  };
+  function ruleExplain(label) {
+    if (RULE_EXPLAIN[label]) return RULE_EXPLAIN[label];
+    if (label.indexOf('หมายเหตุเรื่องที่อยู่') === 0) return 'โน้ตประกอบจากช่องหมายเหตุ ไม่ใช่ค่าที่อยู่จริง';
+    if (label.indexOf('ทีมเวร') >= 0 || label === 'Assistant' || label === 'Scrub' ||
+        label === 'Circulating' || label === 'Nurse Aid') return 'บทบาททีมนี้ว่าง — กรอกชื่อทีมให้ครบ (Eye ยกเว้น Assistant)';
+    return 'ป้ายนี้บอกสาเหตุที่เคสถูกแจ้ง — แก้ข้อมูลในทะเบียนแล้วรายงานจะหายเอง';
+  }
+  function showRuleToast(text) {
+    var doc = global.document;
+    var t = doc.getElementById('ruleToast');
+    if (!t) {
+      t = doc.createElement('div');
+      t.id = 'ruleToast';
+      t.addEventListener('click', function () { t.className = ''; });
+      doc.body.appendChild(t);
+    }
+    t.textContent = text;
+    t.className = 'show';
+    if (showRuleToast._t) global.clearTimeout(showRuleToast._t);
+    showRuleToast._t = global.setTimeout(function () { t.className = ''; }, 5000);
+  }
+  if (global.document && global.document.addEventListener) {
+    global.document.addEventListener('click', function (ev) {
+      var chip = ev.target.closest ? ev.target.closest('.chip[data-rule]') : null;
+      if (!chip) return;
+      showRuleToast(ruleExplain(chip.getAttribute('data-rule')));
+    });
+  }
 })(window);

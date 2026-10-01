@@ -42,7 +42,7 @@ def render_case_rows(all_cases: list) -> str:
     for c in all_cases or []:
         missing = c.get("missing", []) or []
         missing_html = "".join(
-            f'<span class="chip chip-warn">{esc(m)}</span>' for m in missing
+            f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing
         )
         days = c.get("days_pending")
         days_html = f"{esc(days)} วัน" if days is not None else "-"
