@@ -124,6 +124,8 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .slide-l.in, .slide-r.in { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
   .slide-l, .slide-r { opacity: 1; transform: none; transition: none; }
+  .pop-in { opacity: 1; }
+  .pop-in.pop { animation: none; }
 }
 /* ===== popup เด้งดึ๋งเมื่อเลื่อนมาถึง ===== */
 .pop-in { opacity: 0; }
@@ -348,29 +350,29 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   paint();
 })();
 
-/* ===== popup เด้ง + สไลด์บล็อก: เล่นซ้ำทุกครั้งที่เลื่อนผ่าน ===== */
+/* ===== popup เด้ง + สไลด์บล็อก: เช็คตำแหน่งเองทุกเฟรม (ไม่พึ่ง IO) เล่นซ้ำทุกครั้งที่เลื่อนผ่าน ===== */
 (function () {
-  var pops = Array.prototype.slice.call(document.querySelectorAll('.pop-in'));
-  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide-l,.slide-r'));
-  if (!('IntersectionObserver' in window)) {
-    pops.forEach(function (e) { e.classList.add('pop'); });
-    slides.forEach(function (e) { e.classList.add('in'); });
+  var items = [];
+  Array.prototype.forEach.call(document.querySelectorAll('.pop-in'), function (e) {
+    items.push({ el: e, cls: 'pop' });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.slide-l,.slide-r'), function (e) {
+    items.push({ el: e, cls: 'in' });
+  });
+  function vis() {
+    var vh = window.innerHeight;
+    for (var i = 0; i < items.length; i++) {
+      var r = items[i].el.getBoundingClientRect();
+      if (r.top < vh * 0.8 && r.bottom > vh * 0.2) items[i].el.classList.add(items[i].cls);
+      else if (r.bottom < 0 || r.top > vh) items[i].el.classList.remove(items[i].cls);
+    }
+    requestAnimationFrame(vis);
+  }
+  if (!('requestAnimationFrame' in window)) {
+    items.forEach(function (it) { it.el.classList.add(it.cls); });
     return;
   }
-  var io = new IntersectionObserver(function (es) {
-    es.forEach(function (en) {
-      if (en.isIntersecting) { en.target.classList.add('pop'); }
-      else { en.target.classList.remove('pop'); }
-    });
-  }, { threshold: 0.25 });
-  pops.forEach(function (e) { io.observe(e); });
-  var io2 = new IntersectionObserver(function (es) {
-    es.forEach(function (en) {
-      if (en.isIntersecting) { en.target.classList.add('in'); }
-      else { en.target.classList.remove('in'); }
-    });
-  }, { threshold: 0.15 });
-  slides.forEach(function (e) { io2.observe(e); });
+  vis();
 })();
 </script>
 </body>
