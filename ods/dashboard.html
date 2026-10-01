@@ -69,10 +69,11 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .mval { font-size: .78rem; font-weight: 700; margin-top: 4px; min-height: 1.2em; }
 .mlab { font-size: .72rem; color: #6b7280; }
 .mtotal { text-align: center; font-weight: 800; margin-top: 10px; }
-.spin-pin-wrap { height: 240vh; position: relative; margin-top: 12px; }
+.spin-pin-wrap { height: 260vh; position: relative; margin-top: 12px; }
 .spin-pin-wrap + section.block { margin-top: 10px; }
-.spin-sticky { position: sticky; top: 0; background: #fff; z-index: 5;
-  display: flex; flex-direction: column; justify-content: flex-start; padding: 10px 0 14px; }
+.spin-sticky { position: sticky; top: 0; min-height: 100vh; min-height: 100svh; background: #fff; z-index: 5;
+  display: flex; flex-direction: column; justify-content: space-between; padding: 16px 0; }
+.spin-head { text-align: center; }
 .spin-sticky h2 { font-size: 1.3rem; margin: 0; text-align: center; }
 .spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 2px 0; text-align: center; }
 .spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 6px auto;
@@ -83,7 +84,7 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .spin-stage:active { cursor: grabbing; }
 @media (max-width: 620px) { .spin-stage { --rz: 170px; height: 250px; } }
 @media (min-width: 621px) and (max-width: 1024px) {
-  .spin-pin-wrap { height: 130vh; margin-top: 8px; }
+  .spin-pin-wrap { height: 200vh; margin-top: 8px; }
   .spin-pin-wrap + section.block { margin-top: 6px; }
   section.block { margin-top: 24px; }
   .hero { padding: 22px 0 4px; }
@@ -164,9 +165,11 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 
   <section class="block spin-pin-wrap" id="spinWrap">
     <div class="spin-sticky">
+    <div class="spin-head">
     <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
     <p class="sub">เลื่อนลงเพื่อหมุนให้ครบรอบ · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
     <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
+    </div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
     </div>
