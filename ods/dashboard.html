@@ -78,10 +78,10 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 6px auto;
   width: min(420px, 80%); overflow: hidden; }
 .spin-prog-fill { height: 100%; width: 0%; background: #1a1a2e; border-radius: 999px; }
-.spin-stage { perspective: 1200px; height: 230px; position: relative; overflow: hidden;
-  --rz: 250px; touch-action: pan-y; cursor: grab; }
+.spin-stage { perspective: 1200px; height: 360px; position: relative; overflow: hidden;
+  --rz: 280px; touch-action: pan-y; cursor: grab; }
 .spin-stage:active { cursor: grabbing; }
-@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 210px; } }
+@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 250px; } }
 @media (min-width: 621px) and (max-width: 1024px) {
   .spin-pin-wrap { height: 160vh; margin-top: 16px; }
   .spin-pin-wrap + section.block { margin-top: 6px; }
@@ -93,16 +93,16 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   .stat-n { font-size: 1.5rem; }
   .cta { margin: 14px 0 4px; }
   .btn { padding: 10px 22px; font-size: .88rem; }
-  .spin-stage { --rz: 200px; height: 200px; }
-  .scard { left: -115px; top: -90px; width: 230px; min-height: 180px; padding: 14px 16px; }
+  .spin-stage { --rz: 220px; height: 280px; }
+  .scard { left: -125px; top: -90px; width: 250px; min-height: 180px; padding: 14px 16px; }
   .gnum { font-size: 1.4rem; }
 }
 .spin-ring { position: absolute; left: 50%; top: 50%; width: 0; height: 0;
   transform-style: preserve-3d; }
 .scard {
-  position: absolute; left: -130px; top: -95px; width: 260px; min-height: 190px;
+  position: absolute; left: -150px; top: -105px; width: 300px; min-height: 210px;
   background: #fff; border: 1px solid #eef0f4; border-radius: 20px;
-  box-shadow: 0 8px 26px rgba(20, 25, 40, .12); padding: 16px 18px;
+  box-shadow: 0 8px 26px rgba(20, 25, 40, .12); padding: 18px 20px;
   transform: rotateY(var(--a)) translateZ(var(--rz));
   backface-visibility: hidden; user-select: none;
 }
@@ -157,7 +157,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
   <section class="block spin-pin-wrap" id="spinWrap">
     <div class="spin-sticky">
     <h2>หมุนดูกลุ่มโรค ปีงบ 2569</h2>
-    <p class="sub">เลื่อนลงเพื่อไต่เกลียวขึ้นทีละขั้น · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
+    <p class="sub">เลื่อนลงเพื่อไต่เกลียวลงทีละขั้น · ลากซ้าย–ขวาเพื่อหมุนเอง · กดจุดเพื่อข้าม</p>
     <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div></div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
@@ -260,15 +260,15 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   var prog = document.getElementById('spinProg');
   function target() { return scrollAng + manual; }
   function front() { return ((Math.round(-target() / STEP) % N) + N) % N; }
-  /* เกลียวขั้นบันได: ความสูงการ์ดขึ้นกับมุมปัจจุบันในรอบ (ไต่ขึ้นขณะหมุน) */
-  function radius() { var w = window.innerWidth; return w <= 620 ? 170 : (w <= 1024 ? 200 : 250); }
-  function spread() { var w = window.innerWidth; return w <= 620 ? 70 : (w <= 1024 ? 90 : 120); }
+  /* เกลียวขั้นบันไดแบบลง: ความสูงการ์ดลดตามมุมในรอบ */
+  function radius() { var w = window.innerWidth; return w <= 620 ? 170 : (w <= 1024 ? 220 : 280); }
+  function spread() { var w = window.innerWidth; return w <= 620 ? 80 : (w <= 1024 ? 100 : 140); }
   function paint() {
     ring.style.transform = 'rotateY(' + ang + 'deg)';
     var R = radius(), S = spread();
     cardEls.forEach(function (c) {
       var w = (((c.a + ang) % 360) + 360) % 360;
-      var dy = -(w / 360) * S;
+      var dy = (w / 360 - 0.5) * S;
       c.el.style.transform = 'rotateY(' + c.a + 'deg) translateZ(' + R + 'px) translateY(' + dy.toFixed(1) + 'px)';
     });
     var f = front();
