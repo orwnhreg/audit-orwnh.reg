@@ -572,7 +572,7 @@ def render_cases_table(cases: list) -> str:
     rows = []
     for case in cases:
         missing = case.get("missing", []) or []
-        missing_html = "".join(f'<span class="chip chip-warn">{esc(m)}</span>' for m in missing)
+        missing_html = "".join(f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing)
         days = case.get("days_pending")
         days_html = f'{esc(days)} วัน' if days is not None else "-"
         circ_names = [n.strip() for n in (case.get("circ", "") or "").split(",") if n.strip()]
