@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "01/10/2026",
-  "rows": 13557,
+  "rows": 13558,
   "colA": {
     "dup": 0,
     "missing": 0,
@@ -26,8 +26,8 @@
     "missing_total": 0,
     "dept_breakdown": [],
     "top_missing_cols": [],
-    "prev_completeness_pct": 99.0,
-    "trend_delta": 1.0
+    "prev_completeness_pct": 99.4,
+    "trend_delta": 0.6
   },
   "all_cases": [
     {
@@ -26544,35 +26544,6 @@
       "first_seen": "2026-09-26"
     },
     {
-      "date": "11/9/2569",
-      "hn": "147959",
-      "name": "นางบุญเรียน กาสีโล",
-      "dept": "Eye",
-      "op": "Excision of pterygium with conjunctiva graft RE",
-      "circ": "น.ส.วิภาวรรณ ไชโย, น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "AN",
-        "Address"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 1,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "date": "11/9/2569",
-      "hn": "6710",
-      "name": "นางสาวเหน็บ มูลทา",
-      "dept": "Eye",
-      "op": "PE c IOL LE",
-      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "Scrub ทีมเวร"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 1,
-      "first_seen": "2026-09-30"
-    },
-    {
       "date": "18/9/2569",
       "hn": "107822",
       "name": "นางนฤมล เรือนไทย",
@@ -26595,20 +26566,6 @@
       "circ": "น.ส.อารียา มัตตะราช",
       "missing": [
         "ชื่อซ้ำในทีม"
-      ],
-      "month_key": "2569-09",
-      "days_pending": 1,
-      "first_seen": "2026-09-30"
-    },
-    {
-      "date": "23/9/2569",
-      "hn": "109193",
-      "name": "น.ส.ประภาพร กุลพันธ์",
-      "dept": "Surgery",
-      "op": "lumpectomy Lt. breast",
-      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ค่าหัตถการ"
       ],
       "month_key": "2569-09",
       "days_pending": 1,
@@ -26902,14 +26859,14 @@
     },
     "2569-09": {
       "total": 667,
-      "pending": 7,
-      "resolved": 13,
+      "pending": 4,
+      "resolved": 16,
       "ever": 20
     },
     "all": {
       "total": 13502,
-      "pending": 1549,
-      "resolved": 15,
+      "pending": 1546,
+      "resolved": 18,
       "ever": 1564
     }
   },
@@ -30823,7 +30780,7 @@
       {
         "day": 11,
         "total": 27,
-        "missing": 2
+        "missing": 0
       },
       {
         "day": 12,
@@ -30883,7 +30840,7 @@
       {
         "day": 23,
         "total": 32,
-        "missing": 1
+        "missing": 0
       },
       {
         "day": 24,
@@ -31050,7 +31007,7 @@
       {
         "day": "ก.ย.",
         "total": 667,
-        "missing": 7
+        "missing": 4
       }
     ]
   }
