@@ -310,7 +310,7 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   paint();
 })();
 
-/* ===== popup เด้ง + สไลด์บล็อกเมื่อเลื่อนมาถึง ===== */
+/* ===== popup เด้ง + สไลด์บล็อก: เล่นซ้ำทุกครั้งที่เลื่อนผ่าน ===== */
 (function () {
   var pops = Array.prototype.slice.call(document.querySelectorAll('.pop-in'));
   var slides = Array.prototype.slice.call(document.querySelectorAll('.slide-l,.slide-r'));
@@ -321,13 +321,15 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   }
   var io = new IntersectionObserver(function (es) {
     es.forEach(function (en) {
-      if (en.isIntersecting) { en.target.classList.add('pop'); io.unobserve(en.target); }
+      if (en.isIntersecting) { en.target.classList.add('pop'); }
+      else { en.target.classList.remove('pop'); }
     });
   }, { threshold: 0.25 });
   pops.forEach(function (e) { io.observe(e); });
   var io2 = new IntersectionObserver(function (es) {
     es.forEach(function (en) {
-      if (en.isIntersecting) { en.target.classList.add('in'); io2.unobserve(en.target); }
+      if (en.isIntersecting) { en.target.classList.add('in'); }
+      else { en.target.classList.remove('in'); }
     });
   }, { threshold: 0.15 });
   slides.forEach(function (e) { io2.observe(e); });
