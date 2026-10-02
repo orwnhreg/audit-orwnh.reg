@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "02/10/2026",
-  "generated_at": "12:05",
+  "generated_at": "12:11",
   "rows": 13613,
   "colA": {
     "dup": 2,
@@ -92,13 +92,13 @@
       "label": "ต.ค. 2569",
       "short_label": "ต.ค. 69",
       "finished": 40,
-      "missing": 5,
-      "completeness_pct": 87.5,
+      "missing": 3,
+      "completeness_pct": 92.5,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 14,
-          "missing": 4
+          "missing": 2
         },
         {
           "dept": "Eye",
@@ -137,16 +137,16 @@
       ],
       "progress": {
         "total": 40,
-        "pending": 5,
+        "pending": 3,
         "ever": 5,
-        "resolved": 0
+        "resolved": 2
       },
-      "unfinished": 19,
+      "unfinished": 18,
       "daily": [
         {
           "day": 1,
           "total": 40,
-          "missing": 5
+          "missing": 3
         }
       ],
       "elapsed": false
@@ -6746,13 +6746,13 @@
       "key": "2570",
       "label": "ปีงบ 2570 (ต.ค. 2569 – ก.ย. 2570)",
       "finished": 40,
-      "missing": 5,
-      "completeness_pct": 87.5,
+      "missing": 3,
+      "completeness_pct": 92.5,
       "dept_breakdown": [
         {
           "dept": "Surgery",
           "total": 14,
-          "missing": 4
+          "missing": 2
         },
         {
           "dept": "Eye",
@@ -6791,70 +6791,24 @@
       ],
       "progress": {
         "total": 40,
-        "pending": 5,
+        "pending": 3,
         "ever": 5,
-        "resolved": 0
+        "resolved": 2
       },
-      "unfinished": 19,
+      "unfinished": 18,
       "monthly": [
         {
           "key": "2569-10",
           "label": "ต.ค. 69",
           "total": 40,
-          "missing": 5
+          "missing": 3
         }
       ],
-      "trend_vs_prev": -3.5,
+      "trend_vs_prev": 1.5,
       "prev_label": "ปีงบ 2569 (ต.ค. 2568 – ก.ย. 2569)"
     }
   },
   "all_cases": [
-    {
-      "date": "1/10/2569",
-      "hn": "49133",
-      "name": "นายสุดใจ จันมีแก้ว",
-      "dept": "Surgery",
-      "op": "EL with LAR",
-      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "ห้องผ่าตัดซ้ำกัน"
-      ],
-      "month_key": "2569-10",
-      "pair": [
-        {
-          "hn": "256075",
-          "date": "1/10/2569",
-          "minutes": 25.0,
-          "tag": "ห้องผ่าตัดซ้ำกัน"
-        }
-      ],
-      "times": [],
-      "days_pending": 0,
-      "first_seen": "2026-10-02"
-    },
-    {
-      "date": "1/10/2569",
-      "hn": "256075",
-      "name": "นางสุดใจ ศรีสมัย",
-      "dept": "Surgery",
-      "op": "ERCP  with stent,fully covered 1mm x 120 mm",
-      "circ": "นางณัฐณิชา ไชยพะยวน",
-      "missing": [
-        "ห้องผ่าตัดซ้ำกัน"
-      ],
-      "month_key": "2569-10",
-      "pair": [
-        {
-          "hn": "49133",
-          "date": "1/10/2569",
-          "minutes": 25.0,
-          "tag": "ห้องผ่าตัดซ้ำกัน"
-        }
-      ],
-      "times": [],
-      "days_pending": 0,
-      "first_seen": "2026-10-02"
-    },
     {
       "date": "1/10/2569",
       "hn": "60155",
