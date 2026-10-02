@@ -2,8 +2,8 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "02/10/2026",
-  "generated_at": "08:35",
-  "rows": 13594,
+  "generated_at": "08:40",
+  "rows": 13597,
   "colA": {
     "dup": 0,
     "missing": 0,
@@ -141,7 +141,7 @@
         "ever": 5,
         "resolved": 0
       },
-      "unfinished": 8,
+      "unfinished": 11,
       "daily": [
         {
           "day": 1,
@@ -6795,7 +6795,7 @@
         "ever": 5,
         "resolved": 0
       },
-      "unfinished": 8,
+      "unfinished": 11,
       "monthly": [
         {
           "key": "2569-10",
