@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "02/10/2026",
-  "generated_at": "12:11",
+  "generated_at": "12:17",
   "rows": 13613,
   "colA": {
     "dup": 2,
@@ -92,8 +92,8 @@
       "label": "ต.ค. 2569",
       "short_label": "ต.ค. 69",
       "finished": 40,
-      "missing": 3,
-      "completeness_pct": 92.5,
+      "missing": 2,
+      "completeness_pct": 95.0,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -101,13 +101,13 @@
           "missing": 2
         },
         {
-          "dept": "Eye",
-          "total": 15,
-          "missing": 1
-        },
-        {
           "dept": "E.N.T",
           "total": 1,
+          "missing": 0
+        },
+        {
+          "dept": "Eye",
+          "total": 15,
           "missing": 0
         },
         {
@@ -137,16 +137,16 @@
       ],
       "progress": {
         "total": 40,
-        "pending": 3,
+        "pending": 2,
         "ever": 5,
-        "resolved": 2
+        "resolved": 3
       },
       "unfinished": 18,
       "daily": [
         {
           "day": 1,
           "total": 40,
-          "missing": 3
+          "missing": 2
         }
       ],
       "elapsed": false
@@ -6746,8 +6746,8 @@
       "key": "2570",
       "label": "ปีงบ 2570 (ต.ค. 2569 – ก.ย. 2570)",
       "finished": 40,
-      "missing": 3,
-      "completeness_pct": 92.5,
+      "missing": 2,
+      "completeness_pct": 95.0,
       "dept_breakdown": [
         {
           "dept": "Surgery",
@@ -6755,13 +6755,13 @@
           "missing": 2
         },
         {
-          "dept": "Eye",
-          "total": 15,
-          "missing": 1
-        },
-        {
           "dept": "E.N.T",
           "total": 1,
+          "missing": 0
+        },
+        {
+          "dept": "Eye",
+          "total": 15,
           "missing": 0
         },
         {
@@ -6791,9 +6791,9 @@
       ],
       "progress": {
         "total": 40,
-        "pending": 3,
+        "pending": 2,
         "ever": 5,
-        "resolved": 2
+        "resolved": 3
       },
       "unfinished": 18,
       "monthly": [
@@ -6801,10 +6801,10 @@
           "key": "2569-10",
           "label": "ต.ค. 69",
           "total": 40,
-          "missing": 3
+          "missing": 2
         }
       ],
-      "trend_vs_prev": 1.5,
+      "trend_vs_prev": 4.0,
       "prev_label": "ปีงบ 2569 (ต.ค. 2568 – ก.ย. 2569)"
     }
   },
@@ -6829,27 +6829,6 @@
         }
       ],
       "times": [],
-      "days_pending": 0,
-      "first_seen": "2026-10-02"
-    },
-    {
-      "date": "1/10/2569",
-      "hn": "233054",
-      "name": "นางบัวทอง แสนวัง",
-      "dept": "Eye",
-      "op": "PE IOL with PPV MP LE",
-      "circ": "นางณัฐณิชา ไชยพะยวน, น.ส.ปัญฑิษา วังวิวัฒน์ขจร",
-      "missing": [
-        "เวลาผ่าตัดไม่สัมพันธ์กัน"
-      ],
-      "month_key": "2569-10",
-      "pair": [],
-      "times": [
-        "10:30:00",
-        "11:00:00",
-        "11:30:00",
-        "11:30:00"
-      ],
       "days_pending": 0,
       "first_seen": "2026-10-02"
     },
