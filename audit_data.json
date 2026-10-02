@@ -2,7 +2,7 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "02/10/2026",
-  "generated_at": "12:47",
+  "generated_at": "12:53",
   "rows": 13614,
   "colA": {
     "dup": 2,
@@ -92,14 +92,9 @@
       "label": "ต.ค. 2569",
       "short_label": "ต.ค. 69",
       "finished": 40,
-      "missing": 2,
-      "completeness_pct": 95.0,
+      "missing": 0,
+      "completeness_pct": 100.0,
       "dept_breakdown": [
-        {
-          "dept": "Surgery",
-          "total": 14,
-          "missing": 2
-        },
         {
           "dept": "E.N.T",
           "total": 1,
@@ -119,6 +114,11 @@
           "dept": "Orthopedic",
           "total": 7,
           "missing": 0
+        },
+        {
+          "dept": "Surgery",
+          "total": 14,
+          "missing": 0
         }
       ],
       "top_missing_cols": [
@@ -137,16 +137,16 @@
       ],
       "progress": {
         "total": 40,
-        "pending": 2,
+        "pending": 0,
         "ever": 5,
-        "resolved": 3
+        "resolved": 5
       },
       "unfinished": 17,
       "daily": [
         {
           "day": 1,
           "total": 40,
-          "missing": 2
+          "missing": 0
         }
       ],
       "elapsed": false
@@ -6746,14 +6746,9 @@
       "key": "2570",
       "label": "ปีงบ 2570 (ต.ค. 2569 – ก.ย. 2570)",
       "finished": 40,
-      "missing": 2,
-      "completeness_pct": 95.0,
+      "missing": 0,
+      "completeness_pct": 100.0,
       "dept_breakdown": [
-        {
-          "dept": "Surgery",
-          "total": 14,
-          "missing": 2
-        },
         {
           "dept": "E.N.T",
           "total": 1,
@@ -6773,6 +6768,11 @@
           "dept": "Orthopedic",
           "total": 7,
           "missing": 0
+        },
+        {
+          "dept": "Surgery",
+          "total": 14,
+          "missing": 0
         }
       ],
       "top_missing_cols": [
@@ -6791,9 +6791,9 @@
       ],
       "progress": {
         "total": 40,
-        "pending": 2,
+        "pending": 0,
         "ever": 5,
-        "resolved": 3
+        "resolved": 5
       },
       "unfinished": 17,
       "monthly": [
@@ -6801,60 +6801,14 @@
           "key": "2569-10",
           "label": "ต.ค. 69",
           "total": 40,
-          "missing": 2
+          "missing": 0
         }
       ],
-      "trend_vs_prev": 4.0,
+      "trend_vs_prev": 9.0,
       "prev_label": "ปีงบ 2569 (ต.ค. 2568 – ก.ย. 2569)"
     }
   },
   "all_cases": [
-    {
-      "date": "1/10/2569",
-      "hn": "60155",
-      "name": "นางฉวี กิจสคม",
-      "dept": "Surgery",
-      "op": "Excisional DB with Suture Lt. 2nd finger",
-      "circ": "น.ส.กรรณชดา สาลีเพ็ง",
-      "missing": [
-        "เวลาซ้อนทับ"
-      ],
-      "month_key": "2569-10",
-      "pair": [
-        {
-          "hn": "96202",
-          "date": "1/10/2569",
-          "minutes": 10.0,
-          "tag": "เวลาซ้อนทับ"
-        }
-      ],
-      "times": [],
-      "days_pending": 0,
-      "first_seen": "2026-10-02"
-    },
-    {
-      "date": "1/10/2569",
-      "hn": "96202",
-      "name": "นางอุลัย สุขรี่",
-      "dept": "Surgery",
-      "op": "Suture wound Rt. Foot",
-      "circ": "น.ส.ขวัญจิรา เฮียงราช",
-      "missing": [
-        "เวลาซ้อนทับ"
-      ],
-      "month_key": "2569-10",
-      "pair": [
-        {
-          "hn": "60155",
-          "date": "1/10/2569",
-          "minutes": 10.0,
-          "tag": "เวลาซ้อนทับ"
-        }
-      ],
-      "times": [],
-      "days_pending": 0,
-      "first_seen": "2026-10-02"
-    },
     {
       "date": "26/9/2569",
       "hn": "263289",
