@@ -125,6 +125,11 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   .scard .gpct { font-size: .72rem; }
   .scard::after { font-size: 64px; right: -8px; bottom: -14px; }
 }
+/* ===== แท็บเล็ต: การ์ดพอดีวงไม่ซ้อน (วางหลังกฎ desktop เพื่อให้ชนะ cascade) ===== */
+@media (min-width: 621px) and (max-width: 1024px) {
+  .spin-stage { --rz: 330px; }
+  .scard { left: -130px; width: 260px; }
+}
 .spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 2px; }
 .sbtn {
   width: 44px; height: 44px; border-radius: 50%; border: 1px solid #dfe3ea; background: #fff;
