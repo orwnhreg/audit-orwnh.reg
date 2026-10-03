@@ -22,12 +22,13 @@ body {
 .hero { text-align: center; padding: 34px 0 8px; }
 .hero h1 { font-size: 2.2rem; margin: 0; font-weight: 800; }
 .hero p { color: #6b7280; margin: 10px 0 0; }
-.statrow { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin: 26px 0 8px; }
+.statrow { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 26px 0 8px; }
+.statbox.grand { grid-column: 1 / -1; }
 .statbox {
-  background: #f4f4f6; border-radius: 22px; padding: 20px 26px; text-align: center; min-width: 130px;
+  background: #f4f4f6; border-radius: 22px; padding: 20px 26px; text-align: center; min-width: 0;
 }
 .stat-n { font-size: 2rem; font-weight: 800; }
-.stat-l { font-size: .9rem; font-weight: 700; margin-top: 2px; }
+.stat-l { font-size: .9rem; font-weight: 700; margin-top: 2px; white-space: nowrap; }
 .stat-s { font-size: .75rem; color: #6b7280; }
 .cta { display: flex; gap: 10px; justify-content: center; margin: 22px 0 6px; flex-wrap: wrap; }
 .btn {
@@ -93,7 +94,7 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   section.block { margin-top: 24px; }
   .hero { padding: 22px 0 4px; }
   .hero h1 { font-size: 1.7rem; }
-  .statrow { margin: 16px 0 4px; display: grid; grid-template-columns: repeat(5, 1fr); }
+  .statrow { margin: 16px 0 4px; }
   .statbox { padding: 12px 8px; min-width: 0; }
   .stat-n { font-size: 1.5rem; }
   .cta { margin: 14px 0 4px; }
@@ -182,6 +183,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
 @keyframes page-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 @media (prefers-reduced-motion: reduce) { .wrap { animation: none; } }
 @media (max-width: 620px) { .catab { padding: 7px 14px; font-size: .8rem; } }
+@media (max-width: 620px) { .stat-l { font-size: .78rem; } .stat-n { font-size: 1.6rem; } }
 </style>
 </head>
 <body>
@@ -198,7 +200,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     </div>
   </div>
 
-  <div class="statrow slide-l"><div class="statbox pop-in" style="animation-delay:0ms"><div class="stat-n">507</div><div class="stat-l">ปีงบ 2566</div></div><div class="statbox pop-in" style="animation-delay:80ms"><div class="stat-n">823</div><div class="stat-l">ปีงบ 2567</div></div><div class="statbox pop-in" style="animation-delay:160ms"><div class="stat-n">410</div><div class="stat-l">ปีงบ 2568</div></div><div class="statbox pop-in" style="animation-delay:240ms"><div class="stat-n">380</div><div class="stat-l">ปีงบ 2569</div></div><div class="statbox pop-in" style="animation-delay:320ms"><div class="stat-n">2,120</div><div class="stat-l">รวม 4 ปีงบประมาณ</div></div></div>
+  <div class="statrow slide-l"><div class="statbox pop-in" style="animation-delay:0ms"><div class="stat-n">507</div><div class="stat-l">ปีงบ 2566</div></div><div class="statbox pop-in" style="animation-delay:80ms"><div class="stat-n">823</div><div class="stat-l">ปีงบ 2567</div></div><div class="statbox pop-in" style="animation-delay:160ms"><div class="stat-n">410</div><div class="stat-l">ปีงบ 2568</div></div><div class="statbox pop-in" style="animation-delay:240ms"><div class="stat-n">380</div><div class="stat-l">ปีงบ 2569</div></div><div class="statbox grand pop-in" style="animation-delay:320ms"><div class="stat-n">2,120</div><div class="stat-l">รวม 4 ปีงบประมาณ</div></div></div>
 
   <section class="block spin-pin-wrap" id="spinWrap">
     <div class="spin-sticky">
