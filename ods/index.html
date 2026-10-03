@@ -81,9 +81,6 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
 .spin-head { text-align: center; }
 .spin-sticky h2 { font-size: 1.3rem; margin: 0; text-align: center; }
 .spin-sticky .sub { color: #6b7280; font-size: .9rem; margin: 2px 0; text-align: center; }
-.spin-prog { height: 6px; background: #f1f2f5; border-radius: 999px; margin: 6px auto;
-  width: min(420px, 80%); overflow: hidden; }
-.spin-prog-fill { height: 100%; width: 0%; background: #14b8a6; border-radius: 999px; }
 .spin-stage { perspective: 1200px; height: 360px; position: relative; overflow: hidden;
   --rz: 280px; touch-action: pan-y; cursor: grab; }
 /* ===== ไอคอนพื้นหลังจาง ๆ กลางวงหมุน ===== */
@@ -218,8 +215,6 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     <div class="spin-sticky">
     <div class="spin-head">
     <h2>ODS จำแนกตามกลุ่มโรค ปีงบ 2569</h2>
-    <div class="spin-prog"><div class="spin-prog-fill" id="spinProg"></div>
-    </div>
     <div class="spin-stage" id="spinStage">
       <div class="spin-ring" id="spinRing"></div>
     </div>
@@ -316,10 +311,8 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     dotsBox.appendChild(d);
   });
   var dots = Array.prototype.slice.call(dotsBox.children);
-  var ang = 0, scrollAng = 0, manual = 0, dragging = false, lastX = 0;
-  var wrap = document.getElementById('spinWrap');
-  var prog = document.getElementById('spinProg');
-  function target() { return scrollAng + manual; }
+  var ang = 0, manual = 0, dragging = false, lastX = 0, interacted = false;
+  function target() { return manual; }
   function front() { return ((Math.round(-target() / STEP) % N) + N) % N; }
   /* วงล้อแนวราบ: การ์ดอยู่ระดับเดียวกัน ตำแหน่งตาม CSS */
   function paint() {
@@ -327,62 +320,17 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     var f = front();
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
-  /* ล็อก scroll หมุนให้ครบก่อนค่อยปล่อย + หน่วงเวลา: สะบัดแรงแค่ไหนก็ครบรอบ ~1.1 วิ
-     (dy ลงคิว Q แล้วค่อย ๆ ปล่อยใน tick — จอไม่หลุดกลางคัน) */
-  var P = 0, locked = false, RANGE = 1400, Q = 0, lastTick = 0;
-  var QCAP = 1.2, TURN_MS = 1100;
-  function applyLock() {
-    scrollAng = -P * 360;
-    prog.style.width = Math.round(P * 100) + '%';
-  }
-  function onScroll() {
-    /* ผ่านไปไกลแล้วรีเซ็ต P ไว้รอรอบถัดไป (มุม -360 เท่ากับ 0 มองไม่เห็นรอยต่อ) */
-    var r = wrap.getBoundingClientRect();
-    if (r.top < -window.innerHeight && (P !== 0 || Q !== 0 || locked)) {
-      P = 0; Q = 0; locked = false; applyLock();
-    }
-  }
-  window.addEventListener('scroll', onScroll, { passive: true });
-  /* ดักตั้งแต่การ์ดโผล่เต็มจอ (ไม่ snap — iOS กลาง gesture ไม่ยอมให้ขยับจอ) */
-  function inZone() {
-    var r = wrap.getBoundingClientRect();
-    var vh = window.innerHeight;
-    return (r.bottom <= vh || r.top <= 0) && r.top > -300 && r.bottom > vh * 0.3;
-  }
-  function handleDelta(dy, e) {
-    if (dy === 0 || !inZone()) return false;
-    if (dy > 0 && P >= 1 && Q <= 0) return false;
-    if (dy < 0 && P <= 0 && Q >= 0) return false;
-    if (e && e.cancelable !== false) e.preventDefault();
-    locked = true;
-    Q = Math.min(QCAP, Math.max(-QCAP, Q + dy / RANGE));
-    return true;
-  }
-  window.addEventListener('wheel', function (e) {
-    if (e.ctrlKey) return;
-    handleDelta(e.deltaY, e);
-  }, { passive: false });
-  var lastTY = null, startY = null;
-  window.addEventListener('touchstart', function (e) {
-    startY = (e.touches.length === 1) ? e.touches[0].clientY : null;
-  }, { passive: true });
-  window.addEventListener('touchmove', function (e) {
-    if (e.touches.length !== 1) return;
-    var y = e.touches[0].clientY;
-    /* ใช้จุดแตะเริ่มจาก touchstart ทำให้ move แรกมี dy เลย — ดักเฉพาะตอนกินจริงเท่านั้น
-       (ของเดิมดัก move แรกทุกครั้ง ทำให้ iOS ยกเลิก scroll ทั้ง gesture แล้วค้างไม่เลื่อนต่อ) */
-    if (lastTY === null) lastTY = (startY !== null ? startY : y);
-    var dy = lastTY - y; lastTY = y;
-    handleDelta(dy, e);
-  }, { passive: false });
-  window.addEventListener('touchend', function () { lastTY = null; startY = null; });
-  window.addEventListener('touchcancel', function () { lastTY = null; startY = null; });
-  function go(i) { manual = -i * STEP - scrollAng; }
-  document.getElementById('spinPrev').addEventListener('click', function () { manual += STEP; });
-  document.getElementById('spinNext').addEventListener('click', function () { manual -= STEP; });
+  /* หมุนเฉพาะตอนแตะ/ลากบนวงล้อโดยตรง — เลื่อนหน้าเว็บผ่านอิสระ ไม่ดัก scroll เลย
+     ก่อนแตะครั้งแรกหมุนเองช้า ๆ ให้รู้ว่าหมุนได้ */
+  var AUTOSPIN = 10; /* องศาต่อวินาที */
+  var lastAuto = 0;
+  function go(i) { interacted = true; manual = -i * STEP; }
+  document.getElementById('spinPrev').addEventListener('click', function () { interacted = true; manual += STEP; });
+  document.getElementById('spinNext').addEventListener('click', function () { interacted = true; manual -= STEP; });
   var stage = document.getElementById('spinStage');
   stage.addEventListener('pointerdown', function (e) { dragging = true; lastX = e.clientX;
-    stage.setPointerCapture(e.pointerId); });
+    interacted = true;
+    try { stage.setPointerCapture(e.pointerId); } catch (err) {} });
   stage.addEventListener('pointermove', function (e) {
     if (!dragging) return;
     var dx = e.clientX - lastX; lastX = e.clientX;
@@ -394,26 +342,17 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   });
   (function tick(now) {
     if (!now) now = performance.now();
-    var dt = Math.min(100, now - (lastTick || now));
-    lastTick = now;
-    if (Q !== 0) {
-      var maxStep = dt / TURN_MS;
-      var step = Math.max(-maxStep, Math.min(maxStep, Q));
-      var np = Math.min(1, Math.max(0, P + step));
-      Q -= (np - P);
-      P = np;
-      if ((P >= 1 && Q > 0) || (P <= 0 && Q < 0)) Q = 0;
-      applyLock();
-      if (P >= 1 || P <= 0) locked = false;
+    if (!interacted) {
+      var dtA = Math.min(100, now - (lastAuto || now));
+      manual -= AUTOSPIN * dtA / 1000;
     }
+    lastAuto = now;
     var t = target();
     ang += (t - ang) * 0.12;
     if (Math.abs(t - ang) < 0.02) ang = t;
     paint();
     requestAnimationFrame(tick);
   })();
-  onScroll();
-  paint();
 })();
 
 /* ===== popup เด้ง + สไลด์บล็อก: เช็คตำแหน่งเองทุกเฟรม (ไม่พึ่ง IO) เล่นซ้ำทุกครั้งที่เลื่อนผ่าน ===== */
