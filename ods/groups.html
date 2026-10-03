@@ -302,6 +302,11 @@ body.lock { overflow: hidden; }
   const gkey = (g) => `${g.section}#${g.no}`;
   const gsort = (g) => (g.section === 'ODS' ? 0 : 1000) + g.no; // ODS ก่อน MIS แล้วตามเลขกลุ่ม
   const fmt = (n) => Number(n).toLocaleString('en-US');
+  const visiblePages = (value) => String(value || '').split(/[\s,;]+/).filter((p) => p && p.toLowerCase() !== 'p-09').join(', ');
+  const codePageMeta = (c) => {
+    const pages = visiblePages(c.page);
+    return [pages ? `หน้า ${pages}` : '', c.review ? '⚠' : ''].filter(Boolean).join(' ');
+  };
   const codeLike = (q) => { const n = nodot(q); return n.length >= 2 && /^[A-Z]?\d/.test(n); };
 
   // คืน {ok, hits} — hits = รหัสในกลุ่มที่ขึ้นต้นด้วยคำค้น (ตัดจุดทั้งสองฝั่ง: H110 = H11.0)
@@ -396,7 +401,7 @@ body.lock { overflow: hidden; }
           el('span', { class: `code-entry${c.description_en ? ' has-name' : ''}` },
             el('code', {}, c.dotted),
             c.description_en ? el('span', { class: 'code-name' }, c.description_en) : null,
-            el('small', { class: c.review ? 'review-mark' : '' }, `หน้า ${c.page || '—'}${c.review ? ' ⚠' : ''}`)))));
+            codePageMeta(c) ? el('small', { class: c.review ? 'review-mark' : '' }, codePageMeta(c)) : null))));
     }).filter(Boolean);
     return el('button', { class: 'card', type: 'button', 'data-key': gkey(g), onclick: (e) => openModal(g, e.currentTarget) },
       el('span', { class: 'no' }, `${g.section} ${g.no}`),
@@ -467,11 +472,14 @@ body.lock { overflow: hidden; }
       const list = codes.filter((c) => c.system === system);
       if (!list.length) return null;
       return el('div', {}, el('h3', {}, `${label} (${list.length})`),
-        el('ul', {}, list.map((c) => el('li', { class: c.description_en ? 'has-name' : '' },
-          el('code', {}, c.dotted),
-          c.description_en ? el('span', { class: 'code-name' }, c.description_en) : null,
-          el('span', { class: 'pg' }, `หน้า ${c.page}`),
-          c.review ? badge('⚠ ต้องตรวจ', 'b-warn') : null))));
+        el('ul', {}, list.map((c) => {
+          const pages = visiblePages(c.page);
+          return el('li', { class: c.description_en ? 'has-name' : '' },
+            el('code', {}, c.dotted),
+            c.description_en ? el('span', { class: 'code-name' }, c.description_en) : null,
+            pages ? el('span', { class: 'pg' }, `หน้า ${pages}`) : null,
+            c.review ? badge('⚠ ต้องตรวจ', 'b-warn') : null);
+        })));
     };
     const copyBtn = g.n_codes
       ? el('button', { class: 'btn', type: 'button', id: 'copy-btn', onclick: () => copyCodes(codes) }, `คัดลอกรหัสทั้งหมด (${g.n_codes})`)
@@ -481,7 +489,7 @@ body.lock { overflow: hidden; }
       el('p', { class: 'en' }, g.name_en),
       el('p', { class: 'meta' },
         g.systems === 'both' ? badge(SYS_LABEL.both, 'b-both') : badge(...SYS_BADGE[g.systems]),
-        el('span', {}, `หน้า ${g.pages}`),
+        visiblePages(g.pages) ? el('span', {}, `หน้า ${visiblePages(g.pages)}`) : null,
         el('span', {}, `${g.n_codes} รหัส`)),
       g.n_codes
         ? el('div', { class: 'btn-row' }, copyBtn)
