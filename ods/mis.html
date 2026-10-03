@@ -30,6 +30,14 @@ body {
 .stat-n { font-size: 2rem; font-weight: 800; }
 .stat-l { font-size: .9rem; font-weight: 700; margin-top: 2px; }
 .stat-s { font-size: .75rem; color: #6b7280; }
+/* ===== แท็บเล็ต: ใช้ความกว้างเต็ม (วางหลังกฎ desktop) ===== */
+@media (min-width: 621px) and (max-width: 1024px) {
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-size: 1.7rem; }
+  .statrow { display: grid; grid-template-columns: repeat(3, 1fr); margin: 20px 0 8px; }
+  .statbox { min-width: 0; padding: 16px 12px; }
+  .stat-n { font-size: 1.7rem; }
+}
 section.block { margin-top: 40px; }
 section.block h2 { font-size: 1.3rem; margin: 0 0 4px; }
 section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
@@ -130,7 +138,7 @@ footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 28px
     </table></div>
   </section>
 
-  <footer>ODS MIS WNH · รพ.วานรนิวาส · ข้อมูล ณ 02/10/2026</footer>
+  <footer>ODS MIS WNH · รพ.วานรนิวาส · ข้อมูล ณ 03/10/2026</footer>
 </div>
 <script>
 var DATA = {"months": ["ต.ค.", "พ.ย.", "ธ.ค.", "ม.ค.", "ก.พ.", "มี.ค.", "เม.ย.", "พ.ค.", "มิ.ย.", "ก.ค.", "ส.ค.", "ก.ย."], "mis": {"2568": [13, 15, 7, 17, 16, 15, 14, 16, 20, 22, 24, 18], "2569": [12, 15, 11, 16, 16, 17, 14, 16, 15, 14, 16, 18]}};
