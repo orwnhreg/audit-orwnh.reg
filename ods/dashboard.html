@@ -87,7 +87,6 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath d='M100 8v184M8 100h184' stroke='%2314b8a6' stroke-width='12' stroke-linecap='round' fill='none'/%3E%3C/svg%3E") center/contain no-repeat;
 }
 .spin-stage:active { cursor: grabbing; }
-@media (max-width: 620px) { .spin-stage { --rz: 170px; height: 250px; } }
 @media (min-width: 621px) and (max-width: 1024px) {
   .spin-pin-wrap { margin-top: 8px; }
   .spin-pin-wrap + section.block { margin-top: 6px; }
@@ -117,7 +116,15 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   content: attr(data-ico); position: absolute; right: -12px; bottom: -24px;
   font-size: 110px; line-height: 1; opacity: .1; pointer-events: none;
 }
-@media (max-width: 620px) { .scard { left: -105px; top: -85px; width: 210px; min-height: 170px; } }
+/* ===== มือถือ: การ์ดเล็กลง ตัวหนังสือเล็กลง (วางหลังกฎ desktop เพื่อให้ชนะ cascade) ===== */
+@media (max-width: 620px) {
+  .spin-stage { --rz: 195px; height: 250px; }
+  .scard { left: -84px; top: -80px; width: 168px; min-height: 150px; padding: 12px 14px; }
+  .scard .gname { font-size: .8rem; }
+  .scard .gnum { font-size: 1.2rem; }
+  .scard .gpct { font-size: .72rem; }
+  .scard::after { font-size: 64px; right: -8px; bottom: -14px; }
+}
 .spin-ctl { display: flex; align-items: center; justify-content: center; gap: 14px; margin-top: 2px; }
 .sbtn {
   width: 44px; height: 44px; border-radius: 50%; border: 1px solid #dfe3ea; background: #fff;
@@ -268,8 +275,6 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   var ring = document.getElementById('spinRing');
   var dotsBox = document.getElementById('spinDots');
   var total69 = groups.reduce(function (a, g) { return a + g.n; }, 0);
-  var cardEls = [];
-  var narrowMQ = window.matchMedia('(max-width: 620px)');
   groups.forEach(function (g, i) {
     var el = document.createElement('div');
     el.className = 'scard';
@@ -284,7 +289,6 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     else if (nm.indexOf('polyp') >= 0) ico = '🌱';
     else if (nm.indexOf('hernia') >= 0) ico = '🩹';
     el.setAttribute('data-ico', ico);
-    cardEls.push(el);
     var pct = Math.round(100 * g.n / total69);
     el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
       '<div class="gname">' + g.name + '</div>' +
@@ -306,12 +310,6 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   function paint() {
     ring.style.transform = 'rotateY(' + ang + 'deg)';
     var f = front();
-    /* จอแคบ: โชว์เฉพาะการ์ดหน้าสุดใบเดียว กันการ์ดข้างซ้อนกัน */
-    var solo = narrowMQ.matches;
-    cardEls.forEach(function (el, i) {
-      var hide = solo && i !== f;
-      if (hide !== (el.style.display === 'none')) el.style.display = hide ? 'none' : '';
-    });
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
   /* ล็อก scroll หมุนให้ครบก่อนค่อยปล่อย (กันติด: ล็อกเฉพาะขาลง ขาขึ้นผ่านฟรีเสมอ) */
