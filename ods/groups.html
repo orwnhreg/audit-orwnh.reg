@@ -67,6 +67,7 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 }
 
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px 64px; }
+.wrap.site-head { padding-bottom: 0; }
 .doc-title { margin: 8px 0 16px; }
 .doc-title h2 { margin: 0; font-size: 1.3rem; font-weight: 800; }
 .doc-title p { margin: 4px 0 0; color: var(--muted); font-size: .9rem; }
@@ -187,11 +188,25 @@ body.lock { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+@media (max-width: 620px) {
+  .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin: 20px 0 8px; }
+  .stat { min-width: 0; padding: 12px 6px; border-radius: 18px; }
+  .stat b { font-size: 1.4rem; }
+  .stat span { font-size: 12px; }
+  .controls .row { display: grid; gap: 8px; }
+}
+@media (min-width: 621px) and (max-width: 1024px) {
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-size: 1.7rem; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 20px 0 8px; }
+  .stat { min-width: 0; padding: 16px 12px; }
+  .stat b { font-size: 1.7rem; }
+}
 </style>
 </head>
 <body>
 
-<div class="wrap">
+<div class="wrap site-head">
   <div class="hero">
     <h1>ODS MIS</h1>
     <p class="hosp">Wanonniwat Hospital</p>
