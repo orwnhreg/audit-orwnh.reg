@@ -571,7 +571,7 @@ def asset_version() -> str:
 def pair_line(p):
     mins = p.get("minutes", "")
     mins = int(mins) if isinstance(mins, float) and mins.is_integer() else mins
-    return (f'<div class="pair-line">ชนกับ {esc(p.get("name", ""))} HN{esc(p.get("hn", ""))} '
+    return (f'<div class="pair-line">{esc(p.get("name", ""))} HN{esc(p.get("hn", ""))} '
             f'วันที่ {esc(p.get("date", ""))} เข้า {esc(p.get("enter", ""))} ออก {esc(p.get("exit", ""))} '
             f'({esc(p.get("tag", ""))} {esc(f"{mins}")} นาที)</div>')
 
