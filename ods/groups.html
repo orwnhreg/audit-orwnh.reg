@@ -262,6 +262,7 @@ body.lock { overflow: hidden; }
 
   const $ = (sel) => document.querySelector(sel);
   const state = { data: null, tab: 'all', q: '', opener: null };
+  const SYS_LABEL = { both: 'ICD-10 + ICD-9', 'icd9-only': 'ICD-9 เท่านั้น', 'icd10-only': 'ICD-10 เท่านั้น', none: 'ไม่มีรหัส' };
   const SYS_BADGE = { 'icd9-only': ['ICD-9 เท่านั้น', 'b-icd9'], 'icd10-only': ['ICD-10 เท่านั้น', 'b-icd10'], none: ['ไม่มีรหัส', 'b-none'] };
 
   // ---------- helpers ----------
@@ -403,14 +404,11 @@ body.lock { overflow: hidden; }
     list.replaceChildren();
     if (rows.length === 0) {
       $('#count').textContent = '';
-      const sysHidden = state.sys !== 'all' && matched.length > 0;
       list.append(el('div', { class: 'empty' },
         q ? el('h2', {}, `ไม่พบ "${q}"`) : el('h2', {}, 'ไม่มีกลุ่มในหมวดนี้'),
         el('p', {}, 'ลองพิมพ์ชื่อบางส่วน หรือรหัสแบบ H11.0 / H110 / 53.02'),
-        sysHidden ? el('p', {}, `ตัวกรองระบบ "${$('#sys').selectedOptions[0].textContent}" กำลังใช้อยู่`) : null,
         el('div', { class: 'btn-row', style: 'justify-content:center' },
-          q ? el('button', { class: 'btn ghost', type: 'button', onclick: clearSearch }, 'ล้างคำค้นหา') : null,
-          sysHidden ? el('button', { class: 'btn ghost', type: 'button', onclick: () => { state.sys = 'all'; $('#sys').value = 'all'; render(); } }, 'ล้างตัวกรองระบบ') : null)));
+          q ? el('button', { class: 'btn ghost', type: 'button', onclick: clearSearch }, 'ล้างคำค้นหา') : null)));
       return;
     }
     $('#count').textContent = `แสดง ${rows.length} กลุ่ม`;
@@ -526,7 +524,6 @@ body.lock { overflow: hidden; }
   // ---------- controls ----------
   $('#q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
   $('#clear').addEventListener('click', clearSearch);
-  $('#sys').addEventListener('change', (e) => { state.sys = e.target.value; render(); });
   document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => {
     state.tab = t.dataset.tab;
     document.querySelectorAll('.tab').forEach((x) => x.setAttribute('aria-selected', String(x === t)));
