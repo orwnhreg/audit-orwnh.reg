@@ -118,8 +118,13 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 .code-group { display: block; }
 .code-group-title { display: block; margin-bottom: 6px; color: var(--muted); font-size: 13px; font-weight: 700; }
 .code-group-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 142px), 1fr)); gap: 5px 8px; }
+.code-group-items.named { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
 .code-entry { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; min-width: 0; padding: 4px 7px; border-radius: 8px; background: var(--gray-soft); }
 .code-entry code { font-size: 13px; font-weight: 700; color: var(--ink); }
+.code-entry .code-name { font-size: 12px; line-height: 1.35; color: var(--ink); overflow-wrap: anywhere; }
+.code-entry.has-name { display: grid; grid-template-columns: 56px minmax(0, 1fr); align-items: start; justify-content: initial; gap: 4px 8px; }
+.code-entry.has-name code { grid-column: 1; grid-row: 1 / span 2; white-space: nowrap; }
+.code-entry.has-name .code-name, .code-entry.has-name small { grid-column: 2; }
 .code-entry small { color: var(--muted); font-size: 11px; white-space: nowrap; }
 .code-entry .review-mark { color: var(--warn-ink); font-weight: 800; }
 
@@ -165,6 +170,10 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 .sheet li { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2) var(--s3); min-height: var(--touch); padding: var(--s1) 0; border-bottom: 1px solid var(--line); }
 .sheet li code { font-size: 16px; font-weight: 600; min-width: 5.5em; }
 .sheet li .pg { font-size: 13px; color: var(--muted); }
+.sheet li.has-name { display: grid; grid-template-columns: 5.5em minmax(0, 1fr); grid-template-rows: auto auto; align-items: start; gap: 3px 8px; }
+.sheet li.has-name code { grid-column: 1; grid-row: 1 / span 2; }
+.sheet li.has-name .code-name, .sheet li.has-name .pg { grid-column: 2; }
+.sheet li.has-name .code-name { font-size: 13px; line-height: 1.35; overflow-wrap: anywhere; }
 .sheet .info { margin-top: var(--s4); padding: var(--s3) var(--s4); border-radius: var(--r-md); background: var(--none-bg); color: var(--none-ink); font-size: 14px; }
 .sheet .copy-msg { margin: var(--s2) 0 0; font-size: 14px; color: var(--muted); }
 .sheet textarea { display: block; width: 100%; min-height: 120px; margin-top: var(--s2); font: inherit; font-size: 14px; border: 1px solid #cbd5e1; border-radius: var(--r-md); padding: var(--s2); }
@@ -383,9 +392,10 @@ body.lock { overflow: hidden; }
       const label = system === 'icd10' ? 'ICD-10' : 'ICD-9';
       return el('span', { class: 'code-group' },
         el('span', { class: 'code-group-title' }, `${label} (${codes.length})`),
-        el('span', { class: 'code-group-items' }, codes.map((c) =>
-          el('span', { class: 'code-entry' },
+        el('span', { class: `code-group-items${codes.some((c) => c.description_en) ? ' named' : ''}` }, codes.map((c) =>
+          el('span', { class: `code-entry${c.description_en ? ' has-name' : ''}` },
             el('code', {}, c.dotted),
+            c.description_en ? el('span', { class: 'code-name' }, c.description_en) : null,
             el('small', { class: c.review ? 'review-mark' : '' }, `หน้า ${c.page || '—'}${c.review ? ' ⚠' : ''}`)))));
     }).filter(Boolean);
     return el('button', { class: 'card', type: 'button', 'data-key': gkey(g), onclick: (e) => openModal(g, e.currentTarget) },
@@ -457,8 +467,9 @@ body.lock { overflow: hidden; }
       const list = codes.filter((c) => c.system === system);
       if (!list.length) return null;
       return el('div', {}, el('h3', {}, `${label} (${list.length})`),
-        el('ul', {}, list.map((c) => el('li', {},
+        el('ul', {}, list.map((c) => el('li', { class: c.description_en ? 'has-name' : '' },
           el('code', {}, c.dotted),
+          c.description_en ? el('span', { class: 'code-name' }, c.description_en) : null,
           el('span', { class: 'pg' }, `หน้า ${c.page}`),
           c.review ? badge('⚠ ต้องตรวจ', 'b-warn') : null))));
     };
