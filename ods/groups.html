@@ -40,27 +40,40 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 
 :focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
 
-/* ---------- header ---------- */
-.hd { background: var(--card); border-bottom: 0; padding: 18px var(--s4) 0; }
-.hd .hdrow { display: flex; align-items: center; justify-content: space-between; gap: var(--s3); flex-wrap: wrap; }
-.hd h1 { margin: 0; font-size: 18px; line-height: 1.35; font-weight: 800; color: var(--ink); }
-.hd .sub { margin: var(--s1) 0 0; font-size: 13px; color: var(--muted); }
-.hd .navlink {
-  text-decoration: none; color: var(--ink); border: 1px solid #e5e9f0; border-radius: var(--r-pill);
-  padding: 8px 18px; font-size: .88rem; font-weight: 600; white-space: nowrap;
-}
-.catabs { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 10px 0 16px; }
+/* ---------- shared ODS/MIS header ---------- */
+.hero { text-align: center; padding: 34px 0 8px; }
+.hero h1 { font-size: 2.2rem; margin: 0 0 2px; font-weight: 800; }
+.hero p { color: var(--muted); margin: 10px 0 0; }
+.hero .hosp { font-size: 1.1rem; font-weight: 700; margin: 0; }
+.hero .expand { color: var(--muted); font-size: .9rem; margin: 2px 0 12px; }
+.catabs { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; }
 .catab {
-  border: 1px solid #dfe3ea; background: #fff; border-radius: 999px; padding: 8px 20px;
-  font-weight: 700; font-size: .88rem; text-decoration: none; color: #1f2530; white-space: nowrap;
+  border: 1px solid var(--line); background: #fff; border-radius: 999px; padding: 8px 20px;
+  font-weight: 700; font-size: .88rem; text-decoration: none; color: var(--ink); white-space: nowrap;
 }
 .catab.active { background: var(--teal); color: #fff; border-color: var(--teal); }
+.hero-tabs { justify-content: center; margin: 6px 0 12px; }
+.hero-tabs .catab { font-size: 1.15rem; padding: 12px 36px; }
+@media (max-width: 620px) {
+  .hero h1 { font-size: 1.6rem; }
+  .catab { padding: 7px 14px; font-size: .8rem; }
+}
+@media (min-width: 621px) and (max-width: 1024px) {
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-size: 1.7rem; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); margin: 20px 0 8px; }
+  .stat { min-width: 0; padding: 16px 12px; }
+  .stat b { font-size: 1.7rem; }
+}
 
-.wrap { max-width: 1200px; margin: 0 auto; padding: var(--s4); }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px 64px; }
+.doc-title { margin: 8px 0 16px; }
+.doc-title h2 { margin: 0; font-size: 1.3rem; font-weight: 800; }
+.doc-title p { margin: 4px 0 0; color: var(--muted); font-size: .9rem; }
 
 /* ---------- summary ---------- */
-.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s3); }
-.stat { background: var(--gray-soft); border: 0; border-radius: 22px; padding: 18px var(--s4); text-align: center; min-width: 0; }
+.stats { display: flex; justify-content: center; flex-wrap: wrap; gap: var(--s3); margin: 26px 0 8px; }
+.stat { flex: 0 1 auto; background: var(--gray-soft); border: 0; border-radius: 22px; padding: 20px 26px; text-align: center; min-width: 130px; }
 .stat b { display: block; font-size: 2rem; font-weight: 800; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
 .stat span { font-size: 13px; color: var(--muted); }
 .stat.warn b { color: #d97706; }
@@ -157,9 +170,6 @@ body.lock { overflow: hidden; }
 
 /* ---------- responsive ---------- */
 @media (min-width: 768px) {
-  .hd { padding: var(--s5) var(--s5); }
-  .hd h1 { font-size: 26px; }
-  .wrap { padding: var(--s5); }
   .stats { gap: var(--s4); }
   .stat b { font-size: 32px; }
   .controls { grid-template-columns: 1fr; }
@@ -181,20 +191,17 @@ body.lock { overflow: hidden; }
 </head>
 <body>
 
-<header class="hd">
-  <div class="wrap">
-    <div class="hdrow">
-      <div>
-        <h1>กลุ่มโรค ODS/MIS · ICD-10 / ICD-9</h1>
-        <p class="sub">ตามประกาศ สปสช. การจ่ายค่าบริการ ODS และ MIS พ.ศ. ๒๕๖๗</p>
-      </div>
-      <a class="navlink" href="index.html">← หน้าแรก ODS MIS</a>
-    </div>
-    <div class="catabs"><a class="catab" href="index.html">ODS</a><a class="catab" href="mis.html">MIS</a><span class="catab active">เอกสาร</span></div>
+<div class="wrap">
+  <div class="hero">
+    <h1>ODS MIS</h1>
+    <p class="hosp">Wanonniwat Hospital</p>
+    <p class="expand">One day surgery &amp; Minimal invasive surgery WNH</p>
+    <div class="catabs hero-tabs"><a class="catab" href="index.html">ODS</a><a class="catab" href="mis.html">MIS</a><span class="catab active">เอกสาร</span></div>
   </div>
-</header>
+</div>
 
 <main class="wrap">
+  <div class="doc-title"><h2>กลุ่มโรค ODS/MIS · ICD-10 / ICD-9</h2><p>ตามประกาศ สปสช. การจ่ายค่าบริการ ODS และ MIS พ.ศ. ๒๕๖๗</p></div>
   <section aria-label="สรุป">
     <div class="stats">
       <div class="stat"><b id="st-groups">–</b><span>กลุ่ม</span></div>
