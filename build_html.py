@@ -568,13 +568,21 @@ def asset_version() -> str:
         return "1"
 
 
+def pair_line(p):
+    mins = p.get("minutes", "")
+    mins = int(mins) if isinstance(mins, float) and mins.is_integer() else mins
+    return (f'<div class="pair-line">ชนกับ {esc(p.get("name", ""))} HN{esc(p.get("hn", ""))} '
+            f'วันที่ {esc(p.get("date", ""))} เข้า {esc(p.get("enter", ""))} ออก {esc(p.get("exit", ""))} '
+            f'({esc(p.get("tag", ""))} {esc(f"{mins}")} นาที)</div>')
+
+
 def render_cases_table(cases: list) -> str:
     rows = []
     for case in cases:
         missing = case.get("missing", []) or []
         missing_html = "".join(f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing)
         pair_html = "".join(
-            f'<div class="pair-line">HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
+            pair_line(p)
             for p in (case.get("pair", []) or []))
         times = case.get("times", []) or []
         time_html = (f'<div class="pair-line">เข้า {esc(times[0])} เริ่ม {esc(times[1])} เสร็จ {esc(times[2])} ออก {esc(times[3])}</div>'
