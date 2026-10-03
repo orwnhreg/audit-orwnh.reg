@@ -36,6 +36,14 @@ def asset_version(name: str, fallback: str = "1") -> str:
         return fallback
 
 
+def pair_line(p):
+    mins = p.get("minutes", "")
+    mins = int(mins) if isinstance(mins, float) and mins.is_integer() else mins
+    return (f'<div class="pair-line">ชนกับ {esc(p.get("name", ""))} HN{esc(p.get("hn", ""))} '
+            f'วันที่ {esc(p.get("date", ""))} เข้า {esc(p.get("enter", ""))} ออก {esc(p.get("exit", ""))} '
+            f'({esc(p.get("tag", ""))} {esc(f"{mins}")} นาที)</div>')
+
+
 def render_case_rows(all_cases: list) -> str:
     """Every currently-flagged case, tagged data-key="HN|date" for the engine."""
     rows = []
@@ -45,7 +53,7 @@ def render_case_rows(all_cases: list) -> str:
             f'<span class="chip chip-warn" data-rule="{esc(m)}" title="กดเพื่อดูคำอธิบาย">{esc(m)}</span>' for m in missing
         )
         pair_html = "".join(
-            f'<div class="pair-line">HN{esc(p.get("hn", ""))} วันที่ {esc(p.get("date", ""))} ({esc(p.get("tag", ""))} {esc(p.get("minutes", ""))} นาที)</div>'
+            pair_line(p)
             for p in (c.get("pair", []) or [])
         )
         times = c.get("times", []) or []
