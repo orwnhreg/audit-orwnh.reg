@@ -26,7 +26,7 @@ body {
     "Segoe UI", system-ui, sans-serif;
   line-height: 1.4; font-variant-numeric: tabular-nums;
 }
-.container { max-width: 1080px; margin: 0 auto; padding: 0 16px 64px; }
+.container { max-width: 1080px; margin: 0 auto; padding: 0 16px 64px; position: relative; }
 .topnav { display: flex; align-items: center; justify-content: space-between; padding: 18px 0; }
 .brand { font-weight: 800; font-size: 1.1rem; }
 .brand small { display: block; font-weight: 400; color: var(--muted); font-size: .8rem; }
@@ -34,12 +34,15 @@ body {
   text-decoration: none; color: var(--text); border: 1px solid var(--border); border-radius: 999px;
   padding: 8px 18px; font-size: .88rem; font-weight: 600; white-space: nowrap;
 }
-.hero { text-align: center; padding: 10px 0 8px; }
-.hero h1 { font-size: 2.2rem; margin: 0; font-weight: 800; }
-.hero .hosp { font-size: 1.1rem; font-weight: 700; margin: 2px 0 0; }
-.hero .expand { color: var(--muted); font-size: .9rem; margin: 2px 0 10px; }
-.hero .page-name { font-size: 1.3rem; font-weight: 800; margin-top: 2px; }
-.topnav-right { display: flex; justify-content: flex-end; padding: 18px 0 0; }
+.hero { text-align: center; padding: 34px 0 8px; }
+.hero h1 { font-size: 2.2rem; margin: 0 0 2px; font-weight: 800; }
+.hero .hosp { font-size: 1.1rem; font-weight: 700; margin: 0; }
+.hero .expand { color: var(--muted); font-size: .9rem; margin: 2px 0 12px; }
+.topnav-right { position: absolute; top: 16px; right: 16px; }
+@media (min-width: 621px) and (max-width: 1024px) {
+  .hero { padding: 22px 0 4px; }
+  .hero h1 { font-size: 1.7rem; }
+}
 .stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
 .stat {
   flex: 1 1 140px; background: var(--primary-light);
@@ -93,7 +96,12 @@ table.ods tr.total td { background: var(--primary-light); font-weight: 700; }
 .notes li { margin-top: 5px; }
 .notes .alert { color: var(--exam); font-weight: 700; }
 footer.page-footer { text-align: center; color: #9aa0ae; font-size: .82rem; margin-top: 24px; }
-@media (max-width: 620px) { html { font-size: 17px; } }
+@media (max-width: 620px) {
+  html { font-size: 17px; }
+  .hero h1 { font-size: 1.5rem; }
+  .hero .hosp { font-size: 1.03rem; }
+  .hero .expand { font-size: .85rem; }
+}
 /* ===== motion เข้าหน้านุ่ม: ขยับแค่ opacity/transform (GPU) ไม่แตะ layout ===== */
 .container { animation: page-in .35s ease both; }
 @keyframes page-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
@@ -136,7 +144,6 @@ footer.page-footer { text-align: center; color: #9aa0ae; font-size: .82rem; marg
     <h1>ODS MIS</h1>
     <p class="hosp">Wanonniwat Hospital</p>
     <p class="expand">One day surgery &amp; Minimal invasive surgery WNH</p>
-    <div class="page-name">ตาราง ODS</div>
   </div>
 
   <div class="stats">
