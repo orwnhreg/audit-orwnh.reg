@@ -63,6 +63,10 @@ table.ods th { background: #f4f4f6; color: #14b8a6; font-size: .85rem; }
 table.ods td.sum { font-weight: 700; }
 table.ods tr.total td { background: #f4f4f6; font-weight: 700; }
 table.scheme { max-width: 520px; }
+/* แท็บเล็ต: ตารางสิทธิกว้างเต็ม (วางหลังกฎตั้งต้น) */
+@media (min-width: 621px) and (max-width: 1024px) {
+  table.scheme { max-width: none; }
+}
 .notes { margin: 20px 0 0; padding: 16px 20px; background: #fffbef;
   border: 1px solid #f3e3bb; border-radius: 20px; font-size: .88rem; }
 .notes h2 { font-size: 1rem; margin: 0 0 6px; }
