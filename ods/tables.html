@@ -35,7 +35,11 @@ body {
   padding: 8px 18px; font-size: .88rem; font-weight: 600; white-space: nowrap;
 }
 .hero { text-align: center; padding: 10px 0 8px; }
-.hero h1 { font-size: 1.6rem; margin: 0; font-weight: 800; }
+.hero h1 { font-size: 2.2rem; margin: 0; font-weight: 800; }
+.hero .hosp { font-size: 1.1rem; font-weight: 700; margin: 2px 0 0; }
+.hero .expand { color: var(--muted); font-size: .9rem; margin: 2px 0 10px; }
+.hero .page-name { font-size: 1.3rem; font-weight: 800; margin-top: 2px; }
+.topnav-right { display: flex; justify-content: flex-end; padding: 18px 0 0; }
 .stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 4px; }
 .stat {
   flex: 1 1 140px; background: var(--primary-light);
@@ -127,9 +131,12 @@ footer.page-footer { text-align: center; color: #9aa0ae; font-size: .82rem; marg
 </head>
 <body>
 <div class="container">
+  <div class="topnav-right"><a class="back" href="./">‹ กลับ</a></div>
   <div class="hero">
-    <div class="catabs hero-tabs"><a class="catab active" href="./">ODS</a><a class="catab" href="mis.html">MIS</a></div>
-    <h1>ตาราง ODS</h1>
+    <h1>ODS MIS</h1>
+    <p class="hosp">Wanonniwat Hospital</p>
+    <p class="expand">One day surgery &amp; Minimal invasive surgery WNH</p>
+    <div class="page-name">ตาราง ODS</div>
   </div>
 
   <div class="stats">
