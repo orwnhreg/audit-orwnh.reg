@@ -49,6 +49,12 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
   text-decoration: none; color: var(--ink); border: 1px solid #e5e9f0; border-radius: var(--r-pill);
   padding: 8px 18px; font-size: .88rem; font-weight: 600; white-space: nowrap;
 }
+.catabs { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 10px 0 16px; }
+.catab {
+  border: 1px solid #dfe3ea; background: #fff; border-radius: 999px; padding: 8px 20px;
+  font-weight: 700; font-size: .88rem; text-decoration: none; color: #1f2530; white-space: nowrap;
+}
+.catab.active { background: var(--teal); color: #fff; border-color: var(--teal); }
 
 .wrap { max-width: 1200px; margin: 0 auto; padding: var(--s4); }
 
@@ -184,6 +190,7 @@ body.lock { overflow: hidden; }
       </div>
       <a class="navlink" href="index.html">← หน้าแรก ODS MIS</a>
     </div>
+    <div class="catabs"><a class="catab" href="index.html">ODS</a><a class="catab" href="mis.html">MIS</a><span class="catab active">เอกสารอ้างอิง</span></div>
   </div>
 </header>
 
