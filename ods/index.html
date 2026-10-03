@@ -125,6 +125,12 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   font-size: 0; opacity: .22;
   background: url('pterygium.jpg') right bottom / contain no-repeat;
 }
+/* การ์ด Colonoscopy ใช้ภาพจริงแทนอีโมจิ */
+.scard.has-colimg::after {
+  content: ""; right: -16px; bottom: -16px; width: 170px; height: 170px;
+  font-size: 0; opacity: .25;
+  background: url('colonoscopy.png') right bottom / contain no-repeat;
+}
 /* ===== มือถือ: การ์ดเล็กลง ตัวหนังสือเล็กลง (วางหลังกฎ desktop เพื่อให้ชนะ cascade) ===== */
 @media (max-width: 620px) {
   .spin-stage { --rz: 195px; height: 250px; }
@@ -134,6 +140,7 @@ section.block .sub { color: #6b7280; font-size: .9rem; margin: 0 0 16px; }
   .scard .gpct { font-size: .72rem; }
   .scard::after { font-size: 64px; right: -8px; bottom: -14px; }
   .scard.has-img::after { width: 110px; height: 110px; right: -10px; bottom: -10px; }
+  .scard.has-colimg::after { width: 110px; height: 110px; right: -10px; bottom: -10px; }
 }
 /* ===== แท็บเล็ต: การ์ดพอดีวงไม่ซ้อน (วางหลังกฎ desktop เพื่อให้ชนะ cascade) ===== */
 @media (min-width: 621px) and (max-width: 1024px) {
@@ -299,6 +306,7 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     else if (nm.indexOf('hernia') >= 0) ico = '🩹';
     el.setAttribute('data-ico', ico);
     if (nm.indexOf('pterygium') >= 0) el.classList.add('has-img');
+    if (nm.indexOf('colonoscopy') >= 0) el.classList.add('has-colimg');
     var pct = Math.round(100 * g.n / total69);
     el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
       '<div class="gname">' + g.name + '</div>' +
