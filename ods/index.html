@@ -268,6 +268,8 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   var ring = document.getElementById('spinRing');
   var dotsBox = document.getElementById('spinDots');
   var total69 = groups.reduce(function (a, g) { return a + g.n; }, 0);
+  var cardEls = [];
+  var narrowMQ = window.matchMedia('(max-width: 620px)');
   groups.forEach(function (g, i) {
     var el = document.createElement('div');
     el.className = 'scard';
@@ -282,6 +284,7 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
     else if (nm.indexOf('polyp') >= 0) ico = '🌱';
     else if (nm.indexOf('hernia') >= 0) ico = '🩹';
     el.setAttribute('data-ico', ico);
+    cardEls.push(el);
     var pct = Math.round(100 * g.n / total69);
     el.innerHTML = '<span class="dot" style="background:' + acc[i % acc.length] + '"></span>' +
       '<div class="gname">' + g.name + '</div>' +
@@ -303,6 +306,12 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   function paint() {
     ring.style.transform = 'rotateY(' + ang + 'deg)';
     var f = front();
+    /* จอแคบ: โชว์เฉพาะการ์ดหน้าสุดใบเดียว กันการ์ดข้างซ้อนกัน */
+    var solo = narrowMQ.matches;
+    cardEls.forEach(function (el, i) {
+      var hide = solo && i !== f;
+      if (hide !== (el.style.display === 'none')) el.style.display = hide ? 'none' : '';
+    });
     dots.forEach(function (d, i) { d.classList.toggle('active', i === f); });
   }
   /* ล็อก scroll หมุนให้ครบก่อนค่อยปล่อย (กันติด: ล็อกเฉพาะขาลง ขาขึ้นผ่านฟรีเสมอ) */
