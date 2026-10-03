@@ -335,7 +335,22 @@ document.getElementById('goYearly').addEventListener('click', function () { wind
   function go(i) { interacted = true; manual = -i * STEP; }
   document.getElementById('spinPrev').addEventListener('click', function () { interacted = true; manual += STEP; });
   document.getElementById('spinNext').addEventListener('click', function () { interacted = true; manual -= STEP; });
+  /* หมุนเมื่อเลื่อนเคอร์เซอร์ขึ้นลงในกรอบวงล้อ (desktop) — นอกกรอบเลื่อนผ่านอิสระ
+     ครบรอบแล้วปล่อยจอ (กันติด) · มือถือปัดแนวตั้งเลื่อนหน้าอิสระเหมือนเดิม */
+  var spinStart = null, spinTimer = null;
   var stage = document.getElementById('spinStage');
+  function spinReset() { spinStart = null; }
+  stage.addEventListener('pointerleave', spinReset);
+  stage.addEventListener('wheel', function (e) {
+    if (e.ctrlKey) return;
+    if (spinStart === null) spinStart = manual;
+    if (Math.abs(manual - spinStart) >= 360) { spinStart = null; return; }
+    if (e.cancelable !== false) e.preventDefault();
+    interacted = true;
+    manual -= e.deltaY * 0.25;
+    if (spinTimer) clearTimeout(spinTimer);
+    spinTimer = setTimeout(spinReset, 900);
+  }, { passive: false });
   stage.addEventListener('pointerdown', function (e) { dragging = true; lastX = e.clientX;
     interacted = true;
     try { stage.setPointerCapture(e.pointerId); } catch (err) {} });
