@@ -78,7 +78,6 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 .stat b { display: block; font-size: 2rem; font-weight: 800; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
 .stat span { font-size: 13px; color: var(--muted); }
 .stat.warn b { color: #d97706; }
-.sys-line { margin: var(--s2) 0 0; font-size: 13px; color: var(--muted); }
 
 /* ---------- controls ---------- */
 .controls { margin-top: var(--s4); display: grid; gap: var(--s3); }
@@ -93,10 +92,6 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
   background: var(--card); border: 1px solid #cbd5e1; border-radius: var(--r-pill, 999px); cursor: pointer; }
 .tab[aria-selected="true"] { background: var(--teal); border-color: var(--teal); color: #fff; }
 .tab:disabled { opacity: .5; cursor: not-allowed; }
-.filter { display: flex; align-items: center; gap: var(--s2); font-size: 15px; color: var(--muted); }
-.filter select { flex: 1; min-height: var(--touch); padding: 0 var(--s3); font: inherit; font-size: 16px; color: var(--ink);
-  background: var(--card); border: 1px solid #cbd5e1; border-radius: var(--r-md); }
-.filter select:disabled { background: var(--line); }
 
 /* ---------- notices & states ---------- */
 .notice { margin-top: var(--s4); padding: var(--s3) var(--s4); border-radius: var(--r-md); font-size: 15px; }
@@ -177,7 +172,6 @@ body.lock { overflow: hidden; }
   .controls .row { display: flex; gap: var(--s3); align-items: center; flex-wrap: wrap; }
   .controls .row .search-wrap { flex: 1 1 320px; }
   .controls .row .tabs { flex: 0 0 auto; }
-  .controls .row .filter { flex: 0 0 auto; }
   .cards { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: var(--s4); }
   .card { padding: var(--s5); }
   .modal { align-items: center; }
@@ -216,14 +210,13 @@ body.lock { overflow: hidden; }
 </div>
 
 <main class="wrap">
-  <div class="doc-title"><h2>กลุ่มโรค ODS/MIS · ICD-10 / ICD-9</h2><p>ตามประกาศ สปสช. การจ่ายค่าบริการ ODS และ MIS พ.ศ. ๒๕๖๗</p></div>
+  <div class="doc-title"><h2>กลุ่มโรค ODS/MIS</h2><p>ตามประกาศ สปสช. การจ่ายค่าบริการ ODS และ MIS พ.ศ. ๒๕๖๗</p></div>
   <section aria-label="สรุป">
     <div class="stats">
       <div class="stat"><b id="st-groups">–</b><span>กลุ่ม</span></div>
       <div class="stat"><b id="st-codes">–</b><span>รหัส</span></div>
       <div class="stat warn"><b id="st-review">–</b><span>ต้องตรวจ</span></div>
     </div>
-    <p class="sys-line" id="st-sys">กำลังโหลดข้อมูล…</p>
   </section>
 
   <section class="controls" aria-label="ค้นหาและกรอง">
@@ -238,13 +231,6 @@ body.lock { overflow: hidden; }
         <button class="tab" role="tab" type="button" data-tab="MIS" aria-selected="false" disabled>MIS</button>
         <button class="tab" role="tab" type="button" data-tab="all" aria-selected="true" disabled>ทั้งหมด</button>
       </div>
-      <label class="filter">ระบบ
-        <select id="sys" disabled>
-          <option value="all">ทั้งหมด</option>
-          <option value="icd10-only">ICD-10 เท่านั้น</option>
-          <option value="icd9-only">ICD-9 เท่านั้น</option>
-        </select>
-      </label>
     </div>
   </section>
 
@@ -275,8 +261,7 @@ body.lock { overflow: hidden; }
   'use strict';
 
   const $ = (sel) => document.querySelector(sel);
-  const state = { data: null, tab: 'all', sys: 'all', q: '', opener: null };
-  const SYS_LABEL = { both: 'ICD-10 + ICD-9', 'icd9-only': 'ICD-9 เท่านั้น', 'icd10-only': 'ICD-10 เท่านั้น', none: 'ไม่มีรหัส' };
+  const state = { data: null, tab: 'all', q: '', opener: null };
   const SYS_BADGE = { 'icd9-only': ['ICD-9 เท่านั้น', 'b-icd9'], 'icd10-only': ['ICD-10 เท่านั้น', 'b-icd10'], none: ['ไม่มีรหัส', 'b-none'] };
 
   // ---------- helpers ----------
@@ -347,14 +332,13 @@ body.lock { overflow: hidden; }
   }
 
   function setLoading(on, failed) {
-    const ctrls = ['#q', '#sys', '.tab'];
+    const ctrls = ['#q', '.tab'];
     document.querySelectorAll(ctrls.join(',')).forEach((c) => { c.disabled = on || failed; });
     if (on) {
       setNotice('info', el('p', {}, 'กำลังโหลดรายการกลุ่มโรค…'));
       $('#st-groups').textContent = '–';
       $('#st-codes').textContent = '–';
       $('#st-review').textContent = '–';
-      $('#st-sys').textContent = '';
     }
     if (!on && !failed) { setNotice(null); }
   }
@@ -365,9 +349,6 @@ body.lock { overflow: hidden; }
     $('#st-groups').textContent = fmt(c.groups);
     $('#st-codes').textContent = fmt(c.codes);
     $('#st-review').textContent = fmt(c.needs_review);
-    const b = c.by_systems;
-    $('#st-sys').textContent =
-      `ระบบ: ทั้งสองระบบ ${fmt(b.both)} · ICD-9 เท่านั้น ${fmt(b['icd9-only'])} · ICD-10 เท่านั้น ${fmt(b['icd10-only'])} · ไม่มีรหัส ${fmt(b.none)}`;
     const ods = d.groups.filter((g) => g.section === 'ODS').length;
     const mis = d.groups.filter((g) => g.section === 'MIS').length;
     const labels = { ODS: `ODS (${ods})`, MIS: `MIS (${mis})`, all: `ทั้งหมด (${d.groups.length})` };
@@ -402,8 +383,7 @@ body.lock { overflow: hidden; }
     const qn = nodot(q);
     const inTab = d.groups.filter((g) => state.tab === 'all' || g.section === state.tab);
     const matched = inTab.map((g) => ({ g, m: match(g, q) })).filter((x) => x.m.ok);
-    const rows = matched.filter((x) => state.sys === 'all' || x.g.systems === state.sys)
-      .sort((a, b) => gsort(a.g) - gsort(b.g));
+    const rows = matched.sort((a, b) => gsort(a.g) - gsort(b.g));
 
     // R2: รหัสตรงทั้งตัวแล้วอยู่หลายกลุ่ม → เตือนและแสดงครบทุกกลุ่ม
     let conflict = null;
