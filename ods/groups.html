@@ -114,6 +114,14 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 .card .meta { display: block; margin-top: var(--s2); font-size: .9rem; color: var(--muted); }
 .card .hits { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s1); margin-top: var(--s2); font-size: 14px; }
 .card .badges { display: flex; flex-wrap: wrap; gap: var(--s2); margin-top: var(--s3); }
+.code-details { display: grid; gap: 10px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.code-group { display: block; }
+.code-group-title { display: block; margin-bottom: 6px; color: var(--muted); font-size: 13px; font-weight: 700; }
+.code-group-items { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 142px), 1fr)); gap: 5px 8px; }
+.code-entry { display: flex; align-items: baseline; justify-content: space-between; gap: 6px; min-width: 0; padding: 4px 7px; border-radius: 8px; background: var(--gray-soft); }
+.code-entry code { font-size: 13px; font-weight: 700; color: var(--ink); }
+.code-entry small { color: var(--muted); font-size: 11px; white-space: nowrap; }
+.code-entry .review-mark { color: var(--warn-ink); font-weight: 800; }
 
 .hit { font-size: 13px; background: var(--card); border: 1px solid var(--line); color: var(--teal-dark); border-radius: var(--r-pill); padding: 1px 10px; }
 .badge { display: inline-flex; align-items: center; font-size: 13px; font-weight: 500; line-height: 1.4; padding: 2px var(--s3); border-radius: 999px; white-space: nowrap; }
@@ -369,13 +377,25 @@ body.lock { overflow: hidden; }
     if (review) badges.push(badge(`⚠ ต้องตรวจ ${review}`, 'b-warn'));
     const shown = hits.slice(0, 6).map((c) => el('code', { class: 'hit' }, c.dotted));
     if (hits.length > 6) shown.push(el('span', { class: 'meta' }, `+${hits.length - 6}`));
+    const codeDetails = ['icd10', 'icd9'].map((system) => {
+      const codes = g.codes.filter((c) => c.system === system);
+      if (!codes.length) return null;
+      const label = system === 'icd10' ? 'ICD-10' : 'ICD-9';
+      return el('span', { class: 'code-group' },
+        el('span', { class: 'code-group-title' }, `${label} (${codes.length})`),
+        el('span', { class: 'code-group-items' }, codes.map((c) =>
+          el('span', { class: 'code-entry' },
+            el('code', {}, c.dotted),
+            el('small', { class: c.review ? 'review-mark' : '' }, `หน้า ${c.page || '—'}${c.review ? ' ⚠' : ''}`)))));
+    }).filter(Boolean);
     return el('button', { class: 'card', type: 'button', 'data-key': gkey(g), onclick: (e) => openModal(g, e.currentTarget) },
       el('span', { class: 'no' }, `${g.section} ${g.no}`),
       el('span', { class: 'name' }, g.name_th),
       el('span', { class: 'en' }, g.name_en),
       el('span', { class: 'meta' }, countTxt),
       hits.length ? el('span', { class: 'hits' }, 'พบรหัส:', shown) : null,
-      badges.length ? el('span', { class: 'badges' }, badges) : null);
+      badges.length ? el('span', { class: 'badges' }, badges) : null,
+      codeDetails.length ? el('span', { class: 'code-details' }, codeDetails) : null);
   }
 
   function renderList() {
@@ -445,7 +465,7 @@ body.lock { overflow: hidden; }
     const copyBtn = g.n_codes
       ? el('button', { class: 'btn', type: 'button', id: 'copy-btn', onclick: () => copyCodes(codes) }, `คัดลอกรหัสทั้งหมด (${g.n_codes})`)
       : null;
-    body.replaceChildren(
+    body.replaceChildren(...[
       el('h2', { id: 'm-title' }, `${g.section} ${g.no} · ${g.name_th}`),
       el('p', { class: 'en' }, g.name_en),
       el('p', { class: 'meta' },
@@ -458,8 +478,8 @@ body.lock { overflow: hidden; }
       el('p', { class: 'copy-msg', id: 'copy-msg', role: 'status', 'aria-live': 'polite' }),
       section('icd10', 'ICD-10'),
       section('icd9', 'ICD-9'),
-      el('p', { class: 'foot' }, 'ข้อมูลตามประกาศ ไม่ใช่ยอดเคสหรือยอดเบิก'));
-
+      el('p', { class: 'foot' }, 'ข้อมูลตามประกาศ ไม่ใช่ยอดเคสหรือยอดเบิก')
+    ].filter(Boolean));
     $('#modal').hidden = false;
     document.body.classList.add('lock');
     $('#m-close').focus();
