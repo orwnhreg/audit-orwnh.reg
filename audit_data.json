@@ -2,18 +2,14 @@
   "repo": "audit-orwnh.reg",
   "title": "ทะเบียนผ่าตัด — Audit",
   "as_of": "04/10/2026",
-  "generated_at": "00:21",
+  "generated_at": "00:27",
   "rows": 13626,
   "colA": {
     "dup": 0,
     "missing": 0,
     "offset": 0
   },
-  "blank_cols": {
-    "เวลาเริ่มผ่าตัด": 1,
-    "เวลาผ่าตัดเสร็จ": 1,
-    "เวลาออกจากห้องผ่าตัด": 1
-  },
+  "blank_cols": {},
   "team": {
     "dup_in_set": 99,
     "dup_in_set_recent": 1
