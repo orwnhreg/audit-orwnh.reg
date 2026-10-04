@@ -468,6 +468,17 @@ CSS_BLOCK = '''  :root {
       text-align: left;
       flex: 0 0 auto;
     }
+    .data-table td.missing-cell { align-items: flex-start; }
+    .missing-items {
+      flex: 1 1 auto;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+    }
+    .missing-items .pair-line { width: 100%; text-align: right; overflow-wrap: anywhere; }
+    .missing-items .chip { margin-right: 0; }
     .data-table td.circ-cell {
       align-items: flex-start;
       text-align: right;
@@ -604,7 +615,7 @@ def render_cases_table(cases: list) -> str:
         <td data-label="แผนก">{esc(case.get("dept", ""))}</td>
         <td data-label="การผ่าตัด">{esc(case.get("op", ""))}</td>
         <td data-label="Circulating" class="circ-cell">{circ_html}</td>
-        <td data-label="ข้อมูลที่ขาด">{missing_html}{pair_html}{time_html}</td>
+        <td data-label="ข้อมูลที่ขาด" class="missing-cell"><div class="missing-items">{missing_html}{pair_html}{time_html}</div></td>
         <td data-label="รอแก้ไข">{days_html}</td>
       </tr>'''
         )

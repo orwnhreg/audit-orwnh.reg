@@ -74,7 +74,7 @@ def render_case_rows(all_cases: list) -> str:
         <td data-label="แผนก">{esc(c.get("dept", ""))}</td>
         <td data-label="การผ่าตัด">{esc(c.get("op", ""))}</td>
         <td data-label="Circulating" class="circ-cell">{circ_html}</td>
-        <td data-label="ข้อมูลที่ขาด">{missing_html}{pair_html}{time_html}</td>
+        <td data-label="ข้อมูลที่ขาด" class="missing-cell"><div class="missing-items">{missing_html}{pair_html}{time_html}</div></td>
         <td data-label="รอแก้ไข">{days_html}</td>
       </tr>'''
         )
@@ -397,6 +397,10 @@ TEMPLATE = r"""<!DOCTYPE html>
     .data-table tr { border: 1px solid var(--border-soft); border-radius: 0; margin-bottom: 10px; padding: 8px 12px; background: var(--bg-elevated); }
     .data-table td { border-bottom: none; padding: 4px 0; display: flex; justify-content: space-between; gap: 10px; text-align: right; }
     .data-table td::before { content: attr(data-label); font-weight: 600; color: var(--text-muted); text-align: left; flex: 0 0 auto; }
+    .data-table td.missing-cell { align-items: flex-start; }
+    .missing-items { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; align-items: flex-end; text-align: right; }
+    .missing-items .pair-line { width: 100%; text-align: right; overflow-wrap: anywhere; }
+    .missing-items .chip { margin-right: 0; }
     .data-table td.circ-cell { align-items: flex-start; text-align: right; }
     .circ-names { display: flex; flex-direction: column; align-items: flex-end; }
   }
