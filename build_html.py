@@ -678,7 +678,7 @@ def build_html(data: dict) -> str:
     table_html = render_cases_table(all_cases)
     audit_json = json.dumps(
         {k: data.get(k) for k in ("current", "fiscal_years", "periods", "fy_totals",
-                                  "all_cases", "period", "as_of", "generated_at", "repo")},
+                                  "all_cases", "resolved_cases", "period", "as_of", "generated_at", "repo")},
         ensure_ascii=False, separators=(",", ":"))
     ver = asset_version()
 
