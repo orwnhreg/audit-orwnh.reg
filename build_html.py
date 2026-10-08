@@ -286,6 +286,33 @@ CSS_BLOCK = '''  :root {
     margin: 0;
   }
 
+  .progress-stat-button {
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    transition: border-color 0.15s ease, background-color 0.15s ease;
+  }
+  .progress-stat-button:hover,
+  .progress-stat-button[aria-expanded="true"] { border-color: var(--ok); }
+  .progress-stat-button:focus-visible { outline: 3px solid var(--ok); outline-offset: 2px; }
+  .progress-stat-button .progress-stat-label,
+  .progress-stat-button .progress-stat-value { display: block; }
+  .resolved-history {
+    margin-top: 14px;
+    padding: 12px;
+    border: 1px solid var(--border-soft);
+    background: var(--bg-elevated);
+    max-height: 380px;
+    overflow-y: auto;
+  }
+  .resolved-history[hidden] { display: none !important; }
+  .resolved-history-intro,
+  .resolved-history-empty { color: var(--text-muted); font-size: 0.84rem; margin: 0 0 10px; }
+  .resolved-history-list { list-style: none; margin: 0; padding: 0; }
+  .resolved-history-item { padding: 10px 0; border-top: 1px solid var(--border-soft); }
+  .resolved-history-case { font-weight: 650; overflow-wrap: anywhere; }
+  .resolved-history-tags { color: var(--text-muted); font-size: 0.82rem; margin-top: 4px; overflow-wrap: anywhere; }
+
   .progress-warn { color: var(--warn); }
   .progress-ok { color: var(--ok); }
 
@@ -729,10 +756,10 @@ def build_html(data: dict) -> str:
             <p class="progress-stat-label progress-warn">รอแก้ไข</p>
             <p class="progress-stat-value progress-warn" id="progPending">0</p>
           </div>
-          <div class="progress-stat">
-            <p class="progress-stat-label progress-ok">แก้ไขแล้ว</p>
-            <p class="progress-stat-value progress-ok" id="progResolved">0</p>
-          </div>
+          <button class="progress-stat progress-stat-button" id="resolvedHistoryToggle" type="button" aria-expanded="false" aria-controls="resolvedHistoryPanel">
+            <span class="progress-stat-label progress-ok">แก้ไขแล้ว</span>
+            <span class="progress-stat-value progress-ok" id="progResolved">0</span>
+          </button>
         </div>
         <div class="progress-track">
           <div class="progress-fill-rest" id="progFillRest" style="width:0%"></div>
@@ -740,6 +767,7 @@ def build_html(data: dict) -> str:
           <div class="progress-fill-pending" id="progFillPending" style="width:0%"></div>
         </div>
         <p class="progress-pct" id="progPct">—</p>
+        <div class="resolved-history" id="resolvedHistoryPanel" role="region" aria-label="ประวัติเคสที่แก้ไขแล้ว" hidden></div>
       </div>
     </div>
 

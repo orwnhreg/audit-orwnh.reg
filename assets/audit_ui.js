@@ -104,6 +104,36 @@
     });
   }
 
+  function resolvedCases(data, sel) {
+    var cases = data.resolved_cases || [];
+    var months = null;
+    if (isFyScope(sel)) {
+      var f = fyEntry(data, sel.fy);
+      months = f ? f.months : [];
+    }
+    return cases.filter(function (c) {
+      return months ? months.indexOf(c.month_key) !== -1 : c.month_key === sel.month;
+    }).slice().sort(function (a, b) {
+      var monthOrder = String(b.month_key || '').localeCompare(String(a.month_key || ''));
+      if (monthOrder) return monthOrder;
+      return dayOf(b.date) - dayOf(a.date);
+    });
+  }
+
+  function resolvedHistoryHtml(data, sel) {
+    var cases = resolvedCases(data, sel);
+    if (!cases.length) {
+      return '<p class="resolved-history-empty">ยังไม่มีประวัติเคสที่แก้ไขแล้วในช่วงนี้</p>';
+    }
+    return '<p class="resolved-history-intro">เคสที่เคยถูกแจ้งบนเว็บและปัจจุบันไม่อยู่ในรายการรอแก้ไข · ' +
+      cases.length + ' เคส</p><ul class="resolved-history-list">' + cases.map(function (c) {
+        var missing = (c.missing || []).map(esc).join(' · ') || 'ไม่มีรายละเอียดหัวข้อเดิม';
+        return '<li class="resolved-history-item"><div class="resolved-history-case">วันที่ ' + esc(c.date) +
+          ' · HN ' + esc(c.hn) + ' · ' + esc(c.dept || 'ไม่ระบุ') +
+          '</div><div class="resolved-history-tags">หัวข้อที่เคยแจ้ง: ' + missing + '</div></li>';
+      }).join('') + '</ul>';
+  }
+
   function dayOf(date) { var p = String(date || '').split('/'); return p.length ? parseInt(p[0], 10) : 0; }
 
   function sortCases(cases, sort) {
@@ -224,7 +254,15 @@
     var pageSel = global.document.getElementById('pageSize');
     var chipHost = global.document.getElementById('activeFilters');
     var tableBody = opts.tableBody ? global.document.getElementById(opts.tableBody) : null;
+    var historyToggle = global.document.getElementById('resolvedHistoryToggle');
+    var historyPanel = global.document.getElementById('resolvedHistoryPanel');
     if (tableBody) tableBody = tableBody.querySelector('tbody') || tableBody;
+    if (historyToggle && historyPanel) historyToggle.addEventListener('click', function () {
+      var open = historyToggle.getAttribute('aria-expanded') !== 'true';
+      historyToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      historyPanel.hidden = !open;
+      if (open) historyPanel.innerHTML = resolvedHistoryHtml(data, sel);
+    });
 
     function fyOptions() {
       return fysOf(data).map(function (f) {
@@ -302,6 +340,7 @@
       if (searchInput && searchInput.value !== sel.q) searchInput.value = sel.q;
       renderChips();
       var res = renderTable();
+      if (historyPanel && !historyPanel.hidden) historyPanel.innerHTML = resolvedHistoryHtml(data, sel);
       if (opts.onSelection) opts.onSelection(sel, data, res);
       setUrl(sel);
     }
@@ -386,6 +425,8 @@
   global.AuditUI = {
     init: init,
     visibleCases: visibleCases,
+    resolvedCases: resolvedCases,
+    resolvedHistoryHtml: resolvedHistoryHtml,
     sortCases: sortCases,
     block: block,
     scopeLabel: scopeLabel,
