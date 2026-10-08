@@ -78,6 +78,9 @@ code, .code { font-family: ui-monospace, "Consolas", "Menlo", monospace; font-va
 .stat b { display: block; font-size: 2rem; font-weight: 800; line-height: 1.15; color: var(--ink); font-variant-numeric: tabular-nums; }
 .stat span { font-size: 13px; color: var(--muted); }
 .stat.warn b { color: #d97706; }
+.stat-shortcut { display: flex; align-items: center; justify-content: center; width: 100%; max-width: 128px; min-height: 44px; margin: 8px auto 0; padding: 0 8px; border: 1px solid #99f6e4; border-radius: 999px; background: #ecfeff; color: var(--teal-dark); font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; }
+.stat-shortcut[aria-pressed="true"] { background: var(--teal); border-color: var(--teal); color: #fff; }
+.stat-shortcut:disabled { opacity: .5; cursor: not-allowed; }
 
 /* ---------- controls ---------- */
 .controls { margin-top: var(--s4); display: grid; gap: var(--s3); }
@@ -232,7 +235,11 @@ body.lock { overflow: hidden; }
   <div class="doc-title"><h2>กลุ่มโรค ODS/MIS</h2><p>ตามประกาศ สปสช. การจ่ายค่าบริการ ODS และ MIS พ.ศ. ๒๕๖๗</p></div>
   <section aria-label="สรุป">
     <div class="stats">
-      <div class="stat"><b id="st-groups">–</b><span>กลุ่ม</span></div>
+      <div class="stat" id="group-stat">
+        <b id="st-groups">–</b>
+        <span>กลุ่ม</span>
+        <button class="stat-shortcut" id="gyne-shortcut" type="button" aria-pressed="false" disabled>Gyne</button>
+      </div>
       <div class="stat"><b id="st-codes">–</b><span>รหัส</span></div>
       <div class="stat warn"><b id="st-review">–</b><span>ต้องตรวจ</span></div>
     </div>
@@ -281,6 +288,7 @@ body.lock { overflow: hidden; }
 
   const $ = (sel) => document.querySelector(sel);
   const state = { data: null, tab: 'all', q: '', opener: null };
+  const GYNE_KEYS = new Set(['ODS#4', 'ODS#15', 'ODS#26', 'ODS#41', 'ODS#42', 'ODS#51', 'MIS#2', 'MIS#6', 'MIS#11', 'MIS#18', 'MIS#20']);
   const SYS_LABEL = { both: 'ICD-10 + ICD-9', 'icd9-only': 'ICD-9 เท่านั้น', 'icd10-only': 'ICD-10 เท่านั้น', none: 'ไม่มีรหัส' };
   const SYS_BADGE = { 'icd9-only': ['ICD-9 เท่านั้น', 'b-icd9'], 'icd10-only': ['ICD-10 เท่านั้น', 'b-icd10'], none: ['ไม่มีรหัส', 'b-none'] };
 
@@ -357,7 +365,7 @@ body.lock { overflow: hidden; }
   }
 
   function setLoading(on, failed) {
-    const ctrls = ['#q', '.tab'];
+    const ctrls = ['#q', '.tab', '#gyne-shortcut'];
     document.querySelectorAll(ctrls.join(',')).forEach((c) => { c.disabled = on || failed; });
     if (on) {
       setNotice('info', el('p', {}, 'กำลังโหลดรายการกลุ่มโรค…'));
@@ -378,6 +386,7 @@ body.lock { overflow: hidden; }
     const mis = d.groups.filter((g) => g.section === 'MIS').length;
     const labels = { ODS: `ODS (${ods})`, MIS: `MIS (${mis})`, all: `ทั้งหมด (${d.groups.length})` };
     document.querySelectorAll('.tab').forEach((t) => { t.textContent = labels[t.dataset.tab]; });
+    $('#gyne-shortcut').textContent = `Gyne (${GYNE_KEYS.size})`;
   }
 
   // ---------- render list ----------
@@ -407,7 +416,7 @@ body.lock { overflow: hidden; }
     const d = state.data;
     const q = state.q.trim();
     const qn = nodot(q);
-    const inTab = d.groups.filter((g) => state.tab === 'all' || g.section === state.tab);
+    const inTab = d.groups.filter((g) => state.tab === 'all' || (state.tab === 'Gyne' ? GYNE_KEYS.has(gkey(g)) : g.section === state.tab));
     const matched = inTab.map((g) => ({ g, m: match(g, q) })).filter((x) => x.m.ok);
     const rows = matched.sort((a, b) => gsort(a.g) - gsort(b.g));
 
@@ -553,11 +562,14 @@ body.lock { overflow: hidden; }
   // ---------- controls ----------
   $('#q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
   $('#clear').addEventListener('click', clearSearch);
-  document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => {
-    state.tab = t.dataset.tab;
-    document.querySelectorAll('.tab').forEach((x) => x.setAttribute('aria-selected', String(x === t)));
+  function selectTab(tab) {
+    state.tab = tab;
+    document.querySelectorAll('.tab').forEach((x) => x.setAttribute('aria-selected', String(x.dataset.tab === tab)));
+    $('#gyne-shortcut').setAttribute('aria-pressed', String(tab === 'Gyne'));
     render();
-  }));
+  }
+  document.querySelectorAll('.tab').forEach((t) => t.addEventListener('click', () => selectTab(t.dataset.tab)));
+  $('#gyne-shortcut').addEventListener('click', () => selectTab('Gyne'));
 
   load();
 })();

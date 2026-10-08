@@ -1,2 +1,8 @@
 *.pyc
 __pycache__/
+
+# Patient-level audit snapshots and trackers are local-only
+/audit_data.json
+/ever_seen.json
+/first_seen.json
+/missing_history.json
