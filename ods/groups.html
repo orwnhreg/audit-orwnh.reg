@@ -393,26 +393,14 @@ body.lock { overflow: hidden; }
     if (review) badges.push(badge(`⚠ ต้องตรวจ ${review}`, 'b-warn'));
     const shown = hits.slice(0, 6).map((c) => el('code', { class: 'hit' }, c.dotted));
     if (hits.length > 6) shown.push(el('span', { class: 'meta' }, `+${hits.length - 6}`));
-    const codeDetails = ['icd10', 'icd9'].map((system) => {
-      const codes = g.codes.filter((c) => c.system === system);
-      if (!codes.length) return null;
-      const label = system === 'icd10' ? 'ICD-10' : 'ICD-9';
-      return el('span', { class: 'code-group' },
-        el('span', { class: 'code-group-title' }, `${label} (${codes.length})`),
-        el('span', { class: `code-group-items${codes.some((c) => c.description_en) ? ' named' : ''}` }, codes.map((c) =>
-          el('span', { class: `code-entry${c.description_en ? ' has-name' : ''}` },
-            el('code', {}, c.dotted),
-            c.description_en ? el('span', { class: 'code-name' }, c.description_en) : null,
-            codePageMeta(c) ? el('small', { class: c.review ? 'review-mark' : '' }, codePageMeta(c)) : null))));
-    }).filter(Boolean);
-    return el('button', { class: 'card', type: 'button', 'data-key': gkey(g), onclick: (e) => openModal(g, e.currentTarget) },
+    return el('button', { class: 'card', type: 'button', 'data-key': gkey(g), 'aria-haspopup': 'dialog', onclick: (e) => openModal(g, e.currentTarget) },
       el('span', { class: 'no' }, `${g.section} ${g.no}`),
       el('span', { class: 'name' }, g.name_th),
       el('span', { class: 'en' }, g.name_en),
       el('span', { class: 'meta' }, countTxt),
       hits.length ? el('span', { class: 'hits' }, 'พบรหัส:', shown) : null,
       badges.length ? el('span', { class: 'badges' }, badges) : null,
-      codeDetails.length ? el('span', { class: 'code-details' }, codeDetails) : null);
+      el('span', { class: 'open-hint' }, 'แตะเพื่อดูรหัสและรายละเอียด ›'));
   }
 
   function renderList() {
