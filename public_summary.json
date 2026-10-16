@@ -1,30 +1,22 @@
 {
-  "as_of": "2026-10-15T05:00+07:00",
-  "period": "วันที่ 1/10/69 ถึง 14/10/69",
+  "as_of": "2026-10-16T08:05+07:00",
+  "period": "วันที่ 1/10/69 ถึง 15/10/69",
   "month": "2569-10",
-  "finished": 277,
-  "pending": 9,
-  "resolved_observed": 18,
-  "unfinished": 2,
+  "finished": 306,
+  "pending": 7,
+  "resolved_observed": 22,
+  "unfinished": 1,
   "types": [
     {
-      "label": "ห้องผ่าตัดซ้ำกัน",
-      "count": 4
-    },
-    {
-      "label": "Risk",
-      "count": 2
-    },
-    {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
+      "count": 3
+    },
+    {
+      "label": "ห้องผ่าตัดซ้ำกัน",
       "count": 2
     },
     {
       "label": "Last Dx",
-      "count": 1
-    },
-    {
-      "label": "Operation",
       "count": 1
     },
     {
