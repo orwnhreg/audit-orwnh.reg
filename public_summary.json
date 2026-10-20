@@ -1,16 +1,12 @@
 {
-  "as_of": "2026-10-20T10:00+07:00",
+  "as_of": "2026-10-20T11:00+07:00",
   "period": "วันที่ 1/10/69 ถึง 19/10/69",
   "month": "2569-10",
   "finished": 348,
-  "pending": 6,
-  "resolved_observed": 28,
+  "pending": 4,
+  "resolved_observed": 30,
   "unfinished": 1,
   "types": [
-    {
-      "label": "เวลาซ้อนทับ",
-      "count": 2
-    },
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
       "count": 2
