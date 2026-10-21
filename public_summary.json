@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-22T00:00+07:00",
+  "as_of": "2026-10-22T01:00+07:00",
   "period": "วันที่ 1/10/69 ถึง 21/10/69",
   "month": "2569-10",
-  "finished": 400,
+  "finished": 401,
   "pending": 16,
   "resolved_observed": 33,
-  "unfinished": 2,
+  "unfinished": 1,
   "types": [
     {
       "label": "ห้องผ่าตัดซ้ำกัน",
