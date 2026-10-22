@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-10-23T00:00+07:00",
+  "as_of": "2026-10-23T01:00+07:00",
   "period": "วันที่ 1/10/69 ถึง 22/10/69",
   "month": "2569-10",
   "finished": 425,
   "pending": 21,
   "resolved_observed": 33,
-  "unfinished": 4,
+  "unfinished": 1,
   "types": [
     {
       "label": "ห้องผ่าตัดซ้ำกัน",
@@ -14,14 +14,6 @@
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
       "count": 4
-    },
-    {
-      "label": "First Dx",
-      "count": 1
-    },
-    {
-      "label": "Last Dx",
-      "count": 1
     },
     {
       "label": "Operation",
