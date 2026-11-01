@@ -1,36 +1,11 @@
 {
-  "as_of": "2026-10-23T08:00+07:00",
-  "period": "วันที่ 1/10/69 ถึง 22/10/69",
-  "month": "2569-10",
-  "finished": 425,
-  "pending": 21,
-  "resolved_observed": 33,
-  "unfinished": 1,
-  "types": [
-    {
-      "label": "ห้องผ่าตัดซ้ำกัน",
-      "count": 13
-    },
-    {
-      "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
-      "count": 4
-    },
-    {
-      "label": "Operation",
-      "count": 1
-    },
-    {
-      "label": "Team",
-      "count": 1
-    },
-    {
-      "label": "ค่าหัตถการ",
-      "count": 1
-    },
-    {
-      "label": "ชื่อซ้ำในทีม",
-      "count": 1
-    }
-  ],
+  "as_of": "2026-11-01T08:23+07:00",
+  "period": "พ.ย. 2569 · ยังไม่มีข้อมูลสิ้นสุดวัน",
+  "month": "2569-11",
+  "finished": 0,
+  "pending": 0,
+  "resolved_observed": 0,
+  "unfinished": 0,
+  "types": [],
   "history_scope": "แก้ไขแล้วจากเคสที่เคยแจ้งตั้งแต่ 9 ต.ค. 2569"
 }
