@@ -1,15 +1,31 @@
 {
-  "as_of": "2026-11-03T23:00+07:00",
-  "period": "วันที่ 1/11/69 ถึง 2/11/69",
+  "as_of": "2026-11-04T00:00+07:00",
+  "period": "วันที่ 1/11/69 ถึง 3/11/69",
   "month": "2569-11",
-  "finished": 17,
-  "pending": 2,
+  "finished": 38,
+  "pending": 7,
   "resolved_observed": 0,
   "unfinished": 0,
   "types": [
     {
+      "label": "AN ซ้ำข้ามคน",
+      "count": 2
+    },
+    {
+      "label": "First Dx",
+      "count": 2
+    },
+    {
+      "label": "Last Dx",
+      "count": 2
+    },
+    {
       "label": "ค่าหัตถการ",
-      "count": 1
+      "count": 2
+    },
+    {
+      "label": "ห้องผ่าตัดซ้ำกัน",
+      "count": 2
     },
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
