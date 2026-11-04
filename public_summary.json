@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-04T09:00+07:00",
+  "as_of": "2026-11-04T10:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 3/11/69",
   "month": "2569-11",
   "finished": 38,
-  "pending": 7,
-  "resolved_observed": 0,
+  "pending": 6,
+  "resolved_observed": 1,
   "unfinished": 0,
   "types": [
     {
@@ -20,12 +20,12 @@
       "count": 2
     },
     {
-      "label": "ค่าหัตถการ",
+      "label": "ห้องผ่าตัดซ้ำกัน",
       "count": 2
     },
     {
-      "label": "ห้องผ่าตัดซ้ำกัน",
-      "count": 2
+      "label": "ค่าหัตถการ",
+      "count": 1
     },
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
