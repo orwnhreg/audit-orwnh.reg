@@ -1,15 +1,19 @@
 {
-  "as_of": "2026-11-06T23:00+07:00",
-  "period": "วันที่ 1/11/69 ถึง 5/11/69",
+  "as_of": "2026-11-07T00:00+07:00",
+  "period": "วันที่ 1/11/69 ถึง 6/11/69",
   "month": "2569-11",
-  "finished": 106,
-  "pending": 20,
+  "finished": 128,
+  "pending": 26,
   "resolved_observed": 3,
-  "unfinished": 1,
+  "unfinished": 3,
   "types": [
     {
       "label": "Scrub ทีมเวร",
       "count": 12
+    },
+    {
+      "label": "ห้องผ่าตัดซ้ำกัน",
+      "count": 4
     },
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
@@ -24,11 +28,15 @@
       "count": 2
     },
     {
+      "label": "HN ซ้ำต่างคน",
+      "count": 2
+    },
+    {
       "label": "Last Dx",
       "count": 2
     },
     {
-      "label": "ห้องผ่าตัดซ้ำกัน",
+      "label": "เวลาซ้อนทับ",
       "count": 2
     },
     {
