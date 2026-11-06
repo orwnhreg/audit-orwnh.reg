@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-07T00:00+07:00",
+  "as_of": "2026-11-07T01:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 6/11/69",
   "month": "2569-11",
   "finished": 128,
   "pending": 26,
   "resolved_observed": 3,
-  "unfinished": 3,
+  "unfinished": 1,
   "types": [
     {
       "label": "Scrub ทีมเวร",
