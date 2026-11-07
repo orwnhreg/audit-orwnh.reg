@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-07T23:00+07:00",
-  "period": "วันที่ 1/11/69 ถึง 6/11/69",
+  "as_of": "2026-11-08T00:00+07:00",
+  "period": "วันที่ 1/11/69 ถึง 7/11/69",
   "month": "2569-11",
-  "finished": 128,
+  "finished": 140,
   "pending": 11,
   "resolved_observed": 18,
-  "unfinished": 0,
+  "unfinished": 1,
   "types": [
     {
       "label": "AN ซ้ำ",
