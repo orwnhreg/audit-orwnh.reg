@@ -36,8 +36,8 @@ def compute(raw, today, previous=None, state=None):
     eligible = [(i, r) for i, r in rows
                 if site.finished(r) and period.month_within_cutoff(r[2], today)]
     extras = collections.defaultdict(list)
-    for fn, label in ((cross.hn_collisions, 'HN ซ้ำต่างคน'),
-                      (cross.an_duplicates, 'AN ซ้ำข้ามคน')):
+    for fn, label in ((cross.hn_collisions, 'HN ซ้ำ'),
+                      (cross.an_duplicates, 'AN ซ้ำ')):
         for item in fn(eligible):
             for i in item['rows']:
                 extras[i].append(label)
