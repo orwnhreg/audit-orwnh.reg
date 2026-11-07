@@ -1,16 +1,12 @@
 {
-  "as_of": "2026-11-07T16:00+07:00",
+  "as_of": "2026-11-07T16:34+07:00",
   "period": "วันที่ 1/11/69 ถึง 6/11/69",
   "month": "2569-11",
   "finished": 128,
-  "pending": 13,
-  "resolved_observed": 16,
+  "pending": 11,
+  "resolved_observed": 18,
   "unfinished": 0,
   "types": [
-    {
-      "label": "ห้องผ่าตัดซ้ำกัน",
-      "count": 4
-    },
     {
       "label": "AN ซ้ำ",
       "count": 2
@@ -25,6 +21,10 @@
     },
     {
       "label": "Last Dx",
+      "count": 2
+    },
+    {
+      "label": "ห้องผ่าตัดซ้ำกัน",
       "count": 2
     },
     {
