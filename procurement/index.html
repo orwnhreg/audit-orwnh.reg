@@ -29,7 +29,7 @@
   h1 { font-size:17px; margin:0; font-weight:700; letter-spacing:-.2px; }
   .sub { margin:2px 0 0; font-size:12px; color:var(--ink-2); }
 
-  .summary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; margin:12px 0 0; }
+  .summary { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:12px 0 0; }
   .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:9px 10px; }
   .stat span { display:block; font-size:11px; color:var(--ink-2); }
   .stat b { display:block; font-size:15px; margin-top:2px; letter-spacing:-.3px; white-space:nowrap; }
@@ -39,7 +39,7 @@
   .grand span { font-size:12px; opacity:.9; }
   .grand b { font-size:19px; letter-spacing:-.4px; }
 
-  .board { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:16px; align-items:start; }
+  .board { display:grid; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); gap:14px; margin-top:16px; align-items:start; }
   .lane { background:#eff6f5; border:1px solid var(--line); border-radius:16px; padding:10px; }
   .lane-head { display:flex; gap:9px; align-items:flex-start; padding:2px 2px 10px; border-bottom:1px dashed var(--line); }
   .lane-icon { font-size:16px; line-height:1.2; }
@@ -74,7 +74,8 @@
 
   /* responsive overrides — MUST stay after base rules */
   @media (max-width:980px) {
-    .board { gap:10px; }
+    .board { display:block; column-count:2; column-gap:10px; }
+    .lane { break-inside:avoid; margin-bottom:10px; }
     .lane { padding:8px; }
     .card { padding:10px; }
   }
@@ -94,15 +95,16 @@
       <span class="dot"></span>
       <div>
         <h1>รายการจัดซื้อจัดจ้าง · งานพัสดุ รพ.วานรนิวาส</h1>
-        <p class="sub">อัปเดต 6 พฤศจิกายน 2569 · 10 ชุด · มูลค่ารวม ฿ 780,034</p>
+        <p class="sub">อัปเดต 7 พฤศจิกายน 2569 · 11 ชุด · มูลค่ารวม ฿ 1,086,875.12</p>
       </div>
     </div>
     <div class="summary">
       <div class="stat"><span>รับของแล้ว</span><b>฿ 79,090</b></div>
       <div class="stat"><span>รอรับของ</span><b>฿ 51,800</b></div>
+      <div class="stat"><span>ได้ใบราคา · รอส่งพัสดุ</span><b>฿ 306,841.12</b></div>
       <div class="stat a"><span>รอออก PO</span><b>฿ 649,144</b></div>
     </div>
-    <div class="grand"><span>รวมทั้งระบบ (ที่มีราคาระบุ)</span><b>฿ 780,034</b></div>
+    <div class="grand"><span>รวมทั้งระบบ (ที่มีราคาระบุ)</span><b>฿ 1,086,875.12</b></div>
   </div>
 </header>
 
@@ -225,6 +227,36 @@
         <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
         <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
         
+      </article>
+      </div>
+    </section>
+    <section class="lane" data-lane="quotation">
+      <header class="lane-head">
+        <span class="lane-icon">📄</span>
+        <div class="lane-titles">
+          <h2>ได้ใบเสนอราคาแล้ว · รอส่งงานแผน/พัสดุ</h2>
+          <p>ผู้ขายส่งใบราคาแล้ว · ยังไม่ส่งพัสดุ</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 306,841.12</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card">
+        <div class="card-top">
+          <span class="no">ชุด 11</span>
+          <span class="ref">QT-202611006</span>
+        </div>
+        <h3>C-ARM เช่าเครื่องเอกซเรย์ฟลูโอโรสโคป 6 เดือน (Phillips BV-Pulsela 15kW)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 306,841.12</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span></div>
+        <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
+        <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
+        <p class="note"><em>หมายเหตุ</em> หัวเอกสารยังเป็นชื่อ รพ.กาฬสินธุ์ — ให้ผู้ขายแก้ก่อนส่ง</p>
       </article>
       </div>
     </section>
