@@ -15,34 +15,42 @@
   body {
     font-family:"Noto Sans Thai","Sarabun",system-ui,-apple-system,"Segoe UI",sans-serif;
     background:var(--bg); color:var(--ink); line-height:1.45;
-    padding:0 0 40px; font-size:15px;
+    padding:0 0 36px; font-size:15px;
   }
   .wrap { max-width:1240px; margin:0 auto; padding:0 14px; }
 
   header.top {
-    position:sticky; top:0; z-index:20; background:rgba(255,255,255,.92);
+    position:sticky; top:0; z-index:20; background:rgba(255,255,255,.93);
     backdrop-filter:saturate(1.4) blur(8px); border-bottom:1px solid var(--line);
   }
-  .top-in { max-width:1240px; margin:0 auto; padding:12px 14px 10px; }
+  .top-in { max-width:1240px; margin:0 auto; padding:11px 14px 9px; }
   .brand { display:flex; align-items:center; gap:10px; }
-  .dot { width:10px; height:10px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 4px var(--teal-bg); }
-  h1 { font-size:17px; margin:0; font-weight:700; letter-spacing:-.2px; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--teal); box-shadow:0 0 0 4px var(--teal-bg); flex:none; }
+  h1 { font-size:16.5px; margin:0; font-weight:700; letter-spacing:-.2px; }
   .sub { margin:2px 0 0; font-size:12px; color:var(--ink-2); }
 
-  .summary { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:12px 0 0; }
-  .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:9px 10px; }
+  .tabs { display:flex; gap:6px; margin:10px 0 0; overflow-x:auto; padding-bottom:2px; }
+  .tab {
+    flex:none; font:inherit; font-size:12.5px; font-weight:600; color:var(--ink-2);
+    background:#fff; border:1px solid var(--line); border-radius:999px; padding:6px 14px; cursor:pointer;
+  }
+  .tab.active { background:var(--teal); border-color:var(--teal); color:#fff; }
+
+  .summary { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:11px 0 0; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px 10px; }
   .stat span { display:block; font-size:11px; color:var(--ink-2); }
   .stat b { display:block; font-size:15px; margin-top:2px; letter-spacing:-.3px; white-space:nowrap; }
   .stat.a { background:var(--amber-bg); border-color:#f6dfb4; }
-  .grand { margin:10px 0 0; display:flex; align-items:baseline; justify-content:space-between;
-           background:var(--teal); color:#fff; border-radius:12px; padding:10px 13px; }
-  .grand span { font-size:12px; opacity:.9; }
-  .grand b { font-size:19px; letter-spacing:-.4px; }
+  .grand { margin:9px 0 0; display:flex; align-items:baseline; justify-content:space-between;
+           background:var(--teal); color:#fff; border-radius:12px; padding:9px 13px; }
+  .grand span { font-size:12px; opacity:.92; }
+  .grand b { font-size:18px; letter-spacing:-.4px; }
 
-  .board { display:grid; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); gap:14px; margin-top:16px; align-items:start; }
+  .view { display:none; }
+  .view.active { display:block; }
+  .board { display:grid; grid-template-columns:repeat(auto-fit,minmax(235px,1fr)); gap:14px; margin-top:14px; align-items:start; }
   .lane { background:#eff6f5; border:1px solid var(--line); border-radius:16px; padding:10px; }
-  .lane-head { display:flex; gap:9px; align-items:flex-start; padding:2px 2px 10px; border-bottom:1px dashed var(--line); }
-  .lane-icon { font-size:16px; line-height:1.2; }
+  .lane-head { display:flex; gap:9px; align-items:flex-start; padding:2px 2px 9px; border-bottom:1px dashed var(--line); }
   .lane-titles { flex:1; min-width:0; }
   .lane-titles h2 { font-size:13.5px; margin:0; font-weight:700; }
   .lane-titles p { font-size:11px; margin:1px 0 0; color:var(--ink-2); }
@@ -50,12 +58,12 @@
   .lane-sum b { font-size:12px; color:var(--ink); }
   .lane-sum strong { display:block; font-size:12.5px; color:var(--teal-dk); white-space:nowrap; }
 
-  .cards { display:flex; flex-direction:column; gap:9px; margin-top:10px; }
+  .cards { display:flex; flex-direction:column; gap:9px; margin-top:9px; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:13px; padding:11px 12px;
           box-shadow:0 1px 2px rgba(16,45,40,.04); }
   .card-top { display:flex; justify-content:space-between; align-items:center; gap:8px; }
   .no { font-size:10.5px; font-weight:700; color:var(--teal-dk); background:var(--teal-bg); border-radius:6px; padding:2px 6px; }
-  .ref { font-size:10.5px; color:var(--ink-2); font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .ref { font-size:10.5px; color:var(--ink-2); font-family:ui-monospace,SFMono-Regular,Menlo,monospace; text-align:right; }
   .card h3 { font-size:13.5px; margin:7px 0 0; font-weight:600; line-height:1.35; }
   .mid { display:flex; justify-content:space-between; align-items:baseline; gap:8px; margin-top:7px; }
   .items { font-size:11px; color:var(--ink-2); }
@@ -64,27 +72,26 @@
   .stamps { display:flex; flex-wrap:wrap; gap:5px; margin-top:8px; }
   .stamp { font-size:10.5px; background:#f4f8f7; border:1px solid var(--line); border-radius:999px; padding:2px 8px; color:var(--ink); }
   .stamp em { font-style:normal; color:var(--ink-2); margin-right:3px; }
+  .place { font-size:10.5px; font-weight:700; background:var(--teal-bg); color:var(--teal-dk);
+           border-radius:999px; padding:2px 8px; }
   .vendor { font-size:11px; color:var(--ink-2); margin-top:8px; }
   .extra { font-size:10.5px; color:var(--ink-2); margin:5px 0 0; padding-top:5px; border-top:1px dotted var(--line); }
   .note { font-size:11px; margin:7px 0 0; background:var(--amber-bg); border:1px solid #f6dfb4;
           border-radius:9px; padding:5px 8px; color:#7a4a06; }
   .note em { font-style:normal; font-weight:700; color:var(--amber); margin-right:4px; }
-  .place { font-size:10.5px; font-weight:700; background:var(--teal-bg); color:var(--teal-dk);
-           border-radius:999px; padding:2px 8px; }
 
-  footer { max-width:1240px; margin:18px auto 0; padding:0 14px; font-size:11px; color:var(--ink-2); }
+  footer { max-width:1240px; margin:16px auto 0; padding:0 14px; font-size:11px; color:var(--ink-2); }
 
   /* responsive overrides — MUST stay after base rules */
   @media (max-width:980px) {
     .board { display:block; column-count:2; column-gap:10px; }
-    .lane { break-inside:avoid; margin-bottom:10px; }
-    .lane { padding:8px; }
+    .lane { break-inside:avoid; margin-bottom:10px; padding:8px; }
     .card { padding:10px; }
+    .summary { grid-template-columns:repeat(2,minmax(0,1fr)); }
   }
   @media (max-width:700px) {
     body { font-size:14px; }
-    .summary { grid-template-columns:repeat(2,minmax(0,1fr)); }
-    .board { grid-template-columns:1fr; gap:12px; }
+    .board { column-count:1; }
     .card h3 { font-size:14px; }
     .amt { font-size:14.5px; }
   }
@@ -100,6 +107,7 @@
         <p class="sub">อัปเดต 7 พฤศจิกายน 2569 · 11 ชุด · มูลค่ารวม ฿ 1,086,875.12</p>
       </div>
     </div>
+    <nav class="tabs"><button class="tab active" data-view="status" type="button">สถานะ</button><button class="tab" data-view="dept" type="button">แผนก</button><button class="tab" data-view="vendor" type="button">บริษัท</button><button class="tab" data-view="purchasing" type="button">งานพัสดุ</button></nav>
     <div class="summary">
       <div class="stat"><span>รับของแล้ว</span><b>฿ 79,090</b></div>
       <div class="stat"><span>รอรับของ</span><b>฿ 51,800</b></div>
@@ -111,10 +119,10 @@
 </header>
 
 <main class="wrap">
-  <div class="board">
-    <section class="lane" data-lane="received">
+  <section class="view active" id="view-status" data-view="status">
+    <div class="board">
+    <section class="lane">
       <header class="lane-head">
-        <span class="lane-icon">✅</span>
         <div class="lane-titles">
           <h2>รับของแล้ว</h2>
           <p>ปิดงานแล้ว · มูลค่าตามที่มีราคา</p>
@@ -125,7 +133,7 @@
         </div>
       </header>
       <div class="cards">
-      <article class="card">
+      <article class="card" data-no="1">
         <div class="card-top">
           <span class="no">ชุด 1</span>
           <span class="ref">PO-169101417</span>
@@ -140,7 +148,7 @@
         
         <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
       </article>
-      <article class="card">
+      <article class="card" data-no="2">
         <div class="card-top">
           <span class="no">ชุด 2</span>
           <span class="ref">PO-169101416</span>
@@ -155,7 +163,7 @@
         <p class="extra">ใบกำกับ IV2608-00074</p>
         
       </article>
-      <article class="card">
+      <article class="card" data-no="4">
         <div class="card-top">
           <span class="no">ชุด 4</span>
           <span class="ref">PRE 300726/00267</span>
@@ -170,7 +178,7 @@
         
         
       </article>
-      <article class="card">
+      <article class="card" data-no="6">
         <div class="card-top">
           <span class="no">ชุด 6</span>
           <span class="ref">MIS-2026/021</span>
@@ -185,7 +193,7 @@
         
         
       </article>
-      <article class="card">
+      <article class="card" data-no="10">
         <div class="card-top">
           <span class="no">ชุด 10</span>
           <span class="ref">PO-169101412</span>
@@ -202,9 +210,9 @@
       </article>
       </div>
     </section>
-    <section class="lane" data-lane="wait-delivery">
+
+    <section class="lane">
       <header class="lane-head">
-        <span class="lane-icon">🚚</span>
         <div class="lane-titles">
           <h2>ส่ง PO ให้บริษัท · รอรับของ</h2>
           <p>อนุมัติแล้ว · รอส่งมอบ</p>
@@ -215,7 +223,7 @@
         </div>
       </header>
       <div class="cards">
-      <article class="card">
+      <article class="card" data-no="5">
         <div class="card-top">
           <span class="no">ชุด 5</span>
           <span class="ref">PO-169101536</span>
@@ -232,9 +240,9 @@
       </article>
       </div>
     </section>
-    <section class="lane" data-lane="quotation">
+
+    <section class="lane">
       <header class="lane-head">
-        <span class="lane-icon">📄</span>
         <div class="lane-titles">
           <h2>รอดำเนินการ</h2>
           <p>ได้ใบเสนอราคาแล้ว · รอส่งงานแผน/พัสดุ</p>
@@ -245,7 +253,7 @@
         </div>
       </header>
       <div class="cards">
-      <article class="card">
+      <article class="card" data-no="11">
         <div class="card-top">
           <span class="no">ชุด 11</span>
           <span class="ref">QT-202611006</span>
@@ -262,9 +270,9 @@
       </article>
       </div>
     </section>
-    <section class="lane" data-lane="wait-po">
+
+    <section class="lane">
       <header class="lane-head">
-        <span class="lane-icon">📌</span>
         <div class="lane-titles">
           <h2>ส่งพัสดุแล้ว · รอออก PO</h2>
           <p>มีใบเสนอราคาแล้ว · รอเลข PO</p>
@@ -275,7 +283,7 @@
         </div>
       </header>
       <div class="cards">
-      <article class="card">
+      <article class="card" data-no="3">
         <div class="card-top">
           <span class="no">ชุด 3</span>
           <span class="ref">SQA26080386</span>
@@ -290,7 +298,7 @@
         <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
         
       </article>
-      <article class="card">
+      <article class="card" data-no="7">
         <div class="card-top">
           <span class="no">ชุด 7</span>
           <span class="ref">SQA26090204</span>
@@ -305,7 +313,7 @@
         <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
         
       </article>
-      <article class="card">
+      <article class="card" data-no="8">
         <div class="card-top">
           <span class="no">ชุด 8</span>
           <span class="ref">SQA26090247 + SQA26090248</span>
@@ -320,7 +328,7 @@
         <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
         
       </article>
-      <article class="card">
+      <article class="card" data-no="9">
         <div class="card-top">
           <span class="no">ชุด 9</span>
           <span class="ref">MIS-2026/60</span>
@@ -337,11 +345,711 @@
       </article>
       </div>
     </section>
-  </div>
+    </div>
+  </section>
+  <section class="view" id="view-dept" data-view="dept">
+    <div class="board">
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>OR · ห้องผ่าตัด</h2>
+          <p>ทุกชุดใช้งานที่ OR</p>
+        </div>
+        <div class="lane-sum">
+          <b>11</b><span>ชุด</span>
+          <strong>฿ 1,086,875.12</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="1">
+        <div class="card-top">
+          <span class="no">ชุด 1</span>
+          <span class="ref">PO-169101417</span>
+        </div>
+        <h3>MDC — เครื่องมือผ่าตัด (K-wire / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">7 รายการ</span>
+          <div class="amt muted">ไม่ระบุราคา</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        
+        <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
+      </article>
+      <article class="card" data-no="2">
+        <div class="card-top">
+          <span class="no">ชุด 2</span>
+          <span class="ref">PO-169101416</span>
+        </div>
+        <h3>FMS — วัสดุสิ้นเปลือง Sterilization</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 13,200</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span></div>
+        <div class="vendor">FMS</div>
+        <p class="extra">ใบกำกับ IV2608-00074</p>
+        
+      </article>
+      <article class="card" data-no="3">
+        <div class="card-top">
+          <span class="no">ชุด 3</span>
+          <span class="ref">SQA26080386</span>
+        </div>
+        <h3>MDC — ชุดเครื่องมือผ่าตัด (Wire coil / Shanz / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">45 รายการ</span>
+          <div class="amt">฿ 79,600</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
+        
+      </article>
+      <article class="card" data-no="4">
+        <div class="card-top">
+          <span class="no">ชุด 4</span>
+          <span class="ref">PRE 300726/00267</span>
+        </div>
+        <h3>Tourniquet Cuff (แถบรัดห้ามเลือด)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 28,890</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span></div>
+        <div class="vendor">Zillic Pharma · Zimmer Biomet</div>
+        
+        
+      </article>
+      <article class="card" data-no="5">
+        <div class="card-top">
+          <span class="no">ชุด 5</span>
+          <span class="ref">PO-169101536</span>
+        </div>
+        <h3>ชุดผ้าคลุมผ่าตัด Drape set (ใช้ครั้งเดียว)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 51,800</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span></div>
+        <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
+        <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
+        
+      </article>
+      <article class="card" data-no="6">
+        <div class="card-top">
+          <span class="no">ชุด 6</span>
+          <span class="ref">MIS-2026/021</span>
+        </div>
+        <h3>C-ARM ตรวจเช็ค / ซ่อมเครื่องเอกซเรย์</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 25,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span></div>
+        <div class="vendor">MEDICIA Instrument Service</div>
+        
+        
+      </article>
+      <article class="card" data-no="7">
+        <div class="card-top">
+          <span class="no">ชุด 7</span>
+          <span class="ref">SQA26090204</span>
+        </div>
+        <h3>MDC — สกรู Cortex / Cancellous (ซื้อเพิ่มสต็อก)</h3>
+        <div class="mid">
+          <span class="items">46 รายการ</span>
+          <div class="amt">฿ 108,370</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
+        
+      </article>
+      <article class="card" data-no="8">
+        <div class="card-top">
+          <span class="no">ชุด 8</span>
+          <span class="ref">SQA26090247 + SQA26090248</span>
+        </div>
+        <h3>ชุดเพลท — 1/3 Tubular / Recon 3.5 / Broad DCP / Small DCP</h3>
+        <div class="mid">
+          <span class="items">31 รายการ</span>
+          <div class="amt">฿ 245,500</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
+        
+      </article>
+      <article class="card" data-no="9">
+        <div class="card-top">
+          <span class="no">ชุด 9</span>
+          <span class="ref">MIS-2026/60</span>
+        </div>
+        <h3>C-ARM ซ่อม — เปลี่ยน Cable Connector</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 215,674</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span></div>
+        <div class="vendor">MEDICIA Instrument Service</div>
+        <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
+        <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
+      </article>
+      <article class="card" data-no="10">
+        <div class="card-top">
+          <span class="no">ชุด 10</span>
+          <span class="ref">PO-169101412</span>
+        </div>
+        <h3>PN Orthomedical — Screw Driver 200 mm</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 12,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span></div>
+        <div class="vendor">PN Orthomedical Group</div>
+        
+        
+      </article>
+      <article class="card" data-no="11">
+        <div class="card-top">
+          <span class="no">ชุด 11</span>
+          <span class="ref">QT-202611006</span>
+        </div>
+        <h3>C-ARM เช่าเครื่องเอกซเรย์ฟลูโอโรสโคป 6 เดือน (Phillips BV-Pulsela 15kW)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 306,841.12</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="place">สถานที่ OR</span></div>
+        <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
+        <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
+        <p class="note"><em>หมายเหตุ</em> ยังไม่ได้ส่งงานแผน/พัสดุ · เรียน รพ.วานรนิวาสถูกต้อง</p>
+      </article>
+      </div>
+    </section>
+    </div>
+  </section>
+  <section class="view" id="view-vendor" data-view="vendor">
+    <div class="board">
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>MDC (Thailand)</h2>
+          <p>4 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>4</b><span>ชุด</span>
+          <strong>฿ 433,470</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="1">
+        <div class="card-top">
+          <span class="no">ชุด 1</span>
+          <span class="ref">PO-169101417</span>
+        </div>
+        <h3>MDC — เครื่องมือผ่าตัด (K-wire / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">7 รายการ</span>
+          <div class="amt muted">ไม่ระบุราคา</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span></div>
+        
+        
+        <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
+      </article>
+      <article class="card" data-no="3">
+        <div class="card-top">
+          <span class="no">ชุด 3</span>
+          <span class="ref">SQA26080386</span>
+        </div>
+        <h3>MDC — ชุดเครื่องมือผ่าตัด (Wire coil / Shanz / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">45 รายการ</span>
+          <div class="amt">฿ 79,600</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span></div>
+        
+        <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
+        
+      </article>
+      <article class="card" data-no="7">
+        <div class="card-top">
+          <span class="no">ชุด 7</span>
+          <span class="ref">SQA26090204</span>
+        </div>
+        <h3>MDC — สกรู Cortex / Cancellous (ซื้อเพิ่มสต็อก)</h3>
+        <div class="mid">
+          <span class="items">46 รายการ</span>
+          <div class="amt">฿ 108,370</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span></div>
+        
+        <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
+        
+      </article>
+      <article class="card" data-no="8">
+        <div class="card-top">
+          <span class="no">ชุด 8</span>
+          <span class="ref">SQA26090247 + SQA26090248</span>
+        </div>
+        <h3>ชุดเพลท — 1/3 Tubular / Recon 3.5 / Broad DCP / Small DCP</h3>
+        <div class="mid">
+          <span class="items">31 รายการ</span>
+          <div class="amt">฿ 245,500</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span></div>
+        
+        <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
+        
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>MEDICIA Instrument Service</h2>
+          <p>2 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>2</b><span>ชุด</span>
+          <strong>฿ 240,674</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="6">
+        <div class="card-top">
+          <span class="no">ชุด 6</span>
+          <span class="ref">MIS-2026/021</span>
+        </div>
+        <h3>C-ARM ตรวจเช็ค / ซ่อมเครื่องเอกซเรย์</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 25,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span></div>
+        
+        
+        
+      </article>
+      <article class="card" data-no="9">
+        <div class="card-top">
+          <span class="no">ชุด 9</span>
+          <span class="ref">MIS-2026/60</span>
+        </div>
+        <h3>C-ARM ซ่อม — เปลี่ยน Cable Connector</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 215,674</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span></div>
+        
+        <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
+        <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>FMS</h2>
+          <p>1 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 13,200</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="2">
+        <div class="card-top">
+          <span class="no">ชุด 2</span>
+          <span class="ref">PO-169101416</span>
+        </div>
+        <h3>FMS — วัสดุสิ้นเปลือง Sterilization</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 13,200</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span></div>
+        
+        <p class="extra">ใบกำกับ IV2608-00074</p>
+        
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>PN Orthomedical Group</h2>
+          <p>1 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 12,000</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="10">
+        <div class="card-top">
+          <span class="no">ชุด 10</span>
+          <span class="ref">PO-169101412</span>
+        </div>
+        <h3>PN Orthomedical — Screw Driver 200 mm</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 12,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span></div>
+        
+        
+        
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>Zillic Pharma · Zimmer Biomet</h2>
+          <p>1 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 28,890</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="4">
+        <div class="card-top">
+          <span class="no">ชุด 4</span>
+          <span class="ref">PRE 300726/00267</span>
+        </div>
+        <h3>Tourniquet Cuff (แถบรัดห้ามเลือด)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 28,890</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span></div>
+        
+        
+        
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>บ. เอ็ม.ที. เมดิเทค</h2>
+          <p>1 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 306,841.12</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="11">
+        <div class="card-top">
+          <span class="no">ชุด 11</span>
+          <span class="ref">QT-202611006</span>
+        </div>
+        <h3>C-ARM เช่าเครื่องเอกซเรย์ฟลูโอโรสโคป 6 เดือน (Phillips BV-Pulsela 15kW)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 306,841.12</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="place">สถานที่ OR</span></div>
+        
+        <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
+        <p class="note"><em>หมายเหตุ</em> ยังไม่ได้ส่งงานแผน/พัสดุ · เรียน รพ.วานรนิวาสถูกต้อง</p>
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>หจก. เค.พี เมดิคอล อินสทรูเม้นท์</h2>
+          <p>1 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 51,800</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="5">
+        <div class="card-top">
+          <span class="no">ชุด 5</span>
+          <span class="ref">PO-169101536</span>
+        </div>
+        <h3>ชุดผ้าคลุมผ่าตัด Drape set (ใช้ครั้งเดียว)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 51,800</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span></div>
+        
+        <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
+        
+      </article>
+      </div>
+    </section>
+    </div>
+  </section>
+  <section class="view" id="view-purchasing" data-view="purchasing">
+    <div class="board">
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>ยังไม่ส่งงานพัสดุ</h2>
+          <p>ได้ใบเสนอราคาแล้ว · ยังไม่ได้ทำอะไร</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 306,841.12</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="11">
+        <div class="card-top">
+          <span class="no">ชุด 11</span>
+          <span class="ref">QT-202611006</span>
+        </div>
+        <h3>C-ARM เช่าเครื่องเอกซเรย์ฟลูโอโรสโคป 6 เดือน (Phillips BV-Pulsela 15kW)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 306,841.12</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="place">สถานที่ OR</span></div>
+        <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
+        <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
+        <p class="note"><em>หมายเหตุ</em> ยังไม่ได้ส่งงานแผน/พัสดุ · เรียน รพ.วานรนิวาสถูกต้อง</p>
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>อยู่ที่งานพัสดุ · รอออก PO</h2>
+          <p>ส่งใบราคาแล้ว · รอเลข PO</p>
+        </div>
+        <div class="lane-sum">
+          <b>4</b><span>ชุด</span>
+          <strong>฿ 649,144</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="3">
+        <div class="card-top">
+          <span class="no">ชุด 3</span>
+          <span class="ref">SQA26080386</span>
+        </div>
+        <h3>MDC — ชุดเครื่องมือผ่าตัด (Wire coil / Shanz / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">45 รายการ</span>
+          <div class="amt">฿ 79,600</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
+        
+      </article>
+      <article class="card" data-no="7">
+        <div class="card-top">
+          <span class="no">ชุด 7</span>
+          <span class="ref">SQA26090204</span>
+        </div>
+        <h3>MDC — สกรู Cortex / Cancellous (ซื้อเพิ่มสต็อก)</h3>
+        <div class="mid">
+          <span class="items">46 รายการ</span>
+          <div class="amt">฿ 108,370</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
+        
+      </article>
+      <article class="card" data-no="8">
+        <div class="card-top">
+          <span class="no">ชุด 8</span>
+          <span class="ref">SQA26090247 + SQA26090248</span>
+        </div>
+        <h3>ชุดเพลท — 1/3 Tubular / Recon 3.5 / Broad DCP / Small DCP</h3>
+        <div class="mid">
+          <span class="items">31 รายการ</span>
+          <div class="amt">฿ 245,500</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
+        
+      </article>
+      <article class="card" data-no="9">
+        <div class="card-top">
+          <span class="no">ชุด 9</span>
+          <span class="ref">MIS-2026/60</span>
+        </div>
+        <h3>C-ARM ซ่อม — เปลี่ยน Cable Connector</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 215,674</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span></div>
+        <div class="vendor">MEDICIA Instrument Service</div>
+        <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
+        <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>PO ออกแล้ว · รอรับของ</h2>
+          <p>อนุมัติแล้ว · รอส่งมอบ</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 51,800</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="5">
+        <div class="card-top">
+          <span class="no">ชุด 5</span>
+          <span class="ref">PO-169101536</span>
+        </div>
+        <h3>ชุดผ้าคลุมผ่าตัด Drape set (ใช้ครั้งเดียว)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 51,800</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span></div>
+        <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
+        <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
+        
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>ปิดงานแล้ว</h2>
+          <p>รับของแล้ว / ซ่อมเสร็จ</p>
+        </div>
+        <div class="lane-sum">
+          <b>5</b><span>ชุด</span>
+          <strong>฿ 79,090</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="1">
+        <div class="card-top">
+          <span class="no">ชุด 1</span>
+          <span class="ref">PO-169101417</span>
+        </div>
+        <h3>MDC — เครื่องมือผ่าตัด (K-wire / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">7 รายการ</span>
+          <div class="amt muted">ไม่ระบุราคา</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        
+        <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
+      </article>
+      <article class="card" data-no="2">
+        <div class="card-top">
+          <span class="no">ชุด 2</span>
+          <span class="ref">PO-169101416</span>
+        </div>
+        <h3>FMS — วัสดุสิ้นเปลือง Sterilization</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 13,200</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span></div>
+        <div class="vendor">FMS</div>
+        <p class="extra">ใบกำกับ IV2608-00074</p>
+        
+      </article>
+      <article class="card" data-no="4">
+        <div class="card-top">
+          <span class="no">ชุด 4</span>
+          <span class="ref">PRE 300726/00267</span>
+        </div>
+        <h3>Tourniquet Cuff (แถบรัดห้ามเลือด)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 28,890</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span></div>
+        <div class="vendor">Zillic Pharma · Zimmer Biomet</div>
+        
+        
+      </article>
+      <article class="card" data-no="6">
+        <div class="card-top">
+          <span class="no">ชุด 6</span>
+          <span class="ref">MIS-2026/021</span>
+        </div>
+        <h3>C-ARM ตรวจเช็ค / ซ่อมเครื่องเอกซเรย์</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 25,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span></div>
+        <div class="vendor">MEDICIA Instrument Service</div>
+        
+        
+      </article>
+      <article class="card" data-no="10">
+        <div class="card-top">
+          <span class="no">ชุด 10</span>
+          <span class="ref">PO-169101412</span>
+        </div>
+        <h3>PN Orthomedical — Screw Driver 200 mm</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 12,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span></div>
+        <div class="vendor">PN Orthomedical Group</div>
+        
+        
+      </article>
+      </div>
+    </section>
+    </div>
+  </section>
 </main>
 
 <footer>
   ที่มา: purchase-master-ledger.md · ชุดที่ 1 (MDC ยืม) ไม่มีราคาในเอกสาร จึงไม่รวมในยอดเงิน · ยอดทั้งหมดเป็นราคารวม VAT ตามใบเสนอราคา/PO
 </footer>
+
+<script>
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+    var views = Array.prototype.slice.call(document.querySelectorAll('.view'));
+    function show(id) {
+      tabs.forEach(function (t) { t.classList.toggle('active', t.dataset.view === id); });
+      views.forEach(function (v) { v.classList.toggle('active', v.dataset.view === id); });
+      if (history.replaceState) history.replaceState(null, '', '#' + id);
+    }
+    tabs.forEach(function (t) { t.addEventListener('click', function () { show(t.dataset.view); }); });
+    var hash = (location.hash || '').replace('#', '');
+    if (hash && document.getElementById('view-' + hash)) show(hash);
+  })();
+</script>
 </body>
 </html>
