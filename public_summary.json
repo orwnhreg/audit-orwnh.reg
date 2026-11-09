@@ -1,12 +1,16 @@
 {
-  "as_of": "2026-11-09T23:00+07:00",
-  "period": "วันที่ 1/11/69 ถึง 8/11/69",
+  "as_of": "2026-11-10T00:00+07:00",
+  "period": "วันที่ 1/11/69 ถึง 9/11/69",
   "month": "2569-11",
-  "finished": 145,
-  "pending": 5,
+  "finished": 164,
+  "pending": 7,
   "resolved_observed": 24,
   "unfinished": 1,
   "types": [
+    {
+      "label": "ค่าหัตถการ",
+      "count": 3
+    },
     {
       "label": "HN ซ้ำ",
       "count": 2
@@ -21,10 +25,6 @@
     },
     {
       "label": "Last Dx",
-      "count": 1
-    },
-    {
-      "label": "ค่าหัตถการ",
       "count": 1
     }
   ],
