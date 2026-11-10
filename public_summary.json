@@ -1,31 +1,19 @@
 {
-  "as_of": "2026-11-10T10:00+07:00",
+  "as_of": "2026-11-10T11:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 9/11/69",
   "month": "2569-11",
   "finished": 164,
-  "pending": 7,
-  "resolved_observed": 24,
+  "pending": 4,
+  "resolved_observed": 27,
   "unfinished": 1,
   "types": [
     {
       "label": "ค่าหัตถการ",
-      "count": 3
-    },
-    {
-      "label": "HN ซ้ำ",
       "count": 2
     },
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
       "count": 2
-    },
-    {
-      "label": "First Dx",
-      "count": 1
-    },
-    {
-      "label": "Last Dx",
-      "count": 1
     }
   ],
   "history_scope": "แก้ไขแล้วจากเคสที่เคยแจ้งตั้งแต่ 9 ต.ค. 2569"
