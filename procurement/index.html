@@ -79,6 +79,8 @@
            border-radius:999px; padding:2px 8px; }
   .stage { font-size:10.5px; font-weight:600; background:#eef2ff; color:#3f4fa8;
            border-radius:999px; padding:2px 8px; }
+  .typ { font-size:10.5px; font-weight:700; background:#fff2e6; color:#a15c00;
+         border-radius:999px; padding:2px 8px; }
   .chain { display:flex; flex-wrap:wrap; align-items:center; gap:5px; margin-top:9px; }
   .ev { font-size:10.5px; background:#f4f8f7; border:1px solid var(--line); border-radius:9px;
         padding:4px 7px; line-height:1.35; }
@@ -121,8 +123,8 @@
         <p class="sub">อัปเดต 10 พฤศจิกายน 2569 · 12 ชุด · มูลค่ารวม ฿ 4,686,875.12</p>
       </div>
     </div>
-    <nav class="tabs"><button class="tab active" data-view="timeline" type="button">ไทม์ไลน์</button><button class="tab" data-view="status" type="button">สถานะ</button><button class="tab" data-view="dept" type="button">เอกสาร/OR</button><button class="tab" data-view="vendor" type="button">บริษัท</button><button class="tab" data-view="purchasing" type="button">งานพัสดุ</button></nav>
-    <p class="flow">ขั้นตอนกับบริษัท: ส่งคำขอ → รอใบเสนอราคา (ส่งมา OR) → ส่งให้พัสดุออกใบสั่งซื้อ → ใบสั่งซื้อมาถึง OR รอเซ็นอนุมัติ → รับรองที่ OR → ส่งให้บริษัทเพื่อส่งของ → รับของ</p>
+    <nav class="tabs"><button class="tab active" data-view="timeline" type="button">ไทม์ไลน์</button><button class="tab" data-view="type" type="button">ประเภท</button><button class="tab" data-view="status" type="button">สถานะ</button><button class="tab" data-view="dept" type="button">เอกสาร/OR</button><button class="tab" data-view="vendor" type="button">บริษัท</button><button class="tab" data-view="purchasing" type="button">งานพัสดุ</button></nav>
+    <p class="flow">ขั้นตอน: ส่งคำขอถึงบริษัท → รอใบเสนอราคา (ส่งมา OR) → ส่งใบราคาไปทั้งงานแผนและงานพัสดุ → ออกใบสั่งซื้อ → ใบสั่งซื้อถึง OR รอเซ็นอนุมัติ → รับรองที่ OR → ส่งให้บริษัทเพื่อส่งของ → รับของ</p>
     <div class="summary">
       <div class="stat r"><span>ถูกตีกลับ · รอดำเนินการ</span><b>฿ 433,470</b></div>
       <div class="stat"><span>งานแผน</span><b>฿ 3,906,841.12</b></div>
@@ -207,7 +209,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 306,841.12</div>
         </div>
-        <div class="chain"><span class="ev"><b>07/11/69</b> ได้ใบเสนอราคา<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>07/11/69</b> ส่งงานแผน<em>งานแผน</em></span></div>
+        <div class="chain"><span class="ev"><b>07/11/69</b> ได้ใบเสนอราคา<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>07/11/69</b> ส่งงานแผน + งานพัสดุ<em>งานแผน + งานพัสดุ</em></span></div>
         <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
         <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
         
@@ -223,7 +225,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 3,600,000</div>
         </div>
-        <div class="chain"><span class="ev"><b>10/11/69</b> ใบราคา Getinge (MAQUET) · หลัก<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>17/10/69</b> ใบราคา Take Care · คู่เทียบ<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>—</b> ใบราคา Jet Medical · คู่เทียบ<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>10/11/69</b> ส่งงานแผน<em>งานแผน</em></span></div>
+        <div class="chain"><span class="ev"><b>10/11/69</b> ใบราคา Getinge (MAQUET) · หลัก<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>17/10/69</b> ใบราคา Take Care · คู่เทียบ<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>—</b> ใบราคา Jet Medical · คู่เทียบ<em>OR</em></span><span class="arrow">→</span><span class="ev"><b>10/11/69</b> ส่งงานแผน + งานพัสดุ<em>งานแผน + งานพัสดุ</em></span></div>
         <div class="vendor">Getinge (MAQUET)</div>
         <p class="extra">รุ่น Maquet Meera 7200.01XX / Meera CL 7000.01XX · รับน้ำหนักผู้ป่วยสูงสุด 454 kg · เลื่อนยาว 310 mm · คู่เทียบ (เก็บไว้เฉยๆ): Jet QT69/085 · Take Care 061/69</p>
         
@@ -345,6 +347,231 @@
     </section>
     </div>
   </section>
+  <section class="view" id="view-type" data-view="type">
+    <div class="board">
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>วัสดุ</h2>
+          <p>ใบเสนอราคาส่งทั้งงานแผนและงานพัสดุ</p>
+        </div>
+        <div class="lane-sum">
+          <b>7</b><span>ชุด</span>
+          <strong>฿ 527,360</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="3">
+        <div class="card-top">
+          <span class="no">ชุด 3</span>
+          <span class="ref">SQA26080386</span>
+        </div>
+        <h3>MDC — ชุดเครื่องมือผ่าตัด (Wire coil / Shanz / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">45 รายการ</span>
+          <div class="amt">฿ 79,600</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
+        <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
+        <a class="doc" href="https://drive.google.com/file/d/1m7Abq41Iv8rGEpQx1e7KW-mOcQBlOGKV/view" target="_blank" rel="noopener">📄 SQA26080386 (PDF)</a>
+      </article>
+      <article class="card" data-no="7">
+        <div class="card-top">
+          <span class="no">ชุด 7</span>
+          <span class="ref">SQA26090204</span>
+        </div>
+        <h3>MDC — สกรู Cortex / Cancellous (ซื้อเพิ่มสต็อก)</h3>
+        <div class="mid">
+          <span class="items">46 รายการ</span>
+          <div class="amt">฿ 108,370</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
+        <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
+        <a class="doc" href="https://drive.google.com/file/d/1K7V_Xy4dln9CgTL4yg7NMfEn3pOjWKAB/view" target="_blank" rel="noopener">📄 SQA26090204 (PDF)</a>
+      </article>
+      <article class="card" data-no="8">
+        <div class="card-top">
+          <span class="no">ชุด 8</span>
+          <span class="ref">SQA26090247 + SQA26090248</span>
+        </div>
+        <h3>ชุดเพลท — 1/3 Tubular / Recon 3.5 / Broad DCP / Small DCP</h3>
+        <div class="mid">
+          <span class="items">31 รายการ</span>
+          <div class="amt">฿ 245,500</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
+        <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
+        <a class="doc" href="https://drive.google.com/file/d/1q8N-72NfPh9kbhoI8UMoXRtWT8HyzjHJ/view" target="_blank" rel="noopener">📄 SQA26090247 (PDF)</a>
+      </article>
+      <article class="card" data-no="5">
+        <div class="card-top">
+          <span class="no">ชุด 5</span>
+          <span class="ref">PO-169101536</span>
+        </div>
+        <h3>ชุดผ้าคลุมผ่าตัด Drape set (ใช้ครั้งเดียว)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 51,800</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
+        <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
+        <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
+        
+        <a class="doc" href="https://drive.google.com/file/d/1xhJ_ni1SlI_rlpsuvYkMia1H1uOM78Z8/view" target="_blank" rel="noopener">📄 PO-169101536 (JPG)</a>
+      </article>
+      <article class="card" data-no="1">
+        <div class="card-top">
+          <span class="no">ชุด 1</span>
+          <span class="ref">PO-169101417</span>
+        </div>
+        <h3>MDC — เครื่องมือผ่าตัด (K-wire / Steinmann)</h3>
+        <div class="mid">
+          <span class="items">7 รายการ</span>
+          <div class="amt muted">ไม่ระบุราคา</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="vendor">MDC (Thailand)</div>
+        
+        <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
+        <a class="doc" href="https://drive.google.com/file/d/1_uo8bnt1Y1jpcdANNmfnXFaZwVEU9fVQ/view" target="_blank" rel="noopener">📄 PO-169101417 (PDF)</a>
+      </article>
+      <article class="card" data-no="2">
+        <div class="card-top">
+          <span class="no">ชุด 2</span>
+          <span class="ref">PO-169101416</span>
+        </div>
+        <h3>FMS — วัสดุสิ้นเปลือง Sterilization</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 13,200</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="vendor">FMS</div>
+        <p class="extra">ใบกำกับ IV2608-00074</p>
+        
+        <a class="doc" href="https://drive.google.com/file/d/1NbkU2x0DEAuVJ9zN30EfV8DM7URZmLSw/view" target="_blank" rel="noopener">📄 PO-169101416 (PDF)</a>
+      </article>
+      <article class="card" data-no="4">
+        <div class="card-top">
+          <span class="no">ชุด 4</span>
+          <span class="ref">PRE 300726/00267</span>
+        </div>
+        <h3>Tourniquet Cuff (แถบรัดห้ามเลือด)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 28,890</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="vendor">Zillic Pharma · Zimmer Biomet</div>
+        
+        
+        <a class="doc" href="https://drive.google.com/drive/folders/1TWSeL-zlYV19X0AfKZOI4gjexI8R4p8-" target="_blank" rel="noopener">📄 โฟลเดอร์ PRE 300726/00267</a>
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>ครุภัณฑ์</h2>
+          <p>ใบเสนอราคาส่งทั้งงานแผนและงานพัสดุ</p>
+        </div>
+        <div class="lane-sum">
+          <b>5</b><span>ชุด</span>
+          <strong>฿ 4,159,515.12</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="11">
+        <div class="card-top">
+          <span class="no">ชุด 11</span>
+          <span class="ref">QT-202611006</span>
+        </div>
+        <h3>C-ARM เช่าเครื่องเอกซเรย์ฟลูโอโรสโคป 6 เดือน (Phillips BV-Pulsela 15kW)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 306,841.12</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
+        <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
+        <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
+      <article class="card" data-no="12">
+        <div class="card-top">
+          <span class="no">ชุด 12</span>
+          <span class="ref">SW-159/26</span>
+        </div>
+        <h3>เตียงผ่าตัดออร์โธ/กระดูกสันหลัง ชนิดเอกซเรย์ผ่านได้ — Maquet Meera (Mobile OR Table)</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 3,600,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
+        <div class="vendor">Getinge (MAQUET)</div>
+        <p class="extra">รุ่น Maquet Meera 7200.01XX / Meera CL 7000.01XX · รับน้ำหนักผู้ป่วยสูงสุด 454 kg · เลื่อนยาว 310 mm · คู่เทียบ (เก็บไว้เฉยๆ): Jet QT69/085 · Take Care 061/69</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
+      <article class="card" data-no="9">
+        <div class="card-top">
+          <span class="no">ชุด 9</span>
+          <span class="ref">MIS-2026/60</span>
+        </div>
+        <h3>C-ARM ซ่อม — เปลี่ยน Cable Connector</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 215,674</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอออก PO</span></div>
+        <div class="vendor">MEDICIA Instrument Service</div>
+        <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
+        <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
+        <a class="doc" href="https://drive.google.com/file/d/1yuC_7wkfMY9abTNr6p2Ak7XbLnStJXcc/view" target="_blank" rel="noopener">📄 MIS-2026/60 (PDF)</a>
+      </article>
+      <article class="card" data-no="6">
+        <div class="card-top">
+          <span class="no">ชุด 6</span>
+          <span class="ref">MIS-2026/021</span>
+        </div>
+        <h3>C-ARM ตรวจเช็ค / ซ่อมเครื่องเอกซเรย์</h3>
+        <div class="mid">
+          <span class="items">1 รายการ</span>
+          <div class="amt">฿ 25,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
+        <div class="vendor">MEDICIA Instrument Service</div>
+        
+        
+        <a class="doc" href="https://drive.google.com/file/d/1THkRjXG7ufEmPdcUmYypJhtAv0QXwR8A/view" target="_blank" rel="noopener">📄 MIS-2026/021 (PDF)</a>
+      </article>
+      <article class="card" data-no="10">
+        <div class="card-top">
+          <span class="no">ชุด 10</span>
+          <span class="ref">PO-169101412</span>
+        </div>
+        <h3>PN Orthomedical — Screw Driver 200 mm</h3>
+        <div class="mid">
+          <span class="items">2 รายการ</span>
+          <div class="amt">฿ 12,000</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="vendor">PN Orthomedical Group</div>
+        
+        
+        <a class="doc" href="https://drive.google.com/file/d/1c7bZw-QoIrJ6tYUZoMmZxtp9rgLklJm7/view" target="_blank" rel="noopener">📄 PO-169101412 (PNG)</a>
+      </article>
+      </div>
+    </section>
+    </div>
+  </section>
   <section class="view" id="view-status" data-view="status">
     <div class="board">
     <section class="lane">
@@ -369,7 +596,7 @@
           <span class="items">45 รายการ</span>
           <div class="amt">฿ 79,600</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -385,7 +612,7 @@
           <span class="items">46 รายการ</span>
           <div class="amt">฿ 108,370</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -401,7 +628,7 @@
           <span class="items">31 รายการ</span>
           <div class="amt">฿ 245,500</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -432,7 +659,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 306,841.12</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="place">ที่ตั้งเอกสาร: งานแผน</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
         <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
         
@@ -448,7 +675,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 3,600,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="place">ที่ตั้งเอกสาร: งานแผน</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         <div class="vendor">Getinge (MAQUET)</div>
         <p class="extra">รุ่น Maquet Meera 7200.01XX / Meera CL 7000.01XX · รับน้ำหนักผู้ป่วยสูงสุด 454 kg · เลื่อนยาว 310 mm · คู่เทียบ (เก็บไว้เฉยๆ): Jet QT69/085 · Take Care 061/69</p>
         
@@ -479,7 +706,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 215,674</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="place">ที่ตั้งเอกสาร: งานพัสดุ</span><span class="stage">รอพัสดุออกใบสั่งซื้อ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอออก PO</span></div>
         <div class="vendor">MEDICIA Instrument Service</div>
         <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
         <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
@@ -510,7 +737,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 51,800</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
         <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
         <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
         
@@ -541,7 +768,7 @@
           <span class="items">7 รายการ</span>
           <div class="amt muted">ไม่ระบุราคา</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">MDC (Thailand)</div>
         
         <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
@@ -557,7 +784,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 13,200</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">FMS</div>
         <p class="extra">ใบกำกับ IV2608-00074</p>
         
@@ -573,7 +800,7 @@
           <span class="items">3 รายการ</span>
           <div class="amt">฿ 28,890</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">Zillic Pharma · Zimmer Biomet</div>
         
         
@@ -589,7 +816,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 25,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
         <div class="vendor">MEDICIA Instrument Service</div>
         
         
@@ -605,7 +832,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 12,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">PN Orthomedical Group</div>
         
         
@@ -639,7 +866,7 @@
           <span class="items">45 รายการ</span>
           <div class="amt">฿ 79,600</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="typ">วัสดุ</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -655,7 +882,7 @@
           <span class="items">46 รายการ</span>
           <div class="amt">฿ 108,370</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -671,7 +898,7 @@
           <span class="items">31 รายการ</span>
           <div class="amt">฿ 245,500</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -683,12 +910,12 @@
     <section class="lane">
       <header class="lane-head">
         <div class="lane-titles">
-          <h2>งานแผน</h2>
-          <p>อยู่ที่งานแผน · รอพิจารณา / จัดทำใบสั่งซื้อ</p>
+          <h2>งานแผน + งานพัสดุ</h2>
+          <p>ส่งใบเสนอราคาไปทั้ง 2 ที่ · รอพิจารณา/ออกใบสั่งซื้อ</p>
         </div>
         <div class="lane-sum">
-          <b>2</b><span>ชุด</span>
-          <strong>฿ 3,906,841.12</strong>
+          <b>3</b><span>ชุด</span>
+          <strong>฿ 4,122,515.12</strong>
         </div>
       </header>
       <div class="cards">
@@ -702,7 +929,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 306,841.12</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="typ">ครุภัณฑ์</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
         <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
         
@@ -718,27 +945,12 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 3,600,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="typ">ครุภัณฑ์</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         <div class="vendor">Getinge (MAQUET)</div>
         <p class="extra">รุ่น Maquet Meera 7200.01XX / Meera CL 7000.01XX · รับน้ำหนักผู้ป่วยสูงสุด 454 kg · เลื่อนยาว 310 mm · คู่เทียบ (เก็บไว้เฉยๆ): Jet QT69/085 · Take Care 061/69</p>
         
         <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
       </article>
-      </div>
-    </section>
-
-    <section class="lane">
-      <header class="lane-head">
-        <div class="lane-titles">
-          <h2>งานพัสดุ</h2>
-          <p>อยู่ที่งานพัสดุ · รอออกใบสั่งซื้อ</p>
-        </div>
-        <div class="lane-sum">
-          <b>1</b><span>ชุด</span>
-          <strong>฿ 215,674</strong>
-        </div>
-      </header>
-      <div class="cards">
       <article class="card" data-no="9">
         <div class="card-top">
           <span class="no">ชุด 9</span>
@@ -749,7 +961,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 215,674</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="stage">รอพัสดุออกใบสั่งซื้อ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="typ">ครุภัณฑ์</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอออก PO</span></div>
         <div class="vendor">MEDICIA Instrument Service</div>
         <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
         <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
@@ -780,7 +992,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 51,800</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
         <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
         <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
         
@@ -811,7 +1023,7 @@
           <span class="items">7 รายการ</span>
           <div class="amt muted">ไม่ระบุราคา</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="typ">วัสดุ</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">MDC (Thailand)</div>
         
         <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
@@ -827,7 +1039,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 13,200</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="typ">วัสดุ</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">FMS</div>
         <p class="extra">ใบกำกับ IV2608-00074</p>
         
@@ -843,7 +1055,7 @@
           <span class="items">3 รายการ</span>
           <div class="amt">฿ 28,890</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="typ">วัสดุ</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">Zillic Pharma · Zimmer Biomet</div>
         
         
@@ -859,7 +1071,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 25,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="stage">ซ่อมเสร็จ</span></div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="typ">ครุภัณฑ์</span><span class="stage">ซ่อมเสร็จ</span></div>
         <div class="vendor">MEDICIA Instrument Service</div>
         
         
@@ -875,7 +1087,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 12,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="typ">ครุภัณฑ์</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">PN Orthomedical Group</div>
         
         
@@ -909,7 +1121,7 @@
           <span class="items">45 รายการ</span>
           <div class="amt">฿ 79,600</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         
         <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -925,7 +1137,7 @@
           <span class="items">46 รายการ</span>
           <div class="amt">฿ 108,370</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         
         <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -941,7 +1153,7 @@
           <span class="items">31 รายการ</span>
           <div class="amt">฿ 245,500</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         
         <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -957,7 +1169,7 @@
           <span class="items">7 รายการ</span>
           <div class="amt muted">ไม่ระบุราคา</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         
         
         <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
@@ -988,7 +1200,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 215,674</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="place">ที่ตั้งเอกสาร: งานพัสดุ</span><span class="stage">รอพัสดุออกใบสั่งซื้อ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอออก PO</span></div>
         
         <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
         <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
@@ -1004,7 +1216,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 25,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
         
         
         
@@ -1035,7 +1247,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 3,600,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="place">ที่ตั้งเอกสาร: งานแผน</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         
         <p class="extra">รุ่น Maquet Meera 7200.01XX / Meera CL 7000.01XX · รับน้ำหนักผู้ป่วยสูงสุด 454 kg · เลื่อนยาว 310 mm · คู่เทียบ (เก็บไว้เฉยๆ): Jet QT69/085 · Take Care 061/69</p>
         
@@ -1066,7 +1278,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 306,841.12</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="place">ที่ตั้งเอกสาร: งานแผน</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         
         <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
         
@@ -1097,7 +1309,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 51,800</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
         
         <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
         
@@ -1128,7 +1340,7 @@
           <span class="items">3 รายการ</span>
           <div class="amt">฿ 28,890</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         
         
         
@@ -1159,7 +1371,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 13,200</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         
         <p class="extra">ใบกำกับ IV2608-00074</p>
         
@@ -1190,7 +1402,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 12,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         
         
         
@@ -1224,7 +1436,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 306,841.12</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="place">ที่ตั้งเอกสาร: งานแผน</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 07/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         <div class="vendor">บ. เอ็ม.ที. เมดิเทค</div>
         <p class="extra">ส่วนลด 20,073.72 · VAT 7% 20,073.72 · ยืนราคา 1 ปี · ส่งของ 120 วันหลังอนุมัติ</p>
         
@@ -1240,7 +1452,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 3,600,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="place">ที่ตั้งเอกสาร: งานแผน</span><span class="stage">ส่งให้งานแผนแล้ว · รอผลพิจารณา</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งงานแผน</em> 10/11/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอพิจารณา</span></div>
         <div class="vendor">Getinge (MAQUET)</div>
         <p class="extra">รุ่น Maquet Meera 7200.01XX / Meera CL 7000.01XX · รับน้ำหนักผู้ป่วยสูงสุด 454 kg · เลื่อนยาว 310 mm · คู่เทียบ (เก็บไว้เฉยๆ): Jet QT69/085 · Take Care 061/69</p>
         
@@ -1271,7 +1483,7 @@
           <span class="items">45 รายการ</span>
           <div class="amt">฿ 79,600</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">ยืนราคา 90 วัน · ส่งมอบ 150 วันหลัง PO</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -1287,7 +1499,7 @@
           <span class="items">46 รายการ</span>
           <div class="amt">฿ 108,370</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">415 ชิ้น · ยืนราคา 90 วัน</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -1303,7 +1515,7 @@
           <span class="items">31 รายการ</span>
           <div class="amt">฿ 245,500</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ถูกตีกลับ · รอดำเนินการ</span></div>
         <div class="vendor">MDC (Thailand)</div>
         <p class="extra">185 ชิ้น · ตรงกับรายการสั่งซื้อเป๊ะ</p>
         <p class="note"><em>หมายเหตุ</em> ถูกตีกลับ ส.ค. 69 · เอกสารกลับมา OR · ⚠️ วันที่ตีกลับมาก่อนวันที่ส่งพัสดุที่บันทึกไว้ — ยืนยันอีกครั้ง</p>
@@ -1334,7 +1546,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 215,674</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="place">ที่ตั้งเอกสาร: งานพัสดุ</span><span class="stage">รอพัสดุออกใบสั่งซื้อ</span></div>
+        <div class="stamps"><span class="stamp"><em>ส่งพัสดุ</em> 14/09/69</span><span class="stamp"><em>สถานะ</em> กำลังดำเนินการ</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: งานแผน + งานพัสดุ</span><span class="stage">ส่งงานแผน + งานพัสดุแล้ว · รอออก PO</span></div>
         <div class="vendor">MEDICIA Instrument Service</div>
         <p class="extra">อะไหล่ 211,860 + ค่าแรง 25,000 − ลด 10% + VAT 7%</p>
         <p class="note"><em>หมายเหตุ</em> รอเข้าแผนงบปี 70 · กำลังดำเนินการ</p>
@@ -1365,7 +1577,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 51,800</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
+        <div class="stamps"><span class="stamp"><em>PO</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: บริษัท</span><span class="stage">ส่ง PO ให้บริษัทแล้ว · รอส่งของ</span></div>
         <div class="vendor">หจก. เค.พี เมดิคอล อินสทรูเม้นท์</div>
         <p class="extra">กำหนดส่งมอบ 30 วันหลังผู้ขายรับ PO</p>
         
@@ -1396,7 +1608,7 @@
           <span class="items">7 รายการ</span>
           <div class="amt muted">ไม่ระบุราคา</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 08/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">MDC (Thailand)</div>
         
         <p class="note"><em>หมายเหตุ</em> ยืมเครื่องมือ — ไม่ระบุราคา</p>
@@ -1412,7 +1624,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 13,200</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 14/08/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">FMS</div>
         <p class="extra">ใบกำกับ IV2608-00074</p>
         
@@ -1428,7 +1640,7 @@
           <span class="items">3 รายการ</span>
           <div class="amt">฿ 28,890</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>อนุมัติ</em> 27/08/69</span><span class="stamp"><em>ส่ง PO</em> 10/09/69</span><span class="stamp"><em>รับของ</em> 19/09/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">Zillic Pharma · Zimmer Biomet</div>
         
         
@@ -1444,7 +1656,7 @@
           <span class="items">1 รายการ</span>
           <div class="amt">฿ 25,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
+        <div class="stamps"><span class="stamp"><em>ซ่อมเสร็จ</em> 10/09/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">ซ่อมเสร็จ</span></div>
         <div class="vendor">MEDICIA Instrument Service</div>
         
         
@@ -1460,7 +1672,7 @@
           <span class="items">2 รายการ</span>
           <div class="amt">฿ 12,000</div>
         </div>
-        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
+        <div class="stamps"><span class="stamp"><em>รับของ</em> 03/08/69</span><span class="typ">ครุภัณฑ์</span><span class="place">ที่ตั้งเอกสาร: ปิดงานแล้ว</span><span class="stage">รับของแล้ว</span></div>
         <div class="vendor">PN Orthomedical Group</div>
         
         
