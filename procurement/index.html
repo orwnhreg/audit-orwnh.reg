@@ -37,7 +37,7 @@
   .tab.active { background:var(--teal); border-color:var(--teal); color:#fff; }
   .flow { margin:6px 0 0; font-size:10.5px; line-height:1.5; color:var(--ink-2); }
 
-  .summary { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; margin:11px 0 0; }
+  .summary { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:7px; margin:11px 0 0; }
   .stat { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:8px 10px; }
   .stat span { display:block; font-size:11px; color:var(--ink-2); }
   .stat b { display:block; font-size:15px; margin-top:2px; letter-spacing:-.3px; white-space:nowrap; }
@@ -120,18 +120,19 @@
       <span class="dot"></span>
       <div>
         <h1>รายการจัดซื้อจัดจ้าง · งานพัสดุ รพ.วานรนิวาส</h1>
-        <p class="sub">อัปเดต 10 พฤศจิกายน 2569 · 12 ชุด · มูลค่ารวม ฿ 4,686,875.12</p>
+        <p class="sub">อัปเดต 13 พฤศจิกายน 2569 · 13 ชุด · มูลค่ารวม ฿ 4,737,175.12</p>
       </div>
     </div>
     <nav class="tabs"><button class="tab active" data-view="timeline" type="button">ไทม์ไลน์</button><button class="tab" data-view="type" type="button">ประเภท</button><button class="tab" data-view="status" type="button">สถานะ</button><button class="tab" data-view="dept" type="button">เอกสาร/OR</button><button class="tab" data-view="vendor" type="button">บริษัท</button><button class="tab" data-view="purchasing" type="button">งานพัสดุ</button></nav>
     <p class="flow">ขั้นตอน: ส่งคำขอถึงบริษัท → รอใบเสนอราคา (ส่งมา OR) → ส่งใบราคาไปทั้งงานแผนและงานพัสดุ → ออกใบสั่งซื้อ → ใบสั่งซื้อถึง OR รอเซ็นอนุมัติ → รับรองที่ OR → ส่งให้บริษัทเพื่อส่งของ → รับของ</p>
     <div class="summary">
+      <div class="stat r"><span>รอดำเนินการ</span><b>฿ 50,300</b></div>
       <div class="stat"><span>งานแผน</span><b>฿ 3,906,841.12</b></div>
       <div class="stat a"><span>รอออก PO</span><b>฿ 649,144</b></div>
       <div class="stat"><span>รอรับของ</span><b>฿ 51,800</b></div>
       <div class="stat"><span>รับของแล้ว</span><b>฿ 79,090</b></div>
     </div>
-    <div class="grand"><span>รวมทั้งระบบ (ที่มีราคาระบุ)</span><b>฿ 4,686,875.12</b></div>
+    <div class="grand"><span>รวมทั้งระบบ (ที่มีราคาระบุ)</span><b>฿ 4,737,175.12</b></div>
   </div>
 </header>
 
@@ -145,11 +146,27 @@
           <p>ลำดับเหตุการณ์ · วันที่ · ที่ตั้งเอกสาร (OR / งานแผน / งานพัสดุ / บริษัท)</p>
         </div>
         <div class="lane-sum">
-          <b>12</b><span>ชุด</span>
-          <strong>฿ 4,686,875.12</strong>
+          <b>13</b><span>ชุด</span>
+          <strong>฿ 4,737,175.12</strong>
         </div>
       </header>
       <div class="cards">
+      <article class="card" data-no="13">
+        <div class="card-top">
+          <span class="no">ชุด 13</span>
+          <span class="ref">SLQT2611-136</span>
+        </div>
+        <h3>เวชภัณฑ์ปลอดเชื้อ (Container paper filter · Plastic seal · PANA SPRAY PLUS)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 50,300</div>
+        </div>
+        <div class="chain"><span class="ev"><b>13/11/69</b> ได้ใบเสนอราคา SLQT2611-136<em>OR</em></span></div>
+        <div class="vendor">FMS — Future Medical Supply</div>
+        <p class="extra">3 รายการ: SR-01152 ×3 = 11,700 · SR-01020 ×2 = 15,200 · Z182100 ×6 = 23,400 · ยืนราคาถึง 13/03/70 · ส่งของ 120 วัน · เครดิต 30 วัน</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
       <article class="card" data-no="11">
         <div class="card-top">
           <span class="no">ชุด 11</span>
@@ -355,11 +372,27 @@
           <p>ใบเสนอราคาส่งทั้งงานแผนและงานพัสดุ</p>
         </div>
         <div class="lane-sum">
-          <b>7</b><span>ชุด</span>
-          <strong>฿ 527,360</strong>
+          <b>8</b><span>ชุด</span>
+          <strong>฿ 577,660</strong>
         </div>
       </header>
       <div class="cards">
+      <article class="card" data-no="13">
+        <div class="card-top">
+          <span class="no">ชุด 13</span>
+          <span class="ref">SLQT2611-136</span>
+        </div>
+        <h3>เวชภัณฑ์ปลอดเชื้อ (Container paper filter · Plastic seal · PANA SPRAY PLUS)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 50,300</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 13/11/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ได้ใบเสนอราคาแล้ว · รอดำเนินการ</span></div>
+        <div class="vendor">FMS — Future Medical Supply</div>
+        <p class="extra">3 รายการ: SR-01152 ×3 = 11,700 · SR-01020 ×2 = 15,200 · Z182100 ×6 = 23,400 · ยืนราคาถึง 13/03/70 · ส่งของ 120 วัน · เครดิต 30 วัน</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
       <article class="card" data-no="3">
         <div class="card-top">
           <span class="no">ชุด 3</span>
@@ -573,6 +606,37 @@
   </section>
   <section class="view" id="view-status" data-view="status">
     <div class="board">
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>รอดำเนินการ</h2>
+          <p>ได้ใบเสนอราคาแล้ว · ยังไม่ส่งงานแผน/พัสดุ</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 50,300</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="13">
+        <div class="card-top">
+          <span class="no">ชุด 13</span>
+          <span class="ref">SLQT2611-136</span>
+        </div>
+        <h3>เวชภัณฑ์ปลอดเชื้อ (Container paper filter · Plastic seal · PANA SPRAY PLUS)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 50,300</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 13/11/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ได้ใบเสนอราคาแล้ว · รอดำเนินการ</span></div>
+        <div class="vendor">FMS — Future Medical Supply</div>
+        <p class="extra">3 รายการ: SR-01152 ×3 = 11,700 · SR-01020 ×2 = 15,200 · Z182100 ×6 = 23,400 · ยืนราคาถึง 13/03/70 · ส่งของ 120 วัน · เครดิต 30 วัน</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
+      </div>
+    </section>
+
     <section class="lane">
       <header class="lane-head">
         <div class="lane-titles">
@@ -835,11 +899,27 @@
           <p>เอกสารอยู่ที่ OR · รอดำเนินการ / รอเซ็นอนุมัติใบสั่งซื้อ / รับรอง</p>
         </div>
         <div class="lane-sum">
-          <b>0</b><span>ชุด</span>
-          <strong>฿ 0</strong>
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 50,300</strong>
         </div>
       </header>
       <div class="cards">
+      <article class="card" data-no="13">
+        <div class="card-top">
+          <span class="no">ชุด 13</span>
+          <span class="ref">SLQT2611-136</span>
+        </div>
+        <h3>เวชภัณฑ์ปลอดเชื้อ (Container paper filter · Plastic seal · PANA SPRAY PLUS)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 50,300</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 13/11/69</span><span class="typ">วัสดุ</span><span class="stage">ได้ใบเสนอราคาแล้ว · รอดำเนินการ</span></div>
+        <div class="vendor">FMS — Future Medical Supply</div>
+        <p class="extra">3 รายการ: SR-01152 ×3 = 11,700 · SR-01020 ×2 = 15,200 · Z182100 ×6 = 23,400 · ยืนราคาถึง 13/03/70 · ส่งของ 120 วัน · เครดิต 30 วัน</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
       </div>
     </section>
 
@@ -1305,6 +1385,37 @@
     <section class="lane">
       <header class="lane-head">
         <div class="lane-titles">
+          <h2>FMS — Future Medical Supply</h2>
+          <p>1 ชุด</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 50,300</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="13">
+        <div class="card-top">
+          <span class="no">ชุด 13</span>
+          <span class="ref">SLQT2611-136</span>
+        </div>
+        <h3>เวชภัณฑ์ปลอดเชื้อ (Container paper filter · Plastic seal · PANA SPRAY PLUS)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 50,300</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 13/11/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ได้ใบเสนอราคาแล้ว · รอดำเนินการ</span></div>
+        
+        <p class="extra">3 รายการ: SR-01152 ×3 = 11,700 · SR-01020 ×2 = 15,200 · Z182100 ×6 = 23,400 · ยืนราคาถึง 13/03/70 · ส่งของ 120 วัน · เครดิต 30 วัน</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
+      </div>
+    </section>
+
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
           <h2>Zillic Pharma · Zimmer Biomet</h2>
           <p>1 ชุด</p>
         </div>
@@ -1398,6 +1509,37 @@
   </section>
   <section class="view" id="view-purchasing" data-view="purchasing">
     <div class="board">
+    <section class="lane">
+      <header class="lane-head">
+        <div class="lane-titles">
+          <h2>ยังไม่ส่งงานแผน/พัสดุ</h2>
+          <p>ได้ใบเสนอราคาแล้ว · รอดำเนินการ</p>
+        </div>
+        <div class="lane-sum">
+          <b>1</b><span>ชุด</span>
+          <strong>฿ 50,300</strong>
+        </div>
+      </header>
+      <div class="cards">
+      <article class="card" data-no="13">
+        <div class="card-top">
+          <span class="no">ชุด 13</span>
+          <span class="ref">SLQT2611-136</span>
+        </div>
+        <h3>เวชภัณฑ์ปลอดเชื้อ (Container paper filter · Plastic seal · PANA SPRAY PLUS)</h3>
+        <div class="mid">
+          <span class="items">3 รายการ</span>
+          <div class="amt">฿ 50,300</div>
+        </div>
+        <div class="stamps"><span class="stamp"><em>ได้ใบราคา</em> 13/11/69</span><span class="typ">วัสดุ</span><span class="place">ที่ตั้งเอกสาร: OR</span><span class="stage">ได้ใบเสนอราคาแล้ว · รอดำเนินการ</span></div>
+        <div class="vendor">FMS — Future Medical Supply</div>
+        <p class="extra">3 รายการ: SR-01152 ×3 = 11,700 · SR-01020 ×2 = 15,200 · Z182100 ×6 = 23,400 · ยืนราคาถึง 13/03/70 · ส่งของ 120 วัน · เครดิต 30 วัน</p>
+        
+        <span class="doc muted">📄 ยังไม่มีลิงก์เอกสาร</span>
+      </article>
+      </div>
+    </section>
+
     <section class="lane">
       <header class="lane-head">
         <div class="lane-titles">
