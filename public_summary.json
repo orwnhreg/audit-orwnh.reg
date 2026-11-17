@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-11-17T12:00+07:00",
+  "as_of": "2026-11-17T13:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 16/11/69",
   "month": "2569-11",
   "finished": 294,
-  "pending": 5,
+  "pending": 6,
   "resolved_observed": 32,
   "unfinished": 1,
   "types": [
@@ -14,6 +14,10 @@
     {
       "label": "เวลาผ่าตัดไม่สัมพันธ์กัน",
       "count": 2
+    },
+    {
+      "label": "Operation ซ้ำกับ Dx",
+      "count": 1
     },
     {
       "label": "ค่าหัตถการ",
