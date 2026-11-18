@@ -6,3 +6,4 @@ __pycache__/
 /ever_seen.json
 /first_seen.json
 /missing_history.json
+*.bak
