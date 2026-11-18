@@ -1,16 +1,12 @@
 {
-  "as_of": "2026-11-18T11:00+07:00",
+  "as_of": "2026-11-18T12:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 17/11/69",
   "month": "2569-11",
   "finished": 315,
-  "pending": 3,
-  "resolved_observed": 35,
+  "pending": 1,
+  "resolved_observed": 37,
   "unfinished": 1,
   "types": [
-    {
-      "label": "ชื่อซ้ำในทีม",
-      "count": 2
-    },
     {
       "label": "ค่าหัตถการ",
       "count": 1
