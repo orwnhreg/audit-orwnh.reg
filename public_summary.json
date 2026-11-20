@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-20T15:00+07:00",
+  "as_of": "2026-11-20T16:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 19/11/69",
   "month": "2569-11",
   "finished": 357,
-  "pending": 8,
-  "resolved_observed": 42,
+  "pending": 7,
+  "resolved_observed": 43,
   "unfinished": 1,
   "types": [
     {
@@ -17,10 +17,6 @@
     },
     {
       "label": "Scrub ทีมเวร",
-      "count": 1
-    },
-    {
-      "label": "ห้องผ่าตัดซ้ำกัน",
       "count": 1
     }
   ],
