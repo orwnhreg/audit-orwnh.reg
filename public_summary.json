@@ -1,19 +1,23 @@
 {
-  "as_of": "2026-11-20T08:00+07:00",
+  "as_of": "2026-11-20T09:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 19/11/69",
   "month": "2569-11",
   "finished": 357,
-  "pending": 12,
+  "pending": 13,
   "resolved_observed": 37,
-  "unfinished": 2,
+  "unfinished": 1,
   "types": [
     {
       "label": "ห้องผ่าตัดซ้ำกัน",
-      "count": 8
+      "count": 7
     },
     {
       "label": "ค่าหัตถการ",
       "count": 3
+    },
+    {
+      "label": "เวลาซ้อนทับ",
+      "count": 2
     },
     {
       "label": "Scrub ทีมเวร",
