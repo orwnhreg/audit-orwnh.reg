@@ -1,19 +1,19 @@
 {
-  "as_of": "2026-11-23T23:00+07:00",
-  "period": "วันที่ 1/11/69 ถึง 22/11/69",
+  "as_of": "2026-11-24T00:00+07:00",
+  "period": "วันที่ 1/11/69 ถึง 23/11/69",
   "month": "2569-11",
-  "finished": 387,
-  "pending": 8,
+  "finished": 408,
+  "pending": 9,
   "resolved_observed": 43,
   "unfinished": 1,
   "types": [
     {
-      "label": "เวลาซ้อนทับ",
+      "label": "ค่าหัตถการ",
       "count": 4
     },
     {
-      "label": "ค่าหัตถการ",
-      "count": 3
+      "label": "เวลาซ้อนทับ",
+      "count": 4
     },
     {
       "label": "Scrub ทีมเวร",
