@@ -1,11 +1,11 @@
 {
-  "as_of": "2026-11-24T23:00+07:00",
-  "period": "วันที่ 1/11/69 ถึง 23/11/69",
+  "as_of": "2026-11-25T00:00+07:00",
+  "period": "วันที่ 1/11/69 ถึง 24/11/69",
   "month": "2569-11",
-  "finished": 409,
+  "finished": 420,
   "pending": 9,
   "resolved_observed": 43,
-  "unfinished": 0,
+  "unfinished": 1,
   "types": [
     {
       "label": "ค่าหัตถการ",
