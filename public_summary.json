@@ -1,10 +1,10 @@
 {
-  "as_of": "2026-11-28T19:00+07:00",
+  "as_of": "2026-11-28T20:00+07:00",
   "period": "วันที่ 1/11/69 ถึง 27/11/69",
   "month": "2569-11",
   "finished": 505,
-  "pending": 14,
-  "resolved_observed": 43,
+  "pending": 13,
+  "resolved_observed": 44,
   "unfinished": 0,
   "types": [
     {
@@ -21,10 +21,6 @@
     },
     {
       "label": "Circulating",
-      "count": 1
-    },
-    {
-      "label": "Last Dx",
       "count": 1
     },
     {
